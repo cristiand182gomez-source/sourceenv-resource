@@ -1,0 +1,21 @@
+{
+  "rg_matches": 0,
+  "rg_exit_code": 1,
+  "all_utf8_files": 144,
+  "full_text_matches": 0,
+  "wheels_in_public": 0,
+  "model_weights_or_binaries": 0,
+  "categories": [
+    "absolute platform paths",
+    "local host/account/private repository identities",
+    "private key and token formats"
+  ],
+  "generic_loopback_example_is_not_a_machine_identity": true,
+  "GNU_grep_matches": 0,
+  "GNU_grep_exit_code": 1,
+  "privacy_patterns_kept_outside_public_package": true,
+  "scope": "All shipped UTF-8 files; no dependency payloads, model weights or administrative scripts.",
+  "revision": "Context and documentation update",
+  "model_calls": 0,
+  "candidate_applications": 0
+}

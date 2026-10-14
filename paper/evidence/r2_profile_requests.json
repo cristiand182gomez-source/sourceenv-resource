@@ -1,0 +1,52 @@
+[
+  {
+    "fixture": "EH-API",
+    "profile_requests": 0,
+    "original_pointer": "/rows/0/costs/profile_requests"
+  },
+  {
+    "fixture": "SC-BALANCE",
+    "profile_requests": 0,
+    "original_pointer": "/rows/1/costs/profile_requests"
+  },
+  {
+    "fixture": "H-RC2",
+    "profile_requests": 0,
+    "original_pointer": "/rows/2/costs/profile_requests"
+  },
+  {
+    "fixture": "EC-MISSING",
+    "profile_requests": 0,
+    "original_pointer": "/rows/3/costs/profile_requests"
+  },
+  {
+    "fixture": "SH-FLAG",
+    "profile_requests": 0,
+    "original_pointer": "/rows/4/costs/profile_requests"
+  },
+  {
+    "fixture": "EH-RENDERER",
+    "profile_requests": 0,
+    "original_pointer": "/rows/5/costs/profile_requests"
+  },
+  {
+    "fixture": "SC-SORT",
+    "profile_requests": 0,
+    "original_pointer": "/rows/6/costs/profile_requests"
+  },
+  {
+    "fixture": "H-RC0",
+    "profile_requests": 0,
+    "original_pointer": "/rows/7/costs/profile_requests"
+  },
+  {
+    "fixture": "EC-SYMBOL",
+    "profile_requests": 0,
+    "original_pointer": "/rows/8/costs/profile_requests"
+  },
+  {
+    "fixture": "SH-FORMAT",
+    "profile_requests": 0,
+    "original_pointer": "/rows/9/costs/profile_requests"
+  }
+]

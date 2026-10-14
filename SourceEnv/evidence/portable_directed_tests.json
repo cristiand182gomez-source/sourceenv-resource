@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "distinct_tests": 15,
+  "tests": [
+    "test_defaults_and_cli",
+    "test_real_socket_native_path",
+    "test_partial_cost_and_uncertain_close",
+    "test_budget_stops_before_request",
+    "test_generic_payload_and_exact_counter",
+    "test_cached_bad_wheel_fails_without_network",
+    "test_pypi_metadata_hash_mismatch",
+    "test_download_hash_mismatch_no_partial",
+    "test_isolated_entrypoint",
+    "test_absolute_deadline_handles_trickle",
+    "test_bad_server_context_blocks",
+    "test_generic_endpoint_custom_base_prefix",
+    "test_generic_counter_matches_last_reservation",
+    "test_explicit_sampler_options_are_active",
+    "test_analyze_pre_episode_blocked_run"
+  ],
+  "optimized_Python_blocked": true,
+  "real_socket_tests_use_scripted_responses": true,
+  "model_calls": 0,
+  "candidate_applications": 0,
+  "earlier_import_failure_retained_and_fixed": true,
+  "initial_optimize_test_wrong_expected_marker_corrected_without_production_change": true,
+  "generic_URL_prefix_verified_with_real_socket": true,
+  "generic_counter_body_matches_last_reply_reservation": true,
+  "explicit_sampler_overrides_active_default_r3_unchanged": true,
+  "pre_episode_blocked_runs_analyzable_without_imputation": true
+}

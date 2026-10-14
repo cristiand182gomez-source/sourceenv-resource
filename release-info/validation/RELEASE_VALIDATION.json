@@ -1,0 +1,44 @@
+{
+  "status": "PASS_COMPONENT_EQUIVALENCE_ONLY",
+  "version": "1.0.0-rc3",
+  "scope": "Archive CRC/integrity, manifest and documentary component comparison. No application/control execution of the new archive.",
+  "archive": {
+    "version": "1.0.0-rc3",
+    "status": "PREPARED_FOR_REVIEW_NOT_PUBLISHED",
+    "archive": "SourceEnv-1.0.0-rc3.zip",
+    "archive_sha256": "7a59f1c3cf01e49cbf98356d14de65bf83a7cfb492f0504c9badbe1c57704e28",
+    "archive_bytes": 230002,
+    "manifest_sha256": "a6e4d165738b27cb05ec102ca5c1f695a226c044f14b91fc9431a0e28fa7230d",
+    "files": 158,
+    "entries_byte_verified": true,
+    "validation_mode": "DOCUMENTARY_INTEGRITY_AND_COMPONENT_EQUIVALENCE_ONLY",
+    "new_archive_executed": false,
+    "tested_predecessor": {
+      "archive": "SourceEnv-1.0.0-rc2.zip",
+      "archive_sha256": "18f9d83a432b4213f63408e66ff51694471b8c6caf0b83a6dd215198c41fc71e",
+      "manifest_sha256": "ae78ad40f529d8bff24e7ee6a2c35946c6602997e7a1403935c0141cb9dd5fca"
+    },
+    "original_experimental_freeze_sha256": "ddd3a67d19fe8bd652a1df56ae6b9b8e77ad0b1c5585687e7f46fd35ba15e3e1",
+    "not_a_new_experimental_freeze": true
+  },
+  "tested_predecessor_receipt": "../history/rc2/validation/RELEASE_VALIDATION.json",
+  "tested_predecessor_receipt_sha256": "7c7925399c1e4ad23557c2c5e3b5ebb1dd681f27eacba9c99125126b7abc7238",
+  "component_equivalence": "COMPONENT_EQUIVALENCE.json",
+  "component_equivalence_sha256": "97012f55dd1b4c80f3fb6c883859ab95dd7783bc26aa45e75066eb920ad46471",
+  "new_archive_executed": false,
+  "prior_executed_archive_sha256": "18f9d83a432b4213f63408e66ff51694471b8c6caf0b83a6dd215198c41fc71e",
+  "current_phase_costs": {
+    "model_calls": 0,
+    "generated_tokens": 0,
+    "applications": 0,
+    "probes": 0,
+    "workers": 0,
+    "offline_installs": 0,
+    "controls_repeated": 0,
+    "network_requests": 0
+  },
+  "historical_rc2_execution_costs_preserved_separately": true,
+  "sandbox_modified": false,
+  "publication_performed": false,
+  "historical_receipts_changed": false
+}

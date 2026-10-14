@@ -1,0 +1,12 @@
+# Inventory of external offline wheels, NOT a pip environment requirements file.
+# Multiple versions coexist in the wheelhouse. Exact hashes: wheel_sha256.json.
+typer==0.15.3
+typer==0.16.0
+click==8.1.8
+click==8.2.0
+rich==13.9.4
+shellingham==1.5.4
+typing-extensions==4.12.2
+markdown-it-py==3.0.0
+mdurl==0.1.2
+pygments==2.18.0

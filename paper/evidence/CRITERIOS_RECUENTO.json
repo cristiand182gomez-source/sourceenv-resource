@@ -1,0 +1,26 @@
+{
+  "fixed_at": "2026-10-13T22:58:14.484479+00:00",
+  "criteria_file": "CRITERIOS_RECUENTO.md",
+  "criteria_sha256": "a1abbdefe302c2e908c340560244923e996f89b884b2b0cb80318c88248fa046",
+  "analysis_started": false,
+  "M01": {
+    "version": 6,
+    "file": "datasets/M01-v6/gradability_labels.csv",
+    "sha256": "7f54059a0e79c28c0f46f9ab8d92b4c61706274b61285603f48131fc8ebbe408",
+    "identifier": "instance_id",
+    "valid_py312": "status_py312 == gradable",
+    "valid_py313": "status_py313 == gradable",
+    "intersection": "exact ID set intersection; gradable_both only checked for agreement"
+  },
+  "M02": {
+    "version": 8,
+    "file": "datasets/M02-v8/task_soundness.csv",
+    "sha256": "910280fba76a0578eefe00f5e14b764969b8caa2f77032a671ec3f927c0ca142",
+    "identifier": "task_id",
+    "valid": "sound == 1",
+    "derived_check": "empty_resolved == 0 and gold_resolved == 1 and empty_control_error == 0 and gold_control_error == 0"
+  },
+  "missing_and_duplicate_policy": "retained, no imputation or favorable deduplication",
+  "models": 0,
+  "benchmark_task_executions": 0
+}

@@ -1,0 +1,74 @@
+{
+  "origin": "SCRIPTED_NOT_MODEL",
+  "fixture": "EC-SYMBOL",
+  "repair": {
+    "tool": "apply_profile",
+    "profile": "typer0160_click820",
+    "effective_environment_change": true
+  },
+  "operations": [
+    {
+      "operation": "first_command",
+      "public_feedback": "Application capture (not a task verdict):\n{\n  \"capture_completed\": true,\n  \"capture_hit_limit\": false,\n  \"captured_bytes\": {\n    \"stderr\": 0,\n    \"stdout\": 27\n  },\n  \"error\": null,\n  \"exit_code\": 0,\n  \"truncated\": false,\n  \"utf8_valid\": true,\n  \"view_bytes\": 27\n}\n===== stdout =====\n{\"balance\":17,\"entries\":3}\n\n===== stderr =====\n\n===== END capture =====",
+      "private_observation": {
+        "completed": true,
+        "oracle_pass": true,
+        "feedback_verdict": "PASS",
+        "truncated": false
+      }
+    },
+    {
+      "operation": "second_command",
+      "public_feedback": "Application capture (not a task verdict):\n{\n  \"capture_completed\": true,\n  \"capture_hit_limit\": false,\n  \"captured_bytes\": {\n    \"stderr\": 0,\n    \"stdout\": 26\n  },\n  \"error\": null,\n  \"exit_code\": 0,\n  \"truncated\": false,\n  \"utf8_valid\": true,\n  \"view_bytes\": 26\n}\n===== stdout =====\n{\"credits\":23,\"debits\":6}\n\n===== stderr =====\n\n===== END capture =====",
+      "private_observation": {
+        "completed": true,
+        "oracle_pass": true,
+        "feedback_verdict": "PASS",
+        "truncated": false
+      }
+    },
+    {
+      "operation": "no_args",
+      "public_feedback": "Application capture (not a task verdict):\n{\n  \"capture_completed\": true,\n  \"capture_hit_limit\": false,\n  \"captured_bytes\": {\n    \"stderr\": 765,\n    \"stdout\": 2099\n  },\n  \"error\": null,\n  \"exit_code\": 2,\n  \"truncated\": false,\n  \"utf8_valid\": true,\n  \"view_bytes\": 2864\n}\n===== stdout =====\n                                                                                                    \n Usage: app.py [OPTIONS] COMMAND [ARGS]...                                                          \n                                                                                                    \n╭─ Options ────────────────────────────────────────────────────────────────────────────────────────╮\n│ --install-completion          Install completion for the current shell.                          │\n│ --show-completion             Show completion for the current shell, to copy it or customize the │\n│                               installation.                                                      │\n│ --help                        Show this message and exit.                                        │\n╰──────────────────────────────────────────────────────────────────────────────────────────────────╯\n╭─ Commands ───────────────────────────────────────────────────────────────────────────────────────╮\n│ first-command    Report the signed balance and entry count.                                      │\n│ second-command   Report credits and debits as positive totals.                                   │\n╰──────────────────────────────────────────────────────────────────────────────────────────────────╯\n\n===== stderr =====\nUsage: app.py [OPTIONS] COMMAND [ARGS]...\nTry 'app.py --help' for help.\n╭─ Error ──────────────────────────────────────────────────────────────────────────────────────────╮\n│                                                                                                  │\n╰──────────────────────────────────────────────────────────────────────────────────────────────────╯\n\n===== END capture =====",
+      "private_observation": {
+        "completed": true,
+        "oracle_pass": true,
+        "feedback_verdict": "PASS",
+        "truncated": false
+      }
+    },
+    {
+      "operation": "explicit_help",
+      "public_feedback": "Application capture (not a task verdict):\n{\n  \"capture_completed\": true,\n  \"capture_hit_limit\": false,\n  \"captured_bytes\": {\n    \"stderr\": 0,\n    \"stdout\": 2100\n  },\n  \"error\": null,\n  \"exit_code\": 0,\n  \"truncated\": false,\n  \"utf8_valid\": true,\n  \"view_bytes\": 2100\n}\n===== stdout =====\n                                                                                                    \n Usage: app.py [OPTIONS] COMMAND [ARGS]...                                                          \n                                                                                                    \n╭─ Options ────────────────────────────────────────────────────────────────────────────────────────╮\n│ --install-completion          Install completion for the current shell.                          │\n│ --show-completion             Show completion for the current shell, to copy it or customize the │\n│                               installation.                                                      │\n│ --help                        Show this message and exit.                                        │\n╰──────────────────────────────────────────────────────────────────────────────────────────────────╯\n╭─ Commands ───────────────────────────────────────────────────────────────────────────────────────╮\n│ first-command    Report the signed balance and entry count.                                      │\n│ second-command   Report credits and debits as positive totals.                                   │\n╰──────────────────────────────────────────────────────────────────────────────────────────────────╯\n\n\n===== stderr =====\n\n===== END capture =====",
+      "private_observation": {
+        "completed": true,
+        "oracle_pass": true,
+        "feedback_verdict": "PASS",
+        "truncated": false
+      }
+    },
+    {
+      "operation": "first_command_help",
+      "public_feedback": "Application capture (not a task verdict):\n{\n  \"capture_completed\": true,\n  \"capture_hit_limit\": false,\n  \"captured_bytes\": {\n    \"stderr\": 0,\n    \"stdout\": 1296\n  },\n  \"error\": null,\n  \"exit_code\": 0,\n  \"truncated\": false,\n  \"utf8_valid\": true,\n  \"view_bytes\": 1296\n}\n===== stdout =====\n                                                                                                    \n Usage: app.py first-command [OPTIONS]                                                              \n                                                                                                    \n Report the signed balance and entry count.                                                         \n                                                                                                    \n                                                                                                    \n╭─ Options ────────────────────────────────────────────────────────────────────────────────────────╮\n│ --help          Show this message and exit.                                                      │\n╰──────────────────────────────────────────────────────────────────────────────────────────────────╯\n\n\n===== stderr =====\n\n===== END capture =====",
+      "private_observation": {
+        "completed": true,
+        "oracle_pass": true,
+        "feedback_verdict": "PASS",
+        "truncated": false
+      }
+    },
+    {
+      "operation": "second_command_help",
+      "public_feedback": "Application capture (not a task verdict):\n{\n  \"capture_completed\": true,\n  \"capture_hit_limit\": false,\n  \"captured_bytes\": {\n    \"stderr\": 0,\n    \"stdout\": 1296\n  },\n  \"error\": null,\n  \"exit_code\": 0,\n  \"truncated\": false,\n  \"utf8_valid\": true,\n  \"view_bytes\": 1296\n}\n===== stdout =====\n                                                                                                    \n Usage: app.py second-command [OPTIONS]                                                             \n                                                                                                    \n Report credits and debits as positive totals.                                                      \n                                                                                                    \n                                                                                                    \n╭─ Options ────────────────────────────────────────────────────────────────────────────────────────╮\n│ --help          Show this message and exit.                                                      │\n╰──────────────────────────────────────────────────────────────────────────────────────────────────╯\n\n\n===== stderr =====\n\n===== END capture =====",
+      "private_observation": {
+        "completed": true,
+        "oracle_pass": true,
+        "feedback_verdict": "PASS",
+        "truncated": false
+      }
+    }
+  ],
+  "endpoint": "PASS",
+  "model_calls": 0,
+  "raw_episode_sha256": "c2488e8ace06fe19423a8bf4756d76adb2fd4a24bcca939bc1ce2db7ac0455c6"
+}

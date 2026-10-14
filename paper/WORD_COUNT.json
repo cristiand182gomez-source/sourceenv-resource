@@ -1,0 +1,130 @@
+{
+  "document": "DRAFT.md",
+  "document_sha256": "37e0a3eb570bbe4033c235af4d805452117b8d10c78a4dd16a999715114aba20",
+  "counter_sha256": "bf74c185173683761ce1ee433f74400ef70f0d1a3d32252ba69dd585e1f042dc",
+  "method": "split on Unicode whitespace; Markdown presentation syntax/link destinations stripped for visible count; sum per-section max(raw,visible) PLUS all visible SVG figure-label words for each embedded mapped image",
+  "scope": "entire DRAFT.md: title, every section, tables, captions, notes, references and visible figure text; no main-text exemptions",
+  "not_main": "SUPPLEMENT.md and separate supporting files; image alt labels remain conservatively included; SVG title/desc metadata are not visible labels",
+  "figure_manifest_sha256": "955fc7b2efb6b02627a6d14902f95a72f98c2a64fc63874e38c7d2e5e1278c64",
+  "figures": [
+    {
+      "image": "figures/prefix_closure.png",
+      "image_sha256": "edff85476f8a66286983e34437e5a9dc8da38292ef546fe0feb816c16b4e4c47",
+      "text_source": "figures/prefix_closure.svg",
+      "text_source_sha256": "823eb7d3795037d21a9b23cc560619146b61a52f4dc576d254a758b99e3d040c",
+      "visible_text": "One physical trajectory; two retained endpoints\nCommon prefix\nsame messages\nactions, observations\nFirst valid finish\naction/arguments valid\ncheckpoint saved\nBEFORE policy feedback\n6/6 current operations\nFC accepts; BASE stops\nsame state, score both\nIncomplete coverage\nFC rejects valid finish\nBoth branches occur together\nBASE stops\nscore checkpoint\nno further generation\nFC continues\ncoverage feedback\nremaining budget\nNo valid finish\nOrdinary budget terminal\ncommon retained endpoint\nscore both\nAn invalid finish creates no checkpoint. Effective state changes reset coverage.\nAccepted closure requires observation, not PASS. Private scores never enter feedback.",
+      "visible_words": 89
+    }
+  ],
+  "sections": [
+    {
+      "section": "Title",
+      "raw_whitespace": 24,
+      "visible_whitespace": 23,
+      "figure_visible_words": 0,
+      "conservative": 24
+    },
+    {
+      "section": "Abstract",
+      "raw_whitespace": 154,
+      "visible_whitespace": 153,
+      "figure_visible_words": 0,
+      "conservative": 154
+    },
+    {
+      "section": "1 Introduction",
+      "raw_whitespace": 126,
+      "visible_whitespace": 125,
+      "figure_visible_words": 0,
+      "conservative": 126
+    },
+    {
+      "section": "2 Related work",
+      "raw_whitespace": 216,
+      "visible_whitespace": 215,
+      "figure_visible_words": 0,
+      "conservative": 216
+    },
+    {
+      "section": "3 Resource",
+      "raw_whitespace": 306,
+      "visible_whitespace": 254,
+      "figure_visible_words": 0,
+      "conservative": 306
+    },
+    {
+      "section": "4 Harness",
+      "raw_whitespace": 288,
+      "visible_whitespace": 287,
+      "figure_visible_words": 89,
+      "conservative": 377
+    },
+    {
+      "section": "5 Metrics and predeclaration",
+      "raw_whitespace": 218,
+      "visible_whitespace": 217,
+      "figure_visible_words": 0,
+      "conservative": 218
+    },
+    {
+      "section": "6 Setup",
+      "raw_whitespace": 167,
+      "visible_whitespace": 166,
+      "figure_visible_words": 0,
+      "conservative": 167
+    },
+    {
+      "section": "7 Results",
+      "raw_whitespace": 500,
+      "visible_whitespace": 428,
+      "figure_visible_words": 0,
+      "conservative": 500
+    },
+    {
+      "section": "8 Lessons",
+      "raw_whitespace": 95,
+      "visible_whitespace": 94,
+      "figure_visible_words": 0,
+      "conservative": 95
+    },
+    {
+      "section": "9 Limitations",
+      "raw_whitespace": 200,
+      "visible_whitespace": 199,
+      "figure_visible_words": 0,
+      "conservative": 200
+    },
+    {
+      "section": "10 Conclusion",
+      "raw_whitespace": 78,
+      "visible_whitespace": 77,
+      "figure_visible_words": 0,
+      "conservative": 78
+    },
+    {
+      "section": "11 Availability",
+      "raw_whitespace": 74,
+      "visible_whitespace": 73,
+      "figure_visible_words": 0,
+      "conservative": 74
+    },
+    {
+      "section": "References",
+      "raw_whitespace": 284,
+      "visible_whitespace": 266,
+      "figure_visible_words": 0,
+      "conservative": 284
+    }
+  ],
+  "total": {
+    "raw_whitespace": 2730,
+    "visible_whitespace": 2577,
+    "figure_visible_words": 89,
+    "visible_with_figures": 2666,
+    "conservative": 2819
+  },
+  "target": 2900,
+  "maximum": 3000,
+  "within_target": true,
+  "within_maximum": true
+}

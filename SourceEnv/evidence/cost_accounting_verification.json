@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "diagnostic_only": true,
+  "defect": "aggregate generated_tokens alias remained zero although complete costs bounds and episode recorded 2267",
+  "original_costs_sha256": "eb9a5697810bab2ed3e666f09f70adc69539a4ea9b795912a61d42b95ffc7930",
+  "episode_sha256": "056ac470811e578a7ad2efbe08d1ef06c5638d99cca6290fdd755b4ac9d3d248",
+  "observed_model_calls": 16,
+  "observed_generated_tokens": 2267,
+  "original_alias": 0,
+  "fix": "exact alias from known completion attempts, null when uncertain; analyzer records normalization of legacy alias without changing raw data",
+  "directed_tests": 7,
+  "new_generations_for_fix": 0,
+  "new_applications_for_fix": 0,
+  "fixtures_oracle_prompts_budgets_changed": false
+}

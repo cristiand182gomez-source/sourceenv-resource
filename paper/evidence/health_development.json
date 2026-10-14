@@ -1,0 +1,139 @@
+[
+  {
+    "case_id": "F01",
+    "FC": {
+      "arm": "FC",
+      "terminal": "action_budget",
+      "primary_availability": "VALID",
+      "replies_received": 20,
+      "actions_dispatched": 20,
+      "action_budget": 20,
+      "complete_retained_trace": true,
+      "responses_without_tool_calls": {
+        "count": 1,
+        "denominator": 20,
+        "rate": 0.05
+      },
+      "empty_replies_without_tool_calls": 0,
+      "invalid_actions": 0,
+      "invalid_rate": 0.0,
+      "invalid_by_type": {},
+      "invalid_share_of_action_budget": {
+        "count": 0,
+        "denominator": 20,
+        "percent": 0.0
+      },
+      "valid_finish_requests": 10,
+      "accepted_finish_requests": 0,
+      "first_FC_rejection_action": 9,
+      "actions_after_first_FC_rejection": {
+        "run_app": 2,
+        "finish_tool": 8,
+        "finish_text": 1
+      },
+      "actions_after_first_FC_rejection_total": 11,
+      "outdated_messages": [],
+      "model_replies_not_dispatched": 0,
+      "denominators": "no-tool/replies retained; invalid/actions dispatched; budget percent/20; finish rejection is valid, not invalid"
+    },
+    "BASE": {
+      "arm": "BASE",
+      "terminal": "finish",
+      "primary_availability": "VALID",
+      "replies_received": 9,
+      "actions_dispatched": 9,
+      "action_budget": 20,
+      "complete_retained_trace": true,
+      "responses_without_tool_calls": {
+        "count": 0,
+        "denominator": 9,
+        "rate": 0.0
+      },
+      "empty_replies_without_tool_calls": 0,
+      "invalid_actions": 0,
+      "invalid_rate": 0.0,
+      "invalid_by_type": {},
+      "invalid_share_of_action_budget": {
+        "count": 0,
+        "denominator": 20,
+        "percent": 0.0
+      },
+      "valid_finish_requests": 1,
+      "accepted_finish_requests": 1,
+      "first_FC_rejection_action": null,
+      "actions_after_first_FC_rejection": {},
+      "actions_after_first_FC_rejection_total": 0,
+      "outdated_messages": [],
+      "model_replies_not_dispatched": 0,
+      "denominators": "no-tool/replies retained; invalid/actions dispatched; budget percent/20; finish rejection is valid, not invalid"
+    }
+  },
+  {
+    "case_id": "F03",
+    "FC": {
+      "arm": "FC",
+      "terminal": "finish",
+      "primary_availability": "VALID",
+      "replies_received": 15,
+      "actions_dispatched": 15,
+      "action_budget": 20,
+      "complete_retained_trace": true,
+      "responses_without_tool_calls": {
+        "count": 0,
+        "denominator": 15,
+        "rate": 0.0
+      },
+      "empty_replies_without_tool_calls": 0,
+      "invalid_actions": 0,
+      "invalid_rate": 0.0,
+      "invalid_by_type": {},
+      "invalid_share_of_action_budget": {
+        "count": 0,
+        "denominator": 20,
+        "percent": 0.0
+      },
+      "valid_finish_requests": 3,
+      "accepted_finish_requests": 1,
+      "first_FC_rejection_action": 9,
+      "actions_after_first_FC_rejection": {
+        "run_app": 4,
+        "finish_tool": 2
+      },
+      "actions_after_first_FC_rejection_total": 6,
+      "outdated_messages": [],
+      "model_replies_not_dispatched": 0,
+      "denominators": "no-tool/replies retained; invalid/actions dispatched; budget percent/20; finish rejection is valid, not invalid"
+    },
+    "BASE": {
+      "arm": "BASE",
+      "terminal": "finish",
+      "primary_availability": "VALID",
+      "replies_received": 9,
+      "actions_dispatched": 9,
+      "action_budget": 20,
+      "complete_retained_trace": true,
+      "responses_without_tool_calls": {
+        "count": 0,
+        "denominator": 9,
+        "rate": 0.0
+      },
+      "empty_replies_without_tool_calls": 0,
+      "invalid_actions": 0,
+      "invalid_rate": 0.0,
+      "invalid_by_type": {},
+      "invalid_share_of_action_budget": {
+        "count": 0,
+        "denominator": 20,
+        "percent": 0.0
+      },
+      "valid_finish_requests": 1,
+      "accepted_finish_requests": 1,
+      "first_FC_rejection_action": null,
+      "actions_after_first_FC_rejection": {},
+      "actions_after_first_FC_rejection_total": 0,
+      "outdated_messages": [],
+      "model_replies_not_dispatched": 0,
+      "denominators": "no-tool/replies retained; invalid/actions dispatched; budget percent/20; finish rejection is valid, not invalid"
+    }
+  }
+]

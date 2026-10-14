@@ -1,0 +1,189 @@
+{
+  "scope": "all ten fixtures per configuration/arm, including both healthy controls",
+  "source_file": "r3_by_arm.json",
+  "source_sha256": "069299d7614c1f56e3b922f2a3655e16137024df9ac343e794d4fbabf1dbeaa3",
+  "rows": [
+    {
+      "configuration": "C3",
+      "arm": "FC",
+      "fixtures": 10,
+      "source": {
+        "requests": 15,
+        "effective": 10,
+        "noops": 5,
+        "rejected_or_failed": 0,
+        "unknown_effect": 0
+      },
+      "environment": {
+        "requests": 2,
+        "effective": 0,
+        "noops": 2,
+        "rejected_or_failed": 0,
+        "unknown_effect": 0
+      },
+      "visible_finish": 7,
+      "policy_finishes": 24,
+      "visible_accepted": 5,
+      "accepted": 10,
+      "visible_rejected": 2,
+      "rejected": 14,
+      "coverage_median": 6.0,
+      "repaired": 3,
+      "preserved": 2,
+      "post_rejection_actions": 72
+    },
+    {
+      "configuration": "C3",
+      "arm": "BASE",
+      "fixtures": 10,
+      "source": {
+        "requests": 14,
+        "effective": 9,
+        "noops": 5,
+        "rejected_or_failed": 0,
+        "unknown_effect": 0
+      },
+      "environment": {
+        "requests": 2,
+        "effective": 0,
+        "noops": 2,
+        "rejected_or_failed": 0,
+        "unknown_effect": 0
+      },
+      "visible_finish": 1,
+      "policy_finishes": 10,
+      "visible_accepted": 1,
+      "accepted": 10,
+      "visible_rejected": 0,
+      "rejected": 0,
+      "coverage_median": 0.0,
+      "repaired": 2,
+      "preserved": 2,
+      "post_rejection_actions": 0
+    },
+    {
+      "configuration": "C1",
+      "arm": "FC",
+      "fixtures": 10,
+      "source": {
+        "requests": 15,
+        "effective": 9,
+        "noops": 6,
+        "rejected_or_failed": 0,
+        "unknown_effect": 0
+      },
+      "environment": {
+        "requests": 0,
+        "effective": 0,
+        "noops": 0,
+        "rejected_or_failed": 0,
+        "unknown_effect": 0
+      },
+      "visible_finish": 11,
+      "policy_finishes": 51,
+      "visible_accepted": 4,
+      "accepted": 7,
+      "visible_rejected": 7,
+      "rejected": 44,
+      "coverage_median": 6.0,
+      "repaired": 2,
+      "preserved": 2,
+      "post_rejection_actions": 105
+    },
+    {
+      "configuration": "C1",
+      "arm": "BASE",
+      "fixtures": 10,
+      "source": {
+        "requests": 11,
+        "effective": 7,
+        "noops": 4,
+        "rejected_or_failed": 0,
+        "unknown_effect": 0
+      },
+      "environment": {
+        "requests": 0,
+        "effective": 0,
+        "noops": 0,
+        "rejected_or_failed": 0,
+        "unknown_effect": 0
+      },
+      "visible_finish": 0,
+      "policy_finishes": 10,
+      "visible_accepted": 0,
+      "accepted": 10,
+      "visible_rejected": 0,
+      "rejected": 0,
+      "coverage_median": 2.0,
+      "repaired": 2,
+      "preserved": 2,
+      "post_rejection_actions": 0
+    }
+  ],
+  "source_indices": [
+    {
+      "configuration": "C3",
+      "arm": "FC",
+      "indices": [
+        0,
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        14,
+        16,
+        18
+      ]
+    },
+    {
+      "configuration": "C3",
+      "arm": "BASE",
+      "indices": [
+        1,
+        3,
+        5,
+        7,
+        9,
+        11,
+        13,
+        15,
+        17,
+        19
+      ]
+    },
+    {
+      "configuration": "C1",
+      "arm": "FC",
+      "indices": [
+        20,
+        22,
+        24,
+        26,
+        28,
+        30,
+        32,
+        34,
+        36,
+        38
+      ]
+    },
+    {
+      "configuration": "C1",
+      "arm": "BASE",
+      "indices": [
+        21,
+        23,
+        25,
+        27,
+        29,
+        31,
+        33,
+        35,
+        37,
+        39
+      ]
+    }
+  ]
+}

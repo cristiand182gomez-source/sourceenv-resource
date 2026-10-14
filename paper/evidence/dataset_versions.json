@@ -1,0 +1,68 @@
+[
+  {
+    "id": "M01",
+    "dataset_ref": "veerukhannan/gemma4-swe-benchmark-audit",
+    "selected_dataset_version": 6,
+    "version_creation_date_utc": "2026-10-10T01:39:42.477Z",
+    "version_notes": "README: correct check count (83/83)",
+    "status": "Ready",
+    "account": "veerukhannan",
+    "owner_display_name": "Veerakrishna",
+    "declared_creator_name": "Veerakrishna",
+    "title": "Gemma 4 SWE Agent Benchmark Audit",
+    "current_dataset_version_observed": 6,
+    "view_query_is_not_historical_description": false,
+    "license_in_dataset_level_api": "Attribution 4.0 International (CC BY 4.0)",
+    "metadata_raw": "raw/M01_view_requested_v6.json",
+    "metadata_sha256": "a820e9634064f97f2009e1efe88c2c5ae05a70a53bca4de8ca8ce9dfd31d3a70",
+    "version_source_selector": "/versions/[versionNumber=6]",
+    "selection_fixed_before_csv_analysis": true,
+    "version_creation_date_utc_minus_4": "2026-10-09T21:39:42.477000-04:00",
+    "metadata_scope": "Dataset-level view plus exact entry in versions; M02 view description is latest v10 and not used as v8 documentation.",
+    "archived_readme": {
+      "path": "datasets/M01-v6/README.md",
+      "sha256": "17b83db526c609351fdf4c686f1fa178cc5c3ffe40f3ad7a9063d51ef152c6d9",
+      "bytes": 4834
+    },
+    "archive_url": "https://www.kaggle.com/api/v1/datasets/download/veerukhannan/gemma4-swe-benchmark-audit?datasetVersionNumber=6",
+    "declared_document_authorship": "API creator name Veerakrishna; paper.md byline not declared",
+    "license_document": {
+      "path": "datasets/M01-v6/README.md",
+      "sha256": "17b83db526c609351fdf4c686f1fa178cc5c3ffe40f3ad7a9063d51ef152c6d9",
+      "bytes": 4834
+    }
+  },
+  {
+    "id": "M02",
+    "dataset_ref": "dmitriigluzdov/gemma-4-task-soundness-and-local-results",
+    "selected_dataset_version": 8,
+    "version_creation_date_utc": "2026-10-11T02:02:58.127Z",
+    "version_notes": "Add 692 completed outcomes,114 task coverage labels,31 paired comparisons,runtime calculator,and October11 public bundle catalogue;no trajectories.",
+    "status": "Ready",
+    "account": "dmitriigluzdov",
+    "owner_display_name": "Dmitrii Gluzdov",
+    "declared_creator_name": "Dmitrii Gluzdov",
+    "title": "Gemma 4 Task Soundness and Local Results",
+    "current_dataset_version_observed": 10,
+    "view_query_is_not_historical_description": true,
+    "license_in_dataset_level_api": "Attribution 4.0 International (CC BY 4.0)",
+    "metadata_raw": "raw/M02_view_requested_v8.json",
+    "metadata_sha256": "cfb3807428ec634052a3645491805426ac135dd8f96d006e8e00d13abddde8ef",
+    "version_source_selector": "/versions/[versionNumber=8]",
+    "selection_fixed_before_csv_analysis": true,
+    "version_creation_date_utc_minus_4": "2026-10-10T22:02:58.127000-04:00",
+    "metadata_scope": "Dataset-level view plus exact entry in versions; M02 view description is latest v10 and not used as v8 documentation.",
+    "archived_readme": {
+      "path": "datasets/M02-v8/README.md",
+      "sha256": "6833f40dd32f697079db3d06f7d7e47a9af44bfc2565aa23cd9ed34d7cd1503e",
+      "bytes": 13991
+    },
+    "archive_url": "https://www.kaggle.com/api/v1/datasets/download/dmitriigluzdov/gemma-4-task-soundness-and-local-results?datasetVersionNumber=8",
+    "declared_document_authorship": "Dmitry Gluzdov",
+    "license_document": {
+      "path": "datasets/M02-v8/LICENSE.txt",
+      "sha256": "252c6c52a17dea7576423cdc716a447313e028ed90a4b3b4a694943c7de85292",
+      "bytes": 263
+    }
+  }
+]

@@ -1,0 +1,44 @@
+╭─────────────────────────────── Traceback (most recent call last) ────────────────────────────────╮
+│ /candidate/app.py:18 in <module>                                                                 │
+│                                                                                                  │
+│   15 │   """Report credits and debits as positive totals."""                                     │
+│   16 │   emit({"credits": sum(v for v in DATA if v > 0), "debits": -sum(v for v in DATA if v     │
+│   17 if __name__ == "__main__":                                                                  │
+│ ❱ 18 │   app()                                                                                   │
+│   19                                                                                             │
+│                                                                                                  │
+│ ╭────────────────────────────────────────── locals ───────────────────────────────────────────╮  │
+│ │   app = <typer.main.Typer object at 0x7f6481a93230>                                         │  │
+│ │  DATA = [14, -6, 9]                                                                         │  │
+│ │  json = <module 'json' from '/usr/lib/python3.13/json/__init__.py'>                         │  │
+│ │   sys = <module 'sys' (built-in)>                                                           │  │
+│ │ typer = <module 'typer' from '/environment/lib/python3.13/site-packages/typer/__init__.py'> │  │
+│ ╰─────────────────────────────────────────────────────────────────────────────────────────────╯  │
+│                                                                                                  │
+│ /environment/lib/python3.13/site-packages/typer/main.py:340 in __call__                          │
+│                                                                                                  │
+│ /environment/lib/python3.13/site-packages/typer/main.py:323 in __call__                          │
+│                                                                                                  │
+│ /environment/lib/python3.13/site-packages/click/core.py:1442 in __call__                         │
+│                                                                                                  │
+│ /environment/lib/python3.13/site-packages/typer/core.py:740 in main                              │
+│                                                                                                  │
+│ /environment/lib/python3.13/site-packages/typer/core.py:194 in _main                             │
+│                                                                                                  │
+│ /environment/lib/python3.13/site-packages/click/core.py:1186 in make_context                     │
+│                                                                                                  │
+│ /environment/lib/python3.13/site-packages/click/core.py:1784 in parse_args                       │
+│                                                                                                  │
+│ /environment/lib/python3.13/site-packages/click/exceptions.py:271 in __init__                    │
+│                                                                                                  │
+│ /environment/lib/python3.13/site-packages/click/core.py:730 in get_help                          │
+│                                                                                                  │
+│ /environment/lib/python3.13/site-packages/click/core.py:1064 in get_help                         │
+│                                                                                                  │
+│ /environment/lib/python3.13/site-packages/typer/core.py:754 in format_help                       │
+│                                                                                                  │
+│ /environment/lib/python3.13/site-packages/typer/rich_utils.py:614 in rich_format_help            │
+│                                                                                                  │
+│ /environment/lib/python3.13/site-packages/typer/rich_utils.py:373 in _print_options_panel        │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────╯
+TypeError: Parameter.make_metavar() missing 1 required positional argument: 'ctx'

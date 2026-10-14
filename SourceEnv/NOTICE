@@ -1,0 +1,10 @@
+SourceEnv
+Copyright (c) 2026 SourceEnv contributors
+
+This distribution adds an Apache-2.0 option for project-authored material while
+preserving its historical MIT option. Historical copies and frozen experimental
+source bytes retain their identities. This notice does not certify historical
+publication or competition acceptance.
+
+Third-party notices and exclusions are described in THIRD_PARTY_NOTICES.md and
+LICENSING.md. This NOTICE is informational and does not change any license.

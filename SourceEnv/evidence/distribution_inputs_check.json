@@ -1,0 +1,10 @@
+{
+  "exit_code": 0,
+  "model_calls": 0,
+  "applications": 0,
+  "probes": 0,
+  "workers": 0,
+  "installs": 0,
+  "package_zip_sha256": "d70260569ec449091fd71f082cb3536d8b897a9a3971e3e25062d9b9125ac78e",
+  "scope": "Exact external wheel input reconstruction in Debian; no applications"
+}

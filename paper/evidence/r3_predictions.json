@@ -1,0 +1,80 @@
+{
+  "C3": {
+    "P1": {
+      "status": "COMPATIBLE",
+      "changed_environment_fixtures": [],
+      "observable_zero_effect_fixtures": [
+        "EH-API",
+        "EH-RENDERER",
+        "EC-MISSING",
+        "EC-SYMBOL"
+      ],
+      "planned_environment_fixtures": 4
+    },
+    "P2": {
+      "status": "COMPATIBLE",
+      "bifurcated_fixtures": [
+        "EH-API",
+        "EH-RENDERER",
+        "EC-MISSING",
+        "EC-SYMBOL",
+        "SC-BALANCE",
+        "SC-SORT",
+        "SH-FLAG",
+        "SH-FORMAT",
+        "H-RC0",
+        "H-RC2"
+      ],
+      "observable_policy_fixtures": 10,
+      "planned": 10
+    },
+    "P3": {
+      "status": "REFUTED",
+      "complete_damaged_pairs": 8,
+      "concordant_damaged_pairs": 7,
+      "discordant_damaged_fixtures": [
+        "EH-RENDERER"
+      ],
+      "minimum_complete_damaged_pairs": 6,
+      "scope": "available damaged pairs only; healthy controls reported separately, never imputed"
+    }
+  },
+  "C1": {
+    "P1": {
+      "status": "COMPATIBLE",
+      "changed_environment_fixtures": [],
+      "observable_zero_effect_fixtures": [
+        "EH-API",
+        "EH-RENDERER",
+        "EC-MISSING",
+        "EC-SYMBOL"
+      ],
+      "planned_environment_fixtures": 4
+    },
+    "P2": {
+      "status": "COMPATIBLE",
+      "bifurcated_fixtures": [
+        "EH-API",
+        "EH-RENDERER",
+        "EC-MISSING",
+        "EC-SYMBOL",
+        "SC-BALANCE",
+        "SC-SORT",
+        "SH-FLAG",
+        "SH-FORMAT",
+        "H-RC0",
+        "H-RC2"
+      ],
+      "observable_policy_fixtures": 10,
+      "planned": 10
+    },
+    "P3": {
+      "status": "COMPATIBLE",
+      "complete_damaged_pairs": 8,
+      "concordant_damaged_pairs": 8,
+      "discordant_damaged_fixtures": [],
+      "minimum_complete_damaged_pairs": 6,
+      "scope": "available damaged pairs only; healthy controls reported separately, never imputed"
+    }
+  }
+}

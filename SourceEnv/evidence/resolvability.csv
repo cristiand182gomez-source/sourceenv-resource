@@ -1,0 +1,17 @@
+fixture,control,repair_tool,FC_endpoint,BASE_endpoint,FC_terminal,BASE_terminal,actions,run_app_actions,install_actions,coverage,effective_source_changes,effective_environment_changes,model_calls,episode_sha256
+EH-API,reference,apply_profile,PASS,PASS,finish,finish,8,6,1,6,0,1,0,6b0be281db5eabb4df350bb86547dccfad10d15a6a8cbd886081704c8f5435d6
+EH-API,noop,,FAIL,FAIL,action_budget,finish,20,0,0,0,0,0,0,7d882142725c174e17ae171404bc1723db31167f5c63c92e90e1e3d05f4c82f1
+SC-BALANCE,reference,write_file,PASS,PASS,finish,finish,8,6,0,6,1,0,0,6a0f10cae16a722a8807d9e8dd50902909343fb2bf82b738f3bc47fb571c1e71
+SC-BALANCE,noop,,FAIL,FAIL,action_budget,finish,20,0,0,0,0,0,0,28d573f07dbc6665e36910e0f21618fcc1974d7ab04409fb513b060a444a8210
+EC-MISSING,reference,apply_profile,PASS,PASS,finish,finish,8,6,1,6,0,1,0,b4e7e1558cf2bf23a109c36117dc4bf51e2ca45b3ddc9b9b62403af320fc39df
+EC-MISSING,noop,,FAIL,FAIL,action_budget,finish,20,0,0,0,0,0,0,2058b1298316c7e05be4f843863dc3b442e3253b287055ca6d698cd94c11b64b
+SH-FLAG,reference,write_file,PASS,PASS,finish,finish,8,6,0,6,1,0,0,f21261f37bae9c39003e0030d4a3ee986d8ddb9d633eef0b9fd80ced667642b2
+SH-FLAG,noop,,FAIL,FAIL,action_budget,finish,20,0,0,0,0,0,0,9e7d71f8b6b6e2c33d2fc832fd65b0b70ae5e3fb5f878759697da4267d5a9db5
+EH-RENDERER,reference,apply_profile,PASS,PASS,finish,finish,8,6,1,6,0,1,0,f2939657a7403b36e94409749c2cb474b00c9983d0fad2ede5313fbf37cb066a
+EH-RENDERER,noop,,FAIL,FAIL,action_budget,finish,20,0,0,0,0,0,0,a6d5f762e6051198aa289281cdf6f0b9e955bd585e0e836344318abca5f40e84
+SC-SORT,reference,write_file,PASS,PASS,finish,finish,8,6,0,6,1,0,0,b2ee26d0bac23d7ad4ea10e0677cbd006a0a950088139b2125cb3b07968ff866
+SC-SORT,noop,,FAIL,FAIL,action_budget,finish,20,0,0,0,0,0,0,05c2b26753fb044085f82fbcdf2611aabb6111b2fe2510ee219a192281aeff41
+EC-SYMBOL,reference,apply_profile,PASS,PASS,finish,finish,8,6,1,6,0,1,0,c2488e8ace06fe19423a8bf4756d76adb2fd4a24bcca939bc1ce2db7ac0455c6
+EC-SYMBOL,noop,,FAIL,FAIL,action_budget,finish,20,0,0,0,0,0,0,b3a0574a37459c9e27ece30d07e6f2054db93e23aeb6c63d1c816024c85b3cbe
+SH-FORMAT,reference,write_file,PASS,PASS,finish,finish,8,6,0,6,1,0,0,a01d6acf358f1a06bea4838768a0add9c9c51086c0fee9e7114a8cab1d45c23e
+SH-FORMAT,noop,,FAIL,FAIL,action_budget,finish,20,0,0,0,0,0,0,e360651f31aaccf23f17002f750b84bcdaf0b9732eabb4dcad4ed636033630e5

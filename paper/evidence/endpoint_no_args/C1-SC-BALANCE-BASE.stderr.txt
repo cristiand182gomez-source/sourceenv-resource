@@ -1,0 +1,4 @@
+  File "/candidate/app.py", line 1
+    Synthetic CLI: no persistent state, fixed public sample data.
+              ^^^
+SyntaxError: invalid syntax

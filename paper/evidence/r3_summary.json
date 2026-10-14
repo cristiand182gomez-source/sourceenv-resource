@@ -1,0 +1,206 @@
+{
+  "C3": {
+    "configuration": "C3",
+    "summary": {
+      "planned_cases": 10,
+      "unattempted": [],
+      "arms": {
+        "FC": {
+          "available": [
+            "EH-API",
+            "EH-RENDERER",
+            "EC-MISSING",
+            "EC-SYMBOL",
+            "SC-BALANCE",
+            "SC-SORT",
+            "SH-FLAG",
+            "SH-FORMAT",
+            "H-RC0",
+            "H-RC2"
+          ],
+          "repair_numerator": 3,
+          "repair_denominator": 8,
+          "healthy_preservation_numerator": 2,
+          "healthy_preservation_denominator": 2,
+          "planned_damaged_denominator": 8,
+          "planned_healthy_denominator": 2
+        },
+        "BASE": {
+          "available": [
+            "EH-API",
+            "EH-RENDERER",
+            "EC-MISSING",
+            "EC-SYMBOL",
+            "SC-BALANCE",
+            "SC-SORT",
+            "SH-FLAG",
+            "SH-FORMAT",
+            "H-RC0",
+            "H-RC2"
+          ],
+          "repair_numerator": 2,
+          "repair_denominator": 8,
+          "healthy_preservation_numerator": 2,
+          "healthy_preservation_denominator": 2,
+          "planned_damaged_denominator": 8,
+          "planned_healthy_denominator": 2
+        }
+      },
+      "complete_damaged_pairs": [
+        "EH-API",
+        "EH-RENDERER",
+        "EC-MISSING",
+        "EC-SYMBOL",
+        "SC-BALANCE",
+        "SC-SORT",
+        "SH-FLAG",
+        "SH-FORMAT"
+      ],
+      "incomplete_pairs": [],
+      "bifurcated_complete_damaged_pairs": [
+        "EH-API",
+        "EH-RENDERER",
+        "EC-MISSING",
+        "EC-SYMBOL",
+        "SC-BALANCE",
+        "SC-SORT",
+        "SH-FLAG",
+        "SH-FORMAT"
+      ],
+      "descriptive_pair_comparison_interpretable": true,
+      "few_bifurcations_limit": "0: no observed policy divergence; 1-2: case descriptions only; >=3: still descriptive and conditional subset, not significance/power",
+      "attempted_without_episode_report": []
+    },
+    "all_complete_pairs": [
+      "EH-API",
+      "SC-BALANCE",
+      "H-RC0",
+      "EC-MISSING",
+      "SH-FLAG",
+      "EH-RENDERER",
+      "SC-SORT",
+      "H-RC2",
+      "EC-SYMBOL",
+      "SH-FORMAT"
+    ],
+    "discordant_pairs": [
+      "EH-RENDERER"
+    ],
+    "bifurcated_fixtures": [
+      "EH-API",
+      "SC-BALANCE",
+      "H-RC0",
+      "EC-MISSING",
+      "SH-FLAG",
+      "EH-RENDERER",
+      "SC-SORT",
+      "H-RC2",
+      "EC-SYMBOL",
+      "SH-FORMAT"
+    ],
+    "raw_results_sha256": "ac6991a099c67c83c4a8e30274a7fd8a2655c971a74fa9cfdab16f2bcbf53e1b",
+    "physically_counted_FC_once": true,
+    "BASE_metrics_are_prefixes_not_additional_physical_costs": true
+  },
+  "C1": {
+    "configuration": "C1",
+    "summary": {
+      "planned_cases": 10,
+      "unattempted": [],
+      "arms": {
+        "FC": {
+          "available": [
+            "EH-API",
+            "EH-RENDERER",
+            "EC-MISSING",
+            "EC-SYMBOL",
+            "SC-BALANCE",
+            "SC-SORT",
+            "SH-FLAG",
+            "SH-FORMAT",
+            "H-RC0",
+            "H-RC2"
+          ],
+          "repair_numerator": 2,
+          "repair_denominator": 8,
+          "healthy_preservation_numerator": 2,
+          "healthy_preservation_denominator": 2,
+          "planned_damaged_denominator": 8,
+          "planned_healthy_denominator": 2
+        },
+        "BASE": {
+          "available": [
+            "EH-API",
+            "EH-RENDERER",
+            "EC-MISSING",
+            "EC-SYMBOL",
+            "SC-BALANCE",
+            "SC-SORT",
+            "SH-FLAG",
+            "SH-FORMAT",
+            "H-RC0",
+            "H-RC2"
+          ],
+          "repair_numerator": 2,
+          "repair_denominator": 8,
+          "healthy_preservation_numerator": 2,
+          "healthy_preservation_denominator": 2,
+          "planned_damaged_denominator": 8,
+          "planned_healthy_denominator": 2
+        }
+      },
+      "complete_damaged_pairs": [
+        "EH-API",
+        "EH-RENDERER",
+        "EC-MISSING",
+        "EC-SYMBOL",
+        "SC-BALANCE",
+        "SC-SORT",
+        "SH-FLAG",
+        "SH-FORMAT"
+      ],
+      "incomplete_pairs": [],
+      "bifurcated_complete_damaged_pairs": [
+        "EH-API",
+        "EH-RENDERER",
+        "EC-MISSING",
+        "EC-SYMBOL",
+        "SC-BALANCE",
+        "SC-SORT",
+        "SH-FLAG",
+        "SH-FORMAT"
+      ],
+      "descriptive_pair_comparison_interpretable": true,
+      "few_bifurcations_limit": "0: no observed policy divergence; 1-2: case descriptions only; >=3: still descriptive and conditional subset, not significance/power",
+      "attempted_without_episode_report": []
+    },
+    "all_complete_pairs": [
+      "EH-API",
+      "SC-BALANCE",
+      "H-RC0",
+      "EC-MISSING",
+      "SH-FLAG",
+      "EH-RENDERER",
+      "SC-SORT",
+      "H-RC2",
+      "EC-SYMBOL",
+      "SH-FORMAT"
+    ],
+    "discordant_pairs": [],
+    "bifurcated_fixtures": [
+      "EH-API",
+      "SC-BALANCE",
+      "H-RC0",
+      "EC-MISSING",
+      "SH-FLAG",
+      "EH-RENDERER",
+      "SC-SORT",
+      "H-RC2",
+      "EC-SYMBOL",
+      "SH-FORMAT"
+    ],
+    "raw_results_sha256": "79cb82dbfe4a976801c439fb7798e702894598e0d9f288970eaa996df4d6e384",
+    "physically_counted_FC_once": true,
+    "BASE_metrics_are_prefixes_not_additional_physical_costs": true
+  }
+}

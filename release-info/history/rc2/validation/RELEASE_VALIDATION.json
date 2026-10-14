@@ -1,0 +1,129 @@
+{
+  "status": "PASS",
+  "version": "1.0.0-rc2",
+  "scope": "Exact archive verification without model; existing Debian installation through a new copy-on-write overlay, not a fresh install.",
+  "archive": {
+    "version": "1.0.0-rc2",
+    "status": "PREPARED_FOR_REVIEW_NOT_PUBLISHED",
+    "archive": "SourceEnv-1.0.0-rc2.zip",
+    "archive_sha256": "18f9d83a432b4213f63408e66ff51694471b8c6caf0b83a6dd215198c41fc71e",
+    "archive_bytes": 229675,
+    "manifest_sha256": "ae78ad40f529d8bff24e7ee6a2c35946c6602997e7a1403935c0141cb9dd5fca",
+    "files": 158,
+    "entries_byte_verified": true,
+    "original_experimental_freeze_sha256": "ddd3a67d19fe8bd652a1df56ae6b9b8e77ad0b1c5585687e7f46fd35ba15e3e1",
+    "not_a_new_experimental_freeze": true
+  },
+  "integrity": {
+    "zip_sha256_before": "18f9d83a432b4213f63408e66ff51694471b8c6caf0b83a6dd215198c41fc71e",
+    "zip_sha256_after": "18f9d83a432b4213f63408e66ff51694471b8c6caf0b83a6dd215198c41fc71e",
+    "archive_unchanged": true,
+    "extracted_files_unchanged": true,
+    "file_count": 158,
+    "elapsed_seconds": 217.55325788600004
+  },
+  "environment": {
+    "scope": "NO_MODEL_RELEASE_VALIDATION",
+    "zip_sha256_expected": "18f9d83a432b4213f63408e66ff51694471b8c6caf0b83a6dd215198c41fc71e",
+    "zip_sha256_before": "18f9d83a432b4213f63408e66ff51694471b8c6caf0b83a6dd215198c41fc71e",
+    "python": "3.13.5",
+    "python_sha256": "889c603f0d17cb54060951bcf4c4f9b8c9ebd9e52b392c70209bbb9755d797d9",
+    "bubblewrap_sha256": "573236e5328ac2ebb08f59ae3a9805b4f8d12bdef14be8af4450d5463294985f",
+    "debian_version": "13.7",
+    "kernel": "6.12.107+deb13-amd64",
+    "uid": 1000,
+    "flags": {
+      "isolated": 1,
+      "no_site": 1,
+      "optimize": 0
+    },
+    "environment_scope": "Overlay of retained clean-check installation; not a new installation",
+    "started_utc": "2026-10-14T17:46:59.708449+00:00",
+    "model_calls": 0,
+    "generated_tokens": 0,
+    "model_processes": 0
+  },
+  "checks": {
+    "portable_tests": 15,
+    "validator_tests": 10,
+    "PyPI_wheels_downloaded_and_hash_verified": 10,
+    "scripted_episodes": 16,
+    "reference_PASS_PASS": 8,
+    "noop_FAIL_FAIL": 8,
+    "independent_arm_and_prefix_checks": 16,
+    "additional_validator_scenarios_matched": 24,
+    "frozen_core_unchanged": true,
+    "errors": []
+  },
+  "costs": {
+    "applications": 432,
+    "probes": 80,
+    "workers": 188,
+    "offline_installs": 44,
+    "fresh_states": 40,
+    "checkpoint_copies": 8,
+    "model_calls": 0,
+    "generated_tokens": 0,
+    "model_processes": 0,
+    "machine_seconds": 217.54007312699997,
+    "maximums": {
+      "applications": 432,
+      "probes": 80,
+      "workers": 304,
+      "offline_installs": 44,
+      "fresh_states": 40,
+      "checkpoint_copies": 8,
+      "model_calls": 0,
+      "generated_tokens": 0,
+      "model_processes": 0
+    }
+  },
+  "sources": [
+    {
+      "file": "integrity-before.stdout",
+      "sha256": "48776728a7c0a2e82f9820f1dc06ed6d8ac757a75bb96f33d94ae2f0d65826db"
+    },
+    {
+      "file": "integrity-after.stdout",
+      "sha256": "48776728a7c0a2e82f9820f1dc06ed6d8ac757a75bb96f33d94ae2f0d65826db"
+    },
+    {
+      "file": "portable-tests.stderr",
+      "sha256": "0911742d045466da31f60106acb183fdff261edfe52a422a31766a5c96ee0919"
+    },
+    {
+      "file": "validator-tests.stderr",
+      "sha256": "629d01ea9e182eaca19fdb013d327da2bbbadce5fc37515d3e9b3d77bcdc8c54"
+    },
+    {
+      "file": "fetch-wheels.stdout",
+      "sha256": "aae5f0b7b7bf4b56d155bb3a1929d3c4c88eadc9dbc070790ce38c5d040ad2d9"
+    }
+  ],
+  "raw_private_evidence": {
+    "archive": "validation-raw.tar.gz",
+    "sha256": "274627ab1240bc5e5962971008d8f8b01f961fb54fb29517083f9025ccfd6cfc",
+    "bytes": 84811512,
+    "guest_sha256_matched": true,
+    "all_states_in_archive": true,
+    "no_cleanup": true,
+    "selectively_read_out": "JSON and logs only; no extraction of executable states or absolute symlinks"
+  },
+  "reused_checks": {
+    "historical_public_runner_reference_noop": 16,
+    "basis": "All original executable and fixture/core bytes identical; component comparison in RESOURCE_COMPARISON.json, historical linkage in resource/evidence/historical_clean_binding.json. Current reproduce.py verifies the shared core and prefix again.",
+    "historical_real_smoke": "Retained only; no model execution in this phase."
+  },
+  "administrative_failures_before_checks": "SSH library absent in two local Python installations; OpenSSH rejected the original key ACL. Resolved using built-in OpenSSH with a restricted-ACL new key copy. Original key/OS settings untouched. Zero candidate/model calls in these failures.",
+  "limitations": [
+    "Not a newly installed Debian system in this phase.",
+    "Full raw records and administrative paths are local/access-limited, outside the release ZIP.",
+    "No new model smoke; historical integration is linked by component identities.",
+    "Publication, public URL and submission remain pending human review."
+  ],
+  "publication_performed": false,
+  "experimental_results_modified": false,
+  "model_servers_started": false,
+  "cleanup_performed": false,
+  "scored_before_cleanup": true
+}

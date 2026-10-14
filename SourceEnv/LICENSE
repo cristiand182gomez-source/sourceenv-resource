@@ -1,0 +1,17 @@
+SourceEnv project-authored material
+Copyright (c) 2026 SourceEnv contributors
+
+SPDX-License-Identifier: MIT OR Apache-2.0
+
+Except for the exclusions identified in LICENSING.md and THIRD_PARTY_NOTICES.md,
+the SourceEnv contributors offer their project-authored material in this release
+under either of the following licenses, at your option:
+
+  * MIT License, in licenses/MIT.txt; or
+  * Apache License, Version 2.0, in licenses/Apache-2.0.txt.
+
+The MIT option preserves the existing grant. The Apache-2.0 option is an
+additional grant for this distribution, limited to rights held by the relevant
+contributors. Neither option relicenses third-party materials, dependencies,
+input data, pretrained models, trademarks, or material outside the release.
+The original third-party notices and license texts remain authoritative.

@@ -1,0 +1,9 @@
+# What the historical clean check established
+
+On 2026-10-13 the original public package was tested in a freshly installed Debian 13.7 VM, Python 3.13.5 and Bubblewrap 0.12.0. No installed environments or experiment states were copied from the historical experimental VM. Both scripted drivers each produced eight reference PASS/PASS and eight noop FAIL/FAIL endpoints. The default driver retained prefix identity, coverage and costs. One real E2B H-RC0 smoke checked integration: 16 calls, 2,267 tokens, 27 applications. It was diagnostic, not a new r3 result, and PASS was not a requirement for integration.
+
+The initial tested manifest was `ab91947ea5a80c88a8c919d1fb63acab7dc76f2d31dbe72d7e4c3ee5175abd27`. The smoke exposed a stale aggregate generated-token alias despite correct lower/upper bounds. The public endpoint wrapper/analyzer were corrected; seven targeted cost tests and replay of sixteen retained replies passed on Windows and Debian, and analysis values agreed. No candidate/model execution was repeated for that repair. The final original public manifest is `e61f192c00768cd2d5e212da11db112523e4b045eab9017e8f8735d74c7ee792`.
+
+`evidence/historical_clean_binding.json` records per-component hashes before/after that correction. The current release preserves those executable bytes and adds a separate validator, with its own new test evidence. Documentation/licensing changes do not retroactively change the historical tested manifest. The rc2 check ran on an overlay of the retained clean-check installation, not on a second newly installed system, without a new model smoke. The rc3 correction is documentary only; unchanged component hashes link it to the retained rc2 checks, without a new execution.
+
+These identities link claims to tested components. Raw administrative evidence and full model conversations remain access-limited; published aggregates are insufficient for an independent reconstruction of every trajectory metric.

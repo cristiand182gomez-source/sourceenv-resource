@@ -1,0 +1,20 @@
+{
+  "r2": {
+    "physical_requests": 0,
+    "effective": 0,
+    "source": "r2_profile_requests.json"
+  },
+  "r2A": {
+    "effective": 0,
+    "requests": 1,
+    "source_sha256": "c0a0136d84f50f1f6ce86b00d859ebf74cf4170ba1fe60f6b5fd5b7af9c74ae4"
+  },
+  "r3": {
+    "C3": {
+      "effective": 0
+    },
+    "C1": {
+      "effective": 0
+    }
+  }
+}

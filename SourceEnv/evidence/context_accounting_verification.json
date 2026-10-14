@@ -1,0 +1,50 @@
+{
+  "status": "PASS",
+  "new_directed_tests": [
+    "test_85_percent_cut_includes_reply_and_is_ordinary",
+    "test_adapter_retains_ordinary_context_terminal_without_dispatch",
+    "test_analyzer_preserves_accounting_with_no_imputation",
+    "test_anchor_reset_and_fixture_independence",
+    "test_bad_prompt_usage_and_prepared_identity_are_errors",
+    "test_exact_counter_still_requires_matching_usage",
+    "test_first_turn_uses_utf8_and_native_tool_schema",
+    "test_usage_anchor_adds_reply_and_public_feedback"
+  ],
+  "new_directed_tests_passed": 8,
+  "exact_native_regressions_passed": 8,
+  "regressions": [
+    "test_defaults_and_cli",
+    "test_isolated_entrypoint",
+    "test_real_socket_native_path",
+    "test_generic_payload_and_exact_counter",
+    "test_generic_counter_matches_last_reservation",
+    "test_generic_endpoint_custom_base_prefix",
+    "test_partial_cost_and_uncertain_close",
+    "test_analyze_pre_episode_blocked_run"
+  ],
+  "new_tests_run_in_trusted_Debian": true,
+  "scripted_backend_only": true,
+  "initial_development_platform_adapter_import_block_retained": true,
+  "native_core_unchanged": true,
+  "ordinary_context_terminal_retained": true,
+  "accounting": {
+    "generic_no_counter": "approximate",
+    "generic_exact_counter": "exact",
+    "llama_cpp_default": "exact",
+    "scripted_controls": "synthetic"
+  },
+  "approximate_threshold": 27852,
+  "threshold_includes_reply_reservation": true,
+  "provider_prompt_usage_anchors_previous_request": true,
+  "new_assistant_and_feedback_in_delta": true,
+  "history_reset_and_fixture_independence": true,
+  "first_request_includes_tools": true,
+  "approximate_values_not_claimed_as_exact": true,
+  "analyzer_labels_modes": true,
+  "smoke_policy": "Independent diagnostic; no additional authorization or experimental attempts; retain costs and evidence on retry after connectivity repair.",
+  "model_calls": 0,
+  "generated_tokens": 0,
+  "candidate_applications": 0,
+  "new_model_smoke": "NOT_EXECUTED",
+  "clean_machine_trial": "NOT_EXECUTED"
+}

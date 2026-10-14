@@ -1,0 +1,1391 @@
+{
+  "kind": "r4_public_distribution_provenance_not_experimental_freeze",
+  "resource_version": "1.0.0-rc3",
+  "editorial_delivery": "r4",
+  "parent_provenance_original_sha256": "3d117291985375bd3474e479c98f85f473ce98fc0e0db4d3c0e1cfdf629b6ed5",
+  "resource_archive_sha256": "7a59f1c3cf01e49cbf98356d14de65bf83a7cfb492f0504c9badbe1c57704e28",
+  "resource_manifest_sha256": "a6e4d165738b27cb05ec102ca5c1f695a226c044f14b91fc9431a0e28fa7230d",
+  "experimental_freeze_sha256": "ddd3a67d19fe8bd652a1df56ae6b9b8e77ad0b1c5585687e7f46fd35ba15e3e1",
+  "historical_sources_access": "Historical source identifiers are provenance, not bundled download paths; originals retained privately unless mapped explicitly.",
+  "retained_or_derived": [
+    {
+      "file": "paper/EXTRACTOS.md",
+      "source_identifier": "SourceEnv_Finalizacion_20261014_r3/EXTRACTOS.md",
+      "source_sha256": "ad10f95703b300995b2683e01cfc2fec2d4c9eeff3a63ea4fd5b837521d90925",
+      "purpose": "Only five previously disclosed excerpts, with original selectors/hashes",
+      "rights": "MIT OR Apache-2.0 for owned material; third-party rights excepted",
+      "review": "explicitly selected; text/structured-data/privacy/dependency review recorded separately",
+      "staged_sha256": "ad10f95703b300995b2683e01cfc2fec2d4c9eeff3a63ea4fd5b837521d90925",
+      "byte_identical_to_source": true
+    },
+    {
+      "file": "paper/REFERENCIAS.bib",
+      "source_identifier": "SourceEnv_Finalizacion_20261014_r3/REFERENCIAS.bib",
+      "source_sha256": "98394d3321a65f5b5eb02105f1a064ff47ceb2f21abd556e9a3cf74e5539bfaf",
+      "purpose": "Seventeen selected primary references",
+      "rights": "MIT OR Apache-2.0 for owned material; third-party rights excepted",
+      "review": "explicitly selected; text/structured-data/privacy/dependency review recorded separately",
+      "staged_sha256": "98394d3321a65f5b5eb02105f1a064ff47ceb2f21abd556e9a3cf74e5539bfaf",
+      "byte_identical_to_source": true
+    },
+    {
+      "file": "paper/count_words.py",
+      "source_identifier": "SourceEnv_Finalizacion_20261014_r3/count_words.py",
+      "source_sha256": "bf74c185173683761ce1ee433f74400ef70f0d1a3d32252ba69dd585e1f042dc",
+      "purpose": "Unchanged documentary counter; no benchmark imports",
+      "rights": "MIT OR Apache-2.0 for owned material; third-party rights excepted",
+      "review": "explicitly selected; text/structured-data/privacy/dependency review recorded separately",
+      "staged_sha256": "bf74c185173683761ce1ee433f74400ef70f0d1a3d32252ba69dd585e1f042dc",
+      "byte_identical_to_source": true
+    },
+    {
+      "file": "paper/figures/prefix_closure.svg",
+      "source_identifier": "SourceEnv_Finalizacion_20261014_r3/figures/prefix_closure.svg",
+      "source_sha256": "823eb7d3795037d21a9b23cc560619146b61a52f4dc576d254a758b99e3d040c",
+      "purpose": "Unchanged vector figure",
+      "rights": "MIT OR Apache-2.0 for owned material; third-party rights excepted",
+      "review": "explicitly selected; text/structured-data/privacy/dependency review recorded separately",
+      "staged_sha256": "823eb7d3795037d21a9b23cc560619146b61a52f4dc576d254a758b99e3d040c",
+      "byte_identical_to_source": true
+    },
+    {
+      "file": "paper/figures/prefix_closure.png",
+      "source_identifier": "SourceEnv_Finalizacion_20261014_r3/figures/prefix_closure.png",
+      "source_sha256": "edff85476f8a66286983e34437e5a9dc8da38292ef546fe0feb816c16b4e4c47",
+      "purpose": "Unchanged raster figure for Kaggle",
+      "rights": "MIT OR Apache-2.0 for owned material; third-party rights excepted",
+      "review": "explicitly selected; text/structured-data/privacy/dependency review recorded separately",
+      "staged_sha256": "edff85476f8a66286983e34437e5a9dc8da38292ef546fe0feb816c16b4e4c47",
+      "byte_identical_to_source": true
+    },
+    {
+      "file": "paper/figures/FIGURE_MANIFEST.json",
+      "source_identifier": "SourceEnv_Finalizacion_20261014_r3/figures/FIGURE_MANIFEST.json",
+      "source_sha256": "955fc7b2efb6b02627a6d14902f95a72f98c2a64fc63874e38c7d2e5e1278c64",
+      "purpose": "Original figure identities and 89 visible words",
+      "rights": "MIT OR Apache-2.0 for owned material; third-party rights excepted",
+      "review": "explicitly selected; text/structured-data/privacy/dependency review recorded separately",
+      "staged_sha256": "955fc7b2efb6b02627a6d14902f95a72f98c2a64fc63874e38c7d2e5e1278c64",
+      "byte_identical_to_source": true
+    },
+    {
+      "file": "paper/evidence/aggregate_metrics.json",
+      "source_identifier": "SourceEnv_Finalizacion_20261014_r3/evidence/aggregate_metrics.json",
+      "source_sha256": "a5a5b98351770210bf1c2f9637b30a36365114987a30b63cb21930fa5b76c659",
+      "purpose": "All-ten-fixture aggregate metrics",
+      "rights": "MIT OR Apache-2.0 for owned material; third-party rights excepted",
+      "review": "explicitly selected; text/structured-data/privacy/dependency review recorded separately",
+      "staged_sha256": "a5a5b98351770210bf1c2f9637b30a36365114987a30b63cb21930fa5b76c659",
+      "byte_identical_to_source": true
+    },
+    {
+      "file": "paper/evidence/C1_model_binding.json",
+      "source_identifier": "SourceEnv_Finalizacion_20261014_r3/evidence/C1_model_binding.json",
+      "source_sha256": "fadb60685f1fc7418a432c234f78f146d0b78fead4c85ce17c99608619c4c67b",
+      "purpose": "Alias and weight identity without local executable/model paths",
+      "rights": "MIT OR Apache-2.0 for owned material; third-party rights excepted",
+      "review": "explicitly selected; text/structured-data/privacy/dependency review recorded separately",
+      "staged_sha256": "fadb60685f1fc7418a432c234f78f146d0b78fead4c85ce17c99608619c4c67b",
+      "byte_identical_to_source": true
+    },
+    {
+      "file": "paper/evidence/cases.json",
+      "source_identifier": "SourceEnv_Finalizacion_20261014_r3/evidence/cases.json",
+      "source_sha256": "3cd50ae82fdd71607305164a8f84dac5efc583a71ed3117f7b442635a58b907c",
+      "purpose": "Ten cases, mechanisms and particular contracts",
+      "rights": "MIT OR Apache-2.0 for owned material; third-party rights excepted",
+      "review": "explicitly selected; text/structured-data/privacy/dependency review recorded separately",
+      "staged_sha256": "3cd50ae82fdd71607305164a8f84dac5efc583a71ed3117f7b442635a58b907c",
+      "byte_identical_to_source": true
+    },
+    {
+      "file": "paper/evidence/closure_patterns.json",
+      "source_identifier": "SourceEnv_Finalizacion_20261014_r3/evidence/closure_patterns.json",
+      "source_sha256": "bf370713eb919eba12f8a1d487534cd10d0d04b7287e3889ecd0b2b8a8538ece",
+      "purpose": "Forty endpoint closure/coverage rows and predicates",
+      "rights": "MIT OR Apache-2.0 for owned material; third-party rights excepted",
+      "review": "explicitly selected; text/structured-data/privacy/dependency review recorded separately",
+      "staged_sha256": "bf370713eb919eba12f8a1d487534cd10d0d04b7287e3889ecd0b2b8a8538ece",
+      "byte_identical_to_source": true
+    },
+    {
+      "file": "paper/evidence/context_cost_ledger.json",
+      "source_identifier": "SourceEnv_Finalizacion_20261014_r3/evidence/context_cost_ledger.json",
+      "source_sha256": "e0fcc29f4a4dd94714fb5623b44bba415633863562a726e6fbd81777c06bd77f",
+      "purpose": "Per-episode context and cost selectors, no message content",
+      "rights": "MIT OR Apache-2.0 for owned material; third-party rights excepted",
+      "review": "explicitly selected; text/structured-data/privacy/dependency review recorded separately",
+      "staged_sha256": "e0fcc29f4a4dd94714fb5623b44bba415633863562a726e6fbd81777c06bd77f",
+      "byte_identical_to_source": true
+    },
+    {
+      "file": "paper/evidence/dataset_versions.json",
+      "source_identifier": "SourceEnv_Finalizacion_20261014_r3/evidence/dataset_versions.json",
+      "source_sha256": "68db90342fa7cdf1c67b03f610f72d77d185b0fcfd33a413b847e3b48b3ef5ac",
+      "purpose": "Pinned dataset versions, dates and original metadata hashes",
+      "rights": "CC-BY-4.0; source data or identified derivative; excluded from own dual grant",
+      "review": "explicitly selected; text/structured-data/privacy/dependency review recorded separately",
+      "staged_sha256": "68db90342fa7cdf1c67b03f610f72d77d185b0fcfd33a413b847e3b48b3ef5ac",
+      "byte_identical_to_source": true
+    },
+    {
+      "file": "paper/evidence/development_profile_counts.json",
+      "source_identifier": "SourceEnv_Finalizacion_20261014_r3/evidence/development_profile_counts.json",
+      "source_sha256": "7a7d9d3fde99388183b8882bbb8a66c56bc01ba3411ec666d3ab08c700b43430",
+      "purpose": "Historical profile counts; separate from R3",
+      "rights": "MIT OR Apache-2.0 for owned material; third-party rights excepted",
+      "review": "explicitly selected; text/structured-data/privacy/dependency review recorded separately",
+      "staged_sha256": "7a7d9d3fde99388183b8882bbb8a66c56bc01ba3411ec666d3ab08c700b43430",
+      "byte_identical_to_source": true
+    },
+    {
+      "file": "paper/evidence/environment.json",
+      "source_identifier": "SourceEnv_Finalizacion_20261014_r3/evidence/environment.json",
+      "source_sha256": "1295f3ce36e53644e0ed459bd7e516aeb4ed8a9a1ab51543823e409b1e1a292a",
+      "purpose": "Runtime identities and limitations",
+      "rights": "MIT OR Apache-2.0 for owned material; third-party rights excepted",
+      "review": "explicitly selected; text/structured-data/privacy/dependency review recorded separately",
+      "staged_sha256": "1295f3ce36e53644e0ed459bd7e516aeb4ed8a9a1ab51543823e409b1e1a292a",
+      "byte_identical_to_source": true
+    },
+    {
+      "file": "paper/evidence/environment_inventory.md",
+      "source_identifier": "SourceEnv_Finalizacion_20261014_r3/evidence/environment_inventory.md",
+      "source_sha256": "6b17452847e9fc6c9ef31a873953b8575e4fa358075e0ea4323827d33b5eaf8e",
+      "purpose": "Wheels, profiles and runtime/model identities",
+      "rights": "MIT OR Apache-2.0 for owned material; third-party rights excepted",
+      "review": "explicitly selected; text/structured-data/privacy/dependency review recorded separately",
+      "staged_sha256": "6b17452847e9fc6c9ef31a873953b8575e4fa358075e0ea4323827d33b5eaf8e",
+      "byte_identical_to_source": true
+    },
+    {
+      "file": "paper/evidence/health_development.json",
+      "source_identifier": "SourceEnv_Finalizacion_20261014_r3/evidence/health_development.json",
+      "source_sha256": "aa8e889e6d4772116452ae4c84129534ab7b9b9953f27a322e959cbfba58d79f",
+      "purpose": "Development health with separate denominator",
+      "rights": "MIT OR Apache-2.0 for owned material; third-party rights excepted",
+      "review": "explicitly selected; text/structured-data/privacy/dependency review recorded separately",
+      "staged_sha256": "aa8e889e6d4772116452ae4c84129534ab7b9b9953f27a322e959cbfba58d79f",
+      "byte_identical_to_source": true
+    },
+    {
+      "file": "paper/evidence/historical_clean_check.md",
+      "source_identifier": "SourceEnv_Finalizacion_20261014_r3/evidence/historical_clean_check.md",
+      "source_sha256": "2bda86997e83cae3580f1c68aa76e6faea8ff2b5774b500e581a7cb903b80422",
+      "purpose": "Historical clean-machine results, not a new execution",
+      "rights": "MIT OR Apache-2.0 for owned material; third-party rights excepted",
+      "review": "explicitly selected; text/structured-data/privacy/dependency review recorded separately",
+      "staged_sha256": "2bda86997e83cae3580f1c68aa76e6faea8ff2b5774b500e581a7cb903b80422",
+      "byte_identical_to_source": true
+    },
+    {
+      "file": "paper/evidence/M01_M02_recount.json",
+      "source_identifier": "SourceEnv_Finalizacion_20261014_r3/evidence/M01_M02_recount.json",
+      "source_sha256": "a1d554ffe548635048364d0c293b9bc7a467f7d7b3832651a21db6148c3fdad3",
+      "purpose": "Published masks and audited counts/IDs",
+      "rights": "CC-BY-4.0; source data or identified derivative; excluded from own dual grant",
+      "review": "explicitly selected; text/structured-data/privacy/dependency review recorded separately",
+      "staged_sha256": "a1d554ffe548635048364d0c293b9bc7a467f7d7b3832651a21db6148c3fdad3",
+      "byte_identical_to_source": true
+    },
+    {
+      "file": "paper/evidence/M01_shared_ids.csv",
+      "source_identifier": "SourceEnv_Finalizacion_20261014_r3/evidence/M01_shared_ids.csv",
+      "source_sha256": "d6fb9dfc0f5ba743c6fd458705a50db2be701969d9df707b29e6363e0aae431c",
+      "purpose": "Actual 47 shared valid task IDs",
+      "rights": "CC-BY-4.0; source data or identified derivative; excluded from own dual grant",
+      "review": "explicitly selected; text/structured-data/privacy/dependency review recorded separately",
+      "staged_sha256": "d6fb9dfc0f5ba743c6fd458705a50db2be701969d9df707b29e6363e0aae431c",
+      "byte_identical_to_source": true
+    },
+    {
+      "file": "paper/evidence/M01_v6_gradability_labels.csv",
+      "source_identifier": "SourceEnv_Finalizacion_20261014_r3/evidence/M01_v6_gradability_labels.csv",
+      "source_sha256": "7f54059a0e79c28c0f46f9ab8d92b4c61706274b61285603f48131fc8ebbe408",
+      "purpose": "Unmodified M01 v6 label CSV",
+      "rights": "CC-BY-4.0; source data or identified derivative; excluded from own dual grant",
+      "review": "explicitly selected; text/structured-data/privacy/dependency review recorded separately",
+      "staged_sha256": "7f54059a0e79c28c0f46f9ab8d92b4c61706274b61285603f48131fc8ebbe408",
+      "byte_identical_to_source": true
+    },
+    {
+      "file": "paper/evidence/M01_writeup_identity.json",
+      "source_identifier": "SourceEnv_Finalizacion_20261014_r3/evidence/M01_writeup_identity.json",
+      "source_sha256": "8c4ef942e69494ca2f43dcc3f7cd288ec38dfc72861a3cebcd2366655985fcbf",
+      "purpose": "Writeup identity; editorial version remains unconfirmed",
+      "rights": "CC-BY-4.0; source data or identified derivative; excluded from own dual grant",
+      "review": "explicitly selected; text/structured-data/privacy/dependency review recorded separately",
+      "staged_sha256": "8c4ef942e69494ca2f43dcc3f7cd288ec38dfc72861a3cebcd2366655985fcbf",
+      "byte_identical_to_source": true
+    },
+    {
+      "file": "paper/evidence/M02_timeouts.json",
+      "source_identifier": "SourceEnv_Finalizacion_20261014_r3/evidence/M02_timeouts.json",
+      "source_sha256": "88d38804b9caf2be26ad17b9d513019271187465fbe5e9531d0de47251afd9f7",
+      "purpose": "Three explicit exclusions beyond the four flags",
+      "rights": "CC-BY-4.0; source data or identified derivative; excluded from own dual grant",
+      "review": "explicitly selected; text/structured-data/privacy/dependency review recorded separately",
+      "staged_sha256": "88d38804b9caf2be26ad17b9d513019271187465fbe5e9531d0de47251afd9f7",
+      "byte_identical_to_source": true
+    },
+    {
+      "file": "paper/evidence/M02_v8_task_soundness.csv",
+      "source_identifier": "SourceEnv_Finalizacion_20261014_r3/evidence/M02_v8_task_soundness.csv",
+      "source_sha256": "910280fba76a0578eefe00f5e14b764969b8caa2f77032a671ec3f927c0ca142",
+      "purpose": "Unmodified M02 v8 soundness CSV",
+      "rights": "CC-BY-4.0; source data or identified derivative; excluded from own dual grant",
+      "review": "explicitly selected; text/structured-data/privacy/dependency review recorded separately",
+      "staged_sha256": "910280fba76a0578eefe00f5e14b764969b8caa2f77032a671ec3f927c0ca142",
+      "byte_identical_to_source": true
+    },
+    {
+      "file": "paper/evidence/no_args_capture_audit.json",
+      "source_identifier": "SourceEnv_Finalizacion_20261014_r3/evidence/no_args_capture_audit.json",
+      "source_sha256": "eaca4e0bb368d8cec73bbbc05dc9ab8caa2339b7095f76e1bdb654561042e921",
+      "purpose": "Forty endpoint checks and hashes of eighty channels",
+      "rights": "MIT OR Apache-2.0 for owned material; third-party rights excepted",
+      "review": "explicitly selected; text/structured-data/privacy/dependency review recorded separately",
+      "staged_sha256": "eaca4e0bb368d8cec73bbbc05dc9ab8caa2339b7095f76e1bdb654561042e921",
+      "byte_identical_to_source": true
+    },
+    {
+      "file": "paper/evidence/r2_profile_requests.json",
+      "source_identifier": "SourceEnv_Finalizacion_20261014_r3/evidence/r2_profile_requests.json",
+      "source_sha256": "73716216bc6e4d2ffe0594f50d1790e03ff49f39801bdfb2bc0e1d70cccae2e7",
+      "purpose": "Historical r2 environment-request evidence",
+      "rights": "MIT OR Apache-2.0 for owned material; third-party rights excepted",
+      "review": "explicitly selected; text/structured-data/privacy/dependency review recorded separately",
+      "staged_sha256": "73716216bc6e4d2ffe0594f50d1790e03ff49f39801bdfb2bc0e1d70cccae2e7",
+      "byte_identical_to_source": true
+    },
+    {
+      "file": "paper/evidence/r3_by_arm.json",
+      "source_identifier": "SourceEnv_Finalizacion_20261014_r3/evidence/r3_by_arm.json",
+      "source_sha256": "069299d7614c1f56e3b922f2a3655e16137024df9ac343e794d4fbabf1dbeaa3",
+      "purpose": "Forty R3 arms with independent availability and metrics",
+      "rights": "MIT OR Apache-2.0 for owned material; third-party rights excepted",
+      "review": "explicitly selected; text/structured-data/privacy/dependency review recorded separately",
+      "staged_sha256": "069299d7614c1f56e3b922f2a3655e16137024df9ac343e794d4fbabf1dbeaa3",
+      "byte_identical_to_source": true
+    },
+    {
+      "file": "paper/evidence/r3_costs.json",
+      "source_identifier": "SourceEnv_Finalizacion_20261014_r3/evidence/r3_costs.json",
+      "source_sha256": "ebac4ab572112e6f9f3c4ea2d23adde5ef9aef3b206ea562b0341ffd1b5d240b",
+      "purpose": "Physical costs without double-counting BASE",
+      "rights": "MIT OR Apache-2.0 for owned material; third-party rights excepted",
+      "review": "explicitly selected; text/structured-data/privacy/dependency review recorded separately",
+      "staged_sha256": "ebac4ab572112e6f9f3c4ea2d23adde5ef9aef3b206ea562b0341ffd1b5d240b",
+      "byte_identical_to_source": true
+    },
+    {
+      "file": "paper/evidence/r3_gate_exposure.json",
+      "source_identifier": "SourceEnv_Finalizacion_20261014_r3/evidence/r3_gate_exposure.json",
+      "source_sha256": "fbd6b512cebdc84736ba5e04d257bb41057a878a9aa10bd5e048cdaf589bd890",
+      "purpose": "Actual finish/rejection/bifurcation exposure",
+      "rights": "MIT OR Apache-2.0 for owned material; third-party rights excepted",
+      "review": "explicitly selected; text/structured-data/privacy/dependency review recorded separately",
+      "staged_sha256": "fbd6b512cebdc84736ba5e04d257bb41057a878a9aa10bd5e048cdaf589bd890",
+      "byte_identical_to_source": true
+    },
+    {
+      "file": "paper/evidence/r3_predictions.json",
+      "source_identifier": "SourceEnv_Finalizacion_20261014_r3/evidence/r3_predictions.json",
+      "source_sha256": "e6cd3380a8ae8ddb5240f87c5cfebc506096742294d0ad87ceb690e3a06a81d7",
+      "purpose": "Predeclared P1-P3 evaluations",
+      "rights": "MIT OR Apache-2.0 for owned material; third-party rights excepted",
+      "review": "explicitly selected; text/structured-data/privacy/dependency review recorded separately",
+      "staged_sha256": "e6cd3380a8ae8ddb5240f87c5cfebc506096742294d0ad87ceb690e3a06a81d7",
+      "byte_identical_to_source": true
+    },
+    {
+      "file": "paper/evidence/r3_proposal.json",
+      "source_identifier": "SourceEnv_Finalizacion_20261014_r3/evidence/r3_proposal.json",
+      "source_sha256": "169452c46f70e96ccbf7856b4d304c9d46f5155285c2d116a30ac41db13a8923",
+      "purpose": "Already sanitized historical proposal; not live authorization",
+      "rights": "MIT OR Apache-2.0 for owned material; third-party rights excepted",
+      "review": "explicitly selected; text/structured-data/privacy/dependency review recorded separately",
+      "staged_sha256": "169452c46f70e96ccbf7856b4d304c9d46f5155285c2d116a30ac41db13a8923",
+      "byte_identical_to_source": true
+    },
+    {
+      "file": "paper/evidence/r3_proposal_README.md",
+      "source_identifier": "SourceEnv_Finalizacion_20261014_r3/evidence/r3_proposal_README.md",
+      "source_sha256": "fee074ee6510f26e209fa41f1ead5eba191f1b2dc4aa2cb74e656a384fccd796",
+      "purpose": "Explains consumed preparation-time permission flags",
+      "rights": "MIT OR Apache-2.0 for owned material; third-party rights excepted",
+      "review": "explicitly selected; text/structured-data/privacy/dependency review recorded separately",
+      "staged_sha256": "fee074ee6510f26e209fa41f1ead5eba191f1b2dc4aa2cb74e656a384fccd796",
+      "byte_identical_to_source": true
+    },
+    {
+      "file": "paper/evidence/r3_summary.json",
+      "source_identifier": "SourceEnv_Finalizacion_20261014_r3/evidence/r3_summary.json",
+      "source_sha256": "06e5c2a319619685bb535747809285c9d96a3a4758c3def1fb7d9e06988afa5a",
+      "purpose": "Endpoint pairs and completeness",
+      "rights": "MIT OR Apache-2.0 for owned material; third-party rights excepted",
+      "review": "explicitly selected; text/structured-data/privacy/dependency review recorded separately",
+      "staged_sha256": "06e5c2a319619685bb535747809285c9d96a3a4758c3def1fb7d9e06988afa5a",
+      "byte_identical_to_source": true
+    },
+    {
+      "file": "paper/evidence/resolvability.json",
+      "source_identifier": "SourceEnv_Finalizacion_20261014_r3/evidence/resolvability.json",
+      "source_sha256": "d33d7e82cd3181bfa63583e8eb34217670b04a58bfadeb2c8a0eea69f974ed04",
+      "purpose": "Retained scripted reference/noop results",
+      "rights": "MIT OR Apache-2.0 for owned material; third-party rights excepted",
+      "review": "explicitly selected; text/structured-data/privacy/dependency review recorded separately",
+      "staged_sha256": "d33d7e82cd3181bfa63583e8eb34217670b04a58bfadeb2c8a0eea69f974ed04",
+      "byte_identical_to_source": true
+    },
+    {
+      "file": "paper/evidence/response_counts.json",
+      "source_identifier": "SourceEnv_Finalizacion_20261014_r3/evidence/response_counts.json",
+      "source_sha256": "d64176dcbb233489be3d1074ef4cfd03516bea6eaa035d28f1708010ecd1be93",
+      "purpose": "470 response annotations/hashes/selectors, no private content",
+      "rights": "MIT OR Apache-2.0 for owned material; third-party rights excepted",
+      "review": "explicitly selected; text/structured-data/privacy/dependency review recorded separately",
+      "staged_sha256": "d64176dcbb233489be3d1074ef4cfd03516bea6eaa035d28f1708010ecd1be93",
+      "byte_identical_to_source": true
+    },
+    {
+      "file": "paper/evidence/seal.json",
+      "source_identifier": "SourceEnv_Finalizacion_20261014_r3/evidence/seal.json",
+      "source_sha256": "9181f006c2f39c80300d6c81bca774388e552c1580400228942c4ae2c67fb3c3",
+      "purpose": "Previously selected historical seal fields",
+      "rights": "MIT OR Apache-2.0 for owned material; third-party rights excepted",
+      "review": "explicitly selected; text/structured-data/privacy/dependency review recorded separately",
+      "staged_sha256": "9181f006c2f39c80300d6c81bca774388e552c1580400228942c4ae2c67fb3c3",
+      "byte_identical_to_source": true
+    },
+    {
+      "file": "paper/evidence/server_C1.json",
+      "source_identifier": "SourceEnv_Finalizacion_20261014_r3/evidence/server_C1.json",
+      "source_sha256": "3b9c926298a8ea97d36d834f46f0e5a5069add8c66cab386406ddfdc1cd4cc83",
+      "purpose": "Already sanitized argv, technical alias retained",
+      "rights": "MIT OR Apache-2.0 for owned material; third-party rights excepted",
+      "review": "explicitly selected; text/structured-data/privacy/dependency review recorded separately",
+      "staged_sha256": "3b9c926298a8ea97d36d834f46f0e5a5069add8c66cab386406ddfdc1cd4cc83",
+      "byte_identical_to_source": true
+    },
+    {
+      "file": "paper/evidence/server_C3.json",
+      "source_identifier": "SourceEnv_Finalizacion_20261014_r3/evidence/server_C3.json",
+      "source_sha256": "8507b85ce469c032b69ef9dd09ac76320346ed7dbcee6cac266c4d751727928e",
+      "purpose": "Already sanitized argv",
+      "rights": "MIT OR Apache-2.0 for owned material; third-party rights excepted",
+      "review": "explicitly selected; text/structured-data/privacy/dependency review recorded separately",
+      "staged_sha256": "8507b85ce469c032b69ef9dd09ac76320346ed7dbcee6cac266c4d751727928e",
+      "byte_identical_to_source": true
+    },
+    {
+      "file": "paper/evidence/wheel_license_inventory.json",
+      "source_identifier": "SourceEnv_Finalizacion_20261014_r3/evidence/wheel_license_inventory.json",
+      "source_sha256": "e5cbcbdb6adbe2f9810efbe12716e9691f90aa903fb2931ecb2f3a67b8522b79",
+      "purpose": "Dependency version/hash/notice binding",
+      "rights": "MIT OR Apache-2.0 for owned material; third-party rights excepted",
+      "review": "explicitly selected; text/structured-data/privacy/dependency review recorded separately",
+      "staged_sha256": "e5cbcbdb6adbe2f9810efbe12716e9691f90aa903fb2931ecb2f3a67b8522b79",
+      "byte_identical_to_source": true
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C3-EH-API-FC.stdout.txt",
+      "source_identifier": "SourceEnv_Finalizacion_20261014_r3/evidence/endpoint_no_args/C3-EH-API-FC.stdout.txt",
+      "source_sha256": "57fe58350332d80551995be508c88270ca0ee1c63b66718c455cf745efb93b65",
+      "purpose": "Exact endpoint no_args channel; hash and content rights reviewed",
+      "rights": "Mixed own output and short permissively licensed dependency diagnostics; see CAPTURE_RIGHTS.md",
+      "review": "explicitly selected; text/structured-data/privacy/dependency review recorded separately",
+      "staged_sha256": "57fe58350332d80551995be508c88270ca0ee1c63b66718c455cf745efb93b65",
+      "byte_identical_to_source": true
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C3-EH-API-FC.stderr.txt",
+      "source_identifier": "SourceEnv_Finalizacion_20261014_r3/evidence/endpoint_no_args/C3-EH-API-FC.stderr.txt",
+      "source_sha256": "1ed6720eea029c57b5646fcb5bc631be829bd3a1305b49c05cfec55d3ff670e3",
+      "purpose": "Exact endpoint no_args channel; hash and content rights reviewed",
+      "rights": "Mixed own output and short permissively licensed dependency diagnostics; see CAPTURE_RIGHTS.md",
+      "review": "explicitly selected; text/structured-data/privacy/dependency review recorded separately",
+      "staged_sha256": "1ed6720eea029c57b5646fcb5bc631be829bd3a1305b49c05cfec55d3ff670e3",
+      "byte_identical_to_source": true
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C3-EH-API-BASE.stdout.txt",
+      "source_identifier": "SourceEnv_Finalizacion_20261014_r3/evidence/endpoint_no_args/C3-EH-API-BASE.stdout.txt",
+      "source_sha256": "57fe58350332d80551995be508c88270ca0ee1c63b66718c455cf745efb93b65",
+      "purpose": "Exact endpoint no_args channel; hash and content rights reviewed",
+      "rights": "Mixed own output and short permissively licensed dependency diagnostics; see CAPTURE_RIGHTS.md",
+      "review": "explicitly selected; text/structured-data/privacy/dependency review recorded separately",
+      "staged_sha256": "57fe58350332d80551995be508c88270ca0ee1c63b66718c455cf745efb93b65",
+      "byte_identical_to_source": true
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C3-EH-API-BASE.stderr.txt",
+      "source_identifier": "SourceEnv_Finalizacion_20261014_r3/evidence/endpoint_no_args/C3-EH-API-BASE.stderr.txt",
+      "source_sha256": "912e653f3541383bc65d553178ddf9bc786dc3931e8c96ce43aa0f4d3eec1b17",
+      "purpose": "Exact endpoint no_args channel; hash and content rights reviewed",
+      "rights": "Mixed own output and short permissively licensed dependency diagnostics; see CAPTURE_RIGHTS.md",
+      "review": "explicitly selected; text/structured-data/privacy/dependency review recorded separately",
+      "staged_sha256": "912e653f3541383bc65d553178ddf9bc786dc3931e8c96ce43aa0f4d3eec1b17",
+      "byte_identical_to_source": true
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C3-SC-BALANCE-FC.stdout.txt",
+      "source_identifier": "SourceEnv_Finalizacion_20261014_r3/evidence/endpoint_no_args/C3-SC-BALANCE-FC.stdout.txt",
+      "source_sha256": "c380540b07d2c7e7063d03581f2d9eb77a9bc26c59ed641c5bef770c7479d6c7",
+      "purpose": "Exact endpoint no_args channel; hash and content rights reviewed",
+      "rights": "Mixed own output and short permissively licensed dependency diagnostics; see CAPTURE_RIGHTS.md",
+      "review": "explicitly selected; text/structured-data/privacy/dependency review recorded separately",
+      "staged_sha256": "c380540b07d2c7e7063d03581f2d9eb77a9bc26c59ed641c5bef770c7479d6c7",
+      "byte_identical_to_source": true
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C3-SC-BALANCE-FC.stderr.txt",
+      "source_identifier": "SourceEnv_Finalizacion_20261014_r3/evidence/endpoint_no_args/C3-SC-BALANCE-FC.stderr.txt",
+      "source_sha256": "ad3da1e313c0b72118868ec78325cd95e646340547ec90d070fdeb622093e240",
+      "purpose": "Exact endpoint no_args channel; hash and content rights reviewed",
+      "rights": "Mixed own output and short permissively licensed dependency diagnostics; see CAPTURE_RIGHTS.md",
+      "review": "explicitly selected; text/structured-data/privacy/dependency review recorded separately",
+      "staged_sha256": "ad3da1e313c0b72118868ec78325cd95e646340547ec90d070fdeb622093e240",
+      "byte_identical_to_source": true
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C3-SC-BALANCE-BASE.stdout.txt",
+      "source_identifier": "SourceEnv_Finalizacion_20261014_r3/evidence/endpoint_no_args/C3-SC-BALANCE-BASE.stdout.txt",
+      "source_sha256": "c380540b07d2c7e7063d03581f2d9eb77a9bc26c59ed641c5bef770c7479d6c7",
+      "purpose": "Exact endpoint no_args channel; hash and content rights reviewed",
+      "rights": "Mixed own output and short permissively licensed dependency diagnostics; see CAPTURE_RIGHTS.md",
+      "review": "explicitly selected; text/structured-data/privacy/dependency review recorded separately",
+      "staged_sha256": "c380540b07d2c7e7063d03581f2d9eb77a9bc26c59ed641c5bef770c7479d6c7",
+      "byte_identical_to_source": true
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C3-SC-BALANCE-BASE.stderr.txt",
+      "source_identifier": "SourceEnv_Finalizacion_20261014_r3/evidence/endpoint_no_args/C3-SC-BALANCE-BASE.stderr.txt",
+      "source_sha256": "ad3da1e313c0b72118868ec78325cd95e646340547ec90d070fdeb622093e240",
+      "purpose": "Exact endpoint no_args channel; hash and content rights reviewed",
+      "rights": "Mixed own output and short permissively licensed dependency diagnostics; see CAPTURE_RIGHTS.md",
+      "review": "explicitly selected; text/structured-data/privacy/dependency review recorded separately",
+      "staged_sha256": "ad3da1e313c0b72118868ec78325cd95e646340547ec90d070fdeb622093e240",
+      "byte_identical_to_source": true
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C3-H-RC0-FC.stdout.txt",
+      "source_identifier": "SourceEnv_Finalizacion_20261014_r3/evidence/endpoint_no_args/C3-H-RC0-FC.stdout.txt",
+      "source_sha256": "6870395d28d0f05f939e88ca2364a9567d80a4f1abe9ba378f535749a7140180",
+      "purpose": "Exact endpoint no_args channel; hash and content rights reviewed",
+      "rights": "Mixed own output and short permissively licensed dependency diagnostics; see CAPTURE_RIGHTS.md",
+      "review": "explicitly selected; text/structured-data/privacy/dependency review recorded separately",
+      "staged_sha256": "6870395d28d0f05f939e88ca2364a9567d80a4f1abe9ba378f535749a7140180",
+      "byte_identical_to_source": true
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C3-H-RC0-FC.stderr.txt",
+      "source_identifier": "SourceEnv_Finalizacion_20261014_r3/evidence/endpoint_no_args/C3-H-RC0-FC.stderr.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "purpose": "Exact endpoint no_args channel; hash and content rights reviewed",
+      "rights": "Mixed own output and short permissively licensed dependency diagnostics; see CAPTURE_RIGHTS.md",
+      "review": "explicitly selected; text/structured-data/privacy/dependency review recorded separately",
+      "staged_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "byte_identical_to_source": true
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C3-H-RC0-BASE.stdout.txt",
+      "source_identifier": "SourceEnv_Finalizacion_20261014_r3/evidence/endpoint_no_args/C3-H-RC0-BASE.stdout.txt",
+      "source_sha256": "6870395d28d0f05f939e88ca2364a9567d80a4f1abe9ba378f535749a7140180",
+      "purpose": "Exact endpoint no_args channel; hash and content rights reviewed",
+      "rights": "Mixed own output and short permissively licensed dependency diagnostics; see CAPTURE_RIGHTS.md",
+      "review": "explicitly selected; text/structured-data/privacy/dependency review recorded separately",
+      "staged_sha256": "6870395d28d0f05f939e88ca2364a9567d80a4f1abe9ba378f535749a7140180",
+      "byte_identical_to_source": true
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C3-H-RC0-BASE.stderr.txt",
+      "source_identifier": "SourceEnv_Finalizacion_20261014_r3/evidence/endpoint_no_args/C3-H-RC0-BASE.stderr.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "purpose": "Exact endpoint no_args channel; hash and content rights reviewed",
+      "rights": "Mixed own output and short permissively licensed dependency diagnostics; see CAPTURE_RIGHTS.md",
+      "review": "explicitly selected; text/structured-data/privacy/dependency review recorded separately",
+      "staged_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "byte_identical_to_source": true
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C3-EC-MISSING-FC.stdout.txt",
+      "source_identifier": "SourceEnv_Finalizacion_20261014_r3/evidence/endpoint_no_args/C3-EC-MISSING-FC.stdout.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "purpose": "Exact endpoint no_args channel; hash and content rights reviewed",
+      "rights": "Mixed own output and short permissively licensed dependency diagnostics; see CAPTURE_RIGHTS.md",
+      "review": "explicitly selected; text/structured-data/privacy/dependency review recorded separately",
+      "staged_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "byte_identical_to_source": true
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C3-EC-MISSING-FC.stderr.txt",
+      "source_identifier": "SourceEnv_Finalizacion_20261014_r3/evidence/endpoint_no_args/C3-EC-MISSING-FC.stderr.txt",
+      "source_sha256": "a876efdfa1ee88929fe108d3575edcc2ad8e6dd0f5ba24982aa9344823725bb6",
+      "purpose": "Exact endpoint no_args channel; hash and content rights reviewed",
+      "rights": "Mixed own output and short permissively licensed dependency diagnostics; see CAPTURE_RIGHTS.md",
+      "review": "explicitly selected; text/structured-data/privacy/dependency review recorded separately",
+      "staged_sha256": "a876efdfa1ee88929fe108d3575edcc2ad8e6dd0f5ba24982aa9344823725bb6",
+      "byte_identical_to_source": true
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C3-EC-MISSING-BASE.stdout.txt",
+      "source_identifier": "SourceEnv_Finalizacion_20261014_r3/evidence/endpoint_no_args/C3-EC-MISSING-BASE.stdout.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "purpose": "Exact endpoint no_args channel; hash and content rights reviewed",
+      "rights": "Mixed own output and short permissively licensed dependency diagnostics; see CAPTURE_RIGHTS.md",
+      "review": "explicitly selected; text/structured-data/privacy/dependency review recorded separately",
+      "staged_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "byte_identical_to_source": true
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C3-EC-MISSING-BASE.stderr.txt",
+      "source_identifier": "SourceEnv_Finalizacion_20261014_r3/evidence/endpoint_no_args/C3-EC-MISSING-BASE.stderr.txt",
+      "source_sha256": "a876efdfa1ee88929fe108d3575edcc2ad8e6dd0f5ba24982aa9344823725bb6",
+      "purpose": "Exact endpoint no_args channel; hash and content rights reviewed",
+      "rights": "Mixed own output and short permissively licensed dependency diagnostics; see CAPTURE_RIGHTS.md",
+      "review": "explicitly selected; text/structured-data/privacy/dependency review recorded separately",
+      "staged_sha256": "a876efdfa1ee88929fe108d3575edcc2ad8e6dd0f5ba24982aa9344823725bb6",
+      "byte_identical_to_source": true
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C3-SH-FLAG-FC.stdout.txt",
+      "source_identifier": "SourceEnv_Finalizacion_20261014_r3/evidence/endpoint_no_args/C3-SH-FLAG-FC.stdout.txt",
+      "source_sha256": "d2b419aad7007bcc6ccd6ed737a48294d6a37dc5aa84c4c155dc3ceb70e15771",
+      "purpose": "Exact endpoint no_args channel; hash and content rights reviewed",
+      "rights": "Mixed own output and short permissively licensed dependency diagnostics; see CAPTURE_RIGHTS.md",
+      "review": "explicitly selected; text/structured-data/privacy/dependency review recorded separately",
+      "staged_sha256": "d2b419aad7007bcc6ccd6ed737a48294d6a37dc5aa84c4c155dc3ceb70e15771",
+      "byte_identical_to_source": true
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C3-SH-FLAG-FC.stderr.txt",
+      "source_identifier": "SourceEnv_Finalizacion_20261014_r3/evidence/endpoint_no_args/C3-SH-FLAG-FC.stderr.txt",
+      "source_sha256": "1560e509b46f0cf8fd84a64d75b4155427604324e57dafc9aececa68e5e48424",
+      "purpose": "Exact endpoint no_args channel; hash and content rights reviewed",
+      "rights": "Mixed own output and short permissively licensed dependency diagnostics; see CAPTURE_RIGHTS.md",
+      "review": "explicitly selected; text/structured-data/privacy/dependency review recorded separately",
+      "staged_sha256": "1560e509b46f0cf8fd84a64d75b4155427604324e57dafc9aececa68e5e48424",
+      "byte_identical_to_source": true
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C3-SH-FLAG-BASE.stdout.txt",
+      "source_identifier": "SourceEnv_Finalizacion_20261014_r3/evidence/endpoint_no_args/C3-SH-FLAG-BASE.stdout.txt",
+      "source_sha256": "d2b419aad7007bcc6ccd6ed737a48294d6a37dc5aa84c4c155dc3ceb70e15771",
+      "purpose": "Exact endpoint no_args channel; hash and content rights reviewed",
+      "rights": "Mixed own output and short permissively licensed dependency diagnostics; see CAPTURE_RIGHTS.md",
+      "review": "explicitly selected; text/structured-data/privacy/dependency review recorded separately",
+      "staged_sha256": "d2b419aad7007bcc6ccd6ed737a48294d6a37dc5aa84c4c155dc3ceb70e15771",
+      "byte_identical_to_source": true
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C3-SH-FLAG-BASE.stderr.txt",
+      "source_identifier": "SourceEnv_Finalizacion_20261014_r3/evidence/endpoint_no_args/C3-SH-FLAG-BASE.stderr.txt",
+      "source_sha256": "1560e509b46f0cf8fd84a64d75b4155427604324e57dafc9aececa68e5e48424",
+      "purpose": "Exact endpoint no_args channel; hash and content rights reviewed",
+      "rights": "Mixed own output and short permissively licensed dependency diagnostics; see CAPTURE_RIGHTS.md",
+      "review": "explicitly selected; text/structured-data/privacy/dependency review recorded separately",
+      "staged_sha256": "1560e509b46f0cf8fd84a64d75b4155427604324e57dafc9aececa68e5e48424",
+      "byte_identical_to_source": true
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C3-EH-RENDERER-FC.stdout.txt",
+      "source_identifier": "SourceEnv_Finalizacion_20261014_r3/evidence/endpoint_no_args/C3-EH-RENDERER-FC.stdout.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "purpose": "Exact endpoint no_args channel; hash and content rights reviewed",
+      "rights": "Mixed own output and short permissively licensed dependency diagnostics; see CAPTURE_RIGHTS.md",
+      "review": "explicitly selected; text/structured-data/privacy/dependency review recorded separately",
+      "staged_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "byte_identical_to_source": true
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C3-EH-RENDERER-FC.stderr.txt",
+      "source_identifier": "SourceEnv_Finalizacion_20261014_r3/evidence/endpoint_no_args/C3-EH-RENDERER-FC.stderr.txt",
+      "source_sha256": "14b1e144c5960acd704eb2afccc9a16861a6a07dafaf4412737a3397b293280f",
+      "purpose": "Exact endpoint no_args channel; hash and content rights reviewed",
+      "rights": "Mixed own output and short permissively licensed dependency diagnostics; see CAPTURE_RIGHTS.md",
+      "review": "explicitly selected; text/structured-data/privacy/dependency review recorded separately",
+      "staged_sha256": "14b1e144c5960acd704eb2afccc9a16861a6a07dafaf4412737a3397b293280f",
+      "byte_identical_to_source": true
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C3-EH-RENDERER-BASE.stdout.txt",
+      "source_identifier": "SourceEnv_Finalizacion_20261014_r3/evidence/endpoint_no_args/C3-EH-RENDERER-BASE.stdout.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "purpose": "Exact endpoint no_args channel; hash and content rights reviewed",
+      "rights": "Mixed own output and short permissively licensed dependency diagnostics; see CAPTURE_RIGHTS.md",
+      "review": "explicitly selected; text/structured-data/privacy/dependency review recorded separately",
+      "staged_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "byte_identical_to_source": true
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C3-EH-RENDERER-BASE.stderr.txt",
+      "source_identifier": "SourceEnv_Finalizacion_20261014_r3/evidence/endpoint_no_args/C3-EH-RENDERER-BASE.stderr.txt",
+      "source_sha256": "8fb2b1ebbfe5f45be749f6f2fe8c4503a87e6e67e7f10516072e76999cfa3db4",
+      "purpose": "Exact endpoint no_args channel; hash and content rights reviewed",
+      "rights": "Mixed own output and short permissively licensed dependency diagnostics; see CAPTURE_RIGHTS.md",
+      "review": "explicitly selected; text/structured-data/privacy/dependency review recorded separately",
+      "staged_sha256": "8fb2b1ebbfe5f45be749f6f2fe8c4503a87e6e67e7f10516072e76999cfa3db4",
+      "byte_identical_to_source": true
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C3-SC-SORT-FC.stdout.txt",
+      "source_identifier": "SourceEnv_Finalizacion_20261014_r3/evidence/endpoint_no_args/C3-SC-SORT-FC.stdout.txt",
+      "source_sha256": "fbf53378b62143aa1b65d91fb50e8bad6fa5f05c1c3131707547474b37114a05",
+      "purpose": "Exact endpoint no_args channel; hash and content rights reviewed",
+      "rights": "Mixed own output and short permissively licensed dependency diagnostics; see CAPTURE_RIGHTS.md",
+      "review": "explicitly selected; text/structured-data/privacy/dependency review recorded separately",
+      "staged_sha256": "fbf53378b62143aa1b65d91fb50e8bad6fa5f05c1c3131707547474b37114a05",
+      "byte_identical_to_source": true
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C3-SC-SORT-FC.stderr.txt",
+      "source_identifier": "SourceEnv_Finalizacion_20261014_r3/evidence/endpoint_no_args/C3-SC-SORT-FC.stderr.txt",
+      "source_sha256": "ad3da1e313c0b72118868ec78325cd95e646340547ec90d070fdeb622093e240",
+      "purpose": "Exact endpoint no_args channel; hash and content rights reviewed",
+      "rights": "Mixed own output and short permissively licensed dependency diagnostics; see CAPTURE_RIGHTS.md",
+      "review": "explicitly selected; text/structured-data/privacy/dependency review recorded separately",
+      "staged_sha256": "ad3da1e313c0b72118868ec78325cd95e646340547ec90d070fdeb622093e240",
+      "byte_identical_to_source": true
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C3-SC-SORT-BASE.stdout.txt",
+      "source_identifier": "SourceEnv_Finalizacion_20261014_r3/evidence/endpoint_no_args/C3-SC-SORT-BASE.stdout.txt",
+      "source_sha256": "fbf53378b62143aa1b65d91fb50e8bad6fa5f05c1c3131707547474b37114a05",
+      "purpose": "Exact endpoint no_args channel; hash and content rights reviewed",
+      "rights": "Mixed own output and short permissively licensed dependency diagnostics; see CAPTURE_RIGHTS.md",
+      "review": "explicitly selected; text/structured-data/privacy/dependency review recorded separately",
+      "staged_sha256": "fbf53378b62143aa1b65d91fb50e8bad6fa5f05c1c3131707547474b37114a05",
+      "byte_identical_to_source": true
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C3-SC-SORT-BASE.stderr.txt",
+      "source_identifier": "SourceEnv_Finalizacion_20261014_r3/evidence/endpoint_no_args/C3-SC-SORT-BASE.stderr.txt",
+      "source_sha256": "ad3da1e313c0b72118868ec78325cd95e646340547ec90d070fdeb622093e240",
+      "purpose": "Exact endpoint no_args channel; hash and content rights reviewed",
+      "rights": "Mixed own output and short permissively licensed dependency diagnostics; see CAPTURE_RIGHTS.md",
+      "review": "explicitly selected; text/structured-data/privacy/dependency review recorded separately",
+      "staged_sha256": "ad3da1e313c0b72118868ec78325cd95e646340547ec90d070fdeb622093e240",
+      "byte_identical_to_source": true
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C3-H-RC2-FC.stdout.txt",
+      "source_identifier": "SourceEnv_Finalizacion_20261014_r3/evidence/endpoint_no_args/C3-H-RC2-FC.stdout.txt",
+      "source_sha256": "8346e1409cae7f908d4d1b86a89d778807ec4c7d7cd1e35ce3e1d44335f21ea1",
+      "purpose": "Exact endpoint no_args channel; hash and content rights reviewed",
+      "rights": "Mixed own output and short permissively licensed dependency diagnostics; see CAPTURE_RIGHTS.md",
+      "review": "explicitly selected; text/structured-data/privacy/dependency review recorded separately",
+      "staged_sha256": "8346e1409cae7f908d4d1b86a89d778807ec4c7d7cd1e35ce3e1d44335f21ea1",
+      "byte_identical_to_source": true
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C3-H-RC2-FC.stderr.txt",
+      "source_identifier": "SourceEnv_Finalizacion_20261014_r3/evidence/endpoint_no_args/C3-H-RC2-FC.stderr.txt",
+      "source_sha256": "ad3da1e313c0b72118868ec78325cd95e646340547ec90d070fdeb622093e240",
+      "purpose": "Exact endpoint no_args channel; hash and content rights reviewed",
+      "rights": "Mixed own output and short permissively licensed dependency diagnostics; see CAPTURE_RIGHTS.md",
+      "review": "explicitly selected; text/structured-data/privacy/dependency review recorded separately",
+      "staged_sha256": "ad3da1e313c0b72118868ec78325cd95e646340547ec90d070fdeb622093e240",
+      "byte_identical_to_source": true
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C3-H-RC2-BASE.stdout.txt",
+      "source_identifier": "SourceEnv_Finalizacion_20261014_r3/evidence/endpoint_no_args/C3-H-RC2-BASE.stdout.txt",
+      "source_sha256": "8346e1409cae7f908d4d1b86a89d778807ec4c7d7cd1e35ce3e1d44335f21ea1",
+      "purpose": "Exact endpoint no_args channel; hash and content rights reviewed",
+      "rights": "Mixed own output and short permissively licensed dependency diagnostics; see CAPTURE_RIGHTS.md",
+      "review": "explicitly selected; text/structured-data/privacy/dependency review recorded separately",
+      "staged_sha256": "8346e1409cae7f908d4d1b86a89d778807ec4c7d7cd1e35ce3e1d44335f21ea1",
+      "byte_identical_to_source": true
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C3-H-RC2-BASE.stderr.txt",
+      "source_identifier": "SourceEnv_Finalizacion_20261014_r3/evidence/endpoint_no_args/C3-H-RC2-BASE.stderr.txt",
+      "source_sha256": "ad3da1e313c0b72118868ec78325cd95e646340547ec90d070fdeb622093e240",
+      "purpose": "Exact endpoint no_args channel; hash and content rights reviewed",
+      "rights": "Mixed own output and short permissively licensed dependency diagnostics; see CAPTURE_RIGHTS.md",
+      "review": "explicitly selected; text/structured-data/privacy/dependency review recorded separately",
+      "staged_sha256": "ad3da1e313c0b72118868ec78325cd95e646340547ec90d070fdeb622093e240",
+      "byte_identical_to_source": true
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C3-EC-SYMBOL-FC.stdout.txt",
+      "source_identifier": "SourceEnv_Finalizacion_20261014_r3/evidence/endpoint_no_args/C3-EC-SYMBOL-FC.stdout.txt",
+      "source_sha256": "bc45543e3a917468d3e2232d2ed87ab95118461afa4ddd775fb2fcb22303b141",
+      "purpose": "Exact endpoint no_args channel; hash and content rights reviewed",
+      "rights": "Mixed own output and short permissively licensed dependency diagnostics; see CAPTURE_RIGHTS.md",
+      "review": "explicitly selected; text/structured-data/privacy/dependency review recorded separately",
+      "staged_sha256": "bc45543e3a917468d3e2232d2ed87ab95118461afa4ddd775fb2fcb22303b141",
+      "byte_identical_to_source": true
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C3-EC-SYMBOL-FC.stderr.txt",
+      "source_identifier": "SourceEnv_Finalizacion_20261014_r3/evidence/endpoint_no_args/C3-EC-SYMBOL-FC.stderr.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "purpose": "Exact endpoint no_args channel; hash and content rights reviewed",
+      "rights": "Mixed own output and short permissively licensed dependency diagnostics; see CAPTURE_RIGHTS.md",
+      "review": "explicitly selected; text/structured-data/privacy/dependency review recorded separately",
+      "staged_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "byte_identical_to_source": true
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C3-EC-SYMBOL-BASE.stdout.txt",
+      "source_identifier": "SourceEnv_Finalizacion_20261014_r3/evidence/endpoint_no_args/C3-EC-SYMBOL-BASE.stdout.txt",
+      "source_sha256": "bc45543e3a917468d3e2232d2ed87ab95118461afa4ddd775fb2fcb22303b141",
+      "purpose": "Exact endpoint no_args channel; hash and content rights reviewed",
+      "rights": "Mixed own output and short permissively licensed dependency diagnostics; see CAPTURE_RIGHTS.md",
+      "review": "explicitly selected; text/structured-data/privacy/dependency review recorded separately",
+      "staged_sha256": "bc45543e3a917468d3e2232d2ed87ab95118461afa4ddd775fb2fcb22303b141",
+      "byte_identical_to_source": true
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C3-EC-SYMBOL-BASE.stderr.txt",
+      "source_identifier": "SourceEnv_Finalizacion_20261014_r3/evidence/endpoint_no_args/C3-EC-SYMBOL-BASE.stderr.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "purpose": "Exact endpoint no_args channel; hash and content rights reviewed",
+      "rights": "Mixed own output and short permissively licensed dependency diagnostics; see CAPTURE_RIGHTS.md",
+      "review": "explicitly selected; text/structured-data/privacy/dependency review recorded separately",
+      "staged_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "byte_identical_to_source": true
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C3-SH-FORMAT-FC.stdout.txt",
+      "source_identifier": "SourceEnv_Finalizacion_20261014_r3/evidence/endpoint_no_args/C3-SH-FORMAT-FC.stdout.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "purpose": "Exact endpoint no_args channel; hash and content rights reviewed",
+      "rights": "Mixed own output and short permissively licensed dependency diagnostics; see CAPTURE_RIGHTS.md",
+      "review": "explicitly selected; text/structured-data/privacy/dependency review recorded separately",
+      "staged_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "byte_identical_to_source": true
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C3-SH-FORMAT-FC.stderr.txt",
+      "source_identifier": "SourceEnv_Finalizacion_20261014_r3/evidence/endpoint_no_args/C3-SH-FORMAT-FC.stderr.txt",
+      "source_sha256": "cba203d606bedbff6a058af1c099c016b25863973e1351e262f3f43cfb5ec06b",
+      "purpose": "Exact endpoint no_args channel; hash and content rights reviewed",
+      "rights": "Mixed own output and short permissively licensed dependency diagnostics; see CAPTURE_RIGHTS.md",
+      "review": "explicitly selected; text/structured-data/privacy/dependency review recorded separately",
+      "staged_sha256": "cba203d606bedbff6a058af1c099c016b25863973e1351e262f3f43cfb5ec06b",
+      "byte_identical_to_source": true
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C3-SH-FORMAT-BASE.stdout.txt",
+      "source_identifier": "SourceEnv_Finalizacion_20261014_r3/evidence/endpoint_no_args/C3-SH-FORMAT-BASE.stdout.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "purpose": "Exact endpoint no_args channel; hash and content rights reviewed",
+      "rights": "Mixed own output and short permissively licensed dependency diagnostics; see CAPTURE_RIGHTS.md",
+      "review": "explicitly selected; text/structured-data/privacy/dependency review recorded separately",
+      "staged_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "byte_identical_to_source": true
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C3-SH-FORMAT-BASE.stderr.txt",
+      "source_identifier": "SourceEnv_Finalizacion_20261014_r3/evidence/endpoint_no_args/C3-SH-FORMAT-BASE.stderr.txt",
+      "source_sha256": "cba203d606bedbff6a058af1c099c016b25863973e1351e262f3f43cfb5ec06b",
+      "purpose": "Exact endpoint no_args channel; hash and content rights reviewed",
+      "rights": "Mixed own output and short permissively licensed dependency diagnostics; see CAPTURE_RIGHTS.md",
+      "review": "explicitly selected; text/structured-data/privacy/dependency review recorded separately",
+      "staged_sha256": "cba203d606bedbff6a058af1c099c016b25863973e1351e262f3f43cfb5ec06b",
+      "byte_identical_to_source": true
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C1-EH-API-FC.stdout.txt",
+      "source_identifier": "SourceEnv_Finalizacion_20261014_r3/evidence/endpoint_no_args/C1-EH-API-FC.stdout.txt",
+      "source_sha256": "57fe58350332d80551995be508c88270ca0ee1c63b66718c455cf745efb93b65",
+      "purpose": "Exact endpoint no_args channel; hash and content rights reviewed",
+      "rights": "Mixed own output and short permissively licensed dependency diagnostics; see CAPTURE_RIGHTS.md",
+      "review": "explicitly selected; text/structured-data/privacy/dependency review recorded separately",
+      "staged_sha256": "57fe58350332d80551995be508c88270ca0ee1c63b66718c455cf745efb93b65",
+      "byte_identical_to_source": true
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C1-EH-API-FC.stderr.txt",
+      "source_identifier": "SourceEnv_Finalizacion_20261014_r3/evidence/endpoint_no_args/C1-EH-API-FC.stderr.txt",
+      "source_sha256": "b83121124b8fe9e51ce05ec7ac351256f827dde814ae91844fdaf933d4147181",
+      "purpose": "Exact endpoint no_args channel; hash and content rights reviewed",
+      "rights": "Mixed own output and short permissively licensed dependency diagnostics; see CAPTURE_RIGHTS.md",
+      "review": "explicitly selected; text/structured-data/privacy/dependency review recorded separately",
+      "staged_sha256": "b83121124b8fe9e51ce05ec7ac351256f827dde814ae91844fdaf933d4147181",
+      "byte_identical_to_source": true
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C1-EH-API-BASE.stdout.txt",
+      "source_identifier": "SourceEnv_Finalizacion_20261014_r3/evidence/endpoint_no_args/C1-EH-API-BASE.stdout.txt",
+      "source_sha256": "57fe58350332d80551995be508c88270ca0ee1c63b66718c455cf745efb93b65",
+      "purpose": "Exact endpoint no_args channel; hash and content rights reviewed",
+      "rights": "Mixed own output and short permissively licensed dependency diagnostics; see CAPTURE_RIGHTS.md",
+      "review": "explicitly selected; text/structured-data/privacy/dependency review recorded separately",
+      "staged_sha256": "57fe58350332d80551995be508c88270ca0ee1c63b66718c455cf745efb93b65",
+      "byte_identical_to_source": true
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C1-EH-API-BASE.stderr.txt",
+      "source_identifier": "SourceEnv_Finalizacion_20261014_r3/evidence/endpoint_no_args/C1-EH-API-BASE.stderr.txt",
+      "source_sha256": "4dc0c3d69f2a957030d3228eb2aed1320aa6030feb19d44968350162f6299cc9",
+      "purpose": "Exact endpoint no_args channel; hash and content rights reviewed",
+      "rights": "Mixed own output and short permissively licensed dependency diagnostics; see CAPTURE_RIGHTS.md",
+      "review": "explicitly selected; text/structured-data/privacy/dependency review recorded separately",
+      "staged_sha256": "4dc0c3d69f2a957030d3228eb2aed1320aa6030feb19d44968350162f6299cc9",
+      "byte_identical_to_source": true
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C1-SC-BALANCE-FC.stdout.txt",
+      "source_identifier": "SourceEnv_Finalizacion_20261014_r3/evidence/endpoint_no_args/C1-SC-BALANCE-FC.stdout.txt",
+      "source_sha256": "c380540b07d2c7e7063d03581f2d9eb77a9bc26c59ed641c5bef770c7479d6c7",
+      "purpose": "Exact endpoint no_args channel; hash and content rights reviewed",
+      "rights": "Mixed own output and short permissively licensed dependency diagnostics; see CAPTURE_RIGHTS.md",
+      "review": "explicitly selected; text/structured-data/privacy/dependency review recorded separately",
+      "staged_sha256": "c380540b07d2c7e7063d03581f2d9eb77a9bc26c59ed641c5bef770c7479d6c7",
+      "byte_identical_to_source": true
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C1-SC-BALANCE-FC.stderr.txt",
+      "source_identifier": "SourceEnv_Finalizacion_20261014_r3/evidence/endpoint_no_args/C1-SC-BALANCE-FC.stderr.txt",
+      "source_sha256": "ad3da1e313c0b72118868ec78325cd95e646340547ec90d070fdeb622093e240",
+      "purpose": "Exact endpoint no_args channel; hash and content rights reviewed",
+      "rights": "Mixed own output and short permissively licensed dependency diagnostics; see CAPTURE_RIGHTS.md",
+      "review": "explicitly selected; text/structured-data/privacy/dependency review recorded separately",
+      "staged_sha256": "ad3da1e313c0b72118868ec78325cd95e646340547ec90d070fdeb622093e240",
+      "byte_identical_to_source": true
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C1-SC-BALANCE-BASE.stdout.txt",
+      "source_identifier": "SourceEnv_Finalizacion_20261014_r3/evidence/endpoint_no_args/C1-SC-BALANCE-BASE.stdout.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "purpose": "Exact endpoint no_args channel; hash and content rights reviewed",
+      "rights": "Mixed own output and short permissively licensed dependency diagnostics; see CAPTURE_RIGHTS.md",
+      "review": "explicitly selected; text/structured-data/privacy/dependency review recorded separately",
+      "staged_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "byte_identical_to_source": true
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C1-SC-BALANCE-BASE.stderr.txt",
+      "source_identifier": "SourceEnv_Finalizacion_20261014_r3/evidence/endpoint_no_args/C1-SC-BALANCE-BASE.stderr.txt",
+      "source_sha256": "55e8427409c9dcb1c25314946b768c8328cdcace06e6715516d6c7d1f6c7b2a2",
+      "purpose": "Exact endpoint no_args channel; hash and content rights reviewed",
+      "rights": "Mixed own output and short permissively licensed dependency diagnostics; see CAPTURE_RIGHTS.md",
+      "review": "explicitly selected; text/structured-data/privacy/dependency review recorded separately",
+      "staged_sha256": "55e8427409c9dcb1c25314946b768c8328cdcace06e6715516d6c7d1f6c7b2a2",
+      "byte_identical_to_source": true
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C1-H-RC0-FC.stdout.txt",
+      "source_identifier": "SourceEnv_Finalizacion_20261014_r3/evidence/endpoint_no_args/C1-H-RC0-FC.stdout.txt",
+      "source_sha256": "bc45543e3a917468d3e2232d2ed87ab95118461afa4ddd775fb2fcb22303b141",
+      "purpose": "Exact endpoint no_args channel; hash and content rights reviewed",
+      "rights": "Mixed own output and short permissively licensed dependency diagnostics; see CAPTURE_RIGHTS.md",
+      "review": "explicitly selected; text/structured-data/privacy/dependency review recorded separately",
+      "staged_sha256": "bc45543e3a917468d3e2232d2ed87ab95118461afa4ddd775fb2fcb22303b141",
+      "byte_identical_to_source": true
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C1-H-RC0-FC.stderr.txt",
+      "source_identifier": "SourceEnv_Finalizacion_20261014_r3/evidence/endpoint_no_args/C1-H-RC0-FC.stderr.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "purpose": "Exact endpoint no_args channel; hash and content rights reviewed",
+      "rights": "Mixed own output and short permissively licensed dependency diagnostics; see CAPTURE_RIGHTS.md",
+      "review": "explicitly selected; text/structured-data/privacy/dependency review recorded separately",
+      "staged_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "byte_identical_to_source": true
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C1-H-RC0-BASE.stdout.txt",
+      "source_identifier": "SourceEnv_Finalizacion_20261014_r3/evidence/endpoint_no_args/C1-H-RC0-BASE.stdout.txt",
+      "source_sha256": "bc45543e3a917468d3e2232d2ed87ab95118461afa4ddd775fb2fcb22303b141",
+      "purpose": "Exact endpoint no_args channel; hash and content rights reviewed",
+      "rights": "Mixed own output and short permissively licensed dependency diagnostics; see CAPTURE_RIGHTS.md",
+      "review": "explicitly selected; text/structured-data/privacy/dependency review recorded separately",
+      "staged_sha256": "bc45543e3a917468d3e2232d2ed87ab95118461afa4ddd775fb2fcb22303b141",
+      "byte_identical_to_source": true
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C1-H-RC0-BASE.stderr.txt",
+      "source_identifier": "SourceEnv_Finalizacion_20261014_r3/evidence/endpoint_no_args/C1-H-RC0-BASE.stderr.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "purpose": "Exact endpoint no_args channel; hash and content rights reviewed",
+      "rights": "Mixed own output and short permissively licensed dependency diagnostics; see CAPTURE_RIGHTS.md",
+      "review": "explicitly selected; text/structured-data/privacy/dependency review recorded separately",
+      "staged_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "byte_identical_to_source": true
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C1-EC-MISSING-FC.stdout.txt",
+      "source_identifier": "SourceEnv_Finalizacion_20261014_r3/evidence/endpoint_no_args/C1-EC-MISSING-FC.stdout.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "purpose": "Exact endpoint no_args channel; hash and content rights reviewed",
+      "rights": "Mixed own output and short permissively licensed dependency diagnostics; see CAPTURE_RIGHTS.md",
+      "review": "explicitly selected; text/structured-data/privacy/dependency review recorded separately",
+      "staged_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "byte_identical_to_source": true
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C1-EC-MISSING-FC.stderr.txt",
+      "source_identifier": "SourceEnv_Finalizacion_20261014_r3/evidence/endpoint_no_args/C1-EC-MISSING-FC.stderr.txt",
+      "source_sha256": "a7cf9b8b22db51d58f28d995e05e0a6d9ce6d45ba2636d1048a7739df11936d0",
+      "purpose": "Exact endpoint no_args channel; hash and content rights reviewed",
+      "rights": "Mixed own output and short permissively licensed dependency diagnostics; see CAPTURE_RIGHTS.md",
+      "review": "explicitly selected; text/structured-data/privacy/dependency review recorded separately",
+      "staged_sha256": "a7cf9b8b22db51d58f28d995e05e0a6d9ce6d45ba2636d1048a7739df11936d0",
+      "byte_identical_to_source": true
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C1-EC-MISSING-BASE.stdout.txt",
+      "source_identifier": "SourceEnv_Finalizacion_20261014_r3/evidence/endpoint_no_args/C1-EC-MISSING-BASE.stdout.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "purpose": "Exact endpoint no_args channel; hash and content rights reviewed",
+      "rights": "Mixed own output and short permissively licensed dependency diagnostics; see CAPTURE_RIGHTS.md",
+      "review": "explicitly selected; text/structured-data/privacy/dependency review recorded separately",
+      "staged_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "byte_identical_to_source": true
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C1-EC-MISSING-BASE.stderr.txt",
+      "source_identifier": "SourceEnv_Finalizacion_20261014_r3/evidence/endpoint_no_args/C1-EC-MISSING-BASE.stderr.txt",
+      "source_sha256": "a7cf9b8b22db51d58f28d995e05e0a6d9ce6d45ba2636d1048a7739df11936d0",
+      "purpose": "Exact endpoint no_args channel; hash and content rights reviewed",
+      "rights": "Mixed own output and short permissively licensed dependency diagnostics; see CAPTURE_RIGHTS.md",
+      "review": "explicitly selected; text/structured-data/privacy/dependency review recorded separately",
+      "staged_sha256": "a7cf9b8b22db51d58f28d995e05e0a6d9ce6d45ba2636d1048a7739df11936d0",
+      "byte_identical_to_source": true
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C1-SH-FLAG-FC.stdout.txt",
+      "source_identifier": "SourceEnv_Finalizacion_20261014_r3/evidence/endpoint_no_args/C1-SH-FLAG-FC.stdout.txt",
+      "source_sha256": "aa8bba86d1a71d0cbcd2ea34cebe126062b7db1aa3b5efcc4395e9506710ae92",
+      "purpose": "Exact endpoint no_args channel; hash and content rights reviewed",
+      "rights": "Mixed own output and short permissively licensed dependency diagnostics; see CAPTURE_RIGHTS.md",
+      "review": "explicitly selected; text/structured-data/privacy/dependency review recorded separately",
+      "staged_sha256": "aa8bba86d1a71d0cbcd2ea34cebe126062b7db1aa3b5efcc4395e9506710ae92",
+      "byte_identical_to_source": true
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C1-SH-FLAG-FC.stderr.txt",
+      "source_identifier": "SourceEnv_Finalizacion_20261014_r3/evidence/endpoint_no_args/C1-SH-FLAG-FC.stderr.txt",
+      "source_sha256": "1560e509b46f0cf8fd84a64d75b4155427604324e57dafc9aececa68e5e48424",
+      "purpose": "Exact endpoint no_args channel; hash and content rights reviewed",
+      "rights": "Mixed own output and short permissively licensed dependency diagnostics; see CAPTURE_RIGHTS.md",
+      "review": "explicitly selected; text/structured-data/privacy/dependency review recorded separately",
+      "staged_sha256": "1560e509b46f0cf8fd84a64d75b4155427604324e57dafc9aececa68e5e48424",
+      "byte_identical_to_source": true
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C1-SH-FLAG-BASE.stdout.txt",
+      "source_identifier": "SourceEnv_Finalizacion_20261014_r3/evidence/endpoint_no_args/C1-SH-FLAG-BASE.stdout.txt",
+      "source_sha256": "aa8bba86d1a71d0cbcd2ea34cebe126062b7db1aa3b5efcc4395e9506710ae92",
+      "purpose": "Exact endpoint no_args channel; hash and content rights reviewed",
+      "rights": "Mixed own output and short permissively licensed dependency diagnostics; see CAPTURE_RIGHTS.md",
+      "review": "explicitly selected; text/structured-data/privacy/dependency review recorded separately",
+      "staged_sha256": "aa8bba86d1a71d0cbcd2ea34cebe126062b7db1aa3b5efcc4395e9506710ae92",
+      "byte_identical_to_source": true
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C1-SH-FLAG-BASE.stderr.txt",
+      "source_identifier": "SourceEnv_Finalizacion_20261014_r3/evidence/endpoint_no_args/C1-SH-FLAG-BASE.stderr.txt",
+      "source_sha256": "1560e509b46f0cf8fd84a64d75b4155427604324e57dafc9aececa68e5e48424",
+      "purpose": "Exact endpoint no_args channel; hash and content rights reviewed",
+      "rights": "Mixed own output and short permissively licensed dependency diagnostics; see CAPTURE_RIGHTS.md",
+      "review": "explicitly selected; text/structured-data/privacy/dependency review recorded separately",
+      "staged_sha256": "1560e509b46f0cf8fd84a64d75b4155427604324e57dafc9aececa68e5e48424",
+      "byte_identical_to_source": true
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C1-EH-RENDERER-FC.stdout.txt",
+      "source_identifier": "SourceEnv_Finalizacion_20261014_r3/evidence/endpoint_no_args/C1-EH-RENDERER-FC.stdout.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "purpose": "Exact endpoint no_args channel; hash and content rights reviewed",
+      "rights": "Mixed own output and short permissively licensed dependency diagnostics; see CAPTURE_RIGHTS.md",
+      "review": "explicitly selected; text/structured-data/privacy/dependency review recorded separately",
+      "staged_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "byte_identical_to_source": true
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C1-EH-RENDERER-FC.stderr.txt",
+      "source_identifier": "SourceEnv_Finalizacion_20261014_r3/evidence/endpoint_no_args/C1-EH-RENDERER-FC.stderr.txt",
+      "source_sha256": "8fb2b1ebbfe5f45be749f6f2fe8c4503a87e6e67e7f10516072e76999cfa3db4",
+      "purpose": "Exact endpoint no_args channel; hash and content rights reviewed",
+      "rights": "Mixed own output and short permissively licensed dependency diagnostics; see CAPTURE_RIGHTS.md",
+      "review": "explicitly selected; text/structured-data/privacy/dependency review recorded separately",
+      "staged_sha256": "8fb2b1ebbfe5f45be749f6f2fe8c4503a87e6e67e7f10516072e76999cfa3db4",
+      "byte_identical_to_source": true
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C1-EH-RENDERER-BASE.stdout.txt",
+      "source_identifier": "SourceEnv_Finalizacion_20261014_r3/evidence/endpoint_no_args/C1-EH-RENDERER-BASE.stdout.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "purpose": "Exact endpoint no_args channel; hash and content rights reviewed",
+      "rights": "Mixed own output and short permissively licensed dependency diagnostics; see CAPTURE_RIGHTS.md",
+      "review": "explicitly selected; text/structured-data/privacy/dependency review recorded separately",
+      "staged_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "byte_identical_to_source": true
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C1-EH-RENDERER-BASE.stderr.txt",
+      "source_identifier": "SourceEnv_Finalizacion_20261014_r3/evidence/endpoint_no_args/C1-EH-RENDERER-BASE.stderr.txt",
+      "source_sha256": "8fb2b1ebbfe5f45be749f6f2fe8c4503a87e6e67e7f10516072e76999cfa3db4",
+      "purpose": "Exact endpoint no_args channel; hash and content rights reviewed",
+      "rights": "Mixed own output and short permissively licensed dependency diagnostics; see CAPTURE_RIGHTS.md",
+      "review": "explicitly selected; text/structured-data/privacy/dependency review recorded separately",
+      "staged_sha256": "8fb2b1ebbfe5f45be749f6f2fe8c4503a87e6e67e7f10516072e76999cfa3db4",
+      "byte_identical_to_source": true
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C1-SC-SORT-FC.stdout.txt",
+      "source_identifier": "SourceEnv_Finalizacion_20261014_r3/evidence/endpoint_no_args/C1-SC-SORT-FC.stdout.txt",
+      "source_sha256": "fbf53378b62143aa1b65d91fb50e8bad6fa5f05c1c3131707547474b37114a05",
+      "purpose": "Exact endpoint no_args channel; hash and content rights reviewed",
+      "rights": "Mixed own output and short permissively licensed dependency diagnostics; see CAPTURE_RIGHTS.md",
+      "review": "explicitly selected; text/structured-data/privacy/dependency review recorded separately",
+      "staged_sha256": "fbf53378b62143aa1b65d91fb50e8bad6fa5f05c1c3131707547474b37114a05",
+      "byte_identical_to_source": true
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C1-SC-SORT-FC.stderr.txt",
+      "source_identifier": "SourceEnv_Finalizacion_20261014_r3/evidence/endpoint_no_args/C1-SC-SORT-FC.stderr.txt",
+      "source_sha256": "ad3da1e313c0b72118868ec78325cd95e646340547ec90d070fdeb622093e240",
+      "purpose": "Exact endpoint no_args channel; hash and content rights reviewed",
+      "rights": "Mixed own output and short permissively licensed dependency diagnostics; see CAPTURE_RIGHTS.md",
+      "review": "explicitly selected; text/structured-data/privacy/dependency review recorded separately",
+      "staged_sha256": "ad3da1e313c0b72118868ec78325cd95e646340547ec90d070fdeb622093e240",
+      "byte_identical_to_source": true
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C1-SC-SORT-BASE.stdout.txt",
+      "source_identifier": "SourceEnv_Finalizacion_20261014_r3/evidence/endpoint_no_args/C1-SC-SORT-BASE.stdout.txt",
+      "source_sha256": "fbf53378b62143aa1b65d91fb50e8bad6fa5f05c1c3131707547474b37114a05",
+      "purpose": "Exact endpoint no_args channel; hash and content rights reviewed",
+      "rights": "Mixed own output and short permissively licensed dependency diagnostics; see CAPTURE_RIGHTS.md",
+      "review": "explicitly selected; text/structured-data/privacy/dependency review recorded separately",
+      "staged_sha256": "fbf53378b62143aa1b65d91fb50e8bad6fa5f05c1c3131707547474b37114a05",
+      "byte_identical_to_source": true
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C1-SC-SORT-BASE.stderr.txt",
+      "source_identifier": "SourceEnv_Finalizacion_20261014_r3/evidence/endpoint_no_args/C1-SC-SORT-BASE.stderr.txt",
+      "source_sha256": "ad3da1e313c0b72118868ec78325cd95e646340547ec90d070fdeb622093e240",
+      "purpose": "Exact endpoint no_args channel; hash and content rights reviewed",
+      "rights": "Mixed own output and short permissively licensed dependency diagnostics; see CAPTURE_RIGHTS.md",
+      "review": "explicitly selected; text/structured-data/privacy/dependency review recorded separately",
+      "staged_sha256": "ad3da1e313c0b72118868ec78325cd95e646340547ec90d070fdeb622093e240",
+      "byte_identical_to_source": true
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C1-H-RC2-FC.stdout.txt",
+      "source_identifier": "SourceEnv_Finalizacion_20261014_r3/evidence/endpoint_no_args/C1-H-RC2-FC.stdout.txt",
+      "source_sha256": "c380540b07d2c7e7063d03581f2d9eb77a9bc26c59ed641c5bef770c7479d6c7",
+      "purpose": "Exact endpoint no_args channel; hash and content rights reviewed",
+      "rights": "Mixed own output and short permissively licensed dependency diagnostics; see CAPTURE_RIGHTS.md",
+      "review": "explicitly selected; text/structured-data/privacy/dependency review recorded separately",
+      "staged_sha256": "c380540b07d2c7e7063d03581f2d9eb77a9bc26c59ed641c5bef770c7479d6c7",
+      "byte_identical_to_source": true
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C1-H-RC2-FC.stderr.txt",
+      "source_identifier": "SourceEnv_Finalizacion_20261014_r3/evidence/endpoint_no_args/C1-H-RC2-FC.stderr.txt",
+      "source_sha256": "ad3da1e313c0b72118868ec78325cd95e646340547ec90d070fdeb622093e240",
+      "purpose": "Exact endpoint no_args channel; hash and content rights reviewed",
+      "rights": "Mixed own output and short permissively licensed dependency diagnostics; see CAPTURE_RIGHTS.md",
+      "review": "explicitly selected; text/structured-data/privacy/dependency review recorded separately",
+      "staged_sha256": "ad3da1e313c0b72118868ec78325cd95e646340547ec90d070fdeb622093e240",
+      "byte_identical_to_source": true
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C1-H-RC2-BASE.stdout.txt",
+      "source_identifier": "SourceEnv_Finalizacion_20261014_r3/evidence/endpoint_no_args/C1-H-RC2-BASE.stdout.txt",
+      "source_sha256": "c380540b07d2c7e7063d03581f2d9eb77a9bc26c59ed641c5bef770c7479d6c7",
+      "purpose": "Exact endpoint no_args channel; hash and content rights reviewed",
+      "rights": "Mixed own output and short permissively licensed dependency diagnostics; see CAPTURE_RIGHTS.md",
+      "review": "explicitly selected; text/structured-data/privacy/dependency review recorded separately",
+      "staged_sha256": "c380540b07d2c7e7063d03581f2d9eb77a9bc26c59ed641c5bef770c7479d6c7",
+      "byte_identical_to_source": true
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C1-H-RC2-BASE.stderr.txt",
+      "source_identifier": "SourceEnv_Finalizacion_20261014_r3/evidence/endpoint_no_args/C1-H-RC2-BASE.stderr.txt",
+      "source_sha256": "ad3da1e313c0b72118868ec78325cd95e646340547ec90d070fdeb622093e240",
+      "purpose": "Exact endpoint no_args channel; hash and content rights reviewed",
+      "rights": "Mixed own output and short permissively licensed dependency diagnostics; see CAPTURE_RIGHTS.md",
+      "review": "explicitly selected; text/structured-data/privacy/dependency review recorded separately",
+      "staged_sha256": "ad3da1e313c0b72118868ec78325cd95e646340547ec90d070fdeb622093e240",
+      "byte_identical_to_source": true
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C1-EC-SYMBOL-FC.stdout.txt",
+      "source_identifier": "SourceEnv_Finalizacion_20261014_r3/evidence/endpoint_no_args/C1-EC-SYMBOL-FC.stdout.txt",
+      "source_sha256": "bc45543e3a917468d3e2232d2ed87ab95118461afa4ddd775fb2fcb22303b141",
+      "purpose": "Exact endpoint no_args channel; hash and content rights reviewed",
+      "rights": "Mixed own output and short permissively licensed dependency diagnostics; see CAPTURE_RIGHTS.md",
+      "review": "explicitly selected; text/structured-data/privacy/dependency review recorded separately",
+      "staged_sha256": "bc45543e3a917468d3e2232d2ed87ab95118461afa4ddd775fb2fcb22303b141",
+      "byte_identical_to_source": true
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C1-EC-SYMBOL-FC.stderr.txt",
+      "source_identifier": "SourceEnv_Finalizacion_20261014_r3/evidence/endpoint_no_args/C1-EC-SYMBOL-FC.stderr.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "purpose": "Exact endpoint no_args channel; hash and content rights reviewed",
+      "rights": "Mixed own output and short permissively licensed dependency diagnostics; see CAPTURE_RIGHTS.md",
+      "review": "explicitly selected; text/structured-data/privacy/dependency review recorded separately",
+      "staged_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "byte_identical_to_source": true
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C1-EC-SYMBOL-BASE.stdout.txt",
+      "source_identifier": "SourceEnv_Finalizacion_20261014_r3/evidence/endpoint_no_args/C1-EC-SYMBOL-BASE.stdout.txt",
+      "source_sha256": "bc45543e3a917468d3e2232d2ed87ab95118461afa4ddd775fb2fcb22303b141",
+      "purpose": "Exact endpoint no_args channel; hash and content rights reviewed",
+      "rights": "Mixed own output and short permissively licensed dependency diagnostics; see CAPTURE_RIGHTS.md",
+      "review": "explicitly selected; text/structured-data/privacy/dependency review recorded separately",
+      "staged_sha256": "bc45543e3a917468d3e2232d2ed87ab95118461afa4ddd775fb2fcb22303b141",
+      "byte_identical_to_source": true
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C1-EC-SYMBOL-BASE.stderr.txt",
+      "source_identifier": "SourceEnv_Finalizacion_20261014_r3/evidence/endpoint_no_args/C1-EC-SYMBOL-BASE.stderr.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "purpose": "Exact endpoint no_args channel; hash and content rights reviewed",
+      "rights": "Mixed own output and short permissively licensed dependency diagnostics; see CAPTURE_RIGHTS.md",
+      "review": "explicitly selected; text/structured-data/privacy/dependency review recorded separately",
+      "staged_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "byte_identical_to_source": true
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C1-SH-FORMAT-FC.stdout.txt",
+      "source_identifier": "SourceEnv_Finalizacion_20261014_r3/evidence/endpoint_no_args/C1-SH-FORMAT-FC.stdout.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "purpose": "Exact endpoint no_args channel; hash and content rights reviewed",
+      "rights": "Mixed own output and short permissively licensed dependency diagnostics; see CAPTURE_RIGHTS.md",
+      "review": "explicitly selected; text/structured-data/privacy/dependency review recorded separately",
+      "staged_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "byte_identical_to_source": true
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C1-SH-FORMAT-FC.stderr.txt",
+      "source_identifier": "SourceEnv_Finalizacion_20261014_r3/evidence/endpoint_no_args/C1-SH-FORMAT-FC.stderr.txt",
+      "source_sha256": "cba203d606bedbff6a058af1c099c016b25863973e1351e262f3f43cfb5ec06b",
+      "purpose": "Exact endpoint no_args channel; hash and content rights reviewed",
+      "rights": "Mixed own output and short permissively licensed dependency diagnostics; see CAPTURE_RIGHTS.md",
+      "review": "explicitly selected; text/structured-data/privacy/dependency review recorded separately",
+      "staged_sha256": "cba203d606bedbff6a058af1c099c016b25863973e1351e262f3f43cfb5ec06b",
+      "byte_identical_to_source": true
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C1-SH-FORMAT-BASE.stdout.txt",
+      "source_identifier": "SourceEnv_Finalizacion_20261014_r3/evidence/endpoint_no_args/C1-SH-FORMAT-BASE.stdout.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "purpose": "Exact endpoint no_args channel; hash and content rights reviewed",
+      "rights": "Mixed own output and short permissively licensed dependency diagnostics; see CAPTURE_RIGHTS.md",
+      "review": "explicitly selected; text/structured-data/privacy/dependency review recorded separately",
+      "staged_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "byte_identical_to_source": true
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C1-SH-FORMAT-BASE.stderr.txt",
+      "source_identifier": "SourceEnv_Finalizacion_20261014_r3/evidence/endpoint_no_args/C1-SH-FORMAT-BASE.stderr.txt",
+      "source_sha256": "cba203d606bedbff6a058af1c099c016b25863973e1351e262f3f43cfb5ec06b",
+      "purpose": "Exact endpoint no_args channel; hash and content rights reviewed",
+      "rights": "Mixed own output and short permissively licensed dependency diagnostics; see CAPTURE_RIGHTS.md",
+      "review": "explicitly selected; text/structured-data/privacy/dependency review recorded separately",
+      "staged_sha256": "cba203d606bedbff6a058af1c099c016b25863973e1351e262f3f43cfb5ec06b",
+      "byte_identical_to_source": true
+    },
+    {
+      "file": "release-info/RELEASE_CHECKSUMS.json",
+      "source_identifier": "SourceEnv_Finalizacion_20261014_r3/RELEASE_CHECKSUMS.json",
+      "source_sha256": "70746389ce26676f6c4a167fdfea9ca9a24a7a7509bcaaede76fcb212eceb667",
+      "purpose": "Original rc3 distribution checksum receipt",
+      "rights": "MIT OR Apache-2.0 for owned material; third-party rights excepted",
+      "review": "explicitly selected; text/structured-data/privacy/dependency review recorded separately",
+      "staged_sha256": "70746389ce26676f6c4a167fdfea9ca9a24a7a7509bcaaede76fcb212eceb667",
+      "byte_identical_to_source": true
+    },
+    {
+      "file": "release-info/validation/RELEASE_VALIDATION.json",
+      "source_identifier": "SourceEnv_Finalizacion_20261014_r3/validation/RELEASE_VALIDATION.json",
+      "source_sha256": "4bf354175320c9c1b88f3cdfaa4a78ed595ebd18901d8f96333b5e69ac68e955",
+      "purpose": "Unmodified documentary rc3 receipt; not an executed archive",
+      "rights": "MIT OR Apache-2.0 for owned material; third-party rights excepted",
+      "review": "explicitly selected; text/structured-data/privacy/dependency review recorded separately",
+      "staged_sha256": "4bf354175320c9c1b88f3cdfaa4a78ed595ebd18901d8f96333b5e69ac68e955",
+      "byte_identical_to_source": true
+    },
+    {
+      "file": "release-info/validation/COMPONENT_EQUIVALENCE.json",
+      "source_identifier": "SourceEnv_Finalizacion_20261014_r3/validation/COMPONENT_EQUIVALENCE.json",
+      "source_sha256": "97012f55dd1b4c80f3fb6c883859ab95dd7783bc26aa45e75066eb920ad46471",
+      "purpose": "Original 158-entry and 95-component comparison",
+      "rights": "MIT OR Apache-2.0 for owned material; third-party rights excepted",
+      "review": "explicitly selected; text/structured-data/privacy/dependency review recorded separately",
+      "staged_sha256": "97012f55dd1b4c80f3fb6c883859ab95dd7783bc26aa45e75066eb920ad46471",
+      "byte_identical_to_source": true
+    },
+    {
+      "file": "release-info/history/rc2/validation/RELEASE_VALIDATION.json",
+      "source_identifier": "SourceEnv_Finalizacion_20261014_r3/history/rc2/validation/RELEASE_VALIDATION.json",
+      "source_sha256": "7c7925399c1e4ad23557c2c5e3b5ebb1dd681f27eacba9c99125126b7abc7238",
+      "purpose": "Unmodified executed rc2 receipt; raw records remain limited-access",
+      "rights": "MIT OR Apache-2.0 for owned material; third-party rights excepted",
+      "review": "explicitly selected; text/structured-data/privacy/dependency review recorded separately",
+      "staged_sha256": "7c7925399c1e4ad23557c2c5e3b5ebb1dd681f27eacba9c99125126b7abc7238",
+      "byte_identical_to_source": true
+    },
+    {
+      "file": "release-info/RESOURCE_RC2_TO_RC3.diff",
+      "source_identifier": "SourceEnv_Finalizacion_20261014_r3/RESOURCE.diff",
+      "source_sha256": "19fb94f4e66cedd0a8fe8cc3b2cc700d6b5e17b7198f2e04d11df7c543026218",
+      "purpose": "Exact seven documentation/metadata differences",
+      "rights": "MIT OR Apache-2.0 for owned material; third-party rights excepted",
+      "review": "explicitly selected; text/structured-data/privacy/dependency review recorded separately",
+      "staged_sha256": "19fb94f4e66cedd0a8fe8cc3b2cc700d6b5e17b7198f2e04d11df7c543026218",
+      "byte_identical_to_source": true
+    },
+    {
+      "file": "release-info/receipt-dossier/README.md",
+      "source_identifier": "SourceEnv_Finalizacion_20261014_r3/receipt-dossier/README.md",
+      "source_sha256": "267cf7a09bf58df30471d2c1902a6e67526ce821e3bf64332c6cf862f29af841",
+      "purpose": "Limits of the retained redacted historical receipt",
+      "rights": "MIT OR Apache-2.0 for owned material; third-party rights excepted",
+      "review": "explicitly selected; text/structured-data/privacy/dependency review recorded separately",
+      "staged_sha256": "267cf7a09bf58df30471d2c1902a6e67526ce821e3bf64332c6cf862f29af841",
+      "byte_identical_to_source": true
+    },
+    {
+      "file": "release-info/receipt-dossier/receipt-redacted.json",
+      "source_identifier": "SourceEnv_Finalizacion_20261014_r3/receipt-dossier/receipt-redacted.json",
+      "source_sha256": "ab4d90861351d31c08006e9aacd578762e71a56b6de49e002d0db48cb22af649",
+      "purpose": "Already redacted derivative with distinct source hash",
+      "rights": "MIT OR Apache-2.0 for owned material; third-party rights excepted",
+      "review": "explicitly selected; text/structured-data/privacy/dependency review recorded separately",
+      "staged_sha256": "ab4d90861351d31c08006e9aacd578762e71a56b6de49e002d0db48cb22af649",
+      "byte_identical_to_source": true
+    },
+    {
+      "file": "paper/DRAFT.md",
+      "source_identifier": "SourceEnv_Finalizacion_20261014_r3/DRAFT.md",
+      "source_sha256": "40ada6abbfe73dd4060866e4d72f8c9695270ba49a8efd697be29d4ab70e50f8",
+      "purpose": "Limited requested subtitle/driver/link edits; all scientific quantities unchanged",
+      "rights": "MIT OR Apache-2.0 for owned editorial content; original terms for retained data",
+      "review": "identified editorial derivative; original retained unchanged",
+      "staged_sha256": "37e0a3eb570bbe4033c235af4d805452117b8d10c78a4dd16a999715114aba20",
+      "byte_identical_to_source": false
+    },
+    {
+      "file": "paper/SUPPLEMENT.md",
+      "source_identifier": "SourceEnv_Finalizacion_20261014_r3/SUPPLEMENT.md",
+      "source_sha256": "18aa14be841cf1df0bc4e4f210e27c81af507415f3bedfd50ce284273fa74727",
+      "purpose": "Relocate links and disclose non-bundled source/archive access without scientific edits",
+      "rights": "MIT OR Apache-2.0 for owned editorial content; original terms for retained data",
+      "review": "identified editorial derivative; original retained unchanged",
+      "staged_sha256": "6a44db7900b05622ea8c3729b6e80c19db3481bcb6250735e5fc294d215e4fe0",
+      "byte_identical_to_source": false
+    },
+    {
+      "file": "paper/DOCUMENTARY_ADDENDUM.md",
+      "source_identifier": "SourceEnv_Finalizacion_20261014_r3/DOCUMENTARY_ADDENDUM.md",
+      "source_sha256": "f6ad15dba5594a5686a9f0b3f096a7a55a7f157a7f801fbd053cfdb0b4ed4c57",
+      "purpose": "Public-path and access-limit derivative; historical numeric/identity evidence unchanged",
+      "rights": "MIT OR Apache-2.0 for owned editorial content; original terms for retained data",
+      "review": "identified editorial derivative; original retained unchanged",
+      "staged_sha256": "a7ccd53257c202df91fd463d618168157b9e8e4be5e4373a53062c0a4c5509e2",
+      "byte_identical_to_source": false
+    },
+    {
+      "file": "paper/LICENSING.md",
+      "source_identifier": "SourceEnv_Finalizacion_20261014_r3/LICENSING.md",
+      "source_sha256": "aaa3c622f16f726b4d43143f1efd77636164956136ea375705899c7e465d19cc",
+      "purpose": "Retain license decisions; correct public availability/attribution paths",
+      "rights": "MIT OR Apache-2.0 for owned editorial content; original terms for retained data",
+      "review": "identified editorial derivative; original retained unchanged",
+      "staged_sha256": "d89f409cff31804af01eb95b6e6c454bae158782a888699ed50e9bdaaec0f676",
+      "byte_identical_to_source": false
+    },
+    {
+      "file": "paper/attributions/M02_v8_LICENSE.txt",
+      "source_identifier": "SourceEnv_Finalizacion_20261014_r3/sources/legacy/datasets/M02-v8/LICENSE.txt",
+      "source_sha256": "252c6c52a17dea7576423cdc716a447313e028ed90a4b3b4a694943c7de85292",
+      "purpose": "Verbatim source CC BY 4.0 copyright and license notice",
+      "rights": "CC-BY-4.0",
+      "review": "explicitly selected; text/structured-data/privacy/dependency review recorded separately",
+      "staged_sha256": "252c6c52a17dea7576423cdc716a447313e028ed90a4b3b4a694943c7de85292",
+      "byte_identical_to_source": true
+    },
+    {
+      "file": "paper/evidence/SUPLEMENTO_CRITERIO_M02.md",
+      "source_identifier": "SourceEnv_Referencias_M01_M02_20261013/SUPLEMENTO_CRITERIO_M02.md",
+      "source_sha256": "97a0e3a9d8ed86d07a32f7724b288d4b58f31fa7092b0178dee970b9b302040e",
+      "purpose": "Retained explicit counting criteria and supplementary timeout interpretation",
+      "rights": "CC-BY-4.0 derived analysis with M01/M02 attribution",
+      "review": "explicitly selected; text/structured-data/privacy/dependency review recorded separately",
+      "staged_sha256": "97a0e3a9d8ed86d07a32f7724b288d4b58f31fa7092b0178dee970b9b302040e",
+      "byte_identical_to_source": true
+    },
+    {
+      "file": "paper/evidence/CRITERIOS_RECUENTO.md",
+      "source_identifier": "SourceEnv_Referencias_M01_M02_20261013/CRITERIOS_RECUENTO.md",
+      "source_sha256": "a1abbdefe302c2e908c340560244923e996f89b884b2b0cb80318c88248fa046",
+      "purpose": "Retained explicit counting criteria and supplementary timeout interpretation",
+      "rights": "CC-BY-4.0 derived analysis with M01/M02 attribution",
+      "review": "explicitly selected; text/structured-data/privacy/dependency review recorded separately",
+      "staged_sha256": "a1abbdefe302c2e908c340560244923e996f89b884b2b0cb80318c88248fa046",
+      "byte_identical_to_source": true
+    },
+    {
+      "file": "paper/evidence/CRITERIOS_RECUENTO.json",
+      "source_identifier": "SourceEnv_Referencias_M01_M02_20261013/CRITERIOS_RECUENTO.json",
+      "source_sha256": "9aa797bef7412bcaac5050c83f9e2b4cdd6edb6cb36a5a02fe9b2882f3837aaf",
+      "purpose": "Retained explicit counting criteria and supplementary timeout interpretation",
+      "rights": "CC-BY-4.0 derived analysis with M01/M02 attribution",
+      "review": "explicitly selected; text/structured-data/privacy/dependency review recorded separately",
+      "staged_sha256": "9aa797bef7412bcaac5050c83f9e2b4cdd6edb6cb36a5a02fe9b2882f3837aaf",
+      "byte_identical_to_source": true
+    },
+    {
+      "file": "paper/evidence/health_recount_note.md",
+      "source_identifier": "SourceEnv_Finalizacion_20261014_r3/evidence/health_recount_note.md",
+      "source_sha256": "62c606c12ab22bfa5891be8b70b2188a4fa19cdff89c9ae3d5866960c5bed6f3",
+      "purpose": "Fix historical alias to the actual bundled identical annotation data",
+      "rights": "MIT OR Apache-2.0 for owned editorial content; original terms for retained data",
+      "review": "identified editorial derivative; original retained unchanged",
+      "staged_sha256": "bbe4264a71a4f8ccb36903a89f06136ef32bad4e50a1a249dfa43951b10fbb49",
+      "byte_identical_to_source": false
+    },
+    {
+      "file": "paper/CITATIONS.json",
+      "source_identifier": "SourceEnv_Finalizacion_20261014_r3/CITATIONS.json",
+      "source_sha256": "7158a5e3754a950e111ee56d5300b5004da251e885b9153d72c8d798d0abaf91",
+      "purpose": "Rename withheld capture references as provenance identifiers; retain citation metadata and SHA256",
+      "rights": "MIT OR Apache-2.0 for owned editorial content; original terms for retained data",
+      "review": "identified editorial derivative; original retained unchanged",
+      "staged_sha256": "9344244dd320fa4f899875abaa342e6abc2f0bd648ecb2197d9a3fc5466ab380",
+      "byte_identical_to_source": false
+    },
+    {
+      "file": "paper/sources/SOURCE_INDEX.json",
+      "source_identifier": "SourceEnv_Finalizacion_20261014_r3/sources/SOURCE_INDEX.json",
+      "source_sha256": "8dcaa55f524273e2a27f91991847dc4b14423d16d08aabdea7a79666130dfbb0",
+      "purpose": "Metadata-only index; remove abstract/fulltext redistribution, retain versioned provenance",
+      "rights": "MIT OR Apache-2.0 for owned editorial content; original terms for retained data",
+      "review": "identified editorial derivative; original retained unchanged",
+      "staged_sha256": "0a2f02126d0ad182a28630f507de3b449fe9e5870e8f9ca84b075caf8f01765a",
+      "byte_identical_to_source": false
+    },
+    {
+      "file": "paper/sources/KAGGLE_PRIMARY_VERIFICATION.json",
+      "source_identifier": "SourceEnv_Finalizacion_20261014_r3/sources/KAGGLE_PRIMARY_VERIFICATION.json",
+      "source_sha256": "fd6c8bf02e739021bef9d156153e304e71b0c2a5170bff7debd63261a3ce225c",
+      "purpose": "Historical rules metadata/URLs/selectors/hashes without full webpage/API bodies",
+      "rights": "MIT OR Apache-2.0 for owned editorial content; original terms for retained data",
+      "review": "identified editorial derivative; original retained unchanged",
+      "staged_sha256": "26a3720f1bb2f6e074816182d6ac0bb21f55935cced5a1f28d684ca0e8719732",
+      "byte_identical_to_source": false
+    }
+  ],
+  "new_source_captures": false,
+  "new_model_calls": 0,
+  "applications": 0,
+  "network_requests": 0,
+  "publication_performed": false,
+  "originals_modified": false,
+  "public_links_verified": false,
+  "access_limits": "ACCESS_LIMITS.md",
+  "historical_receipts": "../release-info/receipt-dossier/README.md"
+}

@@ -1,0 +1,18 @@
+{
+  "reference_pass": 8,
+  "noop_fail": 8,
+  "complete_scripted_pairs": 16,
+  "reference_effective_environment_changes": 4,
+  "reference_effective_source_changes": 4,
+  "reference_losses": 0,
+  "application_captures": 288,
+  "native_probes": 32,
+  "workers": 140,
+  "offline_installs": 20,
+  "model_calls": 0,
+  "all_raw_episode_hashes_verified": true,
+  "public_raw_conversations": 0,
+  "allowed_r3_extracts": 5,
+  "run_distribution_manifest_sha256": "872680b4e9c5659a904b69905b2e387fa5a20d228b35f0a998c21b3505c4ec42",
+  "evidence_archive_sha256": "926c7320aa012de937fbcb4ba335069bed05680351296c80db8da87ae4e0c5e2"
+}

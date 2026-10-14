@@ -1,0 +1,126 @@
+{
+  "C3": [
+    {
+      "fixture": "EH-API",
+      "policy_rejections": 1,
+      "bifurcated": true,
+      "checkpoint_reached_policy": true
+    },
+    {
+      "fixture": "SC-BALANCE",
+      "policy_rejections": 2,
+      "bifurcated": true,
+      "checkpoint_reached_policy": true
+    },
+    {
+      "fixture": "H-RC0",
+      "policy_rejections": 1,
+      "bifurcated": true,
+      "checkpoint_reached_policy": true
+    },
+    {
+      "fixture": "EC-MISSING",
+      "policy_rejections": 1,
+      "bifurcated": true,
+      "checkpoint_reached_policy": true
+    },
+    {
+      "fixture": "SH-FLAG",
+      "policy_rejections": 2,
+      "bifurcated": true,
+      "checkpoint_reached_policy": true
+    },
+    {
+      "fixture": "EH-RENDERER",
+      "policy_rejections": 2,
+      "bifurcated": true,
+      "checkpoint_reached_policy": true
+    },
+    {
+      "fixture": "SC-SORT",
+      "policy_rejections": 1,
+      "bifurcated": true,
+      "checkpoint_reached_policy": true
+    },
+    {
+      "fixture": "H-RC2",
+      "policy_rejections": 1,
+      "bifurcated": true,
+      "checkpoint_reached_policy": true
+    },
+    {
+      "fixture": "EC-SYMBOL",
+      "policy_rejections": 1,
+      "bifurcated": true,
+      "checkpoint_reached_policy": true
+    },
+    {
+      "fixture": "SH-FORMAT",
+      "policy_rejections": 2,
+      "bifurcated": true,
+      "checkpoint_reached_policy": true
+    }
+  ],
+  "C1": [
+    {
+      "fixture": "EH-API",
+      "policy_rejections": 4,
+      "bifurcated": true,
+      "checkpoint_reached_policy": true
+    },
+    {
+      "fixture": "SC-BALANCE",
+      "policy_rejections": 6,
+      "bifurcated": true,
+      "checkpoint_reached_policy": true
+    },
+    {
+      "fixture": "H-RC0",
+      "policy_rejections": 1,
+      "bifurcated": true,
+      "checkpoint_reached_policy": true
+    },
+    {
+      "fixture": "EC-MISSING",
+      "policy_rejections": 2,
+      "bifurcated": true,
+      "checkpoint_reached_policy": true
+    },
+    {
+      "fixture": "SH-FLAG",
+      "policy_rejections": 6,
+      "bifurcated": true,
+      "checkpoint_reached_policy": true
+    },
+    {
+      "fixture": "EH-RENDERER",
+      "policy_rejections": 6,
+      "bifurcated": true,
+      "checkpoint_reached_policy": true
+    },
+    {
+      "fixture": "SC-SORT",
+      "policy_rejections": 13,
+      "bifurcated": true,
+      "checkpoint_reached_policy": true
+    },
+    {
+      "fixture": "H-RC2",
+      "policy_rejections": 1,
+      "bifurcated": true,
+      "checkpoint_reached_policy": true
+    },
+    {
+      "fixture": "EC-SYMBOL",
+      "policy_rejections": 3,
+      "bifurcated": true,
+      "checkpoint_reached_policy": true
+    },
+    {
+      "fixture": "SH-FORMAT",
+      "policy_rejections": 2,
+      "bifurcated": true,
+      "checkpoint_reached_policy": true
+    }
+  ]
+}

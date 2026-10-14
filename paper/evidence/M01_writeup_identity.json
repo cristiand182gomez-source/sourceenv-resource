@@ -1,0 +1,35 @@
+{
+  "title": "What the Graph Sees and What the Grader Measures",
+  "title_source": {
+    "path": "datasets/M01-v6/README.md",
+    "sha256": "17b83db526c609351fdf4c686f1fa178cc5c3ffe40f3ad7a9063d51ef152c6d9",
+    "bytes": 4834,
+    "selectors": [
+      {
+        "literal": "What the Graph Sees",
+        "lines_1_based": [
+          3
+        ]
+      },
+      {
+        "literal": "paper.md",
+        "lines_1_based": [
+          4,
+          12,
+          50
+        ]
+      }
+    ]
+  },
+  "retained_text": {
+    "path": "datasets/M01-v6/paper.md",
+    "sha256": "f4353bd3d345dbf5ed22da8253f0a83f6fdcb17c779f9014fe7603237e9af3ae",
+    "bytes": 17863
+  },
+  "dataset_container_version": 6,
+  "editorial_version": null,
+  "editorial_publication_date": null,
+  "byline_in_text": null,
+  "version_note_context": "Dataset v4 notes Paper v0.4; v5 reformatted for editor; v6 corrected README. These are not asserted to number/date a live writeup.",
+  "live_writeup_version_not_verified": true
+}

@@ -1,0 +1,3618 @@
+[
+  {
+    "configuration": "C3",
+    "fixture": "EH-API",
+    "healthy": false,
+    "arm": "FC",
+    "endpoint": "FAIL",
+    "availability": "VALID",
+    "terminal": "finish",
+    "actions": 10,
+    "source": {
+      "requests": 0,
+      "effective": 0,
+      "noops": 0,
+      "rejected_or_failed": 0,
+      "unknown_effect": 0
+    },
+    "environment": {
+      "requests": 0,
+      "effective": 0,
+      "noops": 0,
+      "rejected_or_failed": 0,
+      "unknown_effect": 0
+    },
+    "coverage_current": 6,
+    "coverage_cumulative": 6,
+    "losses": [],
+    "operation_checks": {
+      "first_command": true,
+      "second_command": true,
+      "no_args": false,
+      "explicit_help": false,
+      "first_command_help": false,
+      "second_command_help": false
+    },
+    "blind_modifying_requests": 0,
+    "diagnostic_effective_current": 0,
+    "profile_after_help_failure_current": 0,
+    "finish_public_failure": {
+      "accepted": 1,
+      "rejected": 1
+    },
+    "terminal_current_public_failure_operations": [
+      "explicit_help",
+      "first_command_help",
+      "no_args",
+      "second_command_help"
+    ],
+    "policy_finishes": 2,
+    "policy_rejections": 1,
+    "redundancy_numerator": 1,
+    "redundancy_denominator": 8,
+    "redundancy_fraction": 0.125,
+    "identical_action_streak": 2,
+    "stagnation_suffix": 0,
+    "loop_availability": "AVAILABLE",
+    "logical_prefix_cost": null,
+    "retained_score_status": "FAIL",
+    "health": {
+      "arm": "FC",
+      "terminal": "finish",
+      "primary_availability": "VALID",
+      "replies_received": 10,
+      "actions_dispatched": 10,
+      "action_budget": 20,
+      "complete_retained_trace": true,
+      "responses_without_tool_calls": {
+        "count": 2,
+        "denominator": 10,
+        "rate": 0.2
+      },
+      "empty_replies_without_tool_calls": 0,
+      "invalid_actions": 0,
+      "invalid_rate": 0.0,
+      "invalid_by_type": {},
+      "invalid_share_of_action_budget": {
+        "count": 0,
+        "denominator": 20,
+        "percent": 0.0
+      },
+      "valid_finish_requests": 2,
+      "accepted_finish_requests": 1,
+      "first_FC_rejection_action": 6,
+      "actions_after_first_FC_rejection": {
+        "run_app": 3,
+        "finish_text": 1
+      },
+      "actions_after_first_FC_rejection_total": 4,
+      "outdated_messages": [],
+      "model_replies_not_dispatched": 0,
+      "denominators": "no-tool/replies retained; invalid/actions dispatched; budget percent/20; finish rejection is valid, not invalid"
+    }
+  },
+  {
+    "configuration": "C3",
+    "fixture": "EH-API",
+    "healthy": false,
+    "arm": "BASE",
+    "endpoint": "FAIL",
+    "availability": "VALID",
+    "terminal": "finish",
+    "actions": 6,
+    "source": {
+      "requests": 0,
+      "effective": 0,
+      "noops": 0,
+      "rejected_or_failed": 0,
+      "unknown_effect": 0
+    },
+    "environment": {
+      "requests": 0,
+      "effective": 0,
+      "noops": 0,
+      "rejected_or_failed": 0,
+      "unknown_effect": 0
+    },
+    "coverage_current": 3,
+    "coverage_cumulative": 3,
+    "losses": [],
+    "operation_checks": {
+      "first_command": true,
+      "second_command": true,
+      "no_args": false,
+      "explicit_help": false,
+      "first_command_help": false,
+      "second_command_help": false
+    },
+    "blind_modifying_requests": 0,
+    "diagnostic_effective_current": 0,
+    "profile_after_help_failure_current": 0,
+    "finish_public_failure": {
+      "accepted": 1,
+      "rejected": 0
+    },
+    "terminal_current_public_failure_operations": [
+      "first_command_help"
+    ],
+    "policy_finishes": 1,
+    "policy_rejections": 0,
+    "redundancy_numerator": 1,
+    "redundancy_denominator": 5,
+    "redundancy_fraction": 0.2,
+    "identical_action_streak": 2,
+    "stagnation_suffix": 1,
+    "loop_availability": "AVAILABLE",
+    "logical_prefix_cost": {
+      "received_model_replies": 6,
+      "known_generated_tokens": 1469,
+      "physical_additional_generation_calls": 0,
+      "shared_cost_not_counted_twice": true
+    },
+    "retained_score_status": "FAIL",
+    "health": {
+      "arm": "BASE",
+      "terminal": "finish",
+      "primary_availability": "VALID",
+      "replies_received": 6,
+      "actions_dispatched": 6,
+      "action_budget": 20,
+      "complete_retained_trace": true,
+      "responses_without_tool_calls": {
+        "count": 1,
+        "denominator": 6,
+        "rate": 0.16666666666666666
+      },
+      "empty_replies_without_tool_calls": 0,
+      "invalid_actions": 0,
+      "invalid_rate": 0.0,
+      "invalid_by_type": {},
+      "invalid_share_of_action_budget": {
+        "count": 0,
+        "denominator": 20,
+        "percent": 0.0
+      },
+      "valid_finish_requests": 1,
+      "accepted_finish_requests": 1,
+      "first_FC_rejection_action": null,
+      "actions_after_first_FC_rejection": {},
+      "actions_after_first_FC_rejection_total": 0,
+      "outdated_messages": [],
+      "model_replies_not_dispatched": 0,
+      "denominators": "no-tool/replies retained; invalid/actions dispatched; budget percent/20; finish rejection is valid, not invalid"
+    }
+  },
+  {
+    "configuration": "C3",
+    "fixture": "SC-BALANCE",
+    "healthy": false,
+    "arm": "FC",
+    "endpoint": "FAIL",
+    "availability": "VALID",
+    "terminal": "finish",
+    "actions": 9,
+    "source": {
+      "requests": 0,
+      "effective": 0,
+      "noops": 0,
+      "rejected_or_failed": 0,
+      "unknown_effect": 0
+    },
+    "environment": {
+      "requests": 0,
+      "effective": 0,
+      "noops": 0,
+      "rejected_or_failed": 0,
+      "unknown_effect": 0
+    },
+    "coverage_current": 6,
+    "coverage_cumulative": 6,
+    "losses": [],
+    "operation_checks": {
+      "first_command": false,
+      "second_command": true,
+      "no_args": true,
+      "explicit_help": true,
+      "first_command_help": true,
+      "second_command_help": true
+    },
+    "blind_modifying_requests": 0,
+    "diagnostic_effective_current": 0,
+    "profile_after_help_failure_current": 0,
+    "finish_public_failure": {
+      "accepted": 1,
+      "rejected": 0
+    },
+    "terminal_current_public_failure_operations": [
+      "first_command"
+    ],
+    "policy_finishes": 3,
+    "policy_rejections": 2,
+    "redundancy_numerator": 0,
+    "redundancy_denominator": 6,
+    "redundancy_fraction": 0.0,
+    "identical_action_streak": 1,
+    "stagnation_suffix": 0,
+    "loop_availability": "AVAILABLE",
+    "logical_prefix_cost": null,
+    "retained_score_status": "FAIL",
+    "health": {
+      "arm": "FC",
+      "terminal": "finish",
+      "primary_availability": "VALID",
+      "replies_received": 9,
+      "actions_dispatched": 9,
+      "action_budget": 20,
+      "complete_retained_trace": true,
+      "responses_without_tool_calls": {
+        "count": 2,
+        "denominator": 9,
+        "rate": 0.2222222222222222
+      },
+      "empty_replies_without_tool_calls": 0,
+      "invalid_actions": 0,
+      "invalid_rate": 0.0,
+      "invalid_by_type": {},
+      "invalid_share_of_action_budget": {
+        "count": 0,
+        "denominator": 20,
+        "percent": 0.0
+      },
+      "valid_finish_requests": 3,
+      "accepted_finish_requests": 1,
+      "first_FC_rejection_action": 1,
+      "actions_after_first_FC_rejection": {
+        "finish_text": 1,
+        "run_app": 6,
+        "finish_tool": 1
+      },
+      "actions_after_first_FC_rejection_total": 8,
+      "outdated_messages": [],
+      "model_replies_not_dispatched": 0,
+      "denominators": "no-tool/replies retained; invalid/actions dispatched; budget percent/20; finish rejection is valid, not invalid"
+    }
+  },
+  {
+    "configuration": "C3",
+    "fixture": "SC-BALANCE",
+    "healthy": false,
+    "arm": "BASE",
+    "endpoint": "FAIL",
+    "availability": "VALID",
+    "terminal": "finish",
+    "actions": 1,
+    "source": {
+      "requests": 0,
+      "effective": 0,
+      "noops": 0,
+      "rejected_or_failed": 0,
+      "unknown_effect": 0
+    },
+    "environment": {
+      "requests": 0,
+      "effective": 0,
+      "noops": 0,
+      "rejected_or_failed": 0,
+      "unknown_effect": 0
+    },
+    "coverage_current": 0,
+    "coverage_cumulative": 0,
+    "losses": [],
+    "operation_checks": {
+      "first_command": false,
+      "second_command": true,
+      "no_args": true,
+      "explicit_help": true,
+      "first_command_help": true,
+      "second_command_help": true
+    },
+    "blind_modifying_requests": 0,
+    "diagnostic_effective_current": 0,
+    "profile_after_help_failure_current": 0,
+    "finish_public_failure": {
+      "accepted": 0,
+      "rejected": 0
+    },
+    "terminal_current_public_failure_operations": [],
+    "policy_finishes": 1,
+    "policy_rejections": 0,
+    "redundancy_numerator": 0,
+    "redundancy_denominator": 0,
+    "redundancy_fraction": null,
+    "identical_action_streak": 1,
+    "stagnation_suffix": 0,
+    "loop_availability": "AVAILABLE",
+    "logical_prefix_cost": {
+      "received_model_replies": 1,
+      "known_generated_tokens": 453,
+      "physical_additional_generation_calls": 0,
+      "shared_cost_not_counted_twice": true
+    },
+    "retained_score_status": "FAIL",
+    "health": {
+      "arm": "BASE",
+      "terminal": "finish",
+      "primary_availability": "VALID",
+      "replies_received": 1,
+      "actions_dispatched": 1,
+      "action_budget": 20,
+      "complete_retained_trace": true,
+      "responses_without_tool_calls": {
+        "count": 1,
+        "denominator": 1,
+        "rate": 1.0
+      },
+      "empty_replies_without_tool_calls": 0,
+      "invalid_actions": 0,
+      "invalid_rate": 0.0,
+      "invalid_by_type": {},
+      "invalid_share_of_action_budget": {
+        "count": 0,
+        "denominator": 20,
+        "percent": 0.0
+      },
+      "valid_finish_requests": 1,
+      "accepted_finish_requests": 1,
+      "first_FC_rejection_action": null,
+      "actions_after_first_FC_rejection": {},
+      "actions_after_first_FC_rejection_total": 0,
+      "outdated_messages": [],
+      "model_replies_not_dispatched": 0,
+      "denominators": "no-tool/replies retained; invalid/actions dispatched; budget percent/20; finish rejection is valid, not invalid"
+    }
+  },
+  {
+    "configuration": "C3",
+    "fixture": "H-RC0",
+    "healthy": true,
+    "arm": "FC",
+    "endpoint": "PASS",
+    "availability": "VALID",
+    "terminal": "finish",
+    "actions": 10,
+    "source": {
+      "requests": 2,
+      "effective": 1,
+      "noops": 1,
+      "rejected_or_failed": 0,
+      "unknown_effect": 0
+    },
+    "environment": {
+      "requests": 0,
+      "effective": 0,
+      "noops": 0,
+      "rejected_or_failed": 0,
+      "unknown_effect": 0
+    },
+    "coverage_current": 6,
+    "coverage_cumulative": 6,
+    "losses": [],
+    "operation_checks": {
+      "first_command": true,
+      "second_command": true,
+      "no_args": true,
+      "explicit_help": true,
+      "first_command_help": true,
+      "second_command_help": true
+    },
+    "blind_modifying_requests": 2,
+    "diagnostic_effective_current": 0,
+    "profile_after_help_failure_current": 0,
+    "finish_public_failure": {
+      "accepted": 0,
+      "rejected": 0
+    },
+    "terminal_current_public_failure_operations": [],
+    "policy_finishes": 2,
+    "policy_rejections": 1,
+    "redundancy_numerator": 0,
+    "redundancy_denominator": 6,
+    "redundancy_fraction": 0.0,
+    "identical_action_streak": 2,
+    "stagnation_suffix": 0,
+    "loop_availability": "AVAILABLE",
+    "logical_prefix_cost": null,
+    "retained_score_status": "PASS",
+    "health": {
+      "arm": "FC",
+      "terminal": "finish",
+      "primary_availability": "VALID",
+      "replies_received": 10,
+      "actions_dispatched": 10,
+      "action_budget": 20,
+      "complete_retained_trace": true,
+      "responses_without_tool_calls": {
+        "count": 1,
+        "denominator": 10,
+        "rate": 0.1
+      },
+      "empty_replies_without_tool_calls": 0,
+      "invalid_actions": 0,
+      "invalid_rate": 0.0,
+      "invalid_by_type": {},
+      "invalid_share_of_action_budget": {
+        "count": 0,
+        "denominator": 20,
+        "percent": 0.0
+      },
+      "valid_finish_requests": 2,
+      "accepted_finish_requests": 1,
+      "first_FC_rejection_action": 3,
+      "actions_after_first_FC_rejection": {
+        "run_app": 6,
+        "finish_tool": 1
+      },
+      "actions_after_first_FC_rejection_total": 7,
+      "outdated_messages": [],
+      "model_replies_not_dispatched": 0,
+      "denominators": "no-tool/replies retained; invalid/actions dispatched; budget percent/20; finish rejection is valid, not invalid"
+    }
+  },
+  {
+    "configuration": "C3",
+    "fixture": "H-RC0",
+    "healthy": true,
+    "arm": "BASE",
+    "endpoint": "PASS",
+    "availability": "VALID",
+    "terminal": "finish",
+    "actions": 3,
+    "source": {
+      "requests": 2,
+      "effective": 1,
+      "noops": 1,
+      "rejected_or_failed": 0,
+      "unknown_effect": 0
+    },
+    "environment": {
+      "requests": 0,
+      "effective": 0,
+      "noops": 0,
+      "rejected_or_failed": 0,
+      "unknown_effect": 0
+    },
+    "coverage_current": 0,
+    "coverage_cumulative": 0,
+    "losses": [],
+    "operation_checks": {
+      "first_command": true,
+      "second_command": true,
+      "no_args": true,
+      "explicit_help": true,
+      "first_command_help": true,
+      "second_command_help": true
+    },
+    "blind_modifying_requests": 2,
+    "diagnostic_effective_current": 0,
+    "profile_after_help_failure_current": 0,
+    "finish_public_failure": {
+      "accepted": 0,
+      "rejected": 0
+    },
+    "terminal_current_public_failure_operations": [],
+    "policy_finishes": 1,
+    "policy_rejections": 0,
+    "redundancy_numerator": 0,
+    "redundancy_denominator": 0,
+    "redundancy_fraction": null,
+    "identical_action_streak": 2,
+    "stagnation_suffix": 2,
+    "loop_availability": "AVAILABLE",
+    "logical_prefix_cost": {
+      "received_model_replies": 3,
+      "known_generated_tokens": 2336,
+      "physical_additional_generation_calls": 0,
+      "shared_cost_not_counted_twice": true
+    },
+    "retained_score_status": "PASS",
+    "health": {
+      "arm": "BASE",
+      "terminal": "finish",
+      "primary_availability": "VALID",
+      "replies_received": 3,
+      "actions_dispatched": 3,
+      "action_budget": 20,
+      "complete_retained_trace": true,
+      "responses_without_tool_calls": {
+        "count": 1,
+        "denominator": 3,
+        "rate": 0.3333333333333333
+      },
+      "empty_replies_without_tool_calls": 0,
+      "invalid_actions": 0,
+      "invalid_rate": 0.0,
+      "invalid_by_type": {},
+      "invalid_share_of_action_budget": {
+        "count": 0,
+        "denominator": 20,
+        "percent": 0.0
+      },
+      "valid_finish_requests": 1,
+      "accepted_finish_requests": 1,
+      "first_FC_rejection_action": null,
+      "actions_after_first_FC_rejection": {},
+      "actions_after_first_FC_rejection_total": 0,
+      "outdated_messages": [],
+      "model_replies_not_dispatched": 0,
+      "denominators": "no-tool/replies retained; invalid/actions dispatched; budget percent/20; finish rejection is valid, not invalid"
+    }
+  },
+  {
+    "configuration": "C3",
+    "fixture": "EC-MISSING",
+    "healthy": false,
+    "arm": "FC",
+    "endpoint": "FAIL",
+    "availability": "VALID",
+    "terminal": "finish",
+    "actions": 13,
+    "source": {
+      "requests": 2,
+      "effective": 1,
+      "noops": 1,
+      "rejected_or_failed": 0,
+      "unknown_effect": 0
+    },
+    "environment": {
+      "requests": 0,
+      "effective": 0,
+      "noops": 0,
+      "rejected_or_failed": 0,
+      "unknown_effect": 0
+    },
+    "coverage_current": 6,
+    "coverage_cumulative": 6,
+    "losses": [],
+    "operation_checks": {
+      "first_command": false,
+      "second_command": false,
+      "no_args": false,
+      "explicit_help": false,
+      "first_command_help": false,
+      "second_command_help": false
+    },
+    "blind_modifying_requests": 2,
+    "diagnostic_effective_current": 0,
+    "profile_after_help_failure_current": 0,
+    "finish_public_failure": {
+      "accepted": 1,
+      "rejected": 0
+    },
+    "terminal_current_public_failure_operations": [
+      "explicit_help",
+      "first_command",
+      "first_command_help",
+      "no_args",
+      "second_command",
+      "second_command_help"
+    ],
+    "policy_finishes": 2,
+    "policy_rejections": 1,
+    "redundancy_numerator": 2,
+    "redundancy_denominator": 8,
+    "redundancy_fraction": 0.25,
+    "identical_action_streak": 2,
+    "stagnation_suffix": 0,
+    "loop_availability": "AVAILABLE",
+    "logical_prefix_cost": null,
+    "retained_score_status": "FAIL",
+    "health": {
+      "arm": "FC",
+      "terminal": "finish",
+      "primary_availability": "VALID",
+      "replies_received": 13,
+      "actions_dispatched": 13,
+      "action_budget": 20,
+      "complete_retained_trace": true,
+      "responses_without_tool_calls": {
+        "count": 1,
+        "denominator": 13,
+        "rate": 0.07692307692307693
+      },
+      "empty_replies_without_tool_calls": 0,
+      "invalid_actions": 1,
+      "invalid_rate": 0.07692307692307693,
+      "invalid_by_type": {
+        "SUMMARY_LIMIT": {
+          "count": 1,
+          "denominator": 13,
+          "rate": 0.07692307692307693
+        }
+      },
+      "invalid_share_of_action_budget": {
+        "count": 1,
+        "denominator": 20,
+        "percent": 5.0
+      },
+      "valid_finish_requests": 2,
+      "accepted_finish_requests": 1,
+      "first_FC_rejection_action": 4,
+      "actions_after_first_FC_rejection": {
+        "run_app": 8,
+        "finish_tool": 1
+      },
+      "actions_after_first_FC_rejection_total": 9,
+      "outdated_messages": [],
+      "model_replies_not_dispatched": 0,
+      "denominators": "no-tool/replies retained; invalid/actions dispatched; budget percent/20; finish rejection is valid, not invalid"
+    }
+  },
+  {
+    "configuration": "C3",
+    "fixture": "EC-MISSING",
+    "healthy": false,
+    "arm": "BASE",
+    "endpoint": "FAIL",
+    "availability": "VALID",
+    "terminal": "finish",
+    "actions": 4,
+    "source": {
+      "requests": 2,
+      "effective": 1,
+      "noops": 1,
+      "rejected_or_failed": 0,
+      "unknown_effect": 0
+    },
+    "environment": {
+      "requests": 0,
+      "effective": 0,
+      "noops": 0,
+      "rejected_or_failed": 0,
+      "unknown_effect": 0
+    },
+    "coverage_current": 0,
+    "coverage_cumulative": 0,
+    "losses": [],
+    "operation_checks": {
+      "first_command": false,
+      "second_command": false,
+      "no_args": false,
+      "explicit_help": false,
+      "first_command_help": false,
+      "second_command_help": false
+    },
+    "blind_modifying_requests": 2,
+    "diagnostic_effective_current": 0,
+    "profile_after_help_failure_current": 0,
+    "finish_public_failure": {
+      "accepted": 0,
+      "rejected": 0
+    },
+    "terminal_current_public_failure_operations": [],
+    "policy_finishes": 1,
+    "policy_rejections": 0,
+    "redundancy_numerator": 0,
+    "redundancy_denominator": 0,
+    "redundancy_fraction": null,
+    "identical_action_streak": 2,
+    "stagnation_suffix": 3,
+    "loop_availability": "AVAILABLE",
+    "logical_prefix_cost": {
+      "received_model_replies": 4,
+      "known_generated_tokens": 2932,
+      "physical_additional_generation_calls": 0,
+      "shared_cost_not_counted_twice": true
+    },
+    "retained_score_status": "FAIL",
+    "health": {
+      "arm": "BASE",
+      "terminal": "finish",
+      "primary_availability": "VALID",
+      "replies_received": 4,
+      "actions_dispatched": 4,
+      "action_budget": 20,
+      "complete_retained_trace": true,
+      "responses_without_tool_calls": {
+        "count": 1,
+        "denominator": 4,
+        "rate": 0.25
+      },
+      "empty_replies_without_tool_calls": 0,
+      "invalid_actions": 1,
+      "invalid_rate": 0.25,
+      "invalid_by_type": {
+        "SUMMARY_LIMIT": {
+          "count": 1,
+          "denominator": 4,
+          "rate": 0.25
+        }
+      },
+      "invalid_share_of_action_budget": {
+        "count": 1,
+        "denominator": 20,
+        "percent": 5.0
+      },
+      "valid_finish_requests": 1,
+      "accepted_finish_requests": 1,
+      "first_FC_rejection_action": null,
+      "actions_after_first_FC_rejection": {},
+      "actions_after_first_FC_rejection_total": 0,
+      "outdated_messages": [],
+      "model_replies_not_dispatched": 0,
+      "denominators": "no-tool/replies retained; invalid/actions dispatched; budget percent/20; finish rejection is valid, not invalid"
+    }
+  },
+  {
+    "configuration": "C3",
+    "fixture": "SH-FLAG",
+    "healthy": false,
+    "arm": "FC",
+    "endpoint": "FAIL",
+    "availability": "VALID",
+    "terminal": "finish",
+    "actions": 12,
+    "source": {
+      "requests": 1,
+      "effective": 1,
+      "noops": 0,
+      "rejected_or_failed": 0,
+      "unknown_effect": 0
+    },
+    "environment": {
+      "requests": 1,
+      "effective": 0,
+      "noops": 1,
+      "rejected_or_failed": 0,
+      "unknown_effect": 0
+    },
+    "coverage_current": 6,
+    "coverage_cumulative": 6,
+    "losses": [],
+    "operation_checks": {
+      "first_command": true,
+      "second_command": true,
+      "no_args": true,
+      "explicit_help": false,
+      "first_command_help": false,
+      "second_command_help": false
+    },
+    "blind_modifying_requests": 2,
+    "diagnostic_effective_current": 0,
+    "profile_after_help_failure_current": 0,
+    "finish_public_failure": {
+      "accepted": 1,
+      "rejected": 1
+    },
+    "terminal_current_public_failure_operations": [
+      "explicit_help",
+      "first_command_help",
+      "second_command_help"
+    ],
+    "policy_finishes": 3,
+    "policy_rejections": 2,
+    "redundancy_numerator": 0,
+    "redundancy_denominator": 6,
+    "redundancy_fraction": 0.0,
+    "identical_action_streak": 1,
+    "stagnation_suffix": 0,
+    "loop_availability": "AVAILABLE",
+    "logical_prefix_cost": null,
+    "retained_score_status": "FAIL",
+    "health": {
+      "arm": "FC",
+      "terminal": "finish",
+      "primary_availability": "VALID",
+      "replies_received": 12,
+      "actions_dispatched": 12,
+      "action_budget": 20,
+      "complete_retained_trace": true,
+      "responses_without_tool_calls": {
+        "count": 2,
+        "denominator": 12,
+        "rate": 0.16666666666666666
+      },
+      "empty_replies_without_tool_calls": 0,
+      "invalid_actions": 0,
+      "invalid_rate": 0.0,
+      "invalid_by_type": {},
+      "invalid_share_of_action_budget": {
+        "count": 0,
+        "denominator": 20,
+        "percent": 0.0
+      },
+      "valid_finish_requests": 3,
+      "accepted_finish_requests": 1,
+      "first_FC_rejection_action": 4,
+      "actions_after_first_FC_rejection": {
+        "run_app": 6,
+        "finish_text": 1,
+        "finish_tool": 1
+      },
+      "actions_after_first_FC_rejection_total": 8,
+      "outdated_messages": [],
+      "model_replies_not_dispatched": 0,
+      "denominators": "no-tool/replies retained; invalid/actions dispatched; budget percent/20; finish rejection is valid, not invalid"
+    }
+  },
+  {
+    "configuration": "C3",
+    "fixture": "SH-FLAG",
+    "healthy": false,
+    "arm": "BASE",
+    "endpoint": "FAIL",
+    "availability": "VALID",
+    "terminal": "finish",
+    "actions": 4,
+    "source": {
+      "requests": 1,
+      "effective": 1,
+      "noops": 0,
+      "rejected_or_failed": 0,
+      "unknown_effect": 0
+    },
+    "environment": {
+      "requests": 1,
+      "effective": 0,
+      "noops": 1,
+      "rejected_or_failed": 0,
+      "unknown_effect": 0
+    },
+    "coverage_current": 0,
+    "coverage_cumulative": 0,
+    "losses": [],
+    "operation_checks": {
+      "first_command": true,
+      "second_command": true,
+      "no_args": true,
+      "explicit_help": false,
+      "first_command_help": false,
+      "second_command_help": false
+    },
+    "blind_modifying_requests": 2,
+    "diagnostic_effective_current": 0,
+    "profile_after_help_failure_current": 0,
+    "finish_public_failure": {
+      "accepted": 0,
+      "rejected": 0
+    },
+    "terminal_current_public_failure_operations": [],
+    "policy_finishes": 1,
+    "policy_rejections": 0,
+    "redundancy_numerator": 0,
+    "redundancy_denominator": 0,
+    "redundancy_fraction": null,
+    "identical_action_streak": 1,
+    "stagnation_suffix": 3,
+    "loop_availability": "AVAILABLE",
+    "logical_prefix_cost": {
+      "received_model_replies": 4,
+      "known_generated_tokens": 3413,
+      "physical_additional_generation_calls": 0,
+      "shared_cost_not_counted_twice": true
+    },
+    "retained_score_status": "FAIL",
+    "health": {
+      "arm": "BASE",
+      "terminal": "finish",
+      "primary_availability": "VALID",
+      "replies_received": 4,
+      "actions_dispatched": 4,
+      "action_budget": 20,
+      "complete_retained_trace": true,
+      "responses_without_tool_calls": {
+        "count": 1,
+        "denominator": 4,
+        "rate": 0.25
+      },
+      "empty_replies_without_tool_calls": 0,
+      "invalid_actions": 0,
+      "invalid_rate": 0.0,
+      "invalid_by_type": {},
+      "invalid_share_of_action_budget": {
+        "count": 0,
+        "denominator": 20,
+        "percent": 0.0
+      },
+      "valid_finish_requests": 1,
+      "accepted_finish_requests": 1,
+      "first_FC_rejection_action": null,
+      "actions_after_first_FC_rejection": {},
+      "actions_after_first_FC_rejection_total": 0,
+      "outdated_messages": [],
+      "model_replies_not_dispatched": 0,
+      "denominators": "no-tool/replies retained; invalid/actions dispatched; budget percent/20; finish rejection is valid, not invalid"
+    }
+  },
+  {
+    "configuration": "C3",
+    "fixture": "EH-RENDERER",
+    "healthy": false,
+    "arm": "FC",
+    "endpoint": "PASS",
+    "availability": "VALID",
+    "terminal": "finish",
+    "actions": 17,
+    "source": {
+      "requests": 1,
+      "effective": 1,
+      "noops": 0,
+      "rejected_or_failed": 0,
+      "unknown_effect": 0
+    },
+    "environment": {
+      "requests": 0,
+      "effective": 0,
+      "noops": 0,
+      "rejected_or_failed": 0,
+      "unknown_effect": 0
+    },
+    "coverage_current": 6,
+    "coverage_cumulative": 6,
+    "losses": [],
+    "operation_checks": {
+      "first_command": true,
+      "second_command": true,
+      "no_args": true,
+      "explicit_help": true,
+      "first_command_help": true,
+      "second_command_help": true
+    },
+    "blind_modifying_requests": 0,
+    "diagnostic_effective_current": 1,
+    "profile_after_help_failure_current": 0,
+    "finish_public_failure": {
+      "accepted": 0,
+      "rejected": 0
+    },
+    "terminal_current_public_failure_operations": [],
+    "policy_finishes": 3,
+    "policy_rejections": 2,
+    "redundancy_numerator": 1,
+    "redundancy_denominator": 11,
+    "redundancy_fraction": 0.09090909090909091,
+    "identical_action_streak": 2,
+    "stagnation_suffix": 0,
+    "loop_availability": "AVAILABLE",
+    "logical_prefix_cost": null,
+    "retained_score_status": "PASS",
+    "health": {
+      "arm": "FC",
+      "terminal": "finish",
+      "primary_availability": "VALID",
+      "replies_received": 17,
+      "actions_dispatched": 17,
+      "action_budget": 20,
+      "complete_retained_trace": true,
+      "responses_without_tool_calls": {
+        "count": 5,
+        "denominator": 17,
+        "rate": 0.29411764705882354
+      },
+      "empty_replies_without_tool_calls": 0,
+      "invalid_actions": 2,
+      "invalid_rate": 0.11764705882352941,
+      "invalid_by_type": {
+        "SUMMARY_LIMIT": {
+          "count": 2,
+          "denominator": 17,
+          "rate": 0.11764705882352941
+        }
+      },
+      "invalid_share_of_action_budget": {
+        "count": 2,
+        "denominator": 20,
+        "percent": 10.0
+      },
+      "valid_finish_requests": 3,
+      "accepted_finish_requests": 1,
+      "first_FC_rejection_action": 3,
+      "actions_after_first_FC_rejection": {
+        "run_app": 11,
+        "write_file": 1,
+        "finish_text": 2
+      },
+      "actions_after_first_FC_rejection_total": 14,
+      "outdated_messages": [],
+      "model_replies_not_dispatched": 0,
+      "denominators": "no-tool/replies retained; invalid/actions dispatched; budget percent/20; finish rejection is valid, not invalid"
+    }
+  },
+  {
+    "configuration": "C3",
+    "fixture": "EH-RENDERER",
+    "healthy": false,
+    "arm": "BASE",
+    "endpoint": "FAIL",
+    "availability": "VALID",
+    "terminal": "finish",
+    "actions": 3,
+    "source": {
+      "requests": 0,
+      "effective": 0,
+      "noops": 0,
+      "rejected_or_failed": 0,
+      "unknown_effect": 0
+    },
+    "environment": {
+      "requests": 0,
+      "effective": 0,
+      "noops": 0,
+      "rejected_or_failed": 0,
+      "unknown_effect": 0
+    },
+    "coverage_current": 0,
+    "coverage_cumulative": 0,
+    "losses": [],
+    "operation_checks": {
+      "first_command": true,
+      "second_command": true,
+      "no_args": false,
+      "explicit_help": false,
+      "first_command_help": false,
+      "second_command_help": false
+    },
+    "blind_modifying_requests": 0,
+    "diagnostic_effective_current": 0,
+    "profile_after_help_failure_current": 0,
+    "finish_public_failure": {
+      "accepted": 0,
+      "rejected": 0
+    },
+    "terminal_current_public_failure_operations": [],
+    "policy_finishes": 1,
+    "policy_rejections": 0,
+    "redundancy_numerator": 0,
+    "redundancy_denominator": 0,
+    "redundancy_fraction": null,
+    "identical_action_streak": 1,
+    "stagnation_suffix": 2,
+    "loop_availability": "AVAILABLE",
+    "logical_prefix_cost": {
+      "received_model_replies": 3,
+      "known_generated_tokens": 2885,
+      "physical_additional_generation_calls": 0,
+      "shared_cost_not_counted_twice": true
+    },
+    "retained_score_status": "FAIL",
+    "health": {
+      "arm": "BASE",
+      "terminal": "finish",
+      "primary_availability": "VALID",
+      "replies_received": 3,
+      "actions_dispatched": 3,
+      "action_budget": 20,
+      "complete_retained_trace": true,
+      "responses_without_tool_calls": {
+        "count": 3,
+        "denominator": 3,
+        "rate": 1.0
+      },
+      "empty_replies_without_tool_calls": 0,
+      "invalid_actions": 2,
+      "invalid_rate": 0.6666666666666666,
+      "invalid_by_type": {
+        "SUMMARY_LIMIT": {
+          "count": 2,
+          "denominator": 3,
+          "rate": 0.6666666666666666
+        }
+      },
+      "invalid_share_of_action_budget": {
+        "count": 2,
+        "denominator": 20,
+        "percent": 10.0
+      },
+      "valid_finish_requests": 1,
+      "accepted_finish_requests": 1,
+      "first_FC_rejection_action": null,
+      "actions_after_first_FC_rejection": {},
+      "actions_after_first_FC_rejection_total": 0,
+      "outdated_messages": [],
+      "model_replies_not_dispatched": 0,
+      "denominators": "no-tool/replies retained; invalid/actions dispatched; budget percent/20; finish rejection is valid, not invalid"
+    }
+  },
+  {
+    "configuration": "C3",
+    "fixture": "SC-SORT",
+    "healthy": false,
+    "arm": "FC",
+    "endpoint": "PASS",
+    "availability": "VALID",
+    "terminal": "finish",
+    "actions": 10,
+    "source": {
+      "requests": 1,
+      "effective": 1,
+      "noops": 0,
+      "rejected_or_failed": 0,
+      "unknown_effect": 0
+    },
+    "environment": {
+      "requests": 1,
+      "effective": 0,
+      "noops": 1,
+      "rejected_or_failed": 0,
+      "unknown_effect": 0
+    },
+    "coverage_current": 6,
+    "coverage_cumulative": 6,
+    "losses": [],
+    "operation_checks": {
+      "first_command": true,
+      "second_command": true,
+      "no_args": true,
+      "explicit_help": true,
+      "first_command_help": true,
+      "second_command_help": true
+    },
+    "blind_modifying_requests": 2,
+    "diagnostic_effective_current": 0,
+    "profile_after_help_failure_current": 0,
+    "finish_public_failure": {
+      "accepted": 0,
+      "rejected": 0
+    },
+    "terminal_current_public_failure_operations": [],
+    "policy_finishes": 2,
+    "policy_rejections": 1,
+    "redundancy_numerator": 0,
+    "redundancy_denominator": 6,
+    "redundancy_fraction": 0.0,
+    "identical_action_streak": 1,
+    "stagnation_suffix": 0,
+    "loop_availability": "AVAILABLE",
+    "logical_prefix_cost": null,
+    "retained_score_status": "PASS",
+    "health": {
+      "arm": "FC",
+      "terminal": "finish",
+      "primary_availability": "VALID",
+      "replies_received": 10,
+      "actions_dispatched": 10,
+      "action_budget": 20,
+      "complete_retained_trace": true,
+      "responses_without_tool_calls": {
+        "count": 0,
+        "denominator": 10,
+        "rate": 0.0
+      },
+      "empty_replies_without_tool_calls": 0,
+      "invalid_actions": 0,
+      "invalid_rate": 0.0,
+      "invalid_by_type": {},
+      "invalid_share_of_action_budget": {
+        "count": 0,
+        "denominator": 20,
+        "percent": 0.0
+      },
+      "valid_finish_requests": 2,
+      "accepted_finish_requests": 1,
+      "first_FC_rejection_action": 5,
+      "actions_after_first_FC_rejection": {
+        "run_app": 4,
+        "finish_tool": 1
+      },
+      "actions_after_first_FC_rejection_total": 5,
+      "outdated_messages": [],
+      "model_replies_not_dispatched": 0,
+      "denominators": "no-tool/replies retained; invalid/actions dispatched; budget percent/20; finish rejection is valid, not invalid"
+    }
+  },
+  {
+    "configuration": "C3",
+    "fixture": "SC-SORT",
+    "healthy": false,
+    "arm": "BASE",
+    "endpoint": "PASS",
+    "availability": "VALID",
+    "terminal": "finish",
+    "actions": 5,
+    "source": {
+      "requests": 1,
+      "effective": 1,
+      "noops": 0,
+      "rejected_or_failed": 0,
+      "unknown_effect": 0
+    },
+    "environment": {
+      "requests": 1,
+      "effective": 0,
+      "noops": 1,
+      "rejected_or_failed": 0,
+      "unknown_effect": 0
+    },
+    "coverage_current": 2,
+    "coverage_cumulative": 2,
+    "losses": [],
+    "operation_checks": {
+      "first_command": true,
+      "second_command": true,
+      "no_args": true,
+      "explicit_help": true,
+      "first_command_help": true,
+      "second_command_help": true
+    },
+    "blind_modifying_requests": 2,
+    "diagnostic_effective_current": 0,
+    "profile_after_help_failure_current": 0,
+    "finish_public_failure": {
+      "accepted": 0,
+      "rejected": 0
+    },
+    "terminal_current_public_failure_operations": [],
+    "policy_finishes": 1,
+    "policy_rejections": 0,
+    "redundancy_numerator": 0,
+    "redundancy_denominator": 2,
+    "redundancy_fraction": 0.0,
+    "identical_action_streak": 1,
+    "stagnation_suffix": 0,
+    "loop_availability": "AVAILABLE",
+    "logical_prefix_cost": {
+      "received_model_replies": 5,
+      "known_generated_tokens": 490,
+      "physical_additional_generation_calls": 0,
+      "shared_cost_not_counted_twice": true
+    },
+    "retained_score_status": "PASS",
+    "health": {
+      "arm": "BASE",
+      "terminal": "finish",
+      "primary_availability": "VALID",
+      "replies_received": 5,
+      "actions_dispatched": 5,
+      "action_budget": 20,
+      "complete_retained_trace": true,
+      "responses_without_tool_calls": {
+        "count": 0,
+        "denominator": 5,
+        "rate": 0.0
+      },
+      "empty_replies_without_tool_calls": 0,
+      "invalid_actions": 0,
+      "invalid_rate": 0.0,
+      "invalid_by_type": {},
+      "invalid_share_of_action_budget": {
+        "count": 0,
+        "denominator": 20,
+        "percent": 0.0
+      },
+      "valid_finish_requests": 1,
+      "accepted_finish_requests": 1,
+      "first_FC_rejection_action": null,
+      "actions_after_first_FC_rejection": {},
+      "actions_after_first_FC_rejection_total": 0,
+      "outdated_messages": [],
+      "model_replies_not_dispatched": 0,
+      "denominators": "no-tool/replies retained; invalid/actions dispatched; budget percent/20; finish rejection is valid, not invalid"
+    }
+  },
+  {
+    "configuration": "C3",
+    "fixture": "H-RC2",
+    "healthy": true,
+    "arm": "FC",
+    "endpoint": "PASS",
+    "availability": "VALID",
+    "terminal": "finish",
+    "actions": 10,
+    "source": {
+      "requests": 1,
+      "effective": 1,
+      "noops": 0,
+      "rejected_or_failed": 0,
+      "unknown_effect": 0
+    },
+    "environment": {
+      "requests": 0,
+      "effective": 0,
+      "noops": 0,
+      "rejected_or_failed": 0,
+      "unknown_effect": 0
+    },
+    "coverage_current": 6,
+    "coverage_cumulative": 6,
+    "losses": [],
+    "operation_checks": {
+      "first_command": true,
+      "second_command": true,
+      "no_args": true,
+      "explicit_help": true,
+      "first_command_help": true,
+      "second_command_help": true
+    },
+    "blind_modifying_requests": 1,
+    "diagnostic_effective_current": 0,
+    "profile_after_help_failure_current": 0,
+    "finish_public_failure": {
+      "accepted": 0,
+      "rejected": 0
+    },
+    "terminal_current_public_failure_operations": [],
+    "policy_finishes": 2,
+    "policy_rejections": 1,
+    "redundancy_numerator": 0,
+    "redundancy_denominator": 6,
+    "redundancy_fraction": 0.0,
+    "identical_action_streak": 1,
+    "stagnation_suffix": 0,
+    "loop_availability": "AVAILABLE",
+    "logical_prefix_cost": null,
+    "retained_score_status": "PASS",
+    "health": {
+      "arm": "FC",
+      "terminal": "finish",
+      "primary_availability": "VALID",
+      "replies_received": 10,
+      "actions_dispatched": 10,
+      "action_budget": 20,
+      "complete_retained_trace": true,
+      "responses_without_tool_calls": {
+        "count": 1,
+        "denominator": 10,
+        "rate": 0.1
+      },
+      "empty_replies_without_tool_calls": 0,
+      "invalid_actions": 0,
+      "invalid_rate": 0.0,
+      "invalid_by_type": {},
+      "invalid_share_of_action_budget": {
+        "count": 0,
+        "denominator": 20,
+        "percent": 0.0
+      },
+      "valid_finish_requests": 2,
+      "accepted_finish_requests": 1,
+      "first_FC_rejection_action": 3,
+      "actions_after_first_FC_rejection": {
+        "run_app": 6,
+        "finish_tool": 1
+      },
+      "actions_after_first_FC_rejection_total": 7,
+      "outdated_messages": [],
+      "model_replies_not_dispatched": 0,
+      "denominators": "no-tool/replies retained; invalid/actions dispatched; budget percent/20; finish rejection is valid, not invalid"
+    }
+  },
+  {
+    "configuration": "C3",
+    "fixture": "H-RC2",
+    "healthy": true,
+    "arm": "BASE",
+    "endpoint": "PASS",
+    "availability": "VALID",
+    "terminal": "finish",
+    "actions": 3,
+    "source": {
+      "requests": 1,
+      "effective": 1,
+      "noops": 0,
+      "rejected_or_failed": 0,
+      "unknown_effect": 0
+    },
+    "environment": {
+      "requests": 0,
+      "effective": 0,
+      "noops": 0,
+      "rejected_or_failed": 0,
+      "unknown_effect": 0
+    },
+    "coverage_current": 0,
+    "coverage_cumulative": 0,
+    "losses": [],
+    "operation_checks": {
+      "first_command": true,
+      "second_command": true,
+      "no_args": true,
+      "explicit_help": true,
+      "first_command_help": true,
+      "second_command_help": true
+    },
+    "blind_modifying_requests": 1,
+    "diagnostic_effective_current": 0,
+    "profile_after_help_failure_current": 0,
+    "finish_public_failure": {
+      "accepted": 0,
+      "rejected": 0
+    },
+    "terminal_current_public_failure_operations": [],
+    "policy_finishes": 1,
+    "policy_rejections": 0,
+    "redundancy_numerator": 0,
+    "redundancy_denominator": 0,
+    "redundancy_fraction": null,
+    "identical_action_streak": 1,
+    "stagnation_suffix": 2,
+    "loop_availability": "AVAILABLE",
+    "logical_prefix_cost": {
+      "received_model_replies": 3,
+      "known_generated_tokens": 1748,
+      "physical_additional_generation_calls": 0,
+      "shared_cost_not_counted_twice": true
+    },
+    "retained_score_status": "PASS",
+    "health": {
+      "arm": "BASE",
+      "terminal": "finish",
+      "primary_availability": "VALID",
+      "replies_received": 3,
+      "actions_dispatched": 3,
+      "action_budget": 20,
+      "complete_retained_trace": true,
+      "responses_without_tool_calls": {
+        "count": 1,
+        "denominator": 3,
+        "rate": 0.3333333333333333
+      },
+      "empty_replies_without_tool_calls": 0,
+      "invalid_actions": 0,
+      "invalid_rate": 0.0,
+      "invalid_by_type": {},
+      "invalid_share_of_action_budget": {
+        "count": 0,
+        "denominator": 20,
+        "percent": 0.0
+      },
+      "valid_finish_requests": 1,
+      "accepted_finish_requests": 1,
+      "first_FC_rejection_action": null,
+      "actions_after_first_FC_rejection": {},
+      "actions_after_first_FC_rejection_total": 0,
+      "outdated_messages": [],
+      "model_replies_not_dispatched": 0,
+      "denominators": "no-tool/replies retained; invalid/actions dispatched; budget percent/20; finish rejection is valid, not invalid"
+    }
+  },
+  {
+    "configuration": "C3",
+    "fixture": "EC-SYMBOL",
+    "healthy": false,
+    "arm": "FC",
+    "endpoint": "PASS",
+    "availability": "VALID",
+    "terminal": "finish",
+    "actions": 17,
+    "source": {
+      "requests": 5,
+      "effective": 3,
+      "noops": 2,
+      "rejected_or_failed": 0,
+      "unknown_effect": 0
+    },
+    "environment": {
+      "requests": 0,
+      "effective": 0,
+      "noops": 0,
+      "rejected_or_failed": 0,
+      "unknown_effect": 0
+    },
+    "coverage_current": 6,
+    "coverage_cumulative": 6,
+    "losses": [],
+    "operation_checks": {
+      "first_command": true,
+      "second_command": true,
+      "no_args": true,
+      "explicit_help": true,
+      "first_command_help": true,
+      "second_command_help": true
+    },
+    "blind_modifying_requests": 3,
+    "diagnostic_effective_current": 2,
+    "profile_after_help_failure_current": 0,
+    "finish_public_failure": {
+      "accepted": 0,
+      "rejected": 0
+    },
+    "terminal_current_public_failure_operations": [],
+    "policy_finishes": 2,
+    "policy_rejections": 1,
+    "redundancy_numerator": 2,
+    "redundancy_denominator": 10,
+    "redundancy_fraction": 0.2,
+    "identical_action_streak": 2,
+    "stagnation_suffix": 0,
+    "loop_availability": "AVAILABLE",
+    "logical_prefix_cost": null,
+    "retained_score_status": "PASS",
+    "health": {
+      "arm": "FC",
+      "terminal": "finish",
+      "primary_availability": "VALID",
+      "replies_received": 17,
+      "actions_dispatched": 17,
+      "action_budget": 20,
+      "complete_retained_trace": true,
+      "responses_without_tool_calls": {
+        "count": 1,
+        "denominator": 17,
+        "rate": 0.058823529411764705
+      },
+      "empty_replies_without_tool_calls": 0,
+      "invalid_actions": 0,
+      "invalid_rate": 0.0,
+      "invalid_by_type": {},
+      "invalid_share_of_action_budget": {
+        "count": 0,
+        "denominator": 20,
+        "percent": 0.0
+      },
+      "valid_finish_requests": 2,
+      "accepted_finish_requests": 1,
+      "first_FC_rejection_action": 12,
+      "actions_after_first_FC_rejection": {
+        "run_app": 4,
+        "finish_tool": 1
+      },
+      "actions_after_first_FC_rejection_total": 5,
+      "outdated_messages": [],
+      "model_replies_not_dispatched": 0,
+      "denominators": "no-tool/replies retained; invalid/actions dispatched; budget percent/20; finish rejection is valid, not invalid"
+    }
+  },
+  {
+    "configuration": "C3",
+    "fixture": "EC-SYMBOL",
+    "healthy": false,
+    "arm": "BASE",
+    "endpoint": "PASS",
+    "availability": "VALID",
+    "terminal": "finish",
+    "actions": 12,
+    "source": {
+      "requests": 5,
+      "effective": 3,
+      "noops": 2,
+      "rejected_or_failed": 0,
+      "unknown_effect": 0
+    },
+    "environment": {
+      "requests": 0,
+      "effective": 0,
+      "noops": 0,
+      "rejected_or_failed": 0,
+      "unknown_effect": 0
+    },
+    "coverage_current": 2,
+    "coverage_cumulative": 2,
+    "losses": [],
+    "operation_checks": {
+      "first_command": true,
+      "second_command": true,
+      "no_args": true,
+      "explicit_help": true,
+      "first_command_help": true,
+      "second_command_help": true
+    },
+    "blind_modifying_requests": 3,
+    "diagnostic_effective_current": 2,
+    "profile_after_help_failure_current": 0,
+    "finish_public_failure": {
+      "accepted": 0,
+      "rejected": 0
+    },
+    "terminal_current_public_failure_operations": [],
+    "policy_finishes": 1,
+    "policy_rejections": 0,
+    "redundancy_numerator": 2,
+    "redundancy_denominator": 6,
+    "redundancy_fraction": 0.3333333333333333,
+    "identical_action_streak": 2,
+    "stagnation_suffix": 0,
+    "loop_availability": "AVAILABLE",
+    "logical_prefix_cost": {
+      "received_model_replies": 12,
+      "known_generated_tokens": 4131,
+      "physical_additional_generation_calls": 0,
+      "shared_cost_not_counted_twice": true
+    },
+    "retained_score_status": "PASS",
+    "health": {
+      "arm": "BASE",
+      "terminal": "finish",
+      "primary_availability": "VALID",
+      "replies_received": 12,
+      "actions_dispatched": 12,
+      "action_budget": 20,
+      "complete_retained_trace": true,
+      "responses_without_tool_calls": {
+        "count": 1,
+        "denominator": 12,
+        "rate": 0.08333333333333333
+      },
+      "empty_replies_without_tool_calls": 0,
+      "invalid_actions": 0,
+      "invalid_rate": 0.0,
+      "invalid_by_type": {},
+      "invalid_share_of_action_budget": {
+        "count": 0,
+        "denominator": 20,
+        "percent": 0.0
+      },
+      "valid_finish_requests": 1,
+      "accepted_finish_requests": 1,
+      "first_FC_rejection_action": null,
+      "actions_after_first_FC_rejection": {},
+      "actions_after_first_FC_rejection_total": 0,
+      "outdated_messages": [],
+      "model_replies_not_dispatched": 0,
+      "denominators": "no-tool/replies retained; invalid/actions dispatched; budget percent/20; finish rejection is valid, not invalid"
+    }
+  },
+  {
+    "configuration": "C3",
+    "fixture": "SH-FORMAT",
+    "healthy": false,
+    "arm": "FC",
+    "endpoint": "FAIL",
+    "availability": "VALID",
+    "terminal": "finish",
+    "actions": 11,
+    "source": {
+      "requests": 2,
+      "effective": 1,
+      "noops": 1,
+      "rejected_or_failed": 0,
+      "unknown_effect": 0
+    },
+    "environment": {
+      "requests": 0,
+      "effective": 0,
+      "noops": 0,
+      "rejected_or_failed": 0,
+      "unknown_effect": 0
+    },
+    "coverage_current": 6,
+    "coverage_cumulative": 6,
+    "losses": [],
+    "operation_checks": {
+      "first_command": true,
+      "second_command": true,
+      "no_args": false,
+      "explicit_help": false,
+      "first_command_help": true,
+      "second_command_help": true
+    },
+    "blind_modifying_requests": 2,
+    "diagnostic_effective_current": 0,
+    "profile_after_help_failure_current": 0,
+    "finish_public_failure": {
+      "accepted": 1,
+      "rejected": 0
+    },
+    "terminal_current_public_failure_operations": [
+      "explicit_help",
+      "no_args"
+    ],
+    "policy_finishes": 3,
+    "policy_rejections": 2,
+    "redundancy_numerator": 0,
+    "redundancy_denominator": 6,
+    "redundancy_fraction": 0.0,
+    "identical_action_streak": 2,
+    "stagnation_suffix": 0,
+    "loop_availability": "AVAILABLE",
+    "logical_prefix_cost": null,
+    "retained_score_status": "FAIL",
+    "health": {
+      "arm": "FC",
+      "terminal": "finish",
+      "primary_availability": "VALID",
+      "replies_received": 11,
+      "actions_dispatched": 11,
+      "action_budget": 20,
+      "complete_retained_trace": true,
+      "responses_without_tool_calls": {
+        "count": 1,
+        "denominator": 11,
+        "rate": 0.09090909090909091
+      },
+      "empty_replies_without_tool_calls": 0,
+      "invalid_actions": 0,
+      "invalid_rate": 0.0,
+      "invalid_by_type": {},
+      "invalid_share_of_action_budget": {
+        "count": 0,
+        "denominator": 20,
+        "percent": 0.0
+      },
+      "valid_finish_requests": 3,
+      "accepted_finish_requests": 1,
+      "first_FC_rejection_action": 6,
+      "actions_after_first_FC_rejection": {
+        "finish_text": 1,
+        "run_app": 3,
+        "finish_tool": 1
+      },
+      "actions_after_first_FC_rejection_total": 5,
+      "outdated_messages": [],
+      "model_replies_not_dispatched": 0,
+      "denominators": "no-tool/replies retained; invalid/actions dispatched; budget percent/20; finish rejection is valid, not invalid"
+    }
+  },
+  {
+    "configuration": "C3",
+    "fixture": "SH-FORMAT",
+    "healthy": false,
+    "arm": "BASE",
+    "endpoint": "FAIL",
+    "availability": "VALID",
+    "terminal": "finish",
+    "actions": 6,
+    "source": {
+      "requests": 2,
+      "effective": 1,
+      "noops": 1,
+      "rejected_or_failed": 0,
+      "unknown_effect": 0
+    },
+    "environment": {
+      "requests": 0,
+      "effective": 0,
+      "noops": 0,
+      "rejected_or_failed": 0,
+      "unknown_effect": 0
+    },
+    "coverage_current": 3,
+    "coverage_cumulative": 3,
+    "losses": [],
+    "operation_checks": {
+      "first_command": true,
+      "second_command": true,
+      "no_args": false,
+      "explicit_help": false,
+      "first_command_help": true,
+      "second_command_help": true
+    },
+    "blind_modifying_requests": 2,
+    "diagnostic_effective_current": 0,
+    "profile_after_help_failure_current": 0,
+    "finish_public_failure": {
+      "accepted": 0,
+      "rejected": 0
+    },
+    "terminal_current_public_failure_operations": [],
+    "policy_finishes": 1,
+    "policy_rejections": 0,
+    "redundancy_numerator": 0,
+    "redundancy_denominator": 3,
+    "redundancy_fraction": 0.0,
+    "identical_action_streak": 2,
+    "stagnation_suffix": 0,
+    "loop_availability": "AVAILABLE",
+    "logical_prefix_cost": {
+      "received_model_replies": 6,
+      "known_generated_tokens": 2359,
+      "physical_additional_generation_calls": 0,
+      "shared_cost_not_counted_twice": true
+    },
+    "retained_score_status": "FAIL",
+    "health": {
+      "arm": "BASE",
+      "terminal": "finish",
+      "primary_availability": "VALID",
+      "replies_received": 6,
+      "actions_dispatched": 6,
+      "action_budget": 20,
+      "complete_retained_trace": true,
+      "responses_without_tool_calls": {
+        "count": 0,
+        "denominator": 6,
+        "rate": 0.0
+      },
+      "empty_replies_without_tool_calls": 0,
+      "invalid_actions": 0,
+      "invalid_rate": 0.0,
+      "invalid_by_type": {},
+      "invalid_share_of_action_budget": {
+        "count": 0,
+        "denominator": 20,
+        "percent": 0.0
+      },
+      "valid_finish_requests": 1,
+      "accepted_finish_requests": 1,
+      "first_FC_rejection_action": null,
+      "actions_after_first_FC_rejection": {},
+      "actions_after_first_FC_rejection_total": 0,
+      "outdated_messages": [],
+      "model_replies_not_dispatched": 0,
+      "denominators": "no-tool/replies retained; invalid/actions dispatched; budget percent/20; finish rejection is valid, not invalid"
+    }
+  },
+  {
+    "configuration": "C1",
+    "fixture": "EH-API",
+    "healthy": false,
+    "arm": "FC",
+    "endpoint": "FAIL",
+    "availability": "VALID",
+    "terminal": "finish",
+    "actions": 11,
+    "source": {
+      "requests": 0,
+      "effective": 0,
+      "noops": 0,
+      "rejected_or_failed": 0,
+      "unknown_effect": 0
+    },
+    "environment": {
+      "requests": 0,
+      "effective": 0,
+      "noops": 0,
+      "rejected_or_failed": 0,
+      "unknown_effect": 0
+    },
+    "coverage_current": 6,
+    "coverage_cumulative": 6,
+    "losses": [],
+    "operation_checks": {
+      "first_command": true,
+      "second_command": true,
+      "no_args": false,
+      "explicit_help": false,
+      "first_command_help": false,
+      "second_command_help": false
+    },
+    "blind_modifying_requests": 0,
+    "diagnostic_effective_current": 0,
+    "profile_after_help_failure_current": 0,
+    "finish_public_failure": {
+      "accepted": 1,
+      "rejected": 2
+    },
+    "terminal_current_public_failure_operations": [
+      "explicit_help",
+      "first_command_help",
+      "no_args",
+      "second_command_help"
+    ],
+    "policy_finishes": 5,
+    "policy_rejections": 4,
+    "redundancy_numerator": 0,
+    "redundancy_denominator": 6,
+    "redundancy_fraction": 0.0,
+    "identical_action_streak": 1,
+    "stagnation_suffix": 0,
+    "loop_availability": "AVAILABLE",
+    "logical_prefix_cost": null,
+    "retained_score_status": "FAIL",
+    "health": {
+      "arm": "FC",
+      "terminal": "finish",
+      "primary_availability": "VALID",
+      "replies_received": 11,
+      "actions_dispatched": 11,
+      "action_budget": 20,
+      "complete_retained_trace": true,
+      "responses_without_tool_calls": {
+        "count": 2,
+        "denominator": 11,
+        "rate": 0.18181818181818182
+      },
+      "empty_replies_without_tool_calls": 0,
+      "invalid_actions": 0,
+      "invalid_rate": 0.0,
+      "invalid_by_type": {},
+      "invalid_share_of_action_budget": {
+        "count": 0,
+        "denominator": 20,
+        "percent": 0.0
+      },
+      "valid_finish_requests": 5,
+      "accepted_finish_requests": 1,
+      "first_FC_rejection_action": 3,
+      "actions_after_first_FC_rejection": {
+        "finish_tool": 2,
+        "run_app": 4,
+        "finish_text": 2
+      },
+      "actions_after_first_FC_rejection_total": 8,
+      "outdated_messages": [],
+      "model_replies_not_dispatched": 0,
+      "denominators": "no-tool/replies retained; invalid/actions dispatched; budget percent/20; finish rejection is valid, not invalid"
+    }
+  },
+  {
+    "configuration": "C1",
+    "fixture": "EH-API",
+    "healthy": false,
+    "arm": "BASE",
+    "endpoint": "FAIL",
+    "availability": "VALID",
+    "terminal": "finish",
+    "actions": 3,
+    "source": {
+      "requests": 0,
+      "effective": 0,
+      "noops": 0,
+      "rejected_or_failed": 0,
+      "unknown_effect": 0
+    },
+    "environment": {
+      "requests": 0,
+      "effective": 0,
+      "noops": 0,
+      "rejected_or_failed": 0,
+      "unknown_effect": 0
+    },
+    "coverage_current": 2,
+    "coverage_cumulative": 2,
+    "losses": [],
+    "operation_checks": {
+      "first_command": true,
+      "second_command": true,
+      "no_args": false,
+      "explicit_help": false,
+      "first_command_help": false,
+      "second_command_help": false
+    },
+    "blind_modifying_requests": 0,
+    "diagnostic_effective_current": 0,
+    "profile_after_help_failure_current": 0,
+    "finish_public_failure": {
+      "accepted": 0,
+      "rejected": 0
+    },
+    "terminal_current_public_failure_operations": [],
+    "policy_finishes": 1,
+    "policy_rejections": 0,
+    "redundancy_numerator": 0,
+    "redundancy_denominator": 2,
+    "redundancy_fraction": 0.0,
+    "identical_action_streak": 1,
+    "stagnation_suffix": 0,
+    "loop_availability": "AVAILABLE",
+    "logical_prefix_cost": {
+      "received_model_replies": 3,
+      "known_generated_tokens": 684,
+      "physical_additional_generation_calls": 0,
+      "shared_cost_not_counted_twice": true
+    },
+    "retained_score_status": "FAIL",
+    "health": {
+      "arm": "BASE",
+      "terminal": "finish",
+      "primary_availability": "VALID",
+      "replies_received": 3,
+      "actions_dispatched": 3,
+      "action_budget": 20,
+      "complete_retained_trace": true,
+      "responses_without_tool_calls": {
+        "count": 0,
+        "denominator": 3,
+        "rate": 0.0
+      },
+      "empty_replies_without_tool_calls": 0,
+      "invalid_actions": 0,
+      "invalid_rate": 0.0,
+      "invalid_by_type": {},
+      "invalid_share_of_action_budget": {
+        "count": 0,
+        "denominator": 20,
+        "percent": 0.0
+      },
+      "valid_finish_requests": 1,
+      "accepted_finish_requests": 1,
+      "first_FC_rejection_action": null,
+      "actions_after_first_FC_rejection": {},
+      "actions_after_first_FC_rejection_total": 0,
+      "outdated_messages": [],
+      "model_replies_not_dispatched": 0,
+      "denominators": "no-tool/replies retained; invalid/actions dispatched; budget percent/20; finish rejection is valid, not invalid"
+    }
+  },
+  {
+    "configuration": "C1",
+    "fixture": "SC-BALANCE",
+    "healthy": false,
+    "arm": "FC",
+    "endpoint": "FAIL",
+    "availability": "VALID",
+    "terminal": "action_budget",
+    "actions": 20,
+    "source": {
+      "requests": 3,
+      "effective": 2,
+      "noops": 1,
+      "rejected_or_failed": 0,
+      "unknown_effect": 0
+    },
+    "environment": {
+      "requests": 0,
+      "effective": 0,
+      "noops": 0,
+      "rejected_or_failed": 0,
+      "unknown_effect": 0
+    },
+    "coverage_current": 5,
+    "coverage_cumulative": 5,
+    "losses": [],
+    "operation_checks": {
+      "first_command": false,
+      "second_command": true,
+      "no_args": true,
+      "explicit_help": true,
+      "first_command_help": true,
+      "second_command_help": true
+    },
+    "blind_modifying_requests": 1,
+    "diagnostic_effective_current": 2,
+    "profile_after_help_failure_current": 0,
+    "finish_public_failure": {
+      "accepted": 0,
+      "rejected": 4
+    },
+    "terminal_current_public_failure_operations": [
+      "first_command"
+    ],
+    "policy_finishes": 6,
+    "policy_rejections": 6,
+    "redundancy_numerator": 2,
+    "redundancy_denominator": 10,
+    "redundancy_fraction": 0.2,
+    "identical_action_streak": 2,
+    "stagnation_suffix": 2,
+    "loop_availability": "AVAILABLE",
+    "logical_prefix_cost": null,
+    "retained_score_status": "FAIL",
+    "health": {
+      "arm": "FC",
+      "terminal": "action_budget",
+      "primary_availability": "VALID",
+      "replies_received": 20,
+      "actions_dispatched": 20,
+      "action_budget": 20,
+      "complete_retained_trace": true,
+      "responses_without_tool_calls": {
+        "count": 2,
+        "denominator": 20,
+        "rate": 0.1
+      },
+      "empty_replies_without_tool_calls": 0,
+      "invalid_actions": 0,
+      "invalid_rate": 0.0,
+      "invalid_by_type": {},
+      "invalid_share_of_action_budget": {
+        "count": 0,
+        "denominator": 20,
+        "percent": 0.0
+      },
+      "valid_finish_requests": 6,
+      "accepted_finish_requests": 0,
+      "first_FC_rejection_action": 5,
+      "actions_after_first_FC_rejection": {
+        "finish_text": 2,
+        "run_app": 8,
+        "write_file": 2,
+        "finish_tool": 3
+      },
+      "actions_after_first_FC_rejection_total": 15,
+      "outdated_messages": [],
+      "model_replies_not_dispatched": 0,
+      "denominators": "no-tool/replies retained; invalid/actions dispatched; budget percent/20; finish rejection is valid, not invalid"
+    }
+  },
+  {
+    "configuration": "C1",
+    "fixture": "SC-BALANCE",
+    "healthy": false,
+    "arm": "BASE",
+    "endpoint": "FAIL",
+    "availability": "VALID",
+    "terminal": "finish",
+    "actions": 5,
+    "source": {
+      "requests": 1,
+      "effective": 1,
+      "noops": 0,
+      "rejected_or_failed": 0,
+      "unknown_effect": 0
+    },
+    "environment": {
+      "requests": 0,
+      "effective": 0,
+      "noops": 0,
+      "rejected_or_failed": 0,
+      "unknown_effect": 0
+    },
+    "coverage_current": 0,
+    "coverage_cumulative": 2,
+    "losses": [
+      "second_command",
+      "no_args",
+      "explicit_help",
+      "first_command_help",
+      "second_command_help"
+    ],
+    "operation_checks": {
+      "first_command": false,
+      "second_command": false,
+      "no_args": false,
+      "explicit_help": false,
+      "first_command_help": false,
+      "second_command_help": false
+    },
+    "blind_modifying_requests": 0,
+    "diagnostic_effective_current": 1,
+    "profile_after_help_failure_current": 0,
+    "finish_public_failure": {
+      "accepted": 0,
+      "rejected": 0
+    },
+    "terminal_current_public_failure_operations": [],
+    "policy_finishes": 1,
+    "policy_rejections": 0,
+    "redundancy_numerator": 0,
+    "redundancy_denominator": 2,
+    "redundancy_fraction": 0.0,
+    "identical_action_streak": 1,
+    "stagnation_suffix": 1,
+    "loop_availability": "AVAILABLE",
+    "logical_prefix_cost": {
+      "received_model_replies": 5,
+      "known_generated_tokens": 879,
+      "physical_additional_generation_calls": 0,
+      "shared_cost_not_counted_twice": true
+    },
+    "retained_score_status": "FAIL",
+    "health": {
+      "arm": "BASE",
+      "terminal": "finish",
+      "primary_availability": "VALID",
+      "replies_received": 5,
+      "actions_dispatched": 5,
+      "action_budget": 20,
+      "complete_retained_trace": true,
+      "responses_without_tool_calls": {
+        "count": 0,
+        "denominator": 5,
+        "rate": 0.0
+      },
+      "empty_replies_without_tool_calls": 0,
+      "invalid_actions": 0,
+      "invalid_rate": 0.0,
+      "invalid_by_type": {},
+      "invalid_share_of_action_budget": {
+        "count": 0,
+        "denominator": 20,
+        "percent": 0.0
+      },
+      "valid_finish_requests": 1,
+      "accepted_finish_requests": 1,
+      "first_FC_rejection_action": null,
+      "actions_after_first_FC_rejection": {},
+      "actions_after_first_FC_rejection_total": 0,
+      "outdated_messages": [],
+      "model_replies_not_dispatched": 0,
+      "denominators": "no-tool/replies retained; invalid/actions dispatched; budget percent/20; finish rejection is valid, not invalid"
+    }
+  },
+  {
+    "configuration": "C1",
+    "fixture": "H-RC0",
+    "healthy": true,
+    "arm": "FC",
+    "endpoint": "PASS",
+    "availability": "VALID",
+    "terminal": "finish",
+    "actions": 8,
+    "source": {
+      "requests": 0,
+      "effective": 0,
+      "noops": 0,
+      "rejected_or_failed": 0,
+      "unknown_effect": 0
+    },
+    "environment": {
+      "requests": 0,
+      "effective": 0,
+      "noops": 0,
+      "rejected_or_failed": 0,
+      "unknown_effect": 0
+    },
+    "coverage_current": 6,
+    "coverage_cumulative": 6,
+    "losses": [],
+    "operation_checks": {
+      "first_command": true,
+      "second_command": true,
+      "no_args": true,
+      "explicit_help": true,
+      "first_command_help": true,
+      "second_command_help": true
+    },
+    "blind_modifying_requests": 0,
+    "diagnostic_effective_current": 0,
+    "profile_after_help_failure_current": 0,
+    "finish_public_failure": {
+      "accepted": 0,
+      "rejected": 0
+    },
+    "terminal_current_public_failure_operations": [],
+    "policy_finishes": 2,
+    "policy_rejections": 1,
+    "redundancy_numerator": 0,
+    "redundancy_denominator": 6,
+    "redundancy_fraction": 0.0,
+    "identical_action_streak": 1,
+    "stagnation_suffix": 0,
+    "loop_availability": "AVAILABLE",
+    "logical_prefix_cost": null,
+    "retained_score_status": "PASS",
+    "health": {
+      "arm": "FC",
+      "terminal": "finish",
+      "primary_availability": "VALID",
+      "replies_received": 8,
+      "actions_dispatched": 8,
+      "action_budget": 20,
+      "complete_retained_trace": true,
+      "responses_without_tool_calls": {
+        "count": 1,
+        "denominator": 8,
+        "rate": 0.125
+      },
+      "empty_replies_without_tool_calls": 0,
+      "invalid_actions": 0,
+      "invalid_rate": 0.0,
+      "invalid_by_type": {},
+      "invalid_share_of_action_budget": {
+        "count": 0,
+        "denominator": 20,
+        "percent": 0.0
+      },
+      "valid_finish_requests": 2,
+      "accepted_finish_requests": 1,
+      "first_FC_rejection_action": 3,
+      "actions_after_first_FC_rejection": {
+        "run_app": 4,
+        "finish_tool": 1
+      },
+      "actions_after_first_FC_rejection_total": 5,
+      "outdated_messages": [],
+      "model_replies_not_dispatched": 0,
+      "denominators": "no-tool/replies retained; invalid/actions dispatched; budget percent/20; finish rejection is valid, not invalid"
+    }
+  },
+  {
+    "configuration": "C1",
+    "fixture": "H-RC0",
+    "healthy": true,
+    "arm": "BASE",
+    "endpoint": "PASS",
+    "availability": "VALID",
+    "terminal": "finish",
+    "actions": 3,
+    "source": {
+      "requests": 0,
+      "effective": 0,
+      "noops": 0,
+      "rejected_or_failed": 0,
+      "unknown_effect": 0
+    },
+    "environment": {
+      "requests": 0,
+      "effective": 0,
+      "noops": 0,
+      "rejected_or_failed": 0,
+      "unknown_effect": 0
+    },
+    "coverage_current": 2,
+    "coverage_cumulative": 2,
+    "losses": [],
+    "operation_checks": {
+      "first_command": true,
+      "second_command": true,
+      "no_args": true,
+      "explicit_help": true,
+      "first_command_help": true,
+      "second_command_help": true
+    },
+    "blind_modifying_requests": 0,
+    "diagnostic_effective_current": 0,
+    "profile_after_help_failure_current": 0,
+    "finish_public_failure": {
+      "accepted": 0,
+      "rejected": 0
+    },
+    "terminal_current_public_failure_operations": [],
+    "policy_finishes": 1,
+    "policy_rejections": 0,
+    "redundancy_numerator": 0,
+    "redundancy_denominator": 2,
+    "redundancy_fraction": 0.0,
+    "identical_action_streak": 1,
+    "stagnation_suffix": 0,
+    "loop_availability": "AVAILABLE",
+    "logical_prefix_cost": {
+      "received_model_replies": 3,
+      "known_generated_tokens": 466,
+      "physical_additional_generation_calls": 0,
+      "shared_cost_not_counted_twice": true
+    },
+    "retained_score_status": "PASS",
+    "health": {
+      "arm": "BASE",
+      "terminal": "finish",
+      "primary_availability": "VALID",
+      "replies_received": 3,
+      "actions_dispatched": 3,
+      "action_budget": 20,
+      "complete_retained_trace": true,
+      "responses_without_tool_calls": {
+        "count": 1,
+        "denominator": 3,
+        "rate": 0.3333333333333333
+      },
+      "empty_replies_without_tool_calls": 0,
+      "invalid_actions": 0,
+      "invalid_rate": 0.0,
+      "invalid_by_type": {},
+      "invalid_share_of_action_budget": {
+        "count": 0,
+        "denominator": 20,
+        "percent": 0.0
+      },
+      "valid_finish_requests": 1,
+      "accepted_finish_requests": 1,
+      "first_FC_rejection_action": null,
+      "actions_after_first_FC_rejection": {},
+      "actions_after_first_FC_rejection_total": 0,
+      "outdated_messages": [],
+      "model_replies_not_dispatched": 0,
+      "denominators": "no-tool/replies retained; invalid/actions dispatched; budget percent/20; finish rejection is valid, not invalid"
+    }
+  },
+  {
+    "configuration": "C1",
+    "fixture": "EC-MISSING",
+    "healthy": false,
+    "arm": "FC",
+    "endpoint": "FAIL",
+    "availability": "VALID",
+    "terminal": "finish",
+    "actions": 15,
+    "source": {
+      "requests": 1,
+      "effective": 1,
+      "noops": 0,
+      "rejected_or_failed": 0,
+      "unknown_effect": 0
+    },
+    "environment": {
+      "requests": 0,
+      "effective": 0,
+      "noops": 0,
+      "rejected_or_failed": 0,
+      "unknown_effect": 0
+    },
+    "coverage_current": 6,
+    "coverage_cumulative": 6,
+    "losses": [],
+    "operation_checks": {
+      "first_command": false,
+      "second_command": false,
+      "no_args": false,
+      "explicit_help": false,
+      "first_command_help": false,
+      "second_command_help": false
+    },
+    "blind_modifying_requests": 0,
+    "diagnostic_effective_current": 1,
+    "profile_after_help_failure_current": 0,
+    "finish_public_failure": {
+      "accepted": 1,
+      "rejected": 1
+    },
+    "terminal_current_public_failure_operations": [
+      "explicit_help",
+      "first_command",
+      "first_command_help",
+      "no_args",
+      "second_command",
+      "second_command_help"
+    ],
+    "policy_finishes": 3,
+    "policy_rejections": 2,
+    "redundancy_numerator": 0,
+    "redundancy_denominator": 8,
+    "redundancy_fraction": 0.0,
+    "identical_action_streak": 1,
+    "stagnation_suffix": 1,
+    "loop_availability": "AVAILABLE",
+    "logical_prefix_cost": null,
+    "retained_score_status": "FAIL",
+    "health": {
+      "arm": "FC",
+      "terminal": "finish",
+      "primary_availability": "VALID",
+      "replies_received": 15,
+      "actions_dispatched": 15,
+      "action_budget": 20,
+      "complete_retained_trace": true,
+      "responses_without_tool_calls": {
+        "count": 4,
+        "denominator": 15,
+        "rate": 0.26666666666666666
+      },
+      "empty_replies_without_tool_calls": 0,
+      "invalid_actions": 1,
+      "invalid_rate": 0.06666666666666667,
+      "invalid_by_type": {
+        "SUMMARY_LIMIT": {
+          "count": 1,
+          "denominator": 15,
+          "rate": 0.06666666666666667
+        }
+      },
+      "invalid_share_of_action_budget": {
+        "count": 1,
+        "denominator": 20,
+        "percent": 5.0
+      },
+      "valid_finish_requests": 3,
+      "accepted_finish_requests": 1,
+      "first_FC_rejection_action": 6,
+      "actions_after_first_FC_rejection": {
+        "run_app": 6,
+        "finish_text": 2,
+        "invalid:SUMMARY_LIMIT": 1
+      },
+      "actions_after_first_FC_rejection_total": 9,
+      "outdated_messages": [],
+      "model_replies_not_dispatched": 0,
+      "denominators": "no-tool/replies retained; invalid/actions dispatched; budget percent/20; finish rejection is valid, not invalid"
+    }
+  },
+  {
+    "configuration": "C1",
+    "fixture": "EC-MISSING",
+    "healthy": false,
+    "arm": "BASE",
+    "endpoint": "FAIL",
+    "availability": "VALID",
+    "terminal": "finish",
+    "actions": 6,
+    "source": {
+      "requests": 1,
+      "effective": 1,
+      "noops": 0,
+      "rejected_or_failed": 0,
+      "unknown_effect": 0
+    },
+    "environment": {
+      "requests": 0,
+      "effective": 0,
+      "noops": 0,
+      "rejected_or_failed": 0,
+      "unknown_effect": 0
+    },
+    "coverage_current": 0,
+    "coverage_cumulative": 2,
+    "losses": [],
+    "operation_checks": {
+      "first_command": false,
+      "second_command": false,
+      "no_args": false,
+      "explicit_help": false,
+      "first_command_help": false,
+      "second_command_help": false
+    },
+    "blind_modifying_requests": 0,
+    "diagnostic_effective_current": 1,
+    "profile_after_help_failure_current": 0,
+    "finish_public_failure": {
+      "accepted": 0,
+      "rejected": 0
+    },
+    "terminal_current_public_failure_operations": [],
+    "policy_finishes": 1,
+    "policy_rejections": 0,
+    "redundancy_numerator": 0,
+    "redundancy_denominator": 2,
+    "redundancy_fraction": 0.0,
+    "identical_action_streak": 1,
+    "stagnation_suffix": 2,
+    "loop_availability": "AVAILABLE",
+    "logical_prefix_cost": {
+      "received_model_replies": 6,
+      "known_generated_tokens": 1425,
+      "physical_additional_generation_calls": 0,
+      "shared_cost_not_counted_twice": true
+    },
+    "retained_score_status": "FAIL",
+    "health": {
+      "arm": "BASE",
+      "terminal": "finish",
+      "primary_availability": "VALID",
+      "replies_received": 6,
+      "actions_dispatched": 6,
+      "action_budget": 20,
+      "complete_retained_trace": true,
+      "responses_without_tool_calls": {
+        "count": 1,
+        "denominator": 6,
+        "rate": 0.16666666666666666
+      },
+      "empty_replies_without_tool_calls": 0,
+      "invalid_actions": 0,
+      "invalid_rate": 0.0,
+      "invalid_by_type": {},
+      "invalid_share_of_action_budget": {
+        "count": 0,
+        "denominator": 20,
+        "percent": 0.0
+      },
+      "valid_finish_requests": 1,
+      "accepted_finish_requests": 1,
+      "first_FC_rejection_action": null,
+      "actions_after_first_FC_rejection": {},
+      "actions_after_first_FC_rejection_total": 0,
+      "outdated_messages": [],
+      "model_replies_not_dispatched": 0,
+      "denominators": "no-tool/replies retained; invalid/actions dispatched; budget percent/20; finish rejection is valid, not invalid"
+    }
+  },
+  {
+    "configuration": "C1",
+    "fixture": "SH-FLAG",
+    "healthy": false,
+    "arm": "FC",
+    "endpoint": "FAIL",
+    "availability": "VALID",
+    "terminal": "finish",
+    "actions": 20,
+    "source": {
+      "requests": 2,
+      "effective": 1,
+      "noops": 1,
+      "rejected_or_failed": 0,
+      "unknown_effect": 0
+    },
+    "environment": {
+      "requests": 0,
+      "effective": 0,
+      "noops": 0,
+      "rejected_or_failed": 0,
+      "unknown_effect": 0
+    },
+    "coverage_current": 6,
+    "coverage_cumulative": 6,
+    "losses": [],
+    "operation_checks": {
+      "first_command": true,
+      "second_command": true,
+      "no_args": true,
+      "explicit_help": false,
+      "first_command_help": false,
+      "second_command_help": false
+    },
+    "blind_modifying_requests": 1,
+    "diagnostic_effective_current": 0,
+    "profile_after_help_failure_current": 0,
+    "finish_public_failure": {
+      "accepted": 1,
+      "rejected": 0
+    },
+    "terminal_current_public_failure_operations": [
+      "explicit_help",
+      "first_command_help",
+      "second_command_help"
+    ],
+    "policy_finishes": 7,
+    "policy_rejections": 6,
+    "redundancy_numerator": 2,
+    "redundancy_denominator": 10,
+    "redundancy_fraction": 0.2,
+    "identical_action_streak": 2,
+    "stagnation_suffix": 0,
+    "loop_availability": "AVAILABLE",
+    "logical_prefix_cost": null,
+    "retained_score_status": "FAIL",
+    "health": {
+      "arm": "FC",
+      "terminal": "finish",
+      "primary_availability": "VALID",
+      "replies_received": 20,
+      "actions_dispatched": 20,
+      "action_budget": 20,
+      "complete_retained_trace": true,
+      "responses_without_tool_calls": {
+        "count": 0,
+        "denominator": 20,
+        "rate": 0.0
+      },
+      "empty_replies_without_tool_calls": 0,
+      "invalid_actions": 0,
+      "invalid_rate": 0.0,
+      "invalid_by_type": {},
+      "invalid_share_of_action_budget": {
+        "count": 0,
+        "denominator": 20,
+        "percent": 0.0
+      },
+      "valid_finish_requests": 7,
+      "accepted_finish_requests": 1,
+      "first_FC_rejection_action": 4,
+      "actions_after_first_FC_rejection": {
+        "write_file": 2,
+        "finish_tool": 6,
+        "run_app": 8
+      },
+      "actions_after_first_FC_rejection_total": 16,
+      "outdated_messages": [],
+      "model_replies_not_dispatched": 0,
+      "denominators": "no-tool/replies retained; invalid/actions dispatched; budget percent/20; finish rejection is valid, not invalid"
+    }
+  },
+  {
+    "configuration": "C1",
+    "fixture": "SH-FLAG",
+    "healthy": false,
+    "arm": "BASE",
+    "endpoint": "FAIL",
+    "availability": "VALID",
+    "terminal": "finish",
+    "actions": 4,
+    "source": {
+      "requests": 0,
+      "effective": 0,
+      "noops": 0,
+      "rejected_or_failed": 0,
+      "unknown_effect": 0
+    },
+    "environment": {
+      "requests": 0,
+      "effective": 0,
+      "noops": 0,
+      "rejected_or_failed": 0,
+      "unknown_effect": 0
+    },
+    "coverage_current": 2,
+    "coverage_cumulative": 2,
+    "losses": [],
+    "operation_checks": {
+      "first_command": true,
+      "second_command": true,
+      "no_args": true,
+      "explicit_help": false,
+      "first_command_help": false,
+      "second_command_help": false
+    },
+    "blind_modifying_requests": 0,
+    "diagnostic_effective_current": 0,
+    "profile_after_help_failure_current": 0,
+    "finish_public_failure": {
+      "accepted": 0,
+      "rejected": 0
+    },
+    "terminal_current_public_failure_operations": [],
+    "policy_finishes": 1,
+    "policy_rejections": 0,
+    "redundancy_numerator": 0,
+    "redundancy_denominator": 2,
+    "redundancy_fraction": 0.0,
+    "identical_action_streak": 1,
+    "stagnation_suffix": 0,
+    "loop_availability": "AVAILABLE",
+    "logical_prefix_cost": {
+      "received_model_replies": 4,
+      "known_generated_tokens": 484,
+      "physical_additional_generation_calls": 0,
+      "shared_cost_not_counted_twice": true
+    },
+    "retained_score_status": "FAIL",
+    "health": {
+      "arm": "BASE",
+      "terminal": "finish",
+      "primary_availability": "VALID",
+      "replies_received": 4,
+      "actions_dispatched": 4,
+      "action_budget": 20,
+      "complete_retained_trace": true,
+      "responses_without_tool_calls": {
+        "count": 0,
+        "denominator": 4,
+        "rate": 0.0
+      },
+      "empty_replies_without_tool_calls": 0,
+      "invalid_actions": 0,
+      "invalid_rate": 0.0,
+      "invalid_by_type": {},
+      "invalid_share_of_action_budget": {
+        "count": 0,
+        "denominator": 20,
+        "percent": 0.0
+      },
+      "valid_finish_requests": 1,
+      "accepted_finish_requests": 1,
+      "first_FC_rejection_action": null,
+      "actions_after_first_FC_rejection": {},
+      "actions_after_first_FC_rejection_total": 0,
+      "outdated_messages": [],
+      "model_replies_not_dispatched": 0,
+      "denominators": "no-tool/replies retained; invalid/actions dispatched; budget percent/20; finish rejection is valid, not invalid"
+    }
+  },
+  {
+    "configuration": "C1",
+    "fixture": "EH-RENDERER",
+    "healthy": false,
+    "arm": "FC",
+    "endpoint": "FAIL",
+    "availability": "VALID",
+    "terminal": "run_app_budget",
+    "actions": 20,
+    "source": {
+      "requests": 1,
+      "effective": 1,
+      "noops": 0,
+      "rejected_or_failed": 0,
+      "unknown_effect": 0
+    },
+    "environment": {
+      "requests": 0,
+      "effective": 0,
+      "noops": 0,
+      "rejected_or_failed": 0,
+      "unknown_effect": 0
+    },
+    "coverage_current": 5,
+    "coverage_cumulative": 5,
+    "losses": [],
+    "operation_checks": {
+      "first_command": true,
+      "second_command": true,
+      "no_args": false,
+      "explicit_help": false,
+      "first_command_help": false,
+      "second_command_help": false
+    },
+    "blind_modifying_requests": 0,
+    "diagnostic_effective_current": 0,
+    "profile_after_help_failure_current": 0,
+    "finish_public_failure": {
+      "accepted": 0,
+      "rejected": 0
+    },
+    "terminal_current_public_failure_operations": [
+      "explicit_help",
+      "first_command_help",
+      "no_args"
+    ],
+    "policy_finishes": 6,
+    "policy_rejections": 6,
+    "redundancy_numerator": 5,
+    "redundancy_denominator": 12,
+    "redundancy_fraction": 0.4166666666666667,
+    "identical_action_streak": 2,
+    "stagnation_suffix": 2,
+    "loop_availability": "AVAILABLE",
+    "logical_prefix_cost": null,
+    "retained_score_status": "FAIL",
+    "health": {
+      "arm": "FC",
+      "terminal": "run_app_budget",
+      "primary_availability": "VALID",
+      "replies_received": 20,
+      "actions_dispatched": 20,
+      "action_budget": 20,
+      "complete_retained_trace": true,
+      "responses_without_tool_calls": {
+        "count": 3,
+        "denominator": 20,
+        "rate": 0.15
+      },
+      "empty_replies_without_tool_calls": 0,
+      "invalid_actions": 0,
+      "invalid_rate": 0.0,
+      "invalid_by_type": {},
+      "invalid_share_of_action_budget": {
+        "count": 0,
+        "denominator": 20,
+        "percent": 0.0
+      },
+      "valid_finish_requests": 6,
+      "accepted_finish_requests": 0,
+      "first_FC_rejection_action": 4,
+      "actions_after_first_FC_rejection": {
+        "finish_text": 3,
+        "run_app": 11,
+        "finish_tool": 2
+      },
+      "actions_after_first_FC_rejection_total": 16,
+      "outdated_messages": [],
+      "model_replies_not_dispatched": 0,
+      "denominators": "no-tool/replies retained; invalid/actions dispatched; budget percent/20; finish rejection is valid, not invalid"
+    }
+  },
+  {
+    "configuration": "C1",
+    "fixture": "EH-RENDERER",
+    "healthy": false,
+    "arm": "BASE",
+    "endpoint": "FAIL",
+    "availability": "VALID",
+    "terminal": "finish",
+    "actions": 4,
+    "source": {
+      "requests": 1,
+      "effective": 1,
+      "noops": 0,
+      "rejected_or_failed": 0,
+      "unknown_effect": 0
+    },
+    "environment": {
+      "requests": 0,
+      "effective": 0,
+      "noops": 0,
+      "rejected_or_failed": 0,
+      "unknown_effect": 0
+    },
+    "coverage_current": 0,
+    "coverage_cumulative": 2,
+    "losses": [],
+    "operation_checks": {
+      "first_command": true,
+      "second_command": true,
+      "no_args": false,
+      "explicit_help": false,
+      "first_command_help": false,
+      "second_command_help": false
+    },
+    "blind_modifying_requests": 0,
+    "diagnostic_effective_current": 0,
+    "profile_after_help_failure_current": 0,
+    "finish_public_failure": {
+      "accepted": 0,
+      "rejected": 0
+    },
+    "terminal_current_public_failure_operations": [],
+    "policy_finishes": 1,
+    "policy_rejections": 0,
+    "redundancy_numerator": 0,
+    "redundancy_denominator": 2,
+    "redundancy_fraction": 0.0,
+    "identical_action_streak": 1,
+    "stagnation_suffix": 1,
+    "loop_availability": "AVAILABLE",
+    "logical_prefix_cost": {
+      "received_model_replies": 4,
+      "known_generated_tokens": 1388,
+      "physical_additional_generation_calls": 0,
+      "shared_cost_not_counted_twice": true
+    },
+    "retained_score_status": "FAIL",
+    "health": {
+      "arm": "BASE",
+      "terminal": "finish",
+      "primary_availability": "VALID",
+      "replies_received": 4,
+      "actions_dispatched": 4,
+      "action_budget": 20,
+      "complete_retained_trace": true,
+      "responses_without_tool_calls": {
+        "count": 0,
+        "denominator": 4,
+        "rate": 0.0
+      },
+      "empty_replies_without_tool_calls": 0,
+      "invalid_actions": 0,
+      "invalid_rate": 0.0,
+      "invalid_by_type": {},
+      "invalid_share_of_action_budget": {
+        "count": 0,
+        "denominator": 20,
+        "percent": 0.0
+      },
+      "valid_finish_requests": 1,
+      "accepted_finish_requests": 1,
+      "first_FC_rejection_action": null,
+      "actions_after_first_FC_rejection": {},
+      "actions_after_first_FC_rejection_total": 0,
+      "outdated_messages": [],
+      "model_replies_not_dispatched": 0,
+      "denominators": "no-tool/replies retained; invalid/actions dispatched; budget percent/20; finish rejection is valid, not invalid"
+    }
+  },
+  {
+    "configuration": "C1",
+    "fixture": "SC-SORT",
+    "healthy": false,
+    "arm": "FC",
+    "endpoint": "PASS",
+    "availability": "VALID",
+    "terminal": "action_budget",
+    "actions": 20,
+    "source": {
+      "requests": 2,
+      "effective": 1,
+      "noops": 1,
+      "rejected_or_failed": 0,
+      "unknown_effect": 0
+    },
+    "environment": {
+      "requests": 0,
+      "effective": 0,
+      "noops": 0,
+      "rejected_or_failed": 0,
+      "unknown_effect": 0
+    },
+    "coverage_current": 2,
+    "coverage_cumulative": 2,
+    "losses": [],
+    "operation_checks": {
+      "first_command": true,
+      "second_command": true,
+      "no_args": true,
+      "explicit_help": true,
+      "first_command_help": true,
+      "second_command_help": true
+    },
+    "blind_modifying_requests": 1,
+    "diagnostic_effective_current": 1,
+    "profile_after_help_failure_current": 0,
+    "finish_public_failure": {
+      "accepted": 0,
+      "rejected": 0
+    },
+    "terminal_current_public_failure_operations": [],
+    "policy_finishes": 13,
+    "policy_rejections": 13,
+    "redundancy_numerator": 0,
+    "redundancy_denominator": 4,
+    "redundancy_fraction": 0.0,
+    "identical_action_streak": 2,
+    "stagnation_suffix": 13,
+    "loop_availability": "AVAILABLE",
+    "logical_prefix_cost": null,
+    "retained_score_status": "PASS",
+    "health": {
+      "arm": "FC",
+      "terminal": "action_budget",
+      "primary_availability": "VALID",
+      "replies_received": 20,
+      "actions_dispatched": 20,
+      "action_budget": 20,
+      "complete_retained_trace": true,
+      "responses_without_tool_calls": {
+        "count": 8,
+        "denominator": 20,
+        "rate": 0.4
+      },
+      "empty_replies_without_tool_calls": 0,
+      "invalid_actions": 0,
+      "invalid_rate": 0.0,
+      "invalid_by_type": {},
+      "invalid_share_of_action_budget": {
+        "count": 0,
+        "denominator": 20,
+        "percent": 0.0
+      },
+      "valid_finish_requests": 13,
+      "accepted_finish_requests": 0,
+      "first_FC_rejection_action": 8,
+      "actions_after_first_FC_rejection": {
+        "finish_tool": 4,
+        "finish_text": 8
+      },
+      "actions_after_first_FC_rejection_total": 12,
+      "outdated_messages": [],
+      "model_replies_not_dispatched": 0,
+      "denominators": "no-tool/replies retained; invalid/actions dispatched; budget percent/20; finish rejection is valid, not invalid"
+    }
+  },
+  {
+    "configuration": "C1",
+    "fixture": "SC-SORT",
+    "healthy": false,
+    "arm": "BASE",
+    "endpoint": "PASS",
+    "availability": "VALID",
+    "terminal": "finish",
+    "actions": 8,
+    "source": {
+      "requests": 2,
+      "effective": 1,
+      "noops": 1,
+      "rejected_or_failed": 0,
+      "unknown_effect": 0
+    },
+    "environment": {
+      "requests": 0,
+      "effective": 0,
+      "noops": 0,
+      "rejected_or_failed": 0,
+      "unknown_effect": 0
+    },
+    "coverage_current": 2,
+    "coverage_cumulative": 2,
+    "losses": [],
+    "operation_checks": {
+      "first_command": true,
+      "second_command": true,
+      "no_args": true,
+      "explicit_help": true,
+      "first_command_help": true,
+      "second_command_help": true
+    },
+    "blind_modifying_requests": 1,
+    "diagnostic_effective_current": 1,
+    "profile_after_help_failure_current": 0,
+    "finish_public_failure": {
+      "accepted": 0,
+      "rejected": 0
+    },
+    "terminal_current_public_failure_operations": [],
+    "policy_finishes": 1,
+    "policy_rejections": 0,
+    "redundancy_numerator": 0,
+    "redundancy_denominator": 4,
+    "redundancy_fraction": 0.0,
+    "identical_action_streak": 2,
+    "stagnation_suffix": 0,
+    "loop_availability": "AVAILABLE",
+    "logical_prefix_cost": {
+      "received_model_replies": 8,
+      "known_generated_tokens": 1598,
+      "physical_additional_generation_calls": 0,
+      "shared_cost_not_counted_twice": true
+    },
+    "retained_score_status": "PASS",
+    "health": {
+      "arm": "BASE",
+      "terminal": "finish",
+      "primary_availability": "VALID",
+      "replies_received": 8,
+      "actions_dispatched": 8,
+      "action_budget": 20,
+      "complete_retained_trace": true,
+      "responses_without_tool_calls": {
+        "count": 0,
+        "denominator": 8,
+        "rate": 0.0
+      },
+      "empty_replies_without_tool_calls": 0,
+      "invalid_actions": 0,
+      "invalid_rate": 0.0,
+      "invalid_by_type": {},
+      "invalid_share_of_action_budget": {
+        "count": 0,
+        "denominator": 20,
+        "percent": 0.0
+      },
+      "valid_finish_requests": 1,
+      "accepted_finish_requests": 1,
+      "first_FC_rejection_action": null,
+      "actions_after_first_FC_rejection": {},
+      "actions_after_first_FC_rejection_total": 0,
+      "outdated_messages": [],
+      "model_replies_not_dispatched": 0,
+      "denominators": "no-tool/replies retained; invalid/actions dispatched; budget percent/20; finish rejection is valid, not invalid"
+    }
+  },
+  {
+    "configuration": "C1",
+    "fixture": "H-RC2",
+    "healthy": true,
+    "arm": "FC",
+    "endpoint": "PASS",
+    "availability": "VALID",
+    "terminal": "finish",
+    "actions": 14,
+    "source": {
+      "requests": 2,
+      "effective": 1,
+      "noops": 1,
+      "rejected_or_failed": 0,
+      "unknown_effect": 0
+    },
+    "environment": {
+      "requests": 0,
+      "effective": 0,
+      "noops": 0,
+      "rejected_or_failed": 0,
+      "unknown_effect": 0
+    },
+    "coverage_current": 6,
+    "coverage_cumulative": 6,
+    "losses": [],
+    "operation_checks": {
+      "first_command": true,
+      "second_command": true,
+      "no_args": true,
+      "explicit_help": true,
+      "first_command_help": true,
+      "second_command_help": true
+    },
+    "blind_modifying_requests": 1,
+    "diagnostic_effective_current": 0,
+    "profile_after_help_failure_current": 0,
+    "finish_public_failure": {
+      "accepted": 0,
+      "rejected": 0
+    },
+    "terminal_current_public_failure_operations": [],
+    "policy_finishes": 2,
+    "policy_rejections": 1,
+    "redundancy_numerator": 1,
+    "redundancy_denominator": 9,
+    "redundancy_fraction": 0.1111111111111111,
+    "identical_action_streak": 2,
+    "stagnation_suffix": 0,
+    "loop_availability": "AVAILABLE",
+    "logical_prefix_cost": null,
+    "retained_score_status": "PASS",
+    "health": {
+      "arm": "FC",
+      "terminal": "finish",
+      "primary_availability": "VALID",
+      "replies_received": 14,
+      "actions_dispatched": 14,
+      "action_budget": 20,
+      "complete_retained_trace": true,
+      "responses_without_tool_calls": {
+        "count": 2,
+        "denominator": 14,
+        "rate": 0.14285714285714285
+      },
+      "empty_replies_without_tool_calls": 0,
+      "invalid_actions": 0,
+      "invalid_rate": 0.0,
+      "invalid_by_type": {},
+      "invalid_share_of_action_budget": {
+        "count": 0,
+        "denominator": 20,
+        "percent": 0.0
+      },
+      "valid_finish_requests": 2,
+      "accepted_finish_requests": 1,
+      "first_FC_rejection_action": 8,
+      "actions_after_first_FC_rejection": {
+        "run_app": 5,
+        "finish_text": 1
+      },
+      "actions_after_first_FC_rejection_total": 6,
+      "outdated_messages": [],
+      "model_replies_not_dispatched": 0,
+      "denominators": "no-tool/replies retained; invalid/actions dispatched; budget percent/20; finish rejection is valid, not invalid"
+    }
+  },
+  {
+    "configuration": "C1",
+    "fixture": "H-RC2",
+    "healthy": true,
+    "arm": "BASE",
+    "endpoint": "PASS",
+    "availability": "VALID",
+    "terminal": "finish",
+    "actions": 8,
+    "source": {
+      "requests": 2,
+      "effective": 1,
+      "noops": 1,
+      "rejected_or_failed": 0,
+      "unknown_effect": 0
+    },
+    "environment": {
+      "requests": 0,
+      "effective": 0,
+      "noops": 0,
+      "rejected_or_failed": 0,
+      "unknown_effect": 0
+    },
+    "coverage_current": 2,
+    "coverage_cumulative": 2,
+    "losses": [],
+    "operation_checks": {
+      "first_command": true,
+      "second_command": true,
+      "no_args": true,
+      "explicit_help": true,
+      "first_command_help": true,
+      "second_command_help": true
+    },
+    "blind_modifying_requests": 1,
+    "diagnostic_effective_current": 0,
+    "profile_after_help_failure_current": 0,
+    "finish_public_failure": {
+      "accepted": 0,
+      "rejected": 0
+    },
+    "terminal_current_public_failure_operations": [],
+    "policy_finishes": 1,
+    "policy_rejections": 0,
+    "redundancy_numerator": 0,
+    "redundancy_denominator": 4,
+    "redundancy_fraction": 0.0,
+    "identical_action_streak": 2,
+    "stagnation_suffix": 0,
+    "loop_availability": "AVAILABLE",
+    "logical_prefix_cost": {
+      "received_model_replies": 8,
+      "known_generated_tokens": 1697,
+      "physical_additional_generation_calls": 0,
+      "shared_cost_not_counted_twice": true
+    },
+    "retained_score_status": "PASS",
+    "health": {
+      "arm": "BASE",
+      "terminal": "finish",
+      "primary_availability": "VALID",
+      "replies_received": 8,
+      "actions_dispatched": 8,
+      "action_budget": 20,
+      "complete_retained_trace": true,
+      "responses_without_tool_calls": {
+        "count": 1,
+        "denominator": 8,
+        "rate": 0.125
+      },
+      "empty_replies_without_tool_calls": 0,
+      "invalid_actions": 0,
+      "invalid_rate": 0.0,
+      "invalid_by_type": {},
+      "invalid_share_of_action_budget": {
+        "count": 0,
+        "denominator": 20,
+        "percent": 0.0
+      },
+      "valid_finish_requests": 1,
+      "accepted_finish_requests": 1,
+      "first_FC_rejection_action": null,
+      "actions_after_first_FC_rejection": {},
+      "actions_after_first_FC_rejection_total": 0,
+      "outdated_messages": [],
+      "model_replies_not_dispatched": 0,
+      "denominators": "no-tool/replies retained; invalid/actions dispatched; budget percent/20; finish rejection is valid, not invalid"
+    }
+  },
+  {
+    "configuration": "C1",
+    "fixture": "EC-SYMBOL",
+    "healthy": false,
+    "arm": "FC",
+    "endpoint": "PASS",
+    "availability": "VALID",
+    "terminal": "finish",
+    "actions": 15,
+    "source": {
+      "requests": 2,
+      "effective": 1,
+      "noops": 1,
+      "rejected_or_failed": 0,
+      "unknown_effect": 0
+    },
+    "environment": {
+      "requests": 0,
+      "effective": 0,
+      "noops": 0,
+      "rejected_or_failed": 0,
+      "unknown_effect": 0
+    },
+    "coverage_current": 6,
+    "coverage_cumulative": 6,
+    "losses": [],
+    "operation_checks": {
+      "first_command": true,
+      "second_command": true,
+      "no_args": true,
+      "explicit_help": true,
+      "first_command_help": true,
+      "second_command_help": true
+    },
+    "blind_modifying_requests": 1,
+    "diagnostic_effective_current": 1,
+    "profile_after_help_failure_current": 0,
+    "finish_public_failure": {
+      "accepted": 0,
+      "rejected": 0
+    },
+    "terminal_current_public_failure_operations": [],
+    "policy_finishes": 4,
+    "policy_rejections": 3,
+    "redundancy_numerator": 1,
+    "redundancy_denominator": 8,
+    "redundancy_fraction": 0.125,
+    "identical_action_streak": 2,
+    "stagnation_suffix": 0,
+    "loop_availability": "AVAILABLE",
+    "logical_prefix_cost": null,
+    "retained_score_status": "PASS",
+    "health": {
+      "arm": "FC",
+      "terminal": "finish",
+      "primary_availability": "VALID",
+      "replies_received": 15,
+      "actions_dispatched": 15,
+      "action_budget": 20,
+      "complete_retained_trace": true,
+      "responses_without_tool_calls": {
+        "count": 2,
+        "denominator": 15,
+        "rate": 0.13333333333333333
+      },
+      "empty_replies_without_tool_calls": 0,
+      "invalid_actions": 0,
+      "invalid_rate": 0.0,
+      "invalid_by_type": {},
+      "invalid_share_of_action_budget": {
+        "count": 0,
+        "denominator": 20,
+        "percent": 0.0
+      },
+      "valid_finish_requests": 4,
+      "accepted_finish_requests": 1,
+      "first_FC_rejection_action": 7,
+      "actions_after_first_FC_rejection": {
+        "finish_tool": 1,
+        "finish_text": 2,
+        "run_app": 5
+      },
+      "actions_after_first_FC_rejection_total": 8,
+      "outdated_messages": [],
+      "model_replies_not_dispatched": 0,
+      "denominators": "no-tool/replies retained; invalid/actions dispatched; budget percent/20; finish rejection is valid, not invalid"
+    }
+  },
+  {
+    "configuration": "C1",
+    "fixture": "EC-SYMBOL",
+    "healthy": false,
+    "arm": "BASE",
+    "endpoint": "PASS",
+    "availability": "VALID",
+    "terminal": "finish",
+    "actions": 7,
+    "source": {
+      "requests": 2,
+      "effective": 1,
+      "noops": 1,
+      "rejected_or_failed": 0,
+      "unknown_effect": 0
+    },
+    "environment": {
+      "requests": 0,
+      "effective": 0,
+      "noops": 0,
+      "rejected_or_failed": 0,
+      "unknown_effect": 0
+    },
+    "coverage_current": 2,
+    "coverage_cumulative": 2,
+    "losses": [],
+    "operation_checks": {
+      "first_command": true,
+      "second_command": true,
+      "no_args": true,
+      "explicit_help": true,
+      "first_command_help": true,
+      "second_command_help": true
+    },
+    "blind_modifying_requests": 1,
+    "diagnostic_effective_current": 1,
+    "profile_after_help_failure_current": 0,
+    "finish_public_failure": {
+      "accepted": 0,
+      "rejected": 0
+    },
+    "terminal_current_public_failure_operations": [],
+    "policy_finishes": 1,
+    "policy_rejections": 0,
+    "redundancy_numerator": 0,
+    "redundancy_denominator": 3,
+    "redundancy_fraction": 0.0,
+    "identical_action_streak": 2,
+    "stagnation_suffix": 0,
+    "loop_availability": "AVAILABLE",
+    "logical_prefix_cost": {
+      "received_model_replies": 7,
+      "known_generated_tokens": 2266,
+      "physical_additional_generation_calls": 0,
+      "shared_cost_not_counted_twice": true
+    },
+    "retained_score_status": "PASS",
+    "health": {
+      "arm": "BASE",
+      "terminal": "finish",
+      "primary_availability": "VALID",
+      "replies_received": 7,
+      "actions_dispatched": 7,
+      "action_budget": 20,
+      "complete_retained_trace": true,
+      "responses_without_tool_calls": {
+        "count": 0,
+        "denominator": 7,
+        "rate": 0.0
+      },
+      "empty_replies_without_tool_calls": 0,
+      "invalid_actions": 0,
+      "invalid_rate": 0.0,
+      "invalid_by_type": {},
+      "invalid_share_of_action_budget": {
+        "count": 0,
+        "denominator": 20,
+        "percent": 0.0
+      },
+      "valid_finish_requests": 1,
+      "accepted_finish_requests": 1,
+      "first_FC_rejection_action": null,
+      "actions_after_first_FC_rejection": {},
+      "actions_after_first_FC_rejection_total": 0,
+      "outdated_messages": [],
+      "model_replies_not_dispatched": 0,
+      "denominators": "no-tool/replies retained; invalid/actions dispatched; budget percent/20; finish rejection is valid, not invalid"
+    }
+  },
+  {
+    "configuration": "C1",
+    "fixture": "SH-FORMAT",
+    "healthy": false,
+    "arm": "FC",
+    "endpoint": "FAIL",
+    "availability": "VALID",
+    "terminal": "finish",
+    "actions": 16,
+    "source": {
+      "requests": 2,
+      "effective": 1,
+      "noops": 1,
+      "rejected_or_failed": 0,
+      "unknown_effect": 0
+    },
+    "environment": {
+      "requests": 0,
+      "effective": 0,
+      "noops": 0,
+      "rejected_or_failed": 0,
+      "unknown_effect": 0
+    },
+    "coverage_current": 6,
+    "coverage_cumulative": 6,
+    "losses": [],
+    "operation_checks": {
+      "first_command": true,
+      "second_command": true,
+      "no_args": false,
+      "explicit_help": false,
+      "first_command_help": true,
+      "second_command_help": true
+    },
+    "blind_modifying_requests": 1,
+    "diagnostic_effective_current": 0,
+    "profile_after_help_failure_current": 0,
+    "finish_public_failure": {
+      "accepted": 1,
+      "rejected": 0
+    },
+    "terminal_current_public_failure_operations": [
+      "explicit_help",
+      "no_args"
+    ],
+    "policy_finishes": 3,
+    "policy_rejections": 2,
+    "redundancy_numerator": 2,
+    "redundancy_denominator": 10,
+    "redundancy_fraction": 0.2,
+    "identical_action_streak": 2,
+    "stagnation_suffix": 0,
+    "loop_availability": "AVAILABLE",
+    "logical_prefix_cost": null,
+    "retained_score_status": "FAIL",
+    "health": {
+      "arm": "FC",
+      "terminal": "finish",
+      "primary_availability": "VALID",
+      "replies_received": 16,
+      "actions_dispatched": 16,
+      "action_budget": 20,
+      "complete_retained_trace": true,
+      "responses_without_tool_calls": {
+        "count": 1,
+        "denominator": 16,
+        "rate": 0.0625
+      },
+      "empty_replies_without_tool_calls": 0,
+      "invalid_actions": 0,
+      "invalid_rate": 0.0,
+      "invalid_by_type": {},
+      "invalid_share_of_action_budget": {
+        "count": 0,
+        "denominator": 20,
+        "percent": 0.0
+      },
+      "valid_finish_requests": 3,
+      "accepted_finish_requests": 1,
+      "first_FC_rejection_action": 6,
+      "actions_after_first_FC_rejection": {
+        "run_app": 8,
+        "finish_text": 1,
+        "finish_tool": 1
+      },
+      "actions_after_first_FC_rejection_total": 10,
+      "outdated_messages": [],
+      "model_replies_not_dispatched": 0,
+      "denominators": "no-tool/replies retained; invalid/actions dispatched; budget percent/20; finish rejection is valid, not invalid"
+    }
+  },
+  {
+    "configuration": "C1",
+    "fixture": "SH-FORMAT",
+    "healthy": false,
+    "arm": "BASE",
+    "endpoint": "FAIL",
+    "availability": "VALID",
+    "terminal": "finish",
+    "actions": 6,
+    "source": {
+      "requests": 2,
+      "effective": 1,
+      "noops": 1,
+      "rejected_or_failed": 0,
+      "unknown_effect": 0
+    },
+    "environment": {
+      "requests": 0,
+      "effective": 0,
+      "noops": 0,
+      "rejected_or_failed": 0,
+      "unknown_effect": 0
+    },
+    "coverage_current": 0,
+    "coverage_cumulative": 2,
+    "losses": [],
+    "operation_checks": {
+      "first_command": true,
+      "second_command": true,
+      "no_args": false,
+      "explicit_help": false,
+      "first_command_help": true,
+      "second_command_help": true
+    },
+    "blind_modifying_requests": 1,
+    "diagnostic_effective_current": 0,
+    "profile_after_help_failure_current": 0,
+    "finish_public_failure": {
+      "accepted": 0,
+      "rejected": 0
+    },
+    "terminal_current_public_failure_operations": [],
+    "policy_finishes": 1,
+    "policy_rejections": 0,
+    "redundancy_numerator": 0,
+    "redundancy_denominator": 2,
+    "redundancy_fraction": 0.0,
+    "identical_action_streak": 2,
+    "stagnation_suffix": 2,
+    "loop_availability": "AVAILABLE",
+    "logical_prefix_cost": {
+      "received_model_replies": 6,
+      "known_generated_tokens": 1551,
+      "physical_additional_generation_calls": 0,
+      "shared_cost_not_counted_twice": true
+    },
+    "retained_score_status": "FAIL",
+    "health": {
+      "arm": "BASE",
+      "terminal": "finish",
+      "primary_availability": "VALID",
+      "replies_received": 6,
+      "actions_dispatched": 6,
+      "action_budget": 20,
+      "complete_retained_trace": true,
+      "responses_without_tool_calls": {
+        "count": 0,
+        "denominator": 6,
+        "rate": 0.0
+      },
+      "empty_replies_without_tool_calls": 0,
+      "invalid_actions": 0,
+      "invalid_rate": 0.0,
+      "invalid_by_type": {},
+      "invalid_share_of_action_budget": {
+        "count": 0,
+        "denominator": 20,
+        "percent": 0.0
+      },
+      "valid_finish_requests": 1,
+      "accepted_finish_requests": 1,
+      "first_FC_rejection_action": null,
+      "actions_after_first_FC_rejection": {},
+      "actions_after_first_FC_rejection_total": 0,
+      "outdated_messages": [],
+      "model_replies_not_dispatched": 0,
+      "denominators": "no-tool/replies retained; invalid/actions dispatched; budget percent/20; finish rejection is valid, not invalid"
+    }
+  }
+]

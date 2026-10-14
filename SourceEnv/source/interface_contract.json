@@ -1,0 +1,274 @@
+{
+  "protocol_version": "sourceenv-native-v05-c3-1",
+  "status": "PENDING_REVIEW",
+  "case_id": "typer-cli-repair-v05",
+  "agent_gate": "BLOCKED",
+  "scientific_gate": "BLOCKED",
+  "executed_agent_episodes": 0,
+  "max_authorized_future_pilot_episodes": 0,
+  "behavior_policy_sha256": "f8a08ab739a0037987dc28779455749dbfc468ea59198c39fc0cce165faf9729",
+  "allowed_profiles": {
+    "typer0153_click820": {
+      "typer": "0.15.3",
+      "click": "8.2.0"
+    },
+    "typer0153_click818": {
+      "typer": "0.15.3",
+      "click": "8.1.8"
+    },
+    "typer0160_click820": {
+      "typer": "0.16.0",
+      "click": "8.2.0"
+    }
+  },
+  "tools": {
+    "list_files": {
+      "required": {},
+      "extra_arguments": false
+    },
+    "read_file": {
+      "required": {
+        "path": "relative_workspace_regular_utf8_file"
+      },
+      "extra_arguments": false
+    },
+    "write_file": {
+      "required": {
+        "path": "relative_workspace_regular_utf8_file",
+        "content": "utf8_string"
+      },
+      "extra_arguments": false
+    },
+    "run_app": {
+      "required": {
+        "operation": "one_of_fixed_operations"
+      },
+      "operations": {
+        "first_command": [
+          "first-command"
+        ],
+        "second_command": [
+          "second-command"
+        ],
+        "no_args": [],
+        "explicit_help": [
+          "--help"
+        ],
+        "first_command_help": [
+          "first-command",
+          "--help"
+        ],
+        "second_command_help": [
+          "second-command",
+          "--help"
+        ]
+      },
+      "extra_arguments": false
+    },
+    "apply_profile": {
+      "required": {
+        "profile": "one_of_allowed_profiles"
+      },
+      "extra_arguments": false,
+      "actual_install_required": true,
+      "source_preserved": true,
+      "controller_binds_host_state": true
+    },
+    "finish": {
+      "required": {
+        "summary": "utf8_string_max_2000_bytes"
+      },
+      "extra_arguments": false,
+      "summary_is_not_verdict": true
+    }
+  },
+  "transport": {
+    "exact_one_action_per_model_reply": true,
+    "action_keys": [
+      "tool",
+      "arguments"
+    ],
+    "additional_keys": false,
+    "reject_duplicate_keys": true,
+    "reject_non_finite_numbers": true,
+    "strict_json_types": true,
+    "max_request_bytes": 131072,
+    "parallel_calls": false,
+    "shell": false,
+    "arbitrary_python_execution_tool": false,
+    "generation_format": {
+      "kind": "native tools / peg-gemma4",
+      "grammar_lazy": true,
+      "parameter_schema_enforcement": "finite dispatcher, not parser guarantee",
+      "parallel_calls": false,
+      "thinking_requested": false,
+      "spontaneous_reasoning_permitted": true
+    }
+  },
+  "budget": {
+    "max_actions": 20,
+    "max_run_app_actions": 12,
+    "max_install_actions": 3,
+    "max_generated_tokens_total": 8192,
+    "max_generated_tokens_per_reply": 2048,
+    "max_context_tokens_including_generation_reservation": 32768,
+    "application_timeout_seconds": 10,
+    "process_output_limit_bytes": 2097152,
+    "agent_output_view_limit_bytes": 16384,
+    "file_limit_bytes": 65536,
+    "workspace_file_limit": 64,
+    "workspace_bytes_limit": 1048576,
+    "nproc_soft": 64,
+    "nproc_hard": 64,
+    "rejected_actions_consume_budget": true,
+    "hidden_grading_does_not_consume_agent_action_budget": true,
+    "watchdog_seconds": 14400
+  },
+  "path_rules": {
+    "root_inside_sandbox": "/candidate",
+    "no_absolute_paths": true,
+    "no_dotdot_components": true,
+    "no_symlinks": true,
+    "no_hardlinks": true,
+    "no_special_files": true,
+    "host_does_not_resolve_candidate_file_tool_paths": true,
+    "atomic_writes_required": true
+  },
+  "state": {
+    "fresh_each_episode": [
+      "workspace",
+      "installed_environment",
+      "home",
+      "tmp",
+      "cache",
+      "model_history",
+      "tool_session"
+    ],
+    "persistent_within_episode": [
+      "workspace",
+      "active_profile"
+    ],
+    "process_sandbox_new_per_action": true,
+    "source_final_scored_before_cleanup": true,
+    "no_reset_before_final_score": true,
+    "score_uses_frozen_readonly_launcher_with_fresh_tmp": true,
+    "trusted_file_worker_auxiliaries": "private persistent paths, never visible to application invocations",
+    "application_auxiliaries": "fresh HOME/tmp/cache on every invocation",
+    "model_cache": "cache_prompt true; matching prefixes only; new message history per fixture"
+  },
+  "separation": {
+    "trusted_python": "/usr/bin/python3 -I -S",
+    "candidate_workdir": "/candidate",
+    "candidate_environment_readonly": true,
+    "usr_readonly": true,
+    "parent_evaluator_not_mounted": true,
+    "parent_evidence_not_mounted": true,
+    "network_namespace_required": true,
+    "pid_namespace_required": true,
+    "bubblewrap_required": true,
+    "unsafe_fallback": false,
+    "real_effective_uid_zero_rejected": true,
+    "model_runs_outside_candidate_sandbox": true
+  },
+  "scoring": {
+    "canonical_oracle": "cases-package/oracle.py",
+    "operations": {
+      "first_command": [
+        "first-command"
+      ],
+      "second_command": [
+        "second-command"
+      ],
+      "no_args": [],
+      "explicit_help": [
+        "--help"
+      ],
+      "first_command_help": [
+        "first-command",
+        "--help"
+      ],
+      "second_command_help": [
+        "second-command",
+        "--help"
+      ]
+    },
+    "help_tokens": {
+      "no_args": [
+        "Usage",
+        "first-command",
+        "second-command"
+      ],
+      "explicit_help": [
+        "Usage",
+        "first-command",
+        "second-command"
+      ],
+      "first_command_help": [
+        "Usage",
+        "first-command"
+      ],
+      "second_command_help": [
+        "Usage",
+        "second-command"
+      ]
+    },
+    "rc_policy": {
+      "commands": [
+        0
+      ],
+      "explicit_help": [
+        0
+      ],
+      "implicit_help": [
+        0,
+        2
+      ]
+    },
+    "metadata_identifies_healthy": true,
+    "source_or_profile_change_is_damage": false,
+    "behavior_loss": "initial true operation check becomes false in retained terminal",
+    "private_failure_feedback_is_never_returned": true,
+    "infrastructure_invalid_endpoint": null,
+    "command_json": "case-specific exact object keys and numeric values; unique keys and finite numbers; key order/standard JSON whitespace free; no extra content"
+  },
+  "model_lock": {
+    "file": "model_lock.json",
+    "generation_gate": "BLOCKED",
+    "new_generation_calls_authorized": 0
+  },
+  "acceptance_before_inference": [
+    "ten_fixture_initials_and_reference_and_alternative_baselines",
+    "shared_stateless_native_launcher",
+    "current_epoch_completed_coverage_and_pending_failure_semantics",
+    "shared_prefix_checkpoint_and_common_ordinary_terminals",
+    "real_frozen_gguf_context_measurement",
+    "raw_evidence_and_states_retained",
+    "exact_new_batch_human_approval"
+  ],
+  "security_scope": "COOPERATIVE_SYNTHETIC_CLI_RESOURCE; NO_GENERAL_HOSTILE_CODE_CERTIFICATION; NPROC64_CEILING_NOT_STRESS_TESTED; NO_PER_EPISODE_CGROUP_CERTIFICATION",
+  "authorized_new_model_episodes": 0,
+  "stateless_application_contract": {
+    "id": "stateless-cli-v1",
+    "source_mount": "readonly",
+    "environment_mount": "readonly",
+    "auxiliaries": "fresh per invocation",
+    "file_tools": "source writable through trusted dispatcher",
+    "fixed_environment": {
+      "PATH": "/usr/bin:/bin",
+      "HOME": "/tmp/home",
+      "TMPDIR": "/tmp/tmp",
+      "XDG_CACHE_HOME": "/tmp/cache",
+      "LANG": "C.UTF-8",
+      "LC_ALL": "C.UTF-8",
+      "TZ": "UTC",
+      "PYTHONHASHSEED": "0",
+      "NO_COLOR": "1",
+      "COLUMNS": "100",
+      "TERM": "dumb",
+      "PYTHONNOUSERSITE": "1",
+      "PYTHONDONTWRITEBYTECODE": "1",
+      "PYTHONIOENCODING": "utf-8"
+    }
+  },
+  "resource_version": "typer-cli-repair-v05-r2"
+}

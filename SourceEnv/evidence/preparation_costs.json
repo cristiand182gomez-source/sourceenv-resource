@@ -1,0 +1,18 @@
+{
+  "applications": 288,
+  "probes": 32,
+  "workers": 140,
+  "offline_installs": 20,
+  "fresh_states": 16,
+  "checkpoint_copies": 8,
+  "machine_seconds": 134.76958345697494,
+  "model_calls": 0,
+  "generated_tokens": 0,
+  "model_processes": 0,
+  "tokenizer_calls": 0,
+  "applications_launched_lower_bound": 288,
+  "applications_launched_upper_bound": 288,
+  "launch_bounds_basis": "Every application capture returned with no capture error and a nonnegative exit code",
+  "preparation_wall_seconds_since_budget_record": 1352.659631,
+  "setup_note": "Additional directed tests, packaging, input reconstruction and privacy scans generated no model responses and launched no candidate applications; control runtime reported separately."
+}

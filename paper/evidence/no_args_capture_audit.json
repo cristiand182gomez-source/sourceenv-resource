@@ -1,0 +1,1337 @@
+{
+  "method": "Offline inspection of all forty original endpoint no_args captures; no rescoring or new invocations.",
+  "capture_implementation": {
+    "path": "cases-package/frozen_runtime/judge.py",
+    "sha256": "6996a25a816684e5999e08c07a2a70c22dff3fd5e4a04b16930d71c1cecd639e",
+    "selector": "capture; drain loop and error flag"
+  },
+  "rows": [
+    {
+      "configuration": "C3",
+      "fixture": "EH-API",
+      "arm": "FC",
+      "source_file": "r3/execution/C3/guest-metadata/runs/C3-EH-API/final-score.json",
+      "source_sha256": "56698cd37cfaeab11869908f4365beb6b755582d45f0996b96149d7b1625a9e0",
+      "selector": "/operations/no_args",
+      "rc": 1,
+      "capture_error": null,
+      "utf8_valid": true,
+      "complete": true,
+      "completeness_basis": "Frozen judge.capture drains both pipes until EOF; TIMEOUT/OUTPUT_LIMIT/LAUNCH_FAILED sets error. Verified base64 matches decoded channel bytes.",
+      "no_args_check": false,
+      "endpoint": "FAIL",
+      "channels": {
+        "stdout": {
+          "file": "endpoint_no_args/C3-EH-API-FC.stdout.txt",
+          "bytes": 303,
+          "sha256": "57fe58350332d80551995be508c88270ca0ee1c63b66718c455cf745efb93b65",
+          "exception_traceback_header": false,
+          "word_Traceback_present": false,
+          "word_TypeError_present": false
+        },
+        "stderr": {
+          "file": "endpoint_no_args/C3-EH-API-FC.stderr.txt",
+          "bytes": 5311,
+          "sha256": "1ed6720eea029c57b5646fcb5bc631be829bd3a1305b49c05cfec55d3ff670e3",
+          "exception_traceback_header": true,
+          "word_Traceback_present": true,
+          "word_TypeError_present": true
+        }
+      }
+    },
+    {
+      "configuration": "C3",
+      "fixture": "EH-API",
+      "arm": "BASE",
+      "source_file": "r3/execution/C3/guest-metadata/runs/C3-EH-API/derived-base/final-score.json",
+      "source_sha256": "eef74826cd3fce7db51959bb36d41e6369f63eee134d96cf241fa9b3525a1103",
+      "selector": "/operations/no_args",
+      "rc": 1,
+      "capture_error": null,
+      "utf8_valid": true,
+      "complete": true,
+      "completeness_basis": "Frozen judge.capture drains both pipes until EOF; TIMEOUT/OUTPUT_LIMIT/LAUNCH_FAILED sets error. Verified base64 matches decoded channel bytes.",
+      "no_args_check": false,
+      "endpoint": "FAIL",
+      "channels": {
+        "stdout": {
+          "file": "endpoint_no_args/C3-EH-API-BASE.stdout.txt",
+          "bytes": 303,
+          "sha256": "57fe58350332d80551995be508c88270ca0ee1c63b66718c455cf745efb93b65",
+          "exception_traceback_header": false,
+          "word_Traceback_present": false,
+          "word_TypeError_present": false
+        },
+        "stderr": {
+          "file": "endpoint_no_args/C3-EH-API-BASE.stderr.txt",
+          "bytes": 5311,
+          "sha256": "912e653f3541383bc65d553178ddf9bc786dc3931e8c96ce43aa0f4d3eec1b17",
+          "exception_traceback_header": true,
+          "word_Traceback_present": true,
+          "word_TypeError_present": true
+        }
+      }
+    },
+    {
+      "configuration": "C3",
+      "fixture": "SC-BALANCE",
+      "arm": "FC",
+      "source_file": "r3/execution/C3/guest-metadata/runs/C3-SC-BALANCE/final-score.json",
+      "source_sha256": "36e6095c54f59d2dde56bd7a5ded8a27a5620f714e4385024bfa4aa7795dc24a",
+      "selector": "/operations/no_args",
+      "rc": 2,
+      "capture_error": null,
+      "utf8_valid": true,
+      "complete": true,
+      "completeness_basis": "Frozen judge.capture drains both pipes until EOF; TIMEOUT/OUTPUT_LIMIT/LAUNCH_FAILED sets error. Verified base64 matches decoded channel bytes.",
+      "no_args_check": true,
+      "endpoint": "FAIL",
+      "channels": {
+        "stdout": {
+          "file": "endpoint_no_args/C3-SC-BALANCE-FC.stdout.txt",
+          "bytes": 2099,
+          "sha256": "c380540b07d2c7e7063d03581f2d9eb77a9bc26c59ed641c5bef770c7479d6c7",
+          "exception_traceback_header": false,
+          "word_Traceback_present": false,
+          "word_TypeError_present": false
+        },
+        "stderr": {
+          "file": "endpoint_no_args/C3-SC-BALANCE-FC.stderr.txt",
+          "bytes": 765,
+          "sha256": "ad3da1e313c0b72118868ec78325cd95e646340547ec90d070fdeb622093e240",
+          "exception_traceback_header": false,
+          "word_Traceback_present": false,
+          "word_TypeError_present": false
+        }
+      }
+    },
+    {
+      "configuration": "C3",
+      "fixture": "SC-BALANCE",
+      "arm": "BASE",
+      "source_file": "r3/execution/C3/guest-metadata/runs/C3-SC-BALANCE/derived-base/final-score.json",
+      "source_sha256": "689e1c23724584c4db9065ed7f4cd8eb0ee1e960eb6df9e56a2f13345b8ee16a",
+      "selector": "/operations/no_args",
+      "rc": 2,
+      "capture_error": null,
+      "utf8_valid": true,
+      "complete": true,
+      "completeness_basis": "Frozen judge.capture drains both pipes until EOF; TIMEOUT/OUTPUT_LIMIT/LAUNCH_FAILED sets error. Verified base64 matches decoded channel bytes.",
+      "no_args_check": true,
+      "endpoint": "FAIL",
+      "channels": {
+        "stdout": {
+          "file": "endpoint_no_args/C3-SC-BALANCE-BASE.stdout.txt",
+          "bytes": 2099,
+          "sha256": "c380540b07d2c7e7063d03581f2d9eb77a9bc26c59ed641c5bef770c7479d6c7",
+          "exception_traceback_header": false,
+          "word_Traceback_present": false,
+          "word_TypeError_present": false
+        },
+        "stderr": {
+          "file": "endpoint_no_args/C3-SC-BALANCE-BASE.stderr.txt",
+          "bytes": 765,
+          "sha256": "ad3da1e313c0b72118868ec78325cd95e646340547ec90d070fdeb622093e240",
+          "exception_traceback_header": false,
+          "word_Traceback_present": false,
+          "word_TypeError_present": false
+        }
+      }
+    },
+    {
+      "configuration": "C3",
+      "fixture": "H-RC0",
+      "arm": "FC",
+      "source_file": "r3/execution/C3/guest-metadata/runs/C3-H-RC0/final-score.json",
+      "source_sha256": "c8605e2990d1bb38d1e818b49ed8ee582621671eb928d2e3e3d9b12f65ee9381",
+      "selector": "/operations/no_args",
+      "rc": 0,
+      "capture_error": null,
+      "utf8_valid": true,
+      "complete": true,
+      "completeness_basis": "Frozen judge.capture drains both pipes until EOF; TIMEOUT/OUTPUT_LIMIT/LAUNCH_FAILED sets error. Verified base64 matches decoded channel bytes.",
+      "no_args_check": true,
+      "endpoint": "PASS",
+      "channels": {
+        "stdout": {
+          "file": "endpoint_no_args/C3-H-RC0-FC.stdout.txt",
+          "bytes": 2100,
+          "sha256": "6870395d28d0f05f939e88ca2364a9567d80a4f1abe9ba378f535749a7140180",
+          "exception_traceback_header": false,
+          "word_Traceback_present": false,
+          "word_TypeError_present": false
+        },
+        "stderr": {
+          "file": "endpoint_no_args/C3-H-RC0-FC.stderr.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "exception_traceback_header": false,
+          "word_Traceback_present": false,
+          "word_TypeError_present": false
+        }
+      }
+    },
+    {
+      "configuration": "C3",
+      "fixture": "H-RC0",
+      "arm": "BASE",
+      "source_file": "r3/execution/C3/guest-metadata/runs/C3-H-RC0/derived-base/final-score.json",
+      "source_sha256": "e457fc90ceabb0bf613c524ed2ef127869626ca4eae6ba697c1edc85ebc3d299",
+      "selector": "/operations/no_args",
+      "rc": 0,
+      "capture_error": null,
+      "utf8_valid": true,
+      "complete": true,
+      "completeness_basis": "Frozen judge.capture drains both pipes until EOF; TIMEOUT/OUTPUT_LIMIT/LAUNCH_FAILED sets error. Verified base64 matches decoded channel bytes.",
+      "no_args_check": true,
+      "endpoint": "PASS",
+      "channels": {
+        "stdout": {
+          "file": "endpoint_no_args/C3-H-RC0-BASE.stdout.txt",
+          "bytes": 2100,
+          "sha256": "6870395d28d0f05f939e88ca2364a9567d80a4f1abe9ba378f535749a7140180",
+          "exception_traceback_header": false,
+          "word_Traceback_present": false,
+          "word_TypeError_present": false
+        },
+        "stderr": {
+          "file": "endpoint_no_args/C3-H-RC0-BASE.stderr.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "exception_traceback_header": false,
+          "word_Traceback_present": false,
+          "word_TypeError_present": false
+        }
+      }
+    },
+    {
+      "configuration": "C3",
+      "fixture": "EC-MISSING",
+      "arm": "FC",
+      "source_file": "r3/execution/C3/guest-metadata/runs/C3-EC-MISSING/final-score.json",
+      "source_sha256": "20c3bf2d95cbcafee20bd74d11c8ca445e1a1a5b2410572c9126ce7994b89298",
+      "selector": "/operations/no_args",
+      "rc": 3,
+      "capture_error": null,
+      "utf8_valid": true,
+      "complete": true,
+      "completeness_basis": "Frozen judge.capture drains both pipes until EOF; TIMEOUT/OUTPUT_LIMIT/LAUNCH_FAILED sets error. Verified base64 matches decoded channel bytes.",
+      "no_args_check": false,
+      "endpoint": "FAIL",
+      "channels": {
+        "stdout": {
+          "file": "endpoint_no_args/C3-EC-MISSING-FC.stdout.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "exception_traceback_header": false,
+          "word_Traceback_present": false,
+          "word_TypeError_present": false
+        },
+        "stderr": {
+          "file": "endpoint_no_args/C3-EC-MISSING-FC.stderr.txt",
+          "bytes": 67,
+          "sha256": "a876efdfa1ee88929fe108d3575edcc2ad8e6dd0f5ba24982aa9344823725bb6",
+          "exception_traceback_header": false,
+          "word_Traceback_present": false,
+          "word_TypeError_present": false
+        }
+      }
+    },
+    {
+      "configuration": "C3",
+      "fixture": "EC-MISSING",
+      "arm": "BASE",
+      "source_file": "r3/execution/C3/guest-metadata/runs/C3-EC-MISSING/derived-base/final-score.json",
+      "source_sha256": "0254a67ac59eb79375fc1c1c99b05b13c247062d67600b8342f6116fcc04d53a",
+      "selector": "/operations/no_args",
+      "rc": 3,
+      "capture_error": null,
+      "utf8_valid": true,
+      "complete": true,
+      "completeness_basis": "Frozen judge.capture drains both pipes until EOF; TIMEOUT/OUTPUT_LIMIT/LAUNCH_FAILED sets error. Verified base64 matches decoded channel bytes.",
+      "no_args_check": false,
+      "endpoint": "FAIL",
+      "channels": {
+        "stdout": {
+          "file": "endpoint_no_args/C3-EC-MISSING-BASE.stdout.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "exception_traceback_header": false,
+          "word_Traceback_present": false,
+          "word_TypeError_present": false
+        },
+        "stderr": {
+          "file": "endpoint_no_args/C3-EC-MISSING-BASE.stderr.txt",
+          "bytes": 67,
+          "sha256": "a876efdfa1ee88929fe108d3575edcc2ad8e6dd0f5ba24982aa9344823725bb6",
+          "exception_traceback_header": false,
+          "word_Traceback_present": false,
+          "word_TypeError_present": false
+        }
+      }
+    },
+    {
+      "configuration": "C3",
+      "fixture": "SH-FLAG",
+      "arm": "FC",
+      "source_file": "r3/execution/C3/guest-metadata/runs/C3-SH-FLAG/final-score.json",
+      "source_sha256": "b85710193be6868bcced24dad8d2829c07888443f33e0f4502500f5d3c1ccab6",
+      "selector": "/operations/no_args",
+      "rc": 2,
+      "capture_error": null,
+      "utf8_valid": true,
+      "complete": true,
+      "completeness_basis": "Frozen judge.capture drains both pipes until EOF; TIMEOUT/OUTPUT_LIMIT/LAUNCH_FAILED sets error. Verified base64 matches decoded channel bytes.",
+      "no_args_check": true,
+      "endpoint": "FAIL",
+      "channels": {
+        "stdout": {
+          "file": "endpoint_no_args/C3-SH-FLAG-FC.stdout.txt",
+          "bytes": 2099,
+          "sha256": "d2b419aad7007bcc6ccd6ed737a48294d6a37dc5aa84c4c155dc3ceb70e15771",
+          "exception_traceback_header": false,
+          "word_Traceback_present": false,
+          "word_TypeError_present": false
+        },
+        "stderr": {
+          "file": "endpoint_no_args/C3-SH-FLAG-FC.stderr.txt",
+          "bytes": 761,
+          "sha256": "1560e509b46f0cf8fd84a64d75b4155427604324e57dafc9aececa68e5e48424",
+          "exception_traceback_header": false,
+          "word_Traceback_present": false,
+          "word_TypeError_present": false
+        }
+      }
+    },
+    {
+      "configuration": "C3",
+      "fixture": "SH-FLAG",
+      "arm": "BASE",
+      "source_file": "r3/execution/C3/guest-metadata/runs/C3-SH-FLAG/derived-base/final-score.json",
+      "source_sha256": "8b5bf427efd47edfb5d69ff3ab56a3d7ecb7c5e654f64418f40eaa62f612d859",
+      "selector": "/operations/no_args",
+      "rc": 2,
+      "capture_error": null,
+      "utf8_valid": true,
+      "complete": true,
+      "completeness_basis": "Frozen judge.capture drains both pipes until EOF; TIMEOUT/OUTPUT_LIMIT/LAUNCH_FAILED sets error. Verified base64 matches decoded channel bytes.",
+      "no_args_check": true,
+      "endpoint": "FAIL",
+      "channels": {
+        "stdout": {
+          "file": "endpoint_no_args/C3-SH-FLAG-BASE.stdout.txt",
+          "bytes": 2099,
+          "sha256": "d2b419aad7007bcc6ccd6ed737a48294d6a37dc5aa84c4c155dc3ceb70e15771",
+          "exception_traceback_header": false,
+          "word_Traceback_present": false,
+          "word_TypeError_present": false
+        },
+        "stderr": {
+          "file": "endpoint_no_args/C3-SH-FLAG-BASE.stderr.txt",
+          "bytes": 761,
+          "sha256": "1560e509b46f0cf8fd84a64d75b4155427604324e57dafc9aececa68e5e48424",
+          "exception_traceback_header": false,
+          "word_Traceback_present": false,
+          "word_TypeError_present": false
+        }
+      }
+    },
+    {
+      "configuration": "C3",
+      "fixture": "EH-RENDERER",
+      "arm": "FC",
+      "source_file": "r3/execution/C3/guest-metadata/runs/C3-EH-RENDERER/final-score.json",
+      "source_sha256": "0e1abb20d867ce25c1d35dc589dbdde12b70cff60a531ba231e51290e85c7c01",
+      "selector": "/operations/no_args",
+      "rc": 2,
+      "capture_error": null,
+      "utf8_valid": true,
+      "complete": true,
+      "completeness_basis": "Frozen judge.capture drains both pipes until EOF; TIMEOUT/OUTPUT_LIMIT/LAUNCH_FAILED sets error. Verified base64 matches decoded channel bytes.",
+      "no_args_check": true,
+      "endpoint": "PASS",
+      "channels": {
+        "stdout": {
+          "file": "endpoint_no_args/C3-EH-RENDERER-FC.stdout.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "exception_traceback_header": false,
+          "word_Traceback_present": false,
+          "word_TypeError_present": false
+        },
+        "stderr": {
+          "file": "endpoint_no_args/C3-EH-RENDERER-FC.stderr.txt",
+          "bytes": 435,
+          "sha256": "14b1e144c5960acd704eb2afccc9a16861a6a07dafaf4412737a3397b293280f",
+          "exception_traceback_header": false,
+          "word_Traceback_present": false,
+          "word_TypeError_present": false
+        }
+      }
+    },
+    {
+      "configuration": "C3",
+      "fixture": "EH-RENDERER",
+      "arm": "BASE",
+      "source_file": "r3/execution/C3/guest-metadata/runs/C3-EH-RENDERER/derived-base/final-score.json",
+      "source_sha256": "3d59ad6d28a223d7a9fbe65b58122ae374af72fc65483544593b108a2bc2f624",
+      "selector": "/operations/no_args",
+      "rc": 1,
+      "capture_error": null,
+      "utf8_valid": true,
+      "complete": true,
+      "completeness_basis": "Frozen judge.capture drains both pipes until EOF; TIMEOUT/OUTPUT_LIMIT/LAUNCH_FAILED sets error. Verified base64 matches decoded channel bytes.",
+      "no_args_check": false,
+      "endpoint": "FAIL",
+      "channels": {
+        "stdout": {
+          "file": "endpoint_no_args/C3-EH-RENDERER-BASE.stdout.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "exception_traceback_header": false,
+          "word_Traceback_present": false,
+          "word_TypeError_present": false
+        },
+        "stderr": {
+          "file": "endpoint_no_args/C3-EH-RENDERER-BASE.stderr.txt",
+          "bytes": 165,
+          "sha256": "8fb2b1ebbfe5f45be749f6f2fe8c4503a87e6e67e7f10516072e76999cfa3db4",
+          "exception_traceback_header": true,
+          "word_Traceback_present": true,
+          "word_TypeError_present": false
+        }
+      }
+    },
+    {
+      "configuration": "C3",
+      "fixture": "SC-SORT",
+      "arm": "FC",
+      "source_file": "r3/execution/C3/guest-metadata/runs/C3-SC-SORT/final-score.json",
+      "source_sha256": "75e6af5d01176a3d87b7ca143d4e5c125db127f986353739ee1af1b2f535c6a7",
+      "selector": "/operations/no_args",
+      "rc": 2,
+      "capture_error": null,
+      "utf8_valid": true,
+      "complete": true,
+      "completeness_basis": "Frozen judge.capture drains both pipes until EOF; TIMEOUT/OUTPUT_LIMIT/LAUNCH_FAILED sets error. Verified base64 matches decoded channel bytes.",
+      "no_args_check": true,
+      "endpoint": "PASS",
+      "channels": {
+        "stdout": {
+          "file": "endpoint_no_args/C3-SC-SORT-FC.stdout.txt",
+          "bytes": 2099,
+          "sha256": "fbf53378b62143aa1b65d91fb50e8bad6fa5f05c1c3131707547474b37114a05",
+          "exception_traceback_header": false,
+          "word_Traceback_present": false,
+          "word_TypeError_present": false
+        },
+        "stderr": {
+          "file": "endpoint_no_args/C3-SC-SORT-FC.stderr.txt",
+          "bytes": 765,
+          "sha256": "ad3da1e313c0b72118868ec78325cd95e646340547ec90d070fdeb622093e240",
+          "exception_traceback_header": false,
+          "word_Traceback_present": false,
+          "word_TypeError_present": false
+        }
+      }
+    },
+    {
+      "configuration": "C3",
+      "fixture": "SC-SORT",
+      "arm": "BASE",
+      "source_file": "r3/execution/C3/guest-metadata/runs/C3-SC-SORT/derived-base/final-score.json",
+      "source_sha256": "54880d2c712b91267b8a8038202562247116bb0e6322c81c53f338fc1ee75fbd",
+      "selector": "/operations/no_args",
+      "rc": 2,
+      "capture_error": null,
+      "utf8_valid": true,
+      "complete": true,
+      "completeness_basis": "Frozen judge.capture drains both pipes until EOF; TIMEOUT/OUTPUT_LIMIT/LAUNCH_FAILED sets error. Verified base64 matches decoded channel bytes.",
+      "no_args_check": true,
+      "endpoint": "PASS",
+      "channels": {
+        "stdout": {
+          "file": "endpoint_no_args/C3-SC-SORT-BASE.stdout.txt",
+          "bytes": 2099,
+          "sha256": "fbf53378b62143aa1b65d91fb50e8bad6fa5f05c1c3131707547474b37114a05",
+          "exception_traceback_header": false,
+          "word_Traceback_present": false,
+          "word_TypeError_present": false
+        },
+        "stderr": {
+          "file": "endpoint_no_args/C3-SC-SORT-BASE.stderr.txt",
+          "bytes": 765,
+          "sha256": "ad3da1e313c0b72118868ec78325cd95e646340547ec90d070fdeb622093e240",
+          "exception_traceback_header": false,
+          "word_Traceback_present": false,
+          "word_TypeError_present": false
+        }
+      }
+    },
+    {
+      "configuration": "C3",
+      "fixture": "H-RC2",
+      "arm": "FC",
+      "source_file": "r3/execution/C3/guest-metadata/runs/C3-H-RC2/final-score.json",
+      "source_sha256": "4994b0eb7df0228a64ae981400b4d4ae7f9eed981d2e6a95e0a37ec7c1ad15c5",
+      "selector": "/operations/no_args",
+      "rc": 2,
+      "capture_error": null,
+      "utf8_valid": true,
+      "complete": true,
+      "completeness_basis": "Frozen judge.capture drains both pipes until EOF; TIMEOUT/OUTPUT_LIMIT/LAUNCH_FAILED sets error. Verified base64 matches decoded channel bytes.",
+      "no_args_check": true,
+      "endpoint": "PASS",
+      "channels": {
+        "stdout": {
+          "file": "endpoint_no_args/C3-H-RC2-FC.stdout.txt",
+          "bytes": 2099,
+          "sha256": "8346e1409cae7f908d4d1b86a89d778807ec4c7d7cd1e35ce3e1d44335f21ea1",
+          "exception_traceback_header": false,
+          "word_Traceback_present": false,
+          "word_TypeError_present": false
+        },
+        "stderr": {
+          "file": "endpoint_no_args/C3-H-RC2-FC.stderr.txt",
+          "bytes": 765,
+          "sha256": "ad3da1e313c0b72118868ec78325cd95e646340547ec90d070fdeb622093e240",
+          "exception_traceback_header": false,
+          "word_Traceback_present": false,
+          "word_TypeError_present": false
+        }
+      }
+    },
+    {
+      "configuration": "C3",
+      "fixture": "H-RC2",
+      "arm": "BASE",
+      "source_file": "r3/execution/C3/guest-metadata/runs/C3-H-RC2/derived-base/final-score.json",
+      "source_sha256": "a733a56cb36f2b2a4c21c3ac2cd1acb77a60853ab198bf26162d99784bf2361e",
+      "selector": "/operations/no_args",
+      "rc": 2,
+      "capture_error": null,
+      "utf8_valid": true,
+      "complete": true,
+      "completeness_basis": "Frozen judge.capture drains both pipes until EOF; TIMEOUT/OUTPUT_LIMIT/LAUNCH_FAILED sets error. Verified base64 matches decoded channel bytes.",
+      "no_args_check": true,
+      "endpoint": "PASS",
+      "channels": {
+        "stdout": {
+          "file": "endpoint_no_args/C3-H-RC2-BASE.stdout.txt",
+          "bytes": 2099,
+          "sha256": "8346e1409cae7f908d4d1b86a89d778807ec4c7d7cd1e35ce3e1d44335f21ea1",
+          "exception_traceback_header": false,
+          "word_Traceback_present": false,
+          "word_TypeError_present": false
+        },
+        "stderr": {
+          "file": "endpoint_no_args/C3-H-RC2-BASE.stderr.txt",
+          "bytes": 765,
+          "sha256": "ad3da1e313c0b72118868ec78325cd95e646340547ec90d070fdeb622093e240",
+          "exception_traceback_header": false,
+          "word_Traceback_present": false,
+          "word_TypeError_present": false
+        }
+      }
+    },
+    {
+      "configuration": "C3",
+      "fixture": "EC-SYMBOL",
+      "arm": "FC",
+      "source_file": "r3/execution/C3/guest-metadata/runs/C3-EC-SYMBOL/final-score.json",
+      "source_sha256": "80fb85644e6a299d45994037b02b17511974470f59106feb96cebadee20a8e7d",
+      "selector": "/operations/no_args",
+      "rc": 0,
+      "capture_error": null,
+      "utf8_valid": true,
+      "complete": true,
+      "completeness_basis": "Frozen judge.capture drains both pipes until EOF; TIMEOUT/OUTPUT_LIMIT/LAUNCH_FAILED sets error. Verified base64 matches decoded channel bytes.",
+      "no_args_check": true,
+      "endpoint": "PASS",
+      "channels": {
+        "stdout": {
+          "file": "endpoint_no_args/C3-EC-SYMBOL-FC.stdout.txt",
+          "bytes": 2100,
+          "sha256": "bc45543e3a917468d3e2232d2ed87ab95118461afa4ddd775fb2fcb22303b141",
+          "exception_traceback_header": false,
+          "word_Traceback_present": false,
+          "word_TypeError_present": false
+        },
+        "stderr": {
+          "file": "endpoint_no_args/C3-EC-SYMBOL-FC.stderr.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "exception_traceback_header": false,
+          "word_Traceback_present": false,
+          "word_TypeError_present": false
+        }
+      }
+    },
+    {
+      "configuration": "C3",
+      "fixture": "EC-SYMBOL",
+      "arm": "BASE",
+      "source_file": "r3/execution/C3/guest-metadata/runs/C3-EC-SYMBOL/derived-base/final-score.json",
+      "source_sha256": "d636cbcff2ca2c36667b17e81fae8f97c393f2740905a97233a547757d74f8e6",
+      "selector": "/operations/no_args",
+      "rc": 0,
+      "capture_error": null,
+      "utf8_valid": true,
+      "complete": true,
+      "completeness_basis": "Frozen judge.capture drains both pipes until EOF; TIMEOUT/OUTPUT_LIMIT/LAUNCH_FAILED sets error. Verified base64 matches decoded channel bytes.",
+      "no_args_check": true,
+      "endpoint": "PASS",
+      "channels": {
+        "stdout": {
+          "file": "endpoint_no_args/C3-EC-SYMBOL-BASE.stdout.txt",
+          "bytes": 2100,
+          "sha256": "bc45543e3a917468d3e2232d2ed87ab95118461afa4ddd775fb2fcb22303b141",
+          "exception_traceback_header": false,
+          "word_Traceback_present": false,
+          "word_TypeError_present": false
+        },
+        "stderr": {
+          "file": "endpoint_no_args/C3-EC-SYMBOL-BASE.stderr.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "exception_traceback_header": false,
+          "word_Traceback_present": false,
+          "word_TypeError_present": false
+        }
+      }
+    },
+    {
+      "configuration": "C3",
+      "fixture": "SH-FORMAT",
+      "arm": "FC",
+      "source_file": "r3/execution/C3/guest-metadata/runs/C3-SH-FORMAT/final-score.json",
+      "source_sha256": "2a6b4d60bc5d8dc2252d9ea836ce39432b1e7fe199d92e9aafaff674e49da91d",
+      "selector": "/operations/no_args",
+      "rc": 2,
+      "capture_error": null,
+      "utf8_valid": true,
+      "complete": true,
+      "completeness_basis": "Frozen judge.capture drains both pipes until EOF; TIMEOUT/OUTPUT_LIMIT/LAUNCH_FAILED sets error. Verified base64 matches decoded channel bytes.",
+      "no_args_check": false,
+      "endpoint": "FAIL",
+      "channels": {
+        "stdout": {
+          "file": "endpoint_no_args/C3-SH-FORMAT-FC.stdout.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "exception_traceback_header": false,
+          "word_Traceback_present": false,
+          "word_TypeError_present": false
+        },
+        "stderr": {
+          "file": "endpoint_no_args/C3-SH-FORMAT-FC.stderr.txt",
+          "bytes": 765,
+          "sha256": "cba203d606bedbff6a058af1c099c016b25863973e1351e262f3f43cfb5ec06b",
+          "exception_traceback_header": false,
+          "word_Traceback_present": false,
+          "word_TypeError_present": false
+        }
+      }
+    },
+    {
+      "configuration": "C3",
+      "fixture": "SH-FORMAT",
+      "arm": "BASE",
+      "source_file": "r3/execution/C3/guest-metadata/runs/C3-SH-FORMAT/derived-base/final-score.json",
+      "source_sha256": "5c7e15bbaa8f49d4905c3a666437a2294df8f1860370520f88744d88870a1828",
+      "selector": "/operations/no_args",
+      "rc": 2,
+      "capture_error": null,
+      "utf8_valid": true,
+      "complete": true,
+      "completeness_basis": "Frozen judge.capture drains both pipes until EOF; TIMEOUT/OUTPUT_LIMIT/LAUNCH_FAILED sets error. Verified base64 matches decoded channel bytes.",
+      "no_args_check": false,
+      "endpoint": "FAIL",
+      "channels": {
+        "stdout": {
+          "file": "endpoint_no_args/C3-SH-FORMAT-BASE.stdout.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "exception_traceback_header": false,
+          "word_Traceback_present": false,
+          "word_TypeError_present": false
+        },
+        "stderr": {
+          "file": "endpoint_no_args/C3-SH-FORMAT-BASE.stderr.txt",
+          "bytes": 765,
+          "sha256": "cba203d606bedbff6a058af1c099c016b25863973e1351e262f3f43cfb5ec06b",
+          "exception_traceback_header": false,
+          "word_Traceback_present": false,
+          "word_TypeError_present": false
+        }
+      }
+    },
+    {
+      "configuration": "C1",
+      "fixture": "EH-API",
+      "arm": "FC",
+      "source_file": "r3/execution/C1/guest-metadata/runs/C1-EH-API/final-score.json",
+      "source_sha256": "e47df83fbbdc752f6d6aa0e608e99114da811cd6885f8a6ec68c78eb70ee6439",
+      "selector": "/operations/no_args",
+      "rc": 1,
+      "capture_error": null,
+      "utf8_valid": true,
+      "complete": true,
+      "completeness_basis": "Frozen judge.capture drains both pipes until EOF; TIMEOUT/OUTPUT_LIMIT/LAUNCH_FAILED sets error. Verified base64 matches decoded channel bytes.",
+      "no_args_check": false,
+      "endpoint": "FAIL",
+      "channels": {
+        "stdout": {
+          "file": "endpoint_no_args/C1-EH-API-FC.stdout.txt",
+          "bytes": 303,
+          "sha256": "57fe58350332d80551995be508c88270ca0ee1c63b66718c455cf745efb93b65",
+          "exception_traceback_header": false,
+          "word_Traceback_present": false,
+          "word_TypeError_present": false
+        },
+        "stderr": {
+          "file": "endpoint_no_args/C1-EH-API-FC.stderr.txt",
+          "bytes": 5311,
+          "sha256": "b83121124b8fe9e51ce05ec7ac351256f827dde814ae91844fdaf933d4147181",
+          "exception_traceback_header": true,
+          "word_Traceback_present": true,
+          "word_TypeError_present": true
+        }
+      }
+    },
+    {
+      "configuration": "C1",
+      "fixture": "EH-API",
+      "arm": "BASE",
+      "source_file": "r3/execution/C1/guest-metadata/runs/C1-EH-API/derived-base/final-score.json",
+      "source_sha256": "cac2c22387afe24195282552f09d2c5b614718a7ab47a17db10d7d667ac87edf",
+      "selector": "/operations/no_args",
+      "rc": 1,
+      "capture_error": null,
+      "utf8_valid": true,
+      "complete": true,
+      "completeness_basis": "Frozen judge.capture drains both pipes until EOF; TIMEOUT/OUTPUT_LIMIT/LAUNCH_FAILED sets error. Verified base64 matches decoded channel bytes.",
+      "no_args_check": false,
+      "endpoint": "FAIL",
+      "channels": {
+        "stdout": {
+          "file": "endpoint_no_args/C1-EH-API-BASE.stdout.txt",
+          "bytes": 303,
+          "sha256": "57fe58350332d80551995be508c88270ca0ee1c63b66718c455cf745efb93b65",
+          "exception_traceback_header": false,
+          "word_Traceback_present": false,
+          "word_TypeError_present": false
+        },
+        "stderr": {
+          "file": "endpoint_no_args/C1-EH-API-BASE.stderr.txt",
+          "bytes": 5311,
+          "sha256": "4dc0c3d69f2a957030d3228eb2aed1320aa6030feb19d44968350162f6299cc9",
+          "exception_traceback_header": true,
+          "word_Traceback_present": true,
+          "word_TypeError_present": true
+        }
+      }
+    },
+    {
+      "configuration": "C1",
+      "fixture": "SC-BALANCE",
+      "arm": "FC",
+      "source_file": "r3/execution/C1/guest-metadata/runs/C1-SC-BALANCE/final-score.json",
+      "source_sha256": "7b060e0b0d0d449a68c290e689e2b92629c46f22dc5015536072dde2ea588b97",
+      "selector": "/operations/no_args",
+      "rc": 2,
+      "capture_error": null,
+      "utf8_valid": true,
+      "complete": true,
+      "completeness_basis": "Frozen judge.capture drains both pipes until EOF; TIMEOUT/OUTPUT_LIMIT/LAUNCH_FAILED sets error. Verified base64 matches decoded channel bytes.",
+      "no_args_check": true,
+      "endpoint": "FAIL",
+      "channels": {
+        "stdout": {
+          "file": "endpoint_no_args/C1-SC-BALANCE-FC.stdout.txt",
+          "bytes": 2099,
+          "sha256": "c380540b07d2c7e7063d03581f2d9eb77a9bc26c59ed641c5bef770c7479d6c7",
+          "exception_traceback_header": false,
+          "word_Traceback_present": false,
+          "word_TypeError_present": false
+        },
+        "stderr": {
+          "file": "endpoint_no_args/C1-SC-BALANCE-FC.stderr.txt",
+          "bytes": 765,
+          "sha256": "ad3da1e313c0b72118868ec78325cd95e646340547ec90d070fdeb622093e240",
+          "exception_traceback_header": false,
+          "word_Traceback_present": false,
+          "word_TypeError_present": false
+        }
+      }
+    },
+    {
+      "configuration": "C1",
+      "fixture": "SC-BALANCE",
+      "arm": "BASE",
+      "source_file": "r3/execution/C1/guest-metadata/runs/C1-SC-BALANCE/derived-base/final-score.json",
+      "source_sha256": "d5cbdc1d4fad20cff5a043f5018d040bf583f35a7de80c899e84c81f63eb2f52",
+      "selector": "/operations/no_args",
+      "rc": 1,
+      "capture_error": null,
+      "utf8_valid": true,
+      "complete": true,
+      "completeness_basis": "Frozen judge.capture drains both pipes until EOF; TIMEOUT/OUTPUT_LIMIT/LAUNCH_FAILED sets error. Verified base64 matches decoded channel bytes.",
+      "no_args_check": false,
+      "endpoint": "FAIL",
+      "channels": {
+        "stdout": {
+          "file": "endpoint_no_args/C1-SC-BALANCE-BASE.stdout.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "exception_traceback_header": false,
+          "word_Traceback_present": false,
+          "word_TypeError_present": false
+        },
+        "stderr": {
+          "file": "endpoint_no_args/C1-SC-BALANCE-BASE.stderr.txt",
+          "bytes": 147,
+          "sha256": "55e8427409c9dcb1c25314946b768c8328cdcace06e6715516d6c7d1f6c7b2a2",
+          "exception_traceback_header": false,
+          "word_Traceback_present": false,
+          "word_TypeError_present": false
+        }
+      }
+    },
+    {
+      "configuration": "C1",
+      "fixture": "H-RC0",
+      "arm": "FC",
+      "source_file": "r3/execution/C1/guest-metadata/runs/C1-H-RC0/final-score.json",
+      "source_sha256": "138837f5625fc089fa4f8c7075b1d8c3fd8bf259c69841d60165b6cc1a3f33d7",
+      "selector": "/operations/no_args",
+      "rc": 0,
+      "capture_error": null,
+      "utf8_valid": true,
+      "complete": true,
+      "completeness_basis": "Frozen judge.capture drains both pipes until EOF; TIMEOUT/OUTPUT_LIMIT/LAUNCH_FAILED sets error. Verified base64 matches decoded channel bytes.",
+      "no_args_check": true,
+      "endpoint": "PASS",
+      "channels": {
+        "stdout": {
+          "file": "endpoint_no_args/C1-H-RC0-FC.stdout.txt",
+          "bytes": 2100,
+          "sha256": "bc45543e3a917468d3e2232d2ed87ab95118461afa4ddd775fb2fcb22303b141",
+          "exception_traceback_header": false,
+          "word_Traceback_present": false,
+          "word_TypeError_present": false
+        },
+        "stderr": {
+          "file": "endpoint_no_args/C1-H-RC0-FC.stderr.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "exception_traceback_header": false,
+          "word_Traceback_present": false,
+          "word_TypeError_present": false
+        }
+      }
+    },
+    {
+      "configuration": "C1",
+      "fixture": "H-RC0",
+      "arm": "BASE",
+      "source_file": "r3/execution/C1/guest-metadata/runs/C1-H-RC0/derived-base/final-score.json",
+      "source_sha256": "40d20e1980834d9941bb3279ee248e4df55f9c9a03b852a72b47998fb5a275dc",
+      "selector": "/operations/no_args",
+      "rc": 0,
+      "capture_error": null,
+      "utf8_valid": true,
+      "complete": true,
+      "completeness_basis": "Frozen judge.capture drains both pipes until EOF; TIMEOUT/OUTPUT_LIMIT/LAUNCH_FAILED sets error. Verified base64 matches decoded channel bytes.",
+      "no_args_check": true,
+      "endpoint": "PASS",
+      "channels": {
+        "stdout": {
+          "file": "endpoint_no_args/C1-H-RC0-BASE.stdout.txt",
+          "bytes": 2100,
+          "sha256": "bc45543e3a917468d3e2232d2ed87ab95118461afa4ddd775fb2fcb22303b141",
+          "exception_traceback_header": false,
+          "word_Traceback_present": false,
+          "word_TypeError_present": false
+        },
+        "stderr": {
+          "file": "endpoint_no_args/C1-H-RC0-BASE.stderr.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "exception_traceback_header": false,
+          "word_Traceback_present": false,
+          "word_TypeError_present": false
+        }
+      }
+    },
+    {
+      "configuration": "C1",
+      "fixture": "EC-MISSING",
+      "arm": "FC",
+      "source_file": "r3/execution/C1/guest-metadata/runs/C1-EC-MISSING/final-score.json",
+      "source_sha256": "3bc47b0ceb47a0e0bc2ec6aee726407227ba795bad92107110ad5253109b9047",
+      "selector": "/operations/no_args",
+      "rc": 1,
+      "capture_error": null,
+      "utf8_valid": true,
+      "complete": true,
+      "completeness_basis": "Frozen judge.capture drains both pipes until EOF; TIMEOUT/OUTPUT_LIMIT/LAUNCH_FAILED sets error. Verified base64 matches decoded channel bytes.",
+      "no_args_check": false,
+      "endpoint": "FAIL",
+      "channels": {
+        "stdout": {
+          "file": "endpoint_no_args/C1-EC-MISSING-FC.stdout.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "exception_traceback_header": false,
+          "word_Traceback_present": false,
+          "word_TypeError_present": false
+        },
+        "stderr": {
+          "file": "endpoint_no_args/C1-EC-MISSING-FC.stderr.txt",
+          "bytes": 273,
+          "sha256": "a7cf9b8b22db51d58f28d995e05e0a6d9ce6d45ba2636d1048a7739df11936d0",
+          "exception_traceback_header": true,
+          "word_Traceback_present": true,
+          "word_TypeError_present": false
+        }
+      }
+    },
+    {
+      "configuration": "C1",
+      "fixture": "EC-MISSING",
+      "arm": "BASE",
+      "source_file": "r3/execution/C1/guest-metadata/runs/C1-EC-MISSING/derived-base/final-score.json",
+      "source_sha256": "63c4d8f1f678860eda747ef138cbea6202d19000a9e2f542eb7040ce63501c69",
+      "selector": "/operations/no_args",
+      "rc": 1,
+      "capture_error": null,
+      "utf8_valid": true,
+      "complete": true,
+      "completeness_basis": "Frozen judge.capture drains both pipes until EOF; TIMEOUT/OUTPUT_LIMIT/LAUNCH_FAILED sets error. Verified base64 matches decoded channel bytes.",
+      "no_args_check": false,
+      "endpoint": "FAIL",
+      "channels": {
+        "stdout": {
+          "file": "endpoint_no_args/C1-EC-MISSING-BASE.stdout.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "exception_traceback_header": false,
+          "word_Traceback_present": false,
+          "word_TypeError_present": false
+        },
+        "stderr": {
+          "file": "endpoint_no_args/C1-EC-MISSING-BASE.stderr.txt",
+          "bytes": 273,
+          "sha256": "a7cf9b8b22db51d58f28d995e05e0a6d9ce6d45ba2636d1048a7739df11936d0",
+          "exception_traceback_header": true,
+          "word_Traceback_present": true,
+          "word_TypeError_present": false
+        }
+      }
+    },
+    {
+      "configuration": "C1",
+      "fixture": "SH-FLAG",
+      "arm": "FC",
+      "source_file": "r3/execution/C1/guest-metadata/runs/C1-SH-FLAG/final-score.json",
+      "source_sha256": "12bbf13ebd489ee71ece2ee65db225c413a56062795fdac638a9ae5e38885af6",
+      "selector": "/operations/no_args",
+      "rc": 2,
+      "capture_error": null,
+      "utf8_valid": true,
+      "complete": true,
+      "completeness_basis": "Frozen judge.capture drains both pipes until EOF; TIMEOUT/OUTPUT_LIMIT/LAUNCH_FAILED sets error. Verified base64 matches decoded channel bytes.",
+      "no_args_check": true,
+      "endpoint": "FAIL",
+      "channels": {
+        "stdout": {
+          "file": "endpoint_no_args/C1-SH-FLAG-FC.stdout.txt",
+          "bytes": 2099,
+          "sha256": "aa8bba86d1a71d0cbcd2ea34cebe126062b7db1aa3b5efcc4395e9506710ae92",
+          "exception_traceback_header": false,
+          "word_Traceback_present": false,
+          "word_TypeError_present": false
+        },
+        "stderr": {
+          "file": "endpoint_no_args/C1-SH-FLAG-FC.stderr.txt",
+          "bytes": 761,
+          "sha256": "1560e509b46f0cf8fd84a64d75b4155427604324e57dafc9aececa68e5e48424",
+          "exception_traceback_header": false,
+          "word_Traceback_present": false,
+          "word_TypeError_present": false
+        }
+      }
+    },
+    {
+      "configuration": "C1",
+      "fixture": "SH-FLAG",
+      "arm": "BASE",
+      "source_file": "r3/execution/C1/guest-metadata/runs/C1-SH-FLAG/derived-base/final-score.json",
+      "source_sha256": "64170bf0841c5aaedba674da317487e344568283a223c8a9b4388fc0f18ea5ee",
+      "selector": "/operations/no_args",
+      "rc": 2,
+      "capture_error": null,
+      "utf8_valid": true,
+      "complete": true,
+      "completeness_basis": "Frozen judge.capture drains both pipes until EOF; TIMEOUT/OUTPUT_LIMIT/LAUNCH_FAILED sets error. Verified base64 matches decoded channel bytes.",
+      "no_args_check": true,
+      "endpoint": "FAIL",
+      "channels": {
+        "stdout": {
+          "file": "endpoint_no_args/C1-SH-FLAG-BASE.stdout.txt",
+          "bytes": 2099,
+          "sha256": "aa8bba86d1a71d0cbcd2ea34cebe126062b7db1aa3b5efcc4395e9506710ae92",
+          "exception_traceback_header": false,
+          "word_Traceback_present": false,
+          "word_TypeError_present": false
+        },
+        "stderr": {
+          "file": "endpoint_no_args/C1-SH-FLAG-BASE.stderr.txt",
+          "bytes": 761,
+          "sha256": "1560e509b46f0cf8fd84a64d75b4155427604324e57dafc9aececa68e5e48424",
+          "exception_traceback_header": false,
+          "word_Traceback_present": false,
+          "word_TypeError_present": false
+        }
+      }
+    },
+    {
+      "configuration": "C1",
+      "fixture": "EH-RENDERER",
+      "arm": "FC",
+      "source_file": "r3/execution/C1/guest-metadata/runs/C1-EH-RENDERER/final-score.json",
+      "source_sha256": "afbf26aea56d31ac56486e6917c83e7ca2289f9d8d23caf17f800805b9a4a8ea",
+      "selector": "/operations/no_args",
+      "rc": 1,
+      "capture_error": null,
+      "utf8_valid": true,
+      "complete": true,
+      "completeness_basis": "Frozen judge.capture drains both pipes until EOF; TIMEOUT/OUTPUT_LIMIT/LAUNCH_FAILED sets error. Verified base64 matches decoded channel bytes.",
+      "no_args_check": false,
+      "endpoint": "FAIL",
+      "channels": {
+        "stdout": {
+          "file": "endpoint_no_args/C1-EH-RENDERER-FC.stdout.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "exception_traceback_header": false,
+          "word_Traceback_present": false,
+          "word_TypeError_present": false
+        },
+        "stderr": {
+          "file": "endpoint_no_args/C1-EH-RENDERER-FC.stderr.txt",
+          "bytes": 165,
+          "sha256": "8fb2b1ebbfe5f45be749f6f2fe8c4503a87e6e67e7f10516072e76999cfa3db4",
+          "exception_traceback_header": true,
+          "word_Traceback_present": true,
+          "word_TypeError_present": false
+        }
+      }
+    },
+    {
+      "configuration": "C1",
+      "fixture": "EH-RENDERER",
+      "arm": "BASE",
+      "source_file": "r3/execution/C1/guest-metadata/runs/C1-EH-RENDERER/derived-base/final-score.json",
+      "source_sha256": "575e2d47334efcbcadc01d87727547ee0ac0932273e5acfd9274fadbd963015b",
+      "selector": "/operations/no_args",
+      "rc": 1,
+      "capture_error": null,
+      "utf8_valid": true,
+      "complete": true,
+      "completeness_basis": "Frozen judge.capture drains both pipes until EOF; TIMEOUT/OUTPUT_LIMIT/LAUNCH_FAILED sets error. Verified base64 matches decoded channel bytes.",
+      "no_args_check": false,
+      "endpoint": "FAIL",
+      "channels": {
+        "stdout": {
+          "file": "endpoint_no_args/C1-EH-RENDERER-BASE.stdout.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "exception_traceback_header": false,
+          "word_Traceback_present": false,
+          "word_TypeError_present": false
+        },
+        "stderr": {
+          "file": "endpoint_no_args/C1-EH-RENDERER-BASE.stderr.txt",
+          "bytes": 165,
+          "sha256": "8fb2b1ebbfe5f45be749f6f2fe8c4503a87e6e67e7f10516072e76999cfa3db4",
+          "exception_traceback_header": true,
+          "word_Traceback_present": true,
+          "word_TypeError_present": false
+        }
+      }
+    },
+    {
+      "configuration": "C1",
+      "fixture": "SC-SORT",
+      "arm": "FC",
+      "source_file": "r3/execution/C1/guest-metadata/runs/C1-SC-SORT/final-score.json",
+      "source_sha256": "c34424e81c317728a2d8709abe50034b47451aaf99216b0511293611f363586c",
+      "selector": "/operations/no_args",
+      "rc": 2,
+      "capture_error": null,
+      "utf8_valid": true,
+      "complete": true,
+      "completeness_basis": "Frozen judge.capture drains both pipes until EOF; TIMEOUT/OUTPUT_LIMIT/LAUNCH_FAILED sets error. Verified base64 matches decoded channel bytes.",
+      "no_args_check": true,
+      "endpoint": "PASS",
+      "channels": {
+        "stdout": {
+          "file": "endpoint_no_args/C1-SC-SORT-FC.stdout.txt",
+          "bytes": 2099,
+          "sha256": "fbf53378b62143aa1b65d91fb50e8bad6fa5f05c1c3131707547474b37114a05",
+          "exception_traceback_header": false,
+          "word_Traceback_present": false,
+          "word_TypeError_present": false
+        },
+        "stderr": {
+          "file": "endpoint_no_args/C1-SC-SORT-FC.stderr.txt",
+          "bytes": 765,
+          "sha256": "ad3da1e313c0b72118868ec78325cd95e646340547ec90d070fdeb622093e240",
+          "exception_traceback_header": false,
+          "word_Traceback_present": false,
+          "word_TypeError_present": false
+        }
+      }
+    },
+    {
+      "configuration": "C1",
+      "fixture": "SC-SORT",
+      "arm": "BASE",
+      "source_file": "r3/execution/C1/guest-metadata/runs/C1-SC-SORT/derived-base/final-score.json",
+      "source_sha256": "308e0a621f8544ce44a5e571be601feb6defd491b3cbaf30930f02c68dc6ec81",
+      "selector": "/operations/no_args",
+      "rc": 2,
+      "capture_error": null,
+      "utf8_valid": true,
+      "complete": true,
+      "completeness_basis": "Frozen judge.capture drains both pipes until EOF; TIMEOUT/OUTPUT_LIMIT/LAUNCH_FAILED sets error. Verified base64 matches decoded channel bytes.",
+      "no_args_check": true,
+      "endpoint": "PASS",
+      "channels": {
+        "stdout": {
+          "file": "endpoint_no_args/C1-SC-SORT-BASE.stdout.txt",
+          "bytes": 2099,
+          "sha256": "fbf53378b62143aa1b65d91fb50e8bad6fa5f05c1c3131707547474b37114a05",
+          "exception_traceback_header": false,
+          "word_Traceback_present": false,
+          "word_TypeError_present": false
+        },
+        "stderr": {
+          "file": "endpoint_no_args/C1-SC-SORT-BASE.stderr.txt",
+          "bytes": 765,
+          "sha256": "ad3da1e313c0b72118868ec78325cd95e646340547ec90d070fdeb622093e240",
+          "exception_traceback_header": false,
+          "word_Traceback_present": false,
+          "word_TypeError_present": false
+        }
+      }
+    },
+    {
+      "configuration": "C1",
+      "fixture": "H-RC2",
+      "arm": "FC",
+      "source_file": "r3/execution/C1/guest-metadata/runs/C1-H-RC2/final-score.json",
+      "source_sha256": "62f889dca8c3d499b6fee23562e376b644515e9afa6c5b213173515bbbc017ea",
+      "selector": "/operations/no_args",
+      "rc": 2,
+      "capture_error": null,
+      "utf8_valid": true,
+      "complete": true,
+      "completeness_basis": "Frozen judge.capture drains both pipes until EOF; TIMEOUT/OUTPUT_LIMIT/LAUNCH_FAILED sets error. Verified base64 matches decoded channel bytes.",
+      "no_args_check": true,
+      "endpoint": "PASS",
+      "channels": {
+        "stdout": {
+          "file": "endpoint_no_args/C1-H-RC2-FC.stdout.txt",
+          "bytes": 2099,
+          "sha256": "c380540b07d2c7e7063d03581f2d9eb77a9bc26c59ed641c5bef770c7479d6c7",
+          "exception_traceback_header": false,
+          "word_Traceback_present": false,
+          "word_TypeError_present": false
+        },
+        "stderr": {
+          "file": "endpoint_no_args/C1-H-RC2-FC.stderr.txt",
+          "bytes": 765,
+          "sha256": "ad3da1e313c0b72118868ec78325cd95e646340547ec90d070fdeb622093e240",
+          "exception_traceback_header": false,
+          "word_Traceback_present": false,
+          "word_TypeError_present": false
+        }
+      }
+    },
+    {
+      "configuration": "C1",
+      "fixture": "H-RC2",
+      "arm": "BASE",
+      "source_file": "r3/execution/C1/guest-metadata/runs/C1-H-RC2/derived-base/final-score.json",
+      "source_sha256": "f50d1a971c31e0c5300e9284955f76218a3585233efe52aceaedf614c4e54375",
+      "selector": "/operations/no_args",
+      "rc": 2,
+      "capture_error": null,
+      "utf8_valid": true,
+      "complete": true,
+      "completeness_basis": "Frozen judge.capture drains both pipes until EOF; TIMEOUT/OUTPUT_LIMIT/LAUNCH_FAILED sets error. Verified base64 matches decoded channel bytes.",
+      "no_args_check": true,
+      "endpoint": "PASS",
+      "channels": {
+        "stdout": {
+          "file": "endpoint_no_args/C1-H-RC2-BASE.stdout.txt",
+          "bytes": 2099,
+          "sha256": "c380540b07d2c7e7063d03581f2d9eb77a9bc26c59ed641c5bef770c7479d6c7",
+          "exception_traceback_header": false,
+          "word_Traceback_present": false,
+          "word_TypeError_present": false
+        },
+        "stderr": {
+          "file": "endpoint_no_args/C1-H-RC2-BASE.stderr.txt",
+          "bytes": 765,
+          "sha256": "ad3da1e313c0b72118868ec78325cd95e646340547ec90d070fdeb622093e240",
+          "exception_traceback_header": false,
+          "word_Traceback_present": false,
+          "word_TypeError_present": false
+        }
+      }
+    },
+    {
+      "configuration": "C1",
+      "fixture": "EC-SYMBOL",
+      "arm": "FC",
+      "source_file": "r3/execution/C1/guest-metadata/runs/C1-EC-SYMBOL/final-score.json",
+      "source_sha256": "258ccea78e604f46095786b703e53edbb0f3507395b7e549619fd92e806ae21a",
+      "selector": "/operations/no_args",
+      "rc": 0,
+      "capture_error": null,
+      "utf8_valid": true,
+      "complete": true,
+      "completeness_basis": "Frozen judge.capture drains both pipes until EOF; TIMEOUT/OUTPUT_LIMIT/LAUNCH_FAILED sets error. Verified base64 matches decoded channel bytes.",
+      "no_args_check": true,
+      "endpoint": "PASS",
+      "channels": {
+        "stdout": {
+          "file": "endpoint_no_args/C1-EC-SYMBOL-FC.stdout.txt",
+          "bytes": 2100,
+          "sha256": "bc45543e3a917468d3e2232d2ed87ab95118461afa4ddd775fb2fcb22303b141",
+          "exception_traceback_header": false,
+          "word_Traceback_present": false,
+          "word_TypeError_present": false
+        },
+        "stderr": {
+          "file": "endpoint_no_args/C1-EC-SYMBOL-FC.stderr.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "exception_traceback_header": false,
+          "word_Traceback_present": false,
+          "word_TypeError_present": false
+        }
+      }
+    },
+    {
+      "configuration": "C1",
+      "fixture": "EC-SYMBOL",
+      "arm": "BASE",
+      "source_file": "r3/execution/C1/guest-metadata/runs/C1-EC-SYMBOL/derived-base/final-score.json",
+      "source_sha256": "1534025719f436f39eedd474acc31d5a09121c6f3d41e20af76af212e1231791",
+      "selector": "/operations/no_args",
+      "rc": 0,
+      "capture_error": null,
+      "utf8_valid": true,
+      "complete": true,
+      "completeness_basis": "Frozen judge.capture drains both pipes until EOF; TIMEOUT/OUTPUT_LIMIT/LAUNCH_FAILED sets error. Verified base64 matches decoded channel bytes.",
+      "no_args_check": true,
+      "endpoint": "PASS",
+      "channels": {
+        "stdout": {
+          "file": "endpoint_no_args/C1-EC-SYMBOL-BASE.stdout.txt",
+          "bytes": 2100,
+          "sha256": "bc45543e3a917468d3e2232d2ed87ab95118461afa4ddd775fb2fcb22303b141",
+          "exception_traceback_header": false,
+          "word_Traceback_present": false,
+          "word_TypeError_present": false
+        },
+        "stderr": {
+          "file": "endpoint_no_args/C1-EC-SYMBOL-BASE.stderr.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "exception_traceback_header": false,
+          "word_Traceback_present": false,
+          "word_TypeError_present": false
+        }
+      }
+    },
+    {
+      "configuration": "C1",
+      "fixture": "SH-FORMAT",
+      "arm": "FC",
+      "source_file": "r3/execution/C1/guest-metadata/runs/C1-SH-FORMAT/final-score.json",
+      "source_sha256": "5f39a931b8aff777d608ddf46dd9a1d33d0431c1991d160e2386815f8e697655",
+      "selector": "/operations/no_args",
+      "rc": 2,
+      "capture_error": null,
+      "utf8_valid": true,
+      "complete": true,
+      "completeness_basis": "Frozen judge.capture drains both pipes until EOF; TIMEOUT/OUTPUT_LIMIT/LAUNCH_FAILED sets error. Verified base64 matches decoded channel bytes.",
+      "no_args_check": false,
+      "endpoint": "FAIL",
+      "channels": {
+        "stdout": {
+          "file": "endpoint_no_args/C1-SH-FORMAT-FC.stdout.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "exception_traceback_header": false,
+          "word_Traceback_present": false,
+          "word_TypeError_present": false
+        },
+        "stderr": {
+          "file": "endpoint_no_args/C1-SH-FORMAT-FC.stderr.txt",
+          "bytes": 765,
+          "sha256": "cba203d606bedbff6a058af1c099c016b25863973e1351e262f3f43cfb5ec06b",
+          "exception_traceback_header": false,
+          "word_Traceback_present": false,
+          "word_TypeError_present": false
+        }
+      }
+    },
+    {
+      "configuration": "C1",
+      "fixture": "SH-FORMAT",
+      "arm": "BASE",
+      "source_file": "r3/execution/C1/guest-metadata/runs/C1-SH-FORMAT/derived-base/final-score.json",
+      "source_sha256": "01f362039826901dd85d7c12a2dac5c1ca6dd813c7b30431436b318d8b8449dc",
+      "selector": "/operations/no_args",
+      "rc": 2,
+      "capture_error": null,
+      "utf8_valid": true,
+      "complete": true,
+      "completeness_basis": "Frozen judge.capture drains both pipes until EOF; TIMEOUT/OUTPUT_LIMIT/LAUNCH_FAILED sets error. Verified base64 matches decoded channel bytes.",
+      "no_args_check": false,
+      "endpoint": "FAIL",
+      "channels": {
+        "stdout": {
+          "file": "endpoint_no_args/C1-SH-FORMAT-BASE.stdout.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "exception_traceback_header": false,
+          "word_Traceback_present": false,
+          "word_TypeError_present": false
+        },
+        "stderr": {
+          "file": "endpoint_no_args/C1-SH-FORMAT-BASE.stderr.txt",
+          "bytes": 765,
+          "sha256": "cba203d606bedbff6a058af1c099c016b25863973e1351e262f3f43cfb5ec06b",
+          "exception_traceback_header": false,
+          "word_Traceback_present": false,
+          "word_TypeError_present": false
+        }
+      }
+    }
+  ],
+  "summary": {
+    "captures": 40,
+    "complete": 40,
+    "passing_no_args": 24,
+    "passing_no_args_with_exception_traceback_header": []
+  },
+  "limits": "Header detection is an inspection aid; legitimate mentions of words are not exception traces. This review does not retrofit a traceback rule into the oracle or claim causal invariance of model trajectories."
+}

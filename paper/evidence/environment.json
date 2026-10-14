@@ -1,0 +1,32 @@
+{
+  "historical": {
+    "python": "3.13.5 (main, Aug 10 2026, 12:06:59) [GCC 14.2.0]",
+    "debian_version": "13.7\n"
+  },
+  "historical_source": {
+    "file": "Typer_Controlador_05/runs/preparation-20261008-05-01/collection-measurement-03.json",
+    "pointer": "/native_host",
+    "sha256": "fcebcc051c96394f49db7b08a3945f2895e9a1100dd4e7bdef7bb5bbb69ba63d"
+  },
+  "retained_binary": {
+    "python_version": "3.13.5",
+    "bubblewrap_sha256": "573236e5328ac2ebb08f59ae3a9805b4f8d12bdef14be8af4450d5463294985f"
+  },
+  "retained_binary_source": {
+    "file": "SourceEnv_Public_Preparation_20261012/retained-json/outputs/closure.json",
+    "pointer": "/python_version,/bubblewrap_sha256",
+    "sha256": "e9482a164be6840e504b36b7144342141b03ef2d7cf5ba5ee597b481b3c33327"
+  },
+  "readonly_readback": {
+    "python": "3.13.5",
+    "debian_version": "13.7",
+    "bubblewrap_version": "bubblewrap 0.12.0",
+    "bubblewrap_sha256": "573236e5328ac2ebb08f59ae3a9805b4f8d12bdef14be8af4450d5463294985f"
+  },
+  "readback_source": {
+    "file": "Paper_Material/private-preparation/software-readback.json",
+    "pointer": "/",
+    "sha256": "cf4b3d61fa7946a6297983bf4c693c39101a2b84b46c231c9c6627eb1445798d"
+  },
+  "limitation": "Bubblewrap version string was not logged in the run; current readonly readback matches the retained binary SHA256. This is not a clean-machine check."
+}

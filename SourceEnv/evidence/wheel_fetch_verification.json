@@ -1,0 +1,24 @@
+{
+  "source": "PyPI",
+  "downloaded": 10,
+  "wheels_verified": 10,
+  "bytes": 1884551,
+  "metadata_queries": 10,
+  "payload_downloads": 10,
+  "automatic_retries": 0,
+  "sha256": {
+    "click-8.1.8-py3-none-any.whl": "63c132bbbed01578a06712a2d1f497bb62d9c1c0d329b7903a866228027263b2",
+    "click-8.2.0-py3-none-any.whl": "6b303f0b2aa85f1cb4e5303078fadcbcd4e476f114fab9b5007005711839325c",
+    "markdown_it_py-3.0.0-py3-none-any.whl": "355216845c60bd96232cd8d8c40e8f9765cc86f46880e43a8fd22dc1a1a8cab1",
+    "mdurl-0.1.2-py3-none-any.whl": "84008a41e51615a49fc9966191ff91509e3c40b939176e643fd50a5c2196b8f8",
+    "pygments-2.18.0-py3-none-any.whl": "b8e6aca0523f3ab76fee51799c488e38782ac06eafcf95e7ba832985c8e7b13a",
+    "rich-13.9.4-py3-none-any.whl": "6049d5e6ec054bf2779ab3358186963bac2ea89175919d699e378b99738c2a90",
+    "shellingham-1.5.4-py2.py3-none-any.whl": "7ecfff8f2fd72616f7481040475a65b2bf8af90a56c89140852d1120324e8686",
+    "typer-0.15.3-py3-none-any.whl": "c86a65ad77ca531f03de08d1b9cb67cd09ad02ddddf4b34745b5008f43b239bd",
+    "typer-0.16.0-py3-none-any.whl": "1f79bed11d4d02d4310e3c1b7ba594183bcedb0ac73b27a9e5f28f6fb5b98855",
+    "typing_extensions-4.12.2-py3-none-any.whl": "04e5ca0351e0f3f85c6853954072df659d0d13fac324d0072316b67d7794700d"
+  },
+  "cached_hash_mismatch_rejected": true,
+  "metadata_hash_mismatch_rejected": true,
+  "download_hash_mismatch_rejected": true
+}

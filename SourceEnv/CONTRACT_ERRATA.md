@@ -1,0 +1,9 @@
+# Retained contract and future wording
+
+The r3 bytes of `source/public_contract.py`, `cases-package/frozen_runtime/policy.json`, the oracle and individual tasks remain unchanged. The prompt begins "Repair app.py" and later permits either source edits or selecting an allowed dependency profile. That framing may influence axis choice and edits to healthy controls; this study does not estimate its causal effect.
+
+The prompt permits legitimate mentions of `Traceback` or `TypeError` within otherwise valid help. C3/EH-API interpreted that tolerance as permission for failing help. The oracle still requires the declared exit codes, channels and help tokens. Additionally, `no_args_channels` in policy prose says "no traceback", but the oracle does not enforce an exception-traceback prohibition. This is a documented contract/prose discrepancy, not a rule silently added to r3.
+
+A proposed future version could say: "Help must satisfy the stated exit-code, output-channel and command-information requirements. A documentation example may contain the words Traceback or TypeError; this does not permit an uncaught exception or waive any other requirement." Any new traceback rule must be specified and implemented together, validated, versioned and declared before use. This proposal is not the wording that generated r3.
+
+The finalization review inspected all forty original endpoint `no_args` captures: forty complete, twenty-four passing, none of the passing captures containing an exception traceback. Nine captures contained actual exception tracebacks and already failed `no_args`. This observation concerns retained endpoint captures only; it does not establish how another prompt or rule would change trajectories. Detailed original-byte hashes/selectors are in the accompanying paper evidence, not reconstructed from aggregate rows.

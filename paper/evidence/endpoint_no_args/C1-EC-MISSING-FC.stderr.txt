@@ -1,0 +1,6 @@
+CLI startup unavailable: interface dependency could not be loaded.
+Traceback (most recent call last):
+  File "/candidate/app.py", line 11, in <module>
+    app = typer.Typer(no_args_is_help=True)
+          ^^^^^
+NameError: name 'typer' is not defined. Did you mean: 'type'?

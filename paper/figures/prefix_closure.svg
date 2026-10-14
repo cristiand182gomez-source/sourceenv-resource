@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="650" viewBox="0 0 1320 650" role="img">
+<title>Common prefix and coverage-gated closure</title>
+<desc>A checkpoint precedes policy feedback. Full coverage accepts both endpoints. Incomplete coverage stops BASE and continues FC together.</desc>
+<rect width="1320" height="650" fill="white"/>
+<text x="30" y="36" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="bold" text-anchor="start" fill="black">One physical trajectory; two retained endpoints</text>
+<rect x="30" y="156" width="250" height="108" rx="5" fill="white" stroke="black" stroke-width="2.3"/>
+<text x="155.0" y="188.0" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="bold" text-anchor="middle" fill="black">Common prefix</text>
+<text x="155.0" y="218.0" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="normal" text-anchor="middle" fill="black">same messages</text>
+<text x="155.0" y="248.0" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="normal" text-anchor="middle" fill="black">actions, observations</text>
+<rect x="325" y="142" width="325" height="136" rx="5" fill="#f1f1f1" stroke="black" stroke-width="2.3"/>
+<text x="487.5" y="173.0" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="bold" text-anchor="middle" fill="black">First valid finish</text>
+<text x="487.5" y="203.0" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="normal" text-anchor="middle" fill="black">action/arguments valid</text>
+<text x="487.5" y="233.0" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="normal" text-anchor="middle" fill="black">checkpoint saved</text>
+<text x="487.5" y="263.0" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="normal" text-anchor="middle" fill="black">BEFORE policy feedback</text>
+<polyline points="280,210 325,210" fill="none" stroke="black" stroke-width="2.3"/>
+<polygon points="325.00,210.00 313.00,205.00 313.00,215.00" fill="black"/>
+<polyline points="650,210 704,210 704,108 760,108" fill="none" stroke="black" stroke-width="2.3"/>
+<polygon points="760.00,108.00 748.00,103.00 748.00,113.00" fill="black"/>
+<text x="760" y="49" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="normal" text-anchor="start" fill="black">6/6 current operations</text>
+<rect x="760" y="61" width="500" height="94" rx="5" fill="#f1f1f1" stroke="black" stroke-width="2.3"/>
+<text x="1010.0" y="101.0" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="bold" text-anchor="middle" fill="black">FC accepts; BASE stops</text>
+<text x="1010.0" y="131.0" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="normal" text-anchor="middle" fill="black">same state, score both</text>
+<polyline points="650,235 704,235 704,275 760,275" fill="none" stroke="black" stroke-width="2.3"/>
+<polygon points="760.00,275.00 748.00,270.00 748.00,280.00" fill="black"/>
+<text x="760" y="214" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="normal" text-anchor="start" fill="black">Incomplete coverage</text>
+<rect x="760" y="230" width="500" height="90" rx="5" fill="#f1f1f1" stroke="black" stroke-width="2.3"/>
+<text x="1010.0" y="268.0" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="bold" text-anchor="middle" fill="black">FC rejects valid finish</text>
+<text x="1010.0" y="298.0" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="normal" text-anchor="middle" fill="black">Both branches occur together</text>
+<polyline points="875,320 875,385" fill="none" stroke="black" stroke-width="2.3"/>
+<polygon points="875.00,385.00 880.00,373.00 870.00,373.00" fill="black"/>
+<polyline points="1130,320 1130,385" fill="none" stroke="black" stroke-width="2.3"/>
+<polygon points="1130.00,385.00 1135.00,373.00 1125.00,373.00" fill="black"/>
+<rect x="740" y="385" width="270" height="120" rx="5" fill="white" stroke="black" stroke-width="2.3"/>
+<text x="875.0" y="423.0" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="bold" text-anchor="middle" fill="black">BASE stops</text>
+<text x="875.0" y="453.0" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="normal" text-anchor="middle" fill="black">score checkpoint</text>
+<text x="875.0" y="483.0" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="normal" text-anchor="middle" fill="black">no further generation</text>
+<rect x="1030" y="385" width="270" height="120" rx="5" fill="white" stroke="black" stroke-width="2.3"/>
+<text x="1165.0" y="423.0" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="bold" text-anchor="middle" fill="black">FC continues</text>
+<text x="1165.0" y="453.0" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="normal" text-anchor="middle" fill="black">coverage feedback</text>
+<text x="1165.0" y="483.0" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="normal" text-anchor="middle" fill="black">remaining budget</text>
+<polyline points="154,264 154,427 325,427" fill="none" stroke="black" stroke-width="2.3"/>
+<polygon points="325.00,427.00 313.00,422.00 313.00,432.00" fill="black"/>
+<text x="167" y="390" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="normal" text-anchor="start" fill="black">No valid finish</text>
+<rect x="325" y="375" width="350" height="105" rx="5" fill="white" stroke="black" stroke-width="2.3"/>
+<text x="500.0" y="405.5" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="bold" text-anchor="middle" fill="black">Ordinary budget terminal</text>
+<text x="500.0" y="435.5" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="normal" text-anchor="middle" fill="black">common retained endpoint</text>
+<text x="500.0" y="465.5" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="normal" text-anchor="middle" fill="black">score both</text>
+<text x="30" y="566" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="normal" text-anchor="start" fill="black">An invalid finish creates no checkpoint. Effective state changes reset coverage.</text>
+<text x="30" y="604" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="bold" text-anchor="start" fill="black">Accepted closure requires observation, not PASS. Private scores never enter feedback.</text>
+</svg>

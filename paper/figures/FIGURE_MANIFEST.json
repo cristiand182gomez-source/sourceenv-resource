@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "method": "SVG and PNG share deterministic geometry and strings in make_prefix_figure.py; every visible label is SVG text, never a path.",
+  "images": {
+    "figures/prefix_closure.png": {
+      "text_source": "figures/prefix_closure.svg",
+      "image_sha256": "edff85476f8a66286983e34437e5a9dc8da38292ef546fe0feb816c16b4e4c47",
+      "text_source_sha256": "823eb7d3795037d21a9b23cc560619146b61a52f4dc576d254a758b99e3d040c"
+    }
+  },
+  "generator_sha256": "9563f77e244ba8502ca25771d985086940f9d8003ee4248dcd6f4b6dc6e895cf"
+}

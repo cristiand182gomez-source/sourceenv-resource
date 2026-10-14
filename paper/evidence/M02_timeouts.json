@@ -1,0 +1,62 @@
+{
+  "literal_four_flags_valid": 117,
+  "primary_filter": "sound == 1, unchanged",
+  "published_flags_do_not_fully_encode_timeout_exclusions": true,
+  "supplementary_mismatches": [],
+  "supplementary_rule": "literal four flags AND empty_exit_code != 124 AND gold_exit_code != 124; no missing code imputation",
+  "supplementary_source": "SUPLEMENTO_CRITERIO_M02.md",
+  "supplementary_valid": 114,
+  "timeout_rows": [
+    {
+      "dependency_repaired": "0",
+      "empty_control_error": "0",
+      "empty_exit_code": "124",
+      "empty_resolved": "0",
+      "empty_seconds": "345.59",
+      "exclusion_reason": "Empty control exits124 at the fixed300-second test timeout; frozen protocol excludes timeout controls even though gold passes.",
+      "gold_control_error": "0",
+      "gold_exit_code": "0",
+      "gold_resolved": "1",
+      "gold_seconds": "46.75",
+      "repo": "Textualize/rich",
+      "sound": "0",
+      "split": "held_out",
+      "status": "control_error",
+      "task_id": "rich_3480"
+    },
+    {
+      "dependency_repaired": "0",
+      "empty_control_error": "0",
+      "empty_exit_code": "124",
+      "empty_resolved": "0",
+      "empty_seconds": "339.76",
+      "exclusion_reason": "Empty control exits124 at the fixed300-second test timeout; frozen protocol excludes timeout controls even though gold passes.",
+      "gold_control_error": "0",
+      "gold_exit_code": "0",
+      "gold_resolved": "1",
+      "gold_seconds": "46.17",
+      "repo": "Textualize/rich",
+      "sound": "0",
+      "split": "held_out",
+      "status": "control_error",
+      "task_id": "rich_3772"
+    },
+    {
+      "dependency_repaired": "0",
+      "empty_control_error": "0",
+      "empty_exit_code": "124",
+      "empty_resolved": "0",
+      "empty_seconds": "356.69",
+      "exclusion_reason": "Empty control exits124 at the fixed300-second test timeout; frozen protocol excludes timeout controls even though gold passes.",
+      "gold_control_error": "0",
+      "gold_exit_code": "0",
+      "gold_resolved": "1",
+      "gold_seconds": "47.15",
+      "repo": "Textualize/rich",
+      "sound": "0",
+      "split": "held_out",
+      "status": "control_error",
+      "task_id": "rich_4006"
+    }
+  ]
+}

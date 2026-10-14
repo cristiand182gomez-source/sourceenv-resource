@@ -1,0 +1,15 @@
+root ::= action ws
+action ::= list-files | read-file | write-file | run-app | apply-profile | finish
+list-files ::= "{" ws "\"tool\"" ws ":" ws "\"list_files\"" ws "," ws "\"arguments\"" ws ":" ws "{" ws  "}" ws "}"
+read-file ::= "{" ws "\"tool\"" ws ":" ws "\"read_file\"" ws "," ws "\"arguments\"" ws ":" ws "{" ws "\"path\"" ws ":" ws string "}" ws "}"
+write-file ::= "{" ws "\"tool\"" ws ":" ws "\"write_file\"" ws "," ws "\"arguments\"" ws ":" ws "{" ws "\"path\"" ws ":" ws string "," ws "\"content\"" ws ":" ws string "}" ws "}"
+run-app ::= "{" ws "\"tool\"" ws ":" ws "\"run_app\"" ws "," ws "\"arguments\"" ws ":" ws "{" ws "\"operation\"" ws ":" ws operation "}" ws "}"
+apply-profile ::= "{" ws "\"tool\"" ws ":" ws "\"apply_profile\"" ws "," ws "\"arguments\"" ws ":" ws "{" ws "\"profile\"" ws ":" ws profile "}" ws "}"
+finish ::= "{" ws "\"tool\"" ws ":" ws "\"finish\"" ws "," ws "\"arguments\"" ws ":" ws "{" ws "\"summary\"" ws ":" ws string "}" ws "}"
+operation ::= ("\"first_command\"" | "\"second_command\"" | "\"no_args\"" | "\"explicit_help\"" | "\"first_command_help\"" | "\"second_command_help\"") ws
+profile ::= ("\"typer0153_click820\"" | "\"typer0153_click818\"" | "\"typer0160_click820\"") ws
+string ::= "\"" char* "\"" ws
+char ::= [^"\\\x00-\x1F\uD800-\uDFFF] | "\\" (["\\/bfnrt] | "u" unicode)
+unicode ::= ([0-9a-cA-Ce-fE-F] hex hex hex | [dD] [0-7] hex hex | [dD] [89aAbB] hex hex "\\u" [dD] [c-fC-F] hex hex)
+hex ::= [0-9a-fA-F]
+ws ::= [ \t\n\r]{0,16}

@@ -1,0 +1,113 @@
+{
+  "consulted_date": "2026-10-14",
+  "retrieval": "Public official Kaggle PageService/ListPages, no authentication or competition entry; browser provider inventory was empty, public HTML shells lacked content.",
+  "canonical_data": {
+    "url": "https://www.kaggle.com/competitions/gemma-4-developer-agent/data",
+    "competition_id": 149921,
+    "page_id": 752212,
+    "name": "data-description",
+    "original_json_path_identifier": "raw/kaggle_agent_ListPages.json",
+    "capture_access": "NOT_BUNDLED; original verification capture retained privately",
+    "primary_retrieval_url": "https://www.kaggle.com/competitions/gemma-4-developer-agent-paper/rules",
+    "json_pointer": "/pages/0/content",
+    "json_sha256": "7ed70b6ddc8e904ef5efda15dd2f679d5671082111d48b5eebfb59e0b65c0f17",
+    "original_text_path_identifier": "texts/kaggle_agent_data-description.md",
+    "text_sha256": "a1a6c8dd0577219fe5bb093df393f67ae99f73e577fdba9148676013bc104463",
+    "selectors": [
+      "Files > tasks.jsonl",
+      "Dataset Generation & Verification Pipeline > Execution Verification Harness"
+    ],
+    "prior_observation": "legacy/KAGGLE_PRIMARY_OBSERVATION.json",
+    "prior_sha256": "6d8462e1f00f2d1aff0a64a2bcc5de2d2e7729ca91cc3508b4959b3490022dff",
+    "comparison": [
+      {
+        "location": "Dataset Generation & Verification Pipeline > Execution Verification Harness > Fail-to-Pass (Baseline Verification)",
+        "exact_after_markdown_removal_and_whitespace_normalization": true
+      },
+      {
+        "location": "Dataset Generation & Verification Pipeline > Execution Verification Harness > Pass-to-Pass (Solution Verification)",
+        "exact_after_markdown_removal_and_whitespace_normalization": true
+      }
+    ],
+    "limits": [
+      "This is the official curation procedure, not new verification of 129 tasks.",
+      "The previous Getting Started Input page embedded the official description; it was not automatically a secondary opinion.",
+      "Source publication/version date is not declared in this page response; consultation timestamp is not a historical publication date.",
+      "Organizer Solution Verification P2P wording is not silently equated with SWE-bench pass-to-pass test set semantics."
+    ]
+  },
+  "paper_rules": {
+    "url": "https://www.kaggle.com/competitions/gemma-4-developer-agent-paper/rules",
+    "competition_id": 163111,
+    "original_json_path_identifier": "raw/kaggle_paper_ListPages.json",
+    "capture_access": "NOT_BUNDLED; original verification capture retained privately",
+    "primary_retrieval_url": "https://www.kaggle.com/competitions/gemma-4-developer-agent-paper/rules",
+    "json_sha256": "6658f0e6f33975702c0d33bab87d88f44dcd206a259f80d598d6fb2fa70ed2cd",
+    "sections": [
+      {
+        "name": "rules",
+        "page_id": 836466,
+        "json_pointer": "/pages/3/content",
+        "original_text_path_identifier": "texts/kaggle_paper_rules.md",
+        "capture_access": "NOT_BUNDLED; original verification capture retained privately",
+        "primary_retrieval_url": "https://www.kaggle.com/competitions/gemma-4-developer-agent-paper/rules",
+        "text_sha256": "0fec5b9d02850a75142a71a734db6d0d8f2ef64b62509504b5bc892e60439d1f",
+        "selectors": [
+          "1.6 WINNER LICENSE TYPE",
+          "2.4 Competition Data",
+          "2.5 Winner License, a.1-a.3 and b",
+          "2.8 Winner’s Obligations"
+        ]
+      },
+      {
+        "name": "foundational-rules",
+        "page_id": 836468,
+        "json_pointer": "/pages/5/content",
+        "original_text_path_identifier": "texts/kaggle_paper_foundational-rules.md",
+        "capture_access": "NOT_BUNDLED; original verification capture retained privately",
+        "primary_retrieval_url": "https://www.kaggle.com/competitions/gemma-4-developer-agent-paper/rules",
+        "text_sha256": "3106b398b76d8ec4d92708b5fc55afd96524774e6f28718437f025ab22e0a6f4",
+        "selectors": [
+          "Preamble: precedence",
+          "3.6 Submission Code Requirements",
+          "3.14 Warranty, Indemnity and Release"
+        ]
+      },
+      {
+        "name": "Submission Requirements",
+        "page_id": 836469,
+        "json_pointer": "/pages/7/content",
+        "original_text_path_identifier": "texts/kaggle_paper_submission_requirements.md",
+        "capture_access": "NOT_BUNDLED; original verification capture retained privately",
+        "primary_retrieval_url": "https://www.kaggle.com/competitions/gemma-4-developer-agent-paper/rules",
+        "text_sha256": "4c8cdf9092203a00692f031fe1a7d98f285069e6419342a146a61131a452c6d1",
+        "selectors": [
+          "Optional Public Notebook",
+          "Optional Public Project Link",
+          "Submission Details",
+          "Final note on private attached resources"
+        ]
+      }
+    ],
+    "winner_license_literal": "Open Source Apache 2.0",
+    "review_scope": "Complete competition-specific rules and foundational rules read, including obligations and exceptions; submission requirements retained for the later release plan.",
+    "limitations": [
+      "No assertion of winner status, organizer acceptance, eligibility certification or authorization to submit.",
+      "No external publication, entry, rule acceptance, upload, or repository visibility change performed."
+    ]
+  },
+  "site_api_discovery": {
+    "public_script_url": "https://www.kaggle.com/static/assets/app.js?v=3b5233529ffc3653",
+    "script_sha256": "303850ba3204b465cdb0be40af42493d11a0e1933d730c1d3631552d2ed2adb2",
+    "observed_read_methods": [
+      "/api/i/competitions.CompetitionService/GetCompetition",
+      "/api/i/competitions.PageService/ListPages"
+    ],
+    "script_not_bundled": true
+  },
+  "new_model_calls": 0,
+  "candidate_applications": 0,
+  "api_evidence_original_identifier": "KAGGLE_API_REQUESTS.json",
+  "original_sha256": "fd6c8bf02e739021bef9d156153e304e71b0c2a5170bff7debd63261a3ce225c",
+  "r4_scope": "Selected historical metadata; no API response/full rules text included or fresh consultation."
+}

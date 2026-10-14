@@ -1,0 +1,1288 @@
+[
+  {
+    "number": 1,
+    "citekey": "gemma4competitiondata",
+    "title": "Google - The Gemma 4 Developer Agent Competition",
+    "authors": [
+      "Google / Kaggle (competition description; individual author not declared)"
+    ],
+    "primary_url": "https://www.kaggle.com/competitions/gemma-4-developer-agent/data",
+    "version": "official data-description page 752212, consulted 2026-10-14",
+    "doi": null,
+    "consulted_version_date": null,
+    "locations": [
+      {
+        "original_file_identifier": "sources/legacy/KAGGLE_PRIMARY_OBSERVATION.json",
+        "capture_access": "NOT_BUNDLED; original verification capture retained privately",
+        "primary_retrieval_url": "https://www.kaggle.com/competitions/gemma-4-developer-agent/data",
+        "selector": "/passages",
+        "location": "Input Data > competition > Files > tasks.jsonl; Dataset Generation & Verification Pipeline > Execution Verification Harness",
+        "sha256": "6d8462e1f00f2d1aff0a64a2bcc5de2d2e7729ca91cc3508b4959b3490022dff"
+      },
+      {
+        "original_file_identifier": "sources/raw/kaggle_agent_ListPages.json",
+        "capture_access": "NOT_BUNDLED; original verification capture retained privately",
+        "primary_retrieval_url": "https://www.kaggle.com/competitions/gemma-4-developer-agent/data",
+        "sha256": "7ed70b6ddc8e904ef5efda15dd2f679d5671082111d48b5eebfb59e0b65c0f17",
+        "selector": "/pages/0/content",
+        "page_id": 752212,
+        "location": "Dataset Generation & Verification Pipeline > Execution Verification Harness"
+      }
+    ],
+    "prior_primary_url": "https://www.kaggle.com/code/ryanholbrook/getting-started-gemma-4-developer-agent/input",
+    "consulted_date": "2026-10-14",
+    "verification_file": "sources/KAGGLE_PRIMARY_VERIFICATION.json",
+    "historical_master_unmodified": true,
+    "distribution_note": "Bibliographic metadata and original selectors/hashes only. Full verification captures are not bundled; use the primary versioned URL."
+  },
+  {
+    "number": 2,
+    "citekey": "gemma4-swe-benchmark-audit",
+    "title": "Gemma 4 SWE Agent Benchmark Audit",
+    "authors": [
+      "Veerakrishna"
+    ],
+    "primary_url": "https://www.kaggle.com/datasets/veerukhannan/gemma4-swe-benchmark-audit?datasetVersionNumber=6",
+    "version": "6",
+    "doi": null,
+    "consulted_version_date": "2026-10-10T01:39:42.477Z",
+    "locations": [
+      {
+        "original_path_identifier": "sources/legacy/datasets/M01-v6/README.md",
+        "capture_access": "NOT_BUNDLED; original verification capture retained privately",
+        "primary_retrieval_url": "https://www.kaggle.com/datasets/veerukhannan/gemma4-swe-benchmark-audit?datasetVersionNumber=6",
+        "sha256": "17b83db526c609351fdf4c686f1fa178cc5c3ffe40f3ad7a9063d51ef152c6d9",
+        "bytes": 4834,
+        "selectors": [
+          {
+            "literal": "Gradable",
+            "lines_1_based": [
+              24,
+              26,
+              30,
+              33
+            ],
+            "matching": "case-insensitive substring (historical selector spelling retained)"
+          },
+          {
+            "literal": "status_py312",
+            "lines_1_based": [
+              24
+            ]
+          },
+          {
+            "literal": "gradability_labels.csv",
+            "lines_1_based": [
+              10,
+              17
+            ]
+          },
+          {
+            "literal": "License",
+            "lines_1_based": [
+              72
+            ]
+          }
+        ]
+      },
+      {
+        "original_path_identifier": "sources/legacy/datasets/M01-v6/paper.md",
+        "capture_access": "NOT_BUNDLED; original verification capture retained privately",
+        "primary_retrieval_url": "https://www.kaggle.com/datasets/veerukhannan/gemma4-swe-benchmark-audit?datasetVersionNumber=6",
+        "sha256": "f4353bd3d345dbf5ed22da8253f0a83f6fdcb17c779f9014fe7603237e9af3ae",
+        "bytes": 17863,
+        "selectors": [
+          {
+            "literal": "3.1 Which tasks",
+            "lines_1_based": [
+              55
+            ]
+          },
+          {
+            "literal": "two environments also differ",
+            "lines_1_based": [
+              68
+            ]
+          }
+        ]
+      }
+    ],
+    "master_entry_preserved_except_versioned_M01W_URL": true,
+    "distribution_note": "Bibliographic metadata and original selectors/hashes only. Full verification captures are not bundled; use the primary versioned URL."
+  },
+  {
+    "number": 3,
+    "citekey": "gemma-4-task-soundness-and-local-results",
+    "title": "Gemma 4 Task Soundness and Local Results",
+    "authors": [
+      "Gluzdov, Dmitry"
+    ],
+    "primary_url": "https://www.kaggle.com/datasets/dmitriigluzdov/gemma-4-task-soundness-and-local-results?datasetVersionNumber=8",
+    "version": "8",
+    "doi": null,
+    "consulted_version_date": "2026-10-11T02:02:58.127Z",
+    "locations": [
+      {
+        "original_path_identifier": "sources/legacy/datasets/M02-v8/README.md",
+        "capture_access": "NOT_BUNDLED; original verification capture retained privately",
+        "primary_retrieval_url": "https://www.kaggle.com/datasets/dmitriigluzdov/gemma-4-task-soundness-and-local-results?datasetVersionNumber=8",
+        "sha256": "6833f40dd32f697079db3d06f7d7e47a9af44bfc2565aa23cd9ed34d7cd1503e",
+        "bytes": 13991,
+        "selectors": [
+          {
+            "literal": "Protocol and environment",
+            "lines_1_based": [
+              117
+            ]
+          },
+          {
+            "literal": "Sound means",
+            "lines_1_based": [
+              118
+            ]
+          },
+          {
+            "literal": "Measurements and this documentation",
+            "lines_1_based": [
+              132
+            ]
+          }
+        ]
+      },
+      {
+        "original_path_identifier": "sources/legacy/datasets/M02-v8/data_dictionary.json",
+        "capture_access": "NOT_BUNDLED; original verification capture retained privately",
+        "primary_retrieval_url": "https://www.kaggle.com/datasets/dmitriigluzdov/gemma-4-task-soundness-and-local-results?datasetVersionNumber=8",
+        "sha256": "2d5ef3aa89a695a484c10463ad2599a2f1990a676d705f0381d6de0bd079d3f2",
+        "bytes": 13691,
+        "selectors": [
+          {
+            "literal": "task_soundness.csv",
+            "lines_1_based": [
+              59,
+              106,
+              116,
+              143
+            ]
+          },
+          {
+            "literal": "empty_exit_code",
+            "lines_1_based": [
+              69
+            ]
+          },
+          {
+            "literal": "sound",
+            "lines_1_based": [
+              19,
+              46,
+              59,
+              63,
+              64,
+              74,
+              105,
+              106,
+              115,
+              116,
+              130,
+              143
+            ]
+          }
+        ]
+      }
+    ],
+    "master_entry_preserved_except_versioned_M01W_URL": true,
+    "distribution_note": "Bibliographic metadata and original selectors/hashes only. Full verification captures are not bundled; use the primary versioned URL."
+  },
+  {
+    "number": 4,
+    "citekey": "jimenez2024swebench",
+    "title": "SWE-bench: Can Language Models Resolve Real-World GitHub Issues?",
+    "authors": [
+      "Jimenez, Carlos E.",
+      "Yang, John",
+      "Wettig, Alexander",
+      "Yao, Shunyu",
+      "Pei, Kexin",
+      "Press, Ofir",
+      "Narasimhan, Karthik"
+    ],
+    "primary_url": "https://arxiv.org/abs/2310.06770v3",
+    "version": "2310.06770v3",
+    "doi": "10.48550/arXiv.2310.06770",
+    "consulted_version_date": "2024-11-11",
+    "locations": [
+      {
+        "source": "2310.06770v3_full",
+        "original_text_file_identifier": "sources/legacy/texts/2310.06770v3_full.txt",
+        "capture_access": "NOT_BUNDLED; original verification capture retained privately",
+        "primary_retrieval_url": "https://arxiv.org/abs/2310.06770v3",
+        "text_sha256": "e172121a1f63d8c8c10a26c629e00f278743e3fc979d02c9f781aefee4dfef54",
+        "selectors": [
+          {
+            "literal": "Abstract",
+            "lines_1_based": [
+              15,
+              17,
+              75,
+              1954
+            ]
+          },
+          {
+            "literal": "benchmark",
+            "lines_1_based": [
+              20,
+              37,
+              91,
+              92,
+              96,
+              98,
+              101,
+              105,
+              106,
+              114,
+              116,
+              144,
+              147,
+              150,
+              164,
+              212,
+              217,
+              543,
+              545,
+              563,
+              581,
+              601,
+              604,
+              628,
+              693,
+              700,
+              729,
+              737,
+              762,
+              800,
+              813,
+              837,
+              838,
+              1954,
+              1956
+            ],
+            "matching": "case-insensitive substring (historical selector spelling retained)"
+          },
+          {
+            "literal": "evaluation",
+            "lines_1_based": [
+              41,
+              42,
+              49,
+              50,
+              78,
+              81,
+              106,
+              141,
+              157,
+              217,
+              222,
+              358,
+              537,
+              567,
+              568,
+              570,
+              576,
+              579,
+              595,
+              712,
+              715,
+              837,
+              839,
+              928,
+              957,
+              1054,
+              1059,
+              1061,
+              1063,
+              1064,
+              1066,
+              1067,
+              1068,
+              1070,
+              1086,
+              1088,
+              1090,
+              1266,
+              1425,
+              1427,
+              1428,
+              1429,
+              1463,
+              1569,
+              1603,
+              1684,
+              1686,
+              1722,
+              1953,
+              1955,
+              1980
+            ],
+            "matching": "case-insensitive substring (historical selector spelling retained)"
+          }
+        ],
+        "sha256": "e172121a1f63d8c8c10a26c629e00f278743e3fc979d02c9f781aefee4dfef54"
+      }
+    ],
+    "master_entry_preserved_except_versioned_M01W_URL": true,
+    "distribution_note": "Bibliographic metadata and original selectors/hashes only. Full verification captures are not bundled; use the primary versioned URL."
+  },
+  {
+    "number": 5,
+    "citekey": "swebenchgrading2026",
+    "title": "SWE-bench evaluation harness: swebench/harness/grading.py",
+    "authors": [
+      "SWE-bench contributors"
+    ],
+    "primary_url": "https://github.com/SWE-bench/SWE-bench/blob/ca6e4e0d252f32f8762625b73575d5dee49d0a5a/swebench/harness/grading.py",
+    "version": "ca6e4e0d252f32f8762625b73575d5dee49d0a5a",
+    "doi": null,
+    "consulted_version_date": "2026-08-16T11:20:56Z",
+    "locations": [
+      {
+        "source": "swe_grading",
+        "original_text_file_identifier": "sources/legacy/texts/swe_grading.txt",
+        "capture_access": "NOT_BUNDLED; original verification capture retained privately",
+        "primary_retrieval_url": "https://github.com/SWE-bench/SWE-bench/blob/ca6e4e0d252f32f8762625b73575d5dee49d0a5a/swebench/harness/grading.py",
+        "text_sha256": "a095273010175001a6779e365b3b77abb8657c7ac2e4f80b4bc360faa6f09483",
+        "selectors": [
+          {
+            "literal": "def get_eval_tests_report",
+            "lines_1_based": [
+              179
+            ]
+          },
+          {
+            "literal": "def compute_fail_to_pass",
+            "lines_1_based": [
+              288
+            ]
+          },
+          {
+            "literal": "def compute_pass_to_pass",
+            "lines_1_based": [
+              298
+            ]
+          },
+          {
+            "literal": "def get_resolution_status",
+            "lines_1_based": [
+              309
+            ]
+          }
+        ],
+        "sha256": "a095273010175001a6779e365b3b77abb8657c7ac2e4f80b4bc360faa6f09483"
+      }
+    ],
+    "master_entry_preserved_except_versioned_M01W_URL": true,
+    "distribution_note": "Bibliographic metadata and original selectors/hashes only. Full verification captures are not bundled; use the primary versioned URL."
+  },
+  {
+    "number": 6,
+    "citekey": "smith2015overfitting",
+    "title": "Is the Cure Worse Than the Disease? Overfitting in Automated Program Repair",
+    "authors": [
+      "Smith, Edward K.",
+      "Barr, Earl T.",
+      "Le Goues, Claire",
+      "Brun, Yuriy"
+    ],
+    "primary_url": "https://people.cs.umass.edu/~brun/pubs/pubs/Smith15fse.pdf",
+    "version": "ESEC/FSE 2015 proceedings, pp. 532-543",
+    "doi": "10.1145/2786805.2786825",
+    "consulted_version_date": "2015",
+    "locations": [
+      {
+        "source": "smith2015_pdf",
+        "original_text_file_identifier": "sources/legacy/texts/smith2015_pdf.txt",
+        "capture_access": "NOT_BUNDLED; original verification capture retained privately",
+        "primary_retrieval_url": "https://people.cs.umass.edu/~brun/pubs/pubs/Smith15fse.pdf",
+        "text_sha256": "43c4a949721a7ccffbd25a7b7e3f1916e9b5292a65aef6c41d232cca5fecd28a",
+        "selectors": [
+          {
+            "literal": "Is the Cure Worse Than",
+            "lines_1_based": [
+              2
+            ]
+          },
+          {
+            "literal": "3.2 Test Suites and Measure",
+            "lines_1_based": [
+              350
+            ]
+          },
+          {
+            "literal": "independent",
+            "lines_1_based": [
+              20,
+              22,
+              31,
+              69,
+              71,
+              101,
+              104,
+              122,
+              137,
+              366,
+              546,
+              3122,
+              3135,
+              3136,
+              3218,
+              3271
+            ]
+          },
+          {
+            "literal": "2786805.2786825",
+            "lines_1_based": [
+              56,
+              115
+            ]
+          }
+        ],
+        "sha256": "43c4a949721a7ccffbd25a7b7e3f1916e9b5292a65aef6c41d232cca5fecd28a"
+      }
+    ],
+    "master_entry_preserved_except_versioned_M01W_URL": true,
+    "distribution_note": "Bibliographic metadata and original selectors/hashes only. Full verification captures are not bundled; use the primary versioned URL."
+  },
+  {
+    "number": 7,
+    "citekey": "eliseeva2025envbench",
+    "title": "EnvBench: A Benchmark for Automated Environment Setup",
+    "authors": [
+      "Eliseeva, Aleksandra",
+      "Kovrigin, Alexander",
+      "Kholkin, Ilia",
+      "Bogomolov, Egor",
+      "Zharov, Yaroslav"
+    ],
+    "primary_url": "https://arxiv.org/abs/2503.14443v1",
+    "version": "2503.14443v1",
+    "doi": "10.48550/arXiv.2503.14443",
+    "consulted_version_date": "2025-03-18",
+    "locations": [
+      {
+        "source": "2503.14443v1_full",
+        "original_text_file_identifier": "sources/legacy/texts/2503.14443v1_full.txt",
+        "capture_access": "NOT_BUNDLED; original verification capture retained privately",
+        "primary_retrieval_url": "https://arxiv.org/abs/2503.14443v1",
+        "text_sha256": "3176445fe16fe99ad663a0693bd2ba4d6106f22ac9486f5ad14dc144107d2cc2",
+        "selectors": [
+          {
+            "literal": "3.1 Task definition",
+            "lines_1_based": [
+              21,
+              95
+            ]
+          },
+          {
+            "literal": "3.2 Evaluation suite",
+            "lines_1_based": [
+              22,
+              109
+            ]
+          },
+          {
+            "literal": "static analysis",
+            "lines_1_based": [
+              55,
+              68,
+              74,
+              88,
+              100,
+              125,
+              287,
+              290,
+              477
+            ]
+          },
+          {
+            "literal": "compilation",
+            "lines_1_based": [
+              55,
+              68,
+              74,
+              88,
+              125,
+              287,
+              290
+            ]
+          }
+        ],
+        "sha256": "3176445fe16fe99ad663a0693bd2ba4d6106f22ac9486f5ad14dc144107d2cc2"
+      }
+    ],
+    "master_entry_preserved_except_versioned_M01W_URL": true,
+    "distribution_note": "Bibliographic metadata and original selectors/hashes only. Full verification captures are not bundled; use the primary versioned URL."
+  },
+  {
+    "number": 8,
+    "citekey": "muna2026cirepair",
+    "title": "CI-Repair-Bench: A Repository-Aware Benchmark for Automated Patch Validation via CI Workflows",
+    "authors": [
+      "Muna, Rabeya Khatun",
+      "Rafi, Md Nakhla",
+      "Chen, Tse-Hsun (Peter)"
+    ],
+    "primary_url": "https://arxiv.org/abs/2604.27148v2",
+    "version": "2604.27148v2",
+    "doi": "10.48550/arXiv.2604.27148",
+    "consulted_version_date": "2026-05-04",
+    "locations": [
+      {
+        "source": "2604.27148v2_full",
+        "original_text_file_identifier": "sources/legacy/texts/2604.27148v2_full.txt",
+        "capture_access": "NOT_BUNDLED; original verification capture retained privately",
+        "primary_retrieval_url": "https://arxiv.org/abs/2604.27148v2",
+        "text_sha256": "91f7318c90c45ec4f1f9dd126816b4e476fe96245acdde82536b7a617bdfbd0e",
+        "selectors": [
+          {
+            "literal": "Tse-Hsun (Peter) Chen",
+            "lines_1_based": [
+              52,
+              822
+            ]
+          },
+          {
+            "literal": "3.1 Task Definition",
+            "lines_1_based": [
+              23,
+              197
+            ]
+          },
+          {
+            "literal": "non-code",
+            "lines_1_based": [
+              57,
+              60,
+              76,
+              79,
+              166
+            ]
+          },
+          {
+            "literal": "5.3",
+            "lines_1_based": [
+              34,
+              428,
+              475,
+              578
+            ]
+          }
+        ],
+        "sha256": "91f7318c90c45ec4f1f9dd126816b4e476fe96245acdde82536b7a617bdfbd0e"
+      }
+    ],
+    "master_entry_preserved_except_versioned_M01W_URL": true,
+    "distribution_note": "Bibliographic metadata and original selectors/hashes only. Full verification captures are not bundled; use the primary versioned URL."
+  },
+  {
+    "number": 9,
+    "citekey": "dubey2026realtime",
+    "title": "Real-Time Detection and Repair of LLM Agent Failures",
+    "authors": [
+      "Dubey, Sunny"
+    ],
+    "primary_url": "https://arxiv.org/abs/2608.02464v1",
+    "version": "2608.02464v1",
+    "doi": "10.48550/arXiv.2608.02464",
+    "consulted_version_date": "2026-08-03",
+    "locations": [
+      {
+        "source": "2608.02464v1_full",
+        "original_text_file_identifier": "sources/legacy/texts/2608.02464v1_full.txt",
+        "capture_access": "NOT_BUNDLED; original verification capture retained privately",
+        "primary_retrieval_url": "https://arxiv.org/abs/2608.02464v1",
+        "text_sha256": "1178efbee7a4f17e3cbb8d35abe97267d4b303123a7ba0776265a1a96f5e46e5",
+        "selectors": [
+          {
+            "literal": "10 Deterministic Verification",
+            "lines_1_based": [
+              28,
+              176
+            ]
+          },
+          {
+            "literal": "required_coverage",
+            "lines_1_based": [
+              180
+            ]
+          },
+          {
+            "literal": "same checkpoint",
+            "lines_1_based": [
+              217
+            ]
+          },
+          {
+            "literal": "fresh model call",
+            "lines_1_based": [
+              220
+            ]
+          }
+        ],
+        "sha256": "1178efbee7a4f17e3cbb8d35abe97267d4b303123a7ba0776265a1a96f5e46e5"
+      }
+    ],
+    "master_entry_preserved_except_versioned_M01W_URL": true,
+    "distribution_note": "Bibliographic metadata and original selectors/hashes only. Full verification captures are not bundled; use the primary versioned URL."
+  },
+  {
+    "number": 10,
+    "citekey": "zhao2026agenttether",
+    "title": "AgentTether: Graph-Guided Diagnosis and Runtime Intervention for Reliable LLM Agent Operation",
+    "authors": [
+      "Zhao, Chenyu",
+      "Zhang, Shenglin",
+      "Gu, Wenwei",
+      "Sun, Yongqian",
+      "Pei, Dan",
+      "Bansal, Chetan",
+      "Rajmohan, Saravan",
+      "Ma, Minghua"
+    ],
+    "primary_url": "https://arxiv.org/abs/2607.06273v1",
+    "version": "2607.06273v1",
+    "doi": "10.48550/arXiv.2607.06273",
+    "consulted_version_date": "2026-07-07",
+    "locations": [
+      {
+        "source": "2607.06273v1_full",
+        "original_text_file_identifier": "sources/legacy/texts/2607.06273v1_full.txt",
+        "capture_access": "NOT_BUNDLED; original verification capture retained privately",
+        "primary_retrieval_url": "https://arxiv.org/abs/2607.06273v1",
+        "text_sha256": "4fa311249e6064d1e4611e1a03e0a23926fb563d7a2a25dd742a873fe6d67242",
+        "selectors": [
+          {
+            "literal": "III-D Run-time: Supervise",
+            "lines_1_based": [
+              29,
+              258
+            ]
+          },
+          {
+            "literal": "before the response is accepted",
+            "lines_1_based": [
+              261
+            ]
+          },
+          {
+            "literal": "post-run only",
+            "lines_1_based": [
+              176,
+              326,
+              362,
+              398,
+              434,
+              469,
+              470,
+              488,
+              499,
+              537,
+              541,
+              549,
+              551,
+              561,
+              562,
+              565
+            ]
+          }
+        ],
+        "sha256": "4fa311249e6064d1e4611e1a03e0a23926fb563d7a2a25dd742a873fe6d67242"
+      }
+    ],
+    "master_entry_preserved_except_versioned_M01W_URL": true,
+    "distribution_note": "Bibliographic metadata and original selectors/hashes only. Full verification captures are not bundled; use the primary versioned URL."
+  },
+  {
+    "number": 11,
+    "citekey": "what-graph-sees-grader-measures",
+    "title": "What the Graph Sees and What the Grader Measures",
+    "authors": null,
+    "primary_url": "https://www.kaggle.com/datasets/veerukhannan/gemma4-swe-benchmark-audit?datasetVersionNumber=6",
+    "version": "paper.md in dataset v6; editorial version unconfirmed",
+    "doi": null,
+    "consulted_version_date": null,
+    "locations": [
+      {
+        "original_path_identifier": "sources/legacy/datasets/M01-v6/paper.md",
+        "capture_access": "NOT_BUNDLED; original verification capture retained privately",
+        "primary_retrieval_url": "https://www.kaggle.com/datasets/veerukhannan/gemma4-swe-benchmark-audit?datasetVersionNumber=6",
+        "sha256": "f4353bd3d345dbf5ed22da8253f0a83f6fdcb17c779f9014fe7603237e9af3ae",
+        "bytes": 17863,
+        "selectors": [
+          {
+            "literal": "3.1 Which tasks",
+            "lines_1_based": [
+              55
+            ]
+          },
+          {
+            "literal": "two environments also differ",
+            "lines_1_based": [
+              68
+            ]
+          },
+          {
+            "literal": "0.2.10",
+            "lines_1_based": [
+              10,
+              50,
+              105,
+              111
+            ]
+          }
+        ]
+      }
+    ],
+    "master_entry_preserved_except_versioned_M01W_URL": true,
+    "distribution_note": "Bibliographic metadata and original selectors/hashes only. Full verification captures are not bundled; use the primary versioned URL."
+  },
+  {
+    "number": 12,
+    "citekey": "google2026gemma4e4bcard",
+    "title": "google/gemma-4-E4B-it",
+    "authors": [
+      "Google DeepMind"
+    ],
+    "primary_url": "https://huggingface.co/google/gemma-4-E4B-it/blob/ee0ef6023621cff504d758262d4e04895a5af4a2/README.md",
+    "version": "ee0ef6023621cff504d758262d4e04895a5af4a2",
+    "doi": null,
+    "consulted_version_date": null,
+    "locations": [
+      {
+        "source": "gemma_card_E4B",
+        "original_text_file_identifier": "sources/legacy/texts/gemma_card_E4B.txt",
+        "capture_access": "NOT_BUNDLED; original verification capture retained privately",
+        "primary_retrieval_url": "https://huggingface.co/google/gemma-4-E4B-it/blob/ee0ef6023621cff504d758262d4e04895a5af4a2/README.md",
+        "text_sha256": "b21e4f69614ccd77baa2f3797d05311040dee07b989cb9f0d25111aa4b605b2c",
+        "selectors": [
+          {
+            "literal": "Authors",
+            "lines_1_based": [
+              22
+            ]
+          },
+          {
+            "literal": "Sampling Parameters",
+            "lines_1_based": [
+              363
+            ]
+          },
+          {
+            "literal": "temperature=1.0",
+            "lines_1_based": [
+              367
+            ]
+          },
+          {
+            "literal": "top_p=0.95",
+            "lines_1_based": [
+              368
+            ]
+          },
+          {
+            "literal": "top_k=64",
+            "lines_1_based": [
+              369
+            ]
+          }
+        ],
+        "sha256": "b21e4f69614ccd77baa2f3797d05311040dee07b989cb9f0d25111aa4b605b2c"
+      }
+    ],
+    "master_entry_preserved_except_versioned_M01W_URL": true,
+    "distribution_note": "Bibliographic metadata and original selectors/hashes only. Full verification captures are not bundled; use the primary versioned URL."
+  },
+  {
+    "number": 13,
+    "citekey": "google2026gemma4e2bcard",
+    "title": "google/gemma-4-E2B-it",
+    "authors": [
+      "Google DeepMind"
+    ],
+    "primary_url": "https://huggingface.co/google/gemma-4-E2B-it/blob/3e22461f65e89153144f8adb70e3b8c2cc9845a7/README.md",
+    "version": "3e22461f65e89153144f8adb70e3b8c2cc9845a7",
+    "doi": null,
+    "consulted_version_date": null,
+    "locations": [
+      {
+        "source": "gemma_card_E2B",
+        "original_text_file_identifier": "sources/legacy/texts/gemma_card_E2B.txt",
+        "capture_access": "NOT_BUNDLED; original verification capture retained privately",
+        "primary_retrieval_url": "https://huggingface.co/google/gemma-4-E2B-it/blob/3e22461f65e89153144f8adb70e3b8c2cc9845a7/README.md",
+        "text_sha256": "3e0608a6be80e3eb040a5aa6c76707809503deb85be6360184a118fb6156526c",
+        "selectors": [
+          {
+            "literal": "Authors",
+            "lines_1_based": [
+              22
+            ]
+          },
+          {
+            "literal": "Sampling Parameters",
+            "lines_1_based": [
+              362
+            ]
+          },
+          {
+            "literal": "temperature=1.0",
+            "lines_1_based": [
+              366
+            ]
+          },
+          {
+            "literal": "top_p=0.95",
+            "lines_1_based": [
+              367
+            ]
+          },
+          {
+            "literal": "top_k=64",
+            "lines_1_based": [
+              368
+            ]
+          }
+        ],
+        "sha256": "3e0608a6be80e3eb040a5aa6c76707809503deb85be6360184a118fb6156526c"
+      }
+    ],
+    "master_entry_preserved_except_versioned_M01W_URL": true,
+    "distribution_note": "Bibliographic metadata and original selectors/hashes only. Full verification captures are not bundled; use the primary versioned URL."
+  },
+  {
+    "number": 14,
+    "citekey": "du2025environmentcrash",
+    "title": "Exploring Large Language Models in Resolving Environment-Related Crash Bugs: Localizing and Repairing",
+    "authors": [
+      "Du, Xueying",
+      "Liu, Mingwei",
+      "Wang, Hanlin",
+      "Li, Juntao",
+      "Peng, Xin",
+      "Lou, Yiling"
+    ],
+    "primary_url": "https://arxiv.org/abs/2312.10448v2",
+    "fulltext_url": "https://arxiv.org/html/2312.10448v2",
+    "version": "2312.10448v2",
+    "doi": "10.48550/arXiv.2312.10448",
+    "consulted_version_date": "2025-08-30",
+    "consulted_date": "2026-10-14",
+    "locations": [
+      {
+        "source": "2312.10448v2_html",
+        "original_text_file_identifier": "sources/texts/2312.10448v2_html.txt",
+        "capture_access": "NOT_BUNDLED; original verification capture retained privately",
+        "primary_retrieval_url": "https://arxiv.org/abs/2312.10448v2",
+        "text_sha256": "880b20e1e9b18db35c8843e3c5fef45f9d073f42fe822807959f3039ae8e5918",
+        "section": "2. RQ1: Comparative Effectiveness",
+        "selectors": [
+          {
+            "literal": "Code-related crash bugs refer",
+            "lines_1_based": [
+              134
+            ],
+            "context_lines_1_based": [
+              134,
+              134
+            ]
+          }
+        ]
+      },
+      {
+        "source": "2312.10448v2_html",
+        "original_text_file_identifier": "sources/texts/2312.10448v2_html.txt",
+        "capture_access": "NOT_BUNDLED; original verification capture retained privately",
+        "primary_retrieval_url": "https://arxiv.org/abs/2312.10448v2",
+        "text_sha256": "880b20e1e9b18db35c8843e3c5fef45f9d073f42fe822807959f3039ae8e5918",
+        "section": "2.2 Setup and Metrics",
+        "selectors": [
+          {
+            "literal": "We manually reviewed",
+            "lines_1_based": [
+              177
+            ],
+            "context_lines_1_based": [
+              176,
+              190
+            ]
+          }
+        ]
+      }
+    ],
+    "metadata_capture": {
+      "original_path_identifier": "sources/raw/2312.10448v2_abs.html",
+      "capture_access": "NOT_BUNDLED; original verification capture retained privately",
+      "primary_retrieval_url": "https://arxiv.org/abs/2312.10448v2",
+      "sha256": "3595cea7544a12e109c3779615139532534f836639b2557d35778ddd033c7cf9",
+      "selectors": [
+        "meta[name=\"citation_title\"]",
+        "meta[name=\"citation_author\"]",
+        "meta[name=\"citation_online_date\"]",
+        "Submission history"
+      ]
+    },
+    "fulltext_capture": {
+      "original_path_identifier": "sources/raw/2312.10448v2_html.html",
+      "capture_access": "NOT_BUNDLED; original verification capture retained privately",
+      "primary_retrieval_url": "https://arxiv.org/abs/2312.10448v2",
+      "sha256": "775c3610c3fe06059e0b465389b54a336b93d60868a1fdd6eb4ef04edafb12d6"
+    },
+    "verification": {
+      "supported": "Distinguishes code-related and environment-related crash bugs and manually judges proposed localization and repair solutions, including specific environment repair plans.",
+      "limits": "Do not claim that SourceEnv originates the code/environment distinction. Its response-based assessment is distinct from our executable state/check coverage design. The HTML has placeholder conference metadata; the citation uses arXiv submission metadata."
+    },
+    "distribution_note": "Bibliographic metadata and original selectors/hashes only. Full verification captures are not bundled; use the primary versioned URL."
+  },
+  {
+    "number": 15,
+    "citekey": "luo2026depbench",
+    "title": "Update from Hell: Can Coding Agents Survive Hidden Breakage in Dependency Upgrades?",
+    "authors": [
+      "Luo, Zijian",
+      "He, Runzhi",
+      "Gao, Pengfei",
+      "Kang, Yu",
+      "Lin, Zeqi",
+      "Ma, Minghua",
+      "Lin, Qingwei",
+      "Rajmohan, Saravan",
+      "Tian, Yongqiang"
+    ],
+    "primary_url": "https://arxiv.org/abs/2608.30300v1",
+    "fulltext_url": "https://arxiv.org/html/2608.30300v1",
+    "version": "2608.30300v1",
+    "doi": "10.48550/arXiv.2608.30300",
+    "consulted_version_date": "2026-08-31",
+    "consulted_date": "2026-10-14",
+    "locations": [
+      {
+        "source": "2608.30300v1_html",
+        "original_text_file_identifier": "sources/texts/2608.30300v1_html.txt",
+        "capture_access": "NOT_BUNDLED; original verification capture retained privately",
+        "primary_retrieval_url": "https://arxiv.org/abs/2608.30300v1",
+        "text_sha256": "27fdcbf550abd5966f1d64e32b13897cc3f90dfd63d73107537adc494528e56f",
+        "section": "I Introduction",
+        "selectors": [
+          {
+            "literal": "agent must preserve",
+            "lines_1_based": [
+              82
+            ],
+            "context_lines_1_based": [
+              77,
+              83
+            ]
+          }
+        ]
+      },
+      {
+        "source": "2608.30300v1_html",
+        "original_text_file_identifier": "sources/texts/2608.30300v1_html.txt",
+        "capture_access": "NOT_BUNDLED; original verification capture retained privately",
+        "primary_retrieval_url": "https://arxiv.org/abs/2608.30300v1",
+        "text_sha256": "27fdcbf550abd5966f1d64e32b13897cc3f90dfd63d73107537adc494528e56f",
+        "section": "I Introduction; III-D validation",
+        "selectors": [
+          {
+            "literal": "four-state oracle",
+            "lines_1_based": [
+              116,
+              145,
+              150,
+              219,
+              252,
+              283,
+              400,
+              429,
+              438,
+              442,
+              452
+            ],
+            "context_lines_1_based": [
+              113,
+              129
+            ]
+          }
+        ]
+      },
+      {
+        "source": "2608.30300v1_html",
+        "original_text_file_identifier": "sources/texts/2608.30300v1_html.txt",
+        "capture_access": "NOT_BUNDLED; original verification capture retained privately",
+        "primary_retrieval_url": "https://arxiv.org/abs/2608.30300v1",
+        "text_sha256": "27fdcbf550abd5966f1d64e32b13897cc3f90dfd63d73107537adc494528e56f",
+        "section": "III-D Four-State Oracle Validation and Release",
+        "selectors": [
+          {
+            "literal": "III-D Four-State Oracle Validation and Release",
+            "lines_1_based": [
+              26,
+              394
+            ],
+            "context_lines_1_based": [
+              394,
+              445
+            ]
+          }
+        ]
+      }
+    ],
+    "metadata_capture": {
+      "original_path_identifier": "sources/raw/2608.30300v1_abs.html",
+      "capture_access": "NOT_BUNDLED; original verification capture retained privately",
+      "primary_retrieval_url": "https://arxiv.org/abs/2608.30300v1",
+      "sha256": "ad22e4cd6befaee33b7bd62f285609282de73eb26677137d793778f0973f765c",
+      "selectors": [
+        "meta[name=\"citation_title\"]",
+        "meta[name=\"citation_author\"]",
+        "meta[name=\"citation_online_date\"]",
+        "Submission history"
+      ]
+    },
+    "fulltext_capture": {
+      "original_path_identifier": "sources/raw/2608.30300v1_html.html",
+      "capture_access": "NOT_BUNDLED; original verification capture retained privately",
+      "primary_retrieval_url": "https://arxiv.org/abs/2608.30300v1",
+      "sha256": "74a10d9487aa24db9e6025a02ed2416ca479b46126e1713fe295481df8ec2838"
+    },
+    "verification": {
+      "supported": "DEPBENCH evaluates source adaptation under retained dependency upgrades; patch decomposition and a four-state executable oracle delimit the task.",
+      "limits": "Do not describe it as free choice between source and environment repair. Counts and findings belong to its independently defined task and agent population."
+    },
+    "distribution_note": "Bibliographic metadata and original selectors/hashes only. Full verification captures are not bundled; use the primary versioned URL."
+  },
+  {
+    "number": 16,
+    "citekey": "advani2026falsesuccess",
+    "title": "From Confident Closing to Silent Failure: Characterizing False Success in LLM Agents",
+    "authors": [
+      "Advani, Laksh"
+    ],
+    "primary_url": "https://arxiv.org/abs/2606.09863v1",
+    "fulltext_url": "https://arxiv.org/html/2606.09863v1",
+    "version": "2606.09863v1",
+    "doi": "10.48550/arXiv.2606.09863",
+    "consulted_version_date": "2026-06-01",
+    "consulted_date": "2026-10-14",
+    "locations": [
+      {
+        "source": "2606.09863v1_html",
+        "original_text_file_identifier": "sources/texts/2606.09863v1_html.txt",
+        "capture_access": "NOT_BUNDLED; original verification capture retained privately",
+        "primary_retrieval_url": "https://arxiv.org/abs/2606.09863v1",
+        "text_sha256": "1a69c44967549e6b463a169c29a627a905d7c65e1593eee829c0c866e1474ab2",
+        "section": "1 Introduction",
+        "selectors": [
+          {
+            "literal": "We call this false success",
+            "lines_1_based": [
+              144
+            ],
+            "context_lines_1_based": [
+              139,
+              145
+            ]
+          }
+        ]
+      },
+      {
+        "source": "2606.09863v1_html",
+        "original_text_file_identifier": "sources/texts/2606.09863v1_html.txt",
+        "capture_access": "NOT_BUNDLED; original verification capture retained privately",
+        "primary_retrieval_url": "https://arxiv.org/abs/2606.09863v1",
+        "text_sha256": "1a69c44967549e6b463a169c29a627a905d7c65e1593eee829c0c866e1474ab2",
+        "section": "3.2 AppWorld corpus: text-independent labeling",
+        "selectors": [
+          {
+            "literal": "status=success while",
+            "lines_1_based": [
+              283
+            ],
+            "context_lines_1_based": [
+              278,
+              294
+            ]
+          }
+        ]
+      },
+      {
+        "source": "2606.09863v1_html",
+        "original_text_file_identifier": "sources/texts/2606.09863v1_html.txt",
+        "capture_access": "NOT_BUNDLED; original verification capture retained privately",
+        "primary_retrieval_url": "https://arxiv.org/abs/2606.09863v1",
+        "text_sha256": "1a69c44967549e6b463a169c29a627a905d7c65e1593eee829c0c866e1474ab2",
+        "section": "3.3 Three-class labeling of tau2-bench failures",
+        "selectors": [
+          {
+            "literal": "3.3 Three-class labeling",
+            "lines_1_based": [
+              32,
+              322
+            ],
+            "context_lines_1_based": [
+              322,
+              347
+            ]
+          }
+        ]
+      }
+    ],
+    "metadata_capture": {
+      "original_path_identifier": "sources/raw/2606.09863v1_abs.html",
+      "capture_access": "NOT_BUNDLED; original verification capture retained privately",
+      "primary_retrieval_url": "https://arxiv.org/abs/2606.09863v1",
+      "sha256": "5fbe6a06072a8b827d552d01809c36ead3310a142aadc8f50c4f8b34ddd047a6",
+      "selectors": [
+        "meta[name=\"citation_title\"]",
+        "meta[name=\"citation_author\"]",
+        "meta[name=\"citation_online_date\"]",
+        "Submission history"
+      ]
+    },
+    "fulltext_capture": {
+      "original_path_identifier": "sources/raw/2606.09863v1_html.html",
+      "capture_access": "NOT_BUNDLED; original verification capture retained privately",
+      "primary_retrieval_url": "https://arxiv.org/abs/2606.09863v1",
+      "sha256": "c29b8f0e4e672eb5467a2a39e1f83289f943b85e8b7ec7171cacf901f3ebd911"
+    },
+    "verification": {
+      "supported": "False success compares an explicit natural-language or structured success/completion claim with independent programmatic failure.",
+      "limits": "SourceEnv counts valid finish requests and accepted closures with public failure without requiring a success claim, so its ratios are not false-success prevalence under Advani's definition."
+    },
+    "distribution_note": "Bibliographic metadata and original selectors/hashes only. Full verification captures are not bundled; use the primary versioned URL."
+  },
+  {
+    "number": 17,
+    "citekey": "lin2026reporescue",
+    "title": "RepoRescue: An Empirical Study of LLM Agents on Whole-Repository Compatibility Rescue",
+    "authors": [
+      "Lin, Zhihao",
+      "Zhou, Mingyi",
+      "Sun, Zhensu",
+      "Yang, Yizhuo",
+      "Yang, Renyu",
+      "Lo, David",
+      "Li, Li"
+    ],
+    "primary_url": "https://arxiv.org/abs/2607.01213v1",
+    "fulltext_url": "https://arxiv.org/html/2607.01213v1",
+    "version": "2607.01213v1",
+    "doi": "10.48550/arXiv.2607.01213",
+    "consulted_version_date": "2026-07-01",
+    "consulted_date": "2026-10-14",
+    "locations": [
+      {
+        "source": "2607.01213v1_html",
+        "original_text_file_identifier": "sources/texts/2607.01213v1_html.txt",
+        "capture_access": "NOT_BUNDLED; original verification capture retained privately",
+        "primary_retrieval_url": "https://arxiv.org/abs/2607.01213v1",
+        "text_sha256": "fb66cabd57d76f952aea3f1188797c2fd4abec2760486dd2537c4de65ab87962",
+        "section": "3.2 Validation Protocol",
+        "selectors": [
+          {
+            "literal": "Recovering the historical environment",
+            "lines_1_based": [
+              98
+            ],
+            "context_lines_1_based": [
+              96,
+              100
+            ]
+          }
+        ]
+      },
+      {
+        "source": "2607.01213v1_html",
+        "original_text_file_identifier": "sources/texts/2607.01213v1_html.txt",
+        "capture_access": "NOT_BUNDLED; original verification capture retained privately",
+        "primary_retrieval_url": "https://arxiv.org/abs/2607.01213v1",
+        "text_sha256": "fb66cabd57d76f952aea3f1188797c2fd4abec2760486dd2537c4de65ab87962",
+        "section": "3.3 Evaluation Protocol",
+        "selectors": [
+          {
+            "literal": "We use source-only evaluation operationally",
+            "lines_1_based": [
+              102
+            ],
+            "context_lines_1_based": [
+              101,
+              102
+            ]
+          }
+        ]
+      },
+      {
+        "source": "2607.01213v1_html",
+        "original_text_file_identifier": "sources/texts/2607.01213v1_html.txt",
+        "capture_access": "NOT_BUNDLED; original verification capture retained privately",
+        "primary_retrieval_url": "https://arxiv.org/abs/2607.01213v1",
+        "text_sha256": "fb66cabd57d76f952aea3f1188797c2fd4abec2760486dd2537c4de65ab87962",
+        "section": "3.4 Validation Beyond the Historical Suite",
+        "selectors": [
+          {
+            "literal": "Validation Beyond the Historical Suite",
+            "lines_1_based": [
+              24,
+              103
+            ],
+            "context_lines_1_based": [
+              103,
+              104
+            ]
+          }
+        ]
+      },
+      {
+        "source": "2607.01213v1_html",
+        "original_text_file_identifier": "sources/texts/2607.01213v1_html.txt",
+        "capture_access": "NOT_BUNDLED; original verification capture retained privately",
+        "primary_retrieval_url": "https://arxiv.org/abs/2607.01213v1",
+        "text_sha256": "fb66cabd57d76f952aea3f1188797c2fd4abec2760486dd2537c4de65ab87962",
+        "section": "8 Threats to Validity",
+        "selectors": [
+          {
+            "literal": "Forbidding dependency changes",
+            "lines_1_based": [
+              262
+            ],
+            "context_lines_1_based": [
+              262,
+              262
+            ]
+          }
+        ]
+      }
+    ],
+    "metadata_capture": {
+      "original_path_identifier": "sources/raw/2607.01213v1_abs.html",
+      "capture_access": "NOT_BUNDLED; original verification capture retained privately",
+      "primary_retrieval_url": "https://arxiv.org/abs/2607.01213v1",
+      "sha256": "d18d06ef483eeb6461adf9985c82bc0a6189544a833fbfd5a0f6348b9bc6f94f",
+      "selectors": [
+        "meta[name=\"citation_title\"]",
+        "meta[name=\"citation_author\"]",
+        "meta[name=\"citation_online_date\"]",
+        "Submission history"
+      ]
+    },
+    "fulltext_capture": {
+      "original_path_identifier": "sources/raw/2607.01213v1_html.html",
+      "capture_access": "NOT_BUNDLED; original verification capture retained privately",
+      "primary_retrieval_url": "https://arxiv.org/abs/2607.01213v1",
+      "sha256": "e3c4b82d08c04a0ad5f4b7ebbb50cd39446721a75bd9565dc3c9dcc721139148"
+    },
+    "verification": {
+      "supported": "RepoRescue verifies historical PASS and modern failure, then studies source rescue; post-hoc removal of test edits, runtime enforcement, and realistic-use validation are distinct evaluations.",
+      "limits": "Dependency changes are forbidden in its source-rescue task. Do not equate its runtime-blocked setting with FC coverage gating, infer causal effects here, or assert priority for Derived BASE."
+    },
+    "distribution_note": "Bibliographic metadata and original selectors/hashes only. Full verification captures are not bundled; use the primary versioned URL."
+  }
+]

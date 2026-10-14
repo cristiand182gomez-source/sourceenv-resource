@@ -1,0 +1,115 @@
+{
+  "schema": 6,
+  "trusted_python": "/usr/bin/python3",
+  "timeout_seconds": 10,
+  "output_limit_bytes": 2097152,
+  "common_wheels": [
+    "rich-13.9.4-py3-none-any.whl",
+    "shellingham-1.5.4-py2.py3-none-any.whl",
+    "typing_extensions-4.12.2-py3-none-any.whl",
+    "markdown_it_py-3.0.0-py3-none-any.whl",
+    "mdurl-0.1.2-py3-none-any.whl",
+    "pygments-2.18.0-py3-none-any.whl"
+  ],
+  "profiles": {
+    "typer0153_click820": {
+      "typer": "0.15.3",
+      "click": "8.2.0",
+      "no_args_allowed_rc": [
+        0,
+        2
+      ],
+      "automatic_help_reference_rc": 2,
+      "behavior_note": "Unrepaired source raises TypeError. A source compatibility repair may preserve intentional help rc 0 or restore Click 8.2 automatic help rc 2. Full help remains required."
+    },
+    "typer0153_click818": {
+      "typer": "0.15.3",
+      "click": "8.1.8",
+      "no_args_allowed_rc": [
+        0,
+        2
+      ],
+      "automatic_help_reference_rc": 0,
+      "behavior_note": "Click 8.1.8 parse_args displays help and ctx.exit() defaults to 0."
+    },
+    "typer0160_click820": {
+      "typer": "0.16.0",
+      "click": "8.2.0",
+      "no_args_allowed_rc": [
+        0,
+        2
+      ],
+      "automatic_help_reference_rc": 2,
+      "behavior_note": "Click 8.2 raises NoArgsIsHelpError, a UsageError with exit_code 2. Intentional help remains rc 0; a source adaptation may choose that documented variant. Changes from A are logged. Native verification of this release profile is required before an episode."
+    },
+    "missing_typer_click820": {
+      "typer": null,
+      "click": "8.2.0",
+      "initial_fixture_only": true,
+      "no_args_allowed_rc": [
+        0,
+        2
+      ],
+      "automatic_help_reference_rc": 2,
+      "behavior_note": "Real managed environment without the Typer wheel; not an agent-selectable repair profile."
+    },
+    "missing_rich_typer0160_click820": {
+      "typer": "0.16.0",
+      "click": "8.2.0",
+      "no_args_allowed_rc": [
+        0,
+        2
+      ],
+      "automatic_help_reference_rc": 2,
+      "behavior_note": "Click 8.2 raises NoArgsIsHelpError, a UsageError with exit_code 2. Intentional help remains rc 0; a source adaptation may choose that documented variant. Changes from A are logged. Native verification of this release profile is required before an episode.",
+      "excluded_wheels": [
+        "rich-13.9.4-py3-none-any.whl"
+      ]
+    }
+  },
+  "operations": {
+    "first_command": [
+      "first-command"
+    ],
+    "second_command": [
+      "second-command"
+    ],
+    "no_args": [],
+    "explicit_help": [
+      "--help"
+    ],
+    "first_command_help": [
+      "first-command",
+      "--help"
+    ],
+    "second_command_help": [
+      "second-command",
+      "--help"
+    ]
+  },
+  "help_tokens": {
+    "no_args": [
+      "Usage",
+      "first-command",
+      "second-command"
+    ],
+    "explicit_help": [
+      "Usage",
+      "first-command",
+      "second-command"
+    ],
+    "first_command_help": [
+      "Usage",
+      "first-command"
+    ],
+    "second_command_help": [
+      "Usage",
+      "second-command"
+    ]
+  },
+  "no_args_channels": "rc 0 requires help on stdout and empty stderr; rc 2 permits stdout and/or stderr with complete help and no traceback",
+  "source_edit_rule": "Source edits alone are not damage; finite observable regressions are scored separately.",
+  "isolation": "BWRAP_REQUIRED_NO_FALLBACK",
+  "agent_gate": "BLOCKED_PENDING_EXACT_NEW_BATCH_APPROVAL",
+  "resource_id": "typer-cli-repair-v05"
+}

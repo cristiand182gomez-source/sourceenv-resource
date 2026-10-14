@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/candidate/app.py", line 19, in <module>
+    from rich.console import Console
+ModuleNotFoundError: No module named 'rich'

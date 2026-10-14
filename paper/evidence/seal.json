@@ -1,0 +1,13 @@
+{
+  "commit": "af16d2f3d2555350e5a50dca704bdaea6757acdf",
+  "created_at": "2026-10-12T01:11:13Z",
+  "verified_at": "2026-10-12T01:12:09.509005Z",
+  "hashes": {
+    "PREDECLARACION.md": "98bec1b165ab94f41ebfe6001f20694fbaec854bb54d4ef7a4c9fd129091de08",
+    "PROPOSAL.json": "db6641df5e85c660d1891fabbc31a95ba78544cb59195c88f7049885a3e4aaa6",
+    "FREEZE.json": "ddd3a67d19fe8bd652a1df56ae6b9b8e77ad0b1c5585687e7f46fd35ba15e3e1",
+    "MANIFEST.json": "70b541c8a8cdaa1876de9beeefb4e2efcc590e669103bfccc9c41e234bcd890d"
+  },
+  "workflow_log_hashes_verified": true,
+  "remote_blobs_verified": true
+}

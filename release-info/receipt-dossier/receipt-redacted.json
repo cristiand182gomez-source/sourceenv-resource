@@ -1,0 +1,24 @@
+{
+  "commit": "af16d2f3d2555350e5a50dca704bdaea6757acdf",
+  "run_id": 38190910062,
+  "run_attempt": 1,
+  "created_at": "2026-10-12T01:11:13Z",
+  "conclusion": "success",
+  "verified_at": "2026-10-12T01:12:09.509005Z",
+  "hashes": {
+    "PREDECLARACION.md": "98bec1b165ab94f41ebfe6001f20694fbaec854bb54d4ef7a4c9fd129091de08",
+    "PROPOSAL.json": "db6641df5e85c660d1891fabbc31a95ba78544cb59195c88f7049885a3e4aaa6",
+    "FREEZE.json": "ddd3a67d19fe8bd652a1df56ae6b9b8e77ad0b1c5585687e7f46fd35ba15e3e1",
+    "MANIFEST.json": "70b541c8a8cdaa1876de9beeefb4e2efcc590e669103bfccc9c41e234bcd890d"
+  },
+  "workflow_log_hashes_verified": true,
+  "remote_blobs_verified": true,
+  "workflow_sha256": "204d0a2b3db455366547858746e23a53807295e0a78845d6008f38567f34f2b4",
+  "document_kind": "redacted_derivative_of_retained_private_receipt",
+  "source_receipt_sha256": "199eeba8356809345aa9dc972b33721b847419a50eff557bdd1ba864d507ba37",
+  "source_selector": "selected top-level fields; private repository identifier/URLs/paths and administrative evidence inventory omitted",
+  "repository_access": "PRIVATE; unchanged",
+  "fresh_GitHub_query_this_phase": false,
+  "redacted_at_utc": "2026-10-14T17:43:48.428326+00:00",
+  "access_and_time_limit": "This derivative is not a GitHub-signed proof. Later publication would disclose existing evidence, not create a public pre-R3 timestamp or independent historical certification."
+}

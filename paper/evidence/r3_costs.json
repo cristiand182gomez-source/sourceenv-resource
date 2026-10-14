@@ -1,0 +1,82 @@
+{
+  "C3": {
+    "status": "BATCH_COMPLETED",
+    "model_calls": 119,
+    "generated_tokens": 26277,
+    "reasoning_tokens_subset": 1026,
+    "machine_seconds": 4975.567501100013,
+    "applications": {
+      "capture_attempts": 253,
+      "processes_launched_lower_bound": 253,
+      "processes_launched_upper_bound": 253,
+      "launch_failed": 0,
+      "launch_accounting_complete": true,
+      "unknown_launches_are_zero": false,
+      "additional_unavailable_fixture_application_upper_bound": 0,
+      "unresolved_fixture_metadata": [],
+      "total_upper_bound_when_metadata_incomplete": 253
+    },
+    "auxiliaries": {
+      "probes": 20,
+      "workers": 187,
+      "offline_installs_attempted": 12,
+      "physical_states": 10,
+      "BASE_checkpoint_copies": 10
+    },
+    "model_processes": 1,
+    "model_preflights": 0,
+    "independent_BASE_calls": 0,
+    "retries": 0,
+    "ceilings": {
+      "model_calls": 200,
+      "generated_tokens": 81920,
+      "applications": 300,
+      "model_processes": 1,
+      "fresh_states": 10,
+      "probes": 20,
+      "workers": 520,
+      "offline_installs": 40,
+      "machine_seconds": 43200
+    }
+  },
+  "C1": {
+    "status": "BATCH_COMPLETED",
+    "model_calls": 159,
+    "generated_tokens": 24752,
+    "reasoning_tokens_subset": 0,
+    "machine_seconds": 2724.436158400029,
+    "applications": {
+      "capture_attempts": 263,
+      "processes_launched_lower_bound": 263,
+      "processes_launched_upper_bound": 263,
+      "launch_failed": 0,
+      "launch_accounting_complete": true,
+      "unknown_launches_are_zero": false,
+      "additional_unavailable_fixture_application_upper_bound": 0,
+      "unresolved_fixture_metadata": [],
+      "total_upper_bound_when_metadata_incomplete": 263
+    },
+    "auxiliaries": {
+      "probes": 20,
+      "workers": 209,
+      "offline_installs_attempted": 10,
+      "physical_states": 10,
+      "BASE_checkpoint_copies": 10
+    },
+    "model_processes": 1,
+    "model_preflights": 0,
+    "independent_BASE_calls": 0,
+    "retries": 0,
+    "ceilings": {
+      "model_calls": 200,
+      "generated_tokens": 81920,
+      "applications": 300,
+      "model_processes": 1,
+      "fresh_states": 10,
+      "probes": 20,
+      "workers": 520,
+      "offline_installs": 40,
+      "machine_seconds": 43200
+    }
+  }
+}

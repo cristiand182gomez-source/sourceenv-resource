@@ -1,0 +1,576 @@
+{
+  "schema": 1,
+  "fixture_contract": "stateless-cli-v1",
+  "scope": "Explicit expectations for the ten current fixtures; not an inferred universal rule.",
+  "provenance_note": "New sidecar extracted offline from retained control metadata; this is neither a historical file nor a new experimental freeze.",
+  "historical_control_builder": {
+    "record": "Typer_Controlador_05_r2/source/controls.py",
+    "sha256": "5bf65dd16d0a952e8cfb5c759651799a66bb7ad50cd559bbc02bd37293d549cf",
+    "selectors": [
+      "expected_checks",
+      "run_controls profile selection"
+    ]
+  },
+  "cases": {
+    "EH-API": {
+      "alternative": {
+        "source": "cases-package/cases/EH-API/alternative.py",
+        "source_sha256": "6d2bf080f36e5ebdbcc8f30235c5189a7bfdbd5e7df66dacc4aba6d7bede7309",
+        "profile": "typer0153_click818",
+        "expected_checks": {
+          "first_command": true,
+          "second_command": true,
+          "no_args": true,
+          "explicit_help": true,
+          "first_command_help": true,
+          "second_command_help": true
+        },
+        "expected_status": "PASS",
+        "historical_evidence": {
+          "record": "Typer_Controlador_05_r2/public/baseline-evidence/controls/EH-API-alternative_repair/control.json",
+          "sha256": "7092f94f0a534d3f52e400abac2d7ff140cb5e1234be7e65d50a989177dca153",
+          "selectors": [
+            "$.expected_checks",
+            "$.observed_checks",
+            "$.final.profile",
+            "$.final.source_files.app.py"
+          ],
+          "historical_final_source_sha256": "30ed1ea82f18569249243fa3101a23ace585aa99a2b48129ed5f109017118db4",
+          "source_correspondence": "UTF-8 text identical after CRLF-to-LF conversion by the historical write_file path; distribution bytes retained unchanged.",
+          "raw_record_access": "retained locally; not distributed because it contains host paths"
+        }
+      },
+      "negative": {
+        "source": "cases-package/cases/EH-API/negative.py",
+        "source_sha256": "9e4ffe63fb5d2a528859db64058d545afaa1a7e21fa1ca2e789fb5c814f8f40e",
+        "profile": "typer0160_click820",
+        "expected_checks": {
+          "first_command": false,
+          "second_command": true,
+          "no_args": true,
+          "explicit_help": true,
+          "first_command_help": true,
+          "second_command_help": true
+        },
+        "expected_status": "FAIL",
+        "historical_evidence": {
+          "record": "Typer_Controlador_05_r2/public/baseline-evidence/controls/EH-API-wrong_output/control.json",
+          "sha256": "5f624568d55ab186bce9e6be820162b9fe155fceaae7dd77c23081ff15a1423e",
+          "selectors": [
+            "$.expected_checks",
+            "$.observed_checks",
+            "$.final.profile",
+            "$.final.source_files.app.py"
+          ],
+          "historical_final_source_sha256": "3fcb822b5057b3156c4d388cd7e94f42640fa1bb631c19e120391c714b8b315b",
+          "source_correspondence": "UTF-8 text identical after CRLF-to-LF conversion by the historical write_file path; distribution bytes retained unchanged.",
+          "raw_record_access": "retained locally; not distributed because it contains host paths"
+        }
+      }
+    },
+    "EH-RENDERER": {
+      "alternative": {
+        "source": "cases-package/cases/EH-RENDERER/alternative.py",
+        "source_sha256": "be9c5c105e64509b4112f58cbc81dcc4159068f1daa2f044fd36d8dea8300919",
+        "profile": "missing_rich_typer0160_click820",
+        "expected_checks": {
+          "first_command": true,
+          "second_command": true,
+          "no_args": true,
+          "explicit_help": true,
+          "first_command_help": true,
+          "second_command_help": true
+        },
+        "expected_status": "PASS",
+        "historical_evidence": {
+          "record": "Typer_Controlador_05_r2/public/baseline-evidence/controls/EH-RENDERER-alternative_repair/control.json",
+          "sha256": "f9f442664d312ff2b7222ff6487452a7889c0c8972cbbce118036f6bcea7c5dc",
+          "selectors": [
+            "$.expected_checks",
+            "$.observed_checks",
+            "$.final.profile",
+            "$.final.source_files.app.py"
+          ],
+          "historical_final_source_sha256": "525b9391baad8d0f48c5aacb475da1912f414c1e675278dcccc276bb2437b97d",
+          "source_correspondence": "UTF-8 text identical after CRLF-to-LF conversion by the historical write_file path; distribution bytes retained unchanged.",
+          "raw_record_access": "retained locally; not distributed because it contains host paths"
+        }
+      },
+      "negative": {
+        "source": "cases-package/cases/EH-RENDERER/negative.py",
+        "source_sha256": "99aeaf1e6402d83256bc910d3e4eaac9164be4697882d2c34b7075833385a347",
+        "profile": "typer0160_click820",
+        "expected_checks": {
+          "first_command": false,
+          "second_command": true,
+          "no_args": true,
+          "explicit_help": true,
+          "first_command_help": true,
+          "second_command_help": true
+        },
+        "expected_status": "FAIL",
+        "historical_evidence": {
+          "record": "Typer_Controlador_05_r2/public/baseline-evidence/controls/EH-RENDERER-wrong_output/control.json",
+          "sha256": "e5d77d5f49962d9281bd2489f87caad74044f57c4a57fe3ba4900229d9e73a4a",
+          "selectors": [
+            "$.expected_checks",
+            "$.observed_checks",
+            "$.final.profile",
+            "$.final.source_files.app.py"
+          ],
+          "historical_final_source_sha256": "2bd2edcbcdbd94989b37105e236db62f7d98b6649436caa0b1aa64055781c225",
+          "source_correspondence": "UTF-8 text identical after CRLF-to-LF conversion by the historical write_file path; distribution bytes retained unchanged.",
+          "raw_record_access": "retained locally; not distributed because it contains host paths"
+        }
+      }
+    },
+    "EC-MISSING": {
+      "alternative": {
+        "source": "cases-package/cases/EC-MISSING/alternative.py",
+        "source_sha256": "df75e2cf058f8319158dc12c2e8fc4cfcf8ed36508261d1598f4b25ec71a3e95",
+        "profile": "typer0153_click818",
+        "expected_checks": {
+          "first_command": true,
+          "second_command": true,
+          "no_args": true,
+          "explicit_help": true,
+          "first_command_help": true,
+          "second_command_help": true
+        },
+        "expected_status": "PASS",
+        "historical_evidence": {
+          "record": "Typer_Controlador_05_r2/public/baseline-evidence/controls/EC-MISSING-alternative_repair/control.json",
+          "sha256": "afa72c92ff674f7139d93eaefa38dcfd2f7307d5199142a86dea6cd2c55d067f",
+          "selectors": [
+            "$.expected_checks",
+            "$.observed_checks",
+            "$.final.profile",
+            "$.final.source_files.app.py"
+          ],
+          "historical_final_source_sha256": "3021f7b18f75379e8373f87d85945edd2c42b158a4877763cb3107774a64f846",
+          "source_correspondence": "UTF-8 text identical after CRLF-to-LF conversion by the historical write_file path; distribution bytes retained unchanged.",
+          "raw_record_access": "retained locally; not distributed because it contains host paths"
+        }
+      },
+      "negative": {
+        "source": "cases-package/cases/EC-MISSING/negative.py",
+        "source_sha256": "44ad8ba8f9191bc65ca95a09673ddd553a37eba5152849efe7e2982ed67e5c86",
+        "profile": "typer0160_click820",
+        "expected_checks": {
+          "first_command": false,
+          "second_command": true,
+          "no_args": true,
+          "explicit_help": true,
+          "first_command_help": true,
+          "second_command_help": true
+        },
+        "expected_status": "FAIL",
+        "historical_evidence": {
+          "record": "Typer_Controlador_05_r2/public/baseline-evidence/controls/EC-MISSING-wrong_output/control.json",
+          "sha256": "8355553f43c255be1a4bf1814eab1cc5defc2bd79be76194f7f784b5ea29f06e",
+          "selectors": [
+            "$.expected_checks",
+            "$.observed_checks",
+            "$.final.profile",
+            "$.final.source_files.app.py"
+          ],
+          "historical_final_source_sha256": "d9f0b39ee45038e0e74828623a82e5a369c19b4d558512afd62c3a2b45450bca",
+          "source_correspondence": "UTF-8 text identical after CRLF-to-LF conversion by the historical write_file path; distribution bytes retained unchanged.",
+          "raw_record_access": "retained locally; not distributed because it contains host paths"
+        }
+      }
+    },
+    "EC-SYMBOL": {
+      "alternative": {
+        "source": "cases-package/cases/EC-SYMBOL/alternative.py",
+        "source_sha256": "593069471705d6f087227d1e72141077aec2b85c47f7849527e5e41d11051d7e",
+        "profile": "typer0153_click818",
+        "expected_checks": {
+          "first_command": true,
+          "second_command": true,
+          "no_args": true,
+          "explicit_help": true,
+          "first_command_help": true,
+          "second_command_help": true
+        },
+        "expected_status": "PASS",
+        "historical_evidence": {
+          "record": "Typer_Controlador_05_r2/public/baseline-evidence/controls/EC-SYMBOL-alternative_repair/control.json",
+          "sha256": "0f290b8a16b8b30a017effb65183f2ca307c14433d7290661ad9145ef0955300",
+          "selectors": [
+            "$.expected_checks",
+            "$.observed_checks",
+            "$.final.profile",
+            "$.final.source_files.app.py"
+          ],
+          "historical_final_source_sha256": "b5e9312f16b3b5707105cbfef29cade3b8fd374ea90d2fdcaffdd2ae4acd0881",
+          "source_correspondence": "UTF-8 text identical after CRLF-to-LF conversion by the historical write_file path; distribution bytes retained unchanged.",
+          "raw_record_access": "retained locally; not distributed because it contains host paths"
+        }
+      },
+      "negative": {
+        "source": "cases-package/cases/EC-SYMBOL/negative.py",
+        "source_sha256": "0be58d6b60baf8652d4f2958d37b119f1684fc53f1be6427172c45bf31b97d05",
+        "profile": "typer0160_click820",
+        "expected_checks": {
+          "first_command": false,
+          "second_command": true,
+          "no_args": true,
+          "explicit_help": true,
+          "first_command_help": true,
+          "second_command_help": true
+        },
+        "expected_status": "FAIL",
+        "historical_evidence": {
+          "record": "Typer_Controlador_05_r2/public/baseline-evidence/controls/EC-SYMBOL-wrong_output/control.json",
+          "sha256": "27a5599377cbd032242738e067d579324a6c85cea7a64ac790b531df624c07ca",
+          "selectors": [
+            "$.expected_checks",
+            "$.observed_checks",
+            "$.final.profile",
+            "$.final.source_files.app.py"
+          ],
+          "historical_final_source_sha256": "296e460cf38461fc9c218a418d1f0afc7ad2cc8db0ebf7be36cd7f0659b68545",
+          "source_correspondence": "UTF-8 text identical after CRLF-to-LF conversion by the historical write_file path; distribution bytes retained unchanged.",
+          "raw_record_access": "retained locally; not distributed because it contains host paths"
+        }
+      }
+    },
+    "SC-BALANCE": {
+      "alternative": {
+        "source": "cases-package/cases/SC-BALANCE/alternative.py",
+        "source_sha256": "da210184452eb4ae3268303bd9be82090d590f1e9b9c654c3820a5225b96d048",
+        "profile": "typer0160_click820",
+        "expected_checks": {
+          "first_command": true,
+          "second_command": true,
+          "no_args": true,
+          "explicit_help": true,
+          "first_command_help": true,
+          "second_command_help": true
+        },
+        "expected_status": "PASS",
+        "historical_evidence": {
+          "record": "Typer_Controlador_05_r2/public/baseline-evidence/controls/SC-BALANCE-alternative_repair/control.json",
+          "sha256": "6073aa617c1559dc118c585bcfc10a12c2cd2ca8bdf6d69ef69cd5f3195d0f05",
+          "selectors": [
+            "$.expected_checks",
+            "$.observed_checks",
+            "$.final.profile",
+            "$.final.source_files.app.py"
+          ],
+          "historical_final_source_sha256": "6029fd18d1d3f1acfd8d528f1a94d43ca7a060c17996471fa1e96f8d30d15590",
+          "source_correspondence": "UTF-8 text identical after CRLF-to-LF conversion by the historical write_file path; distribution bytes retained unchanged.",
+          "raw_record_access": "retained locally; not distributed because it contains host paths"
+        }
+      },
+      "negative": {
+        "source": "cases-package/cases/SC-BALANCE/negative.py",
+        "source_sha256": "9e4ffe63fb5d2a528859db64058d545afaa1a7e21fa1ca2e789fb5c814f8f40e",
+        "profile": "typer0160_click820",
+        "expected_checks": {
+          "first_command": false,
+          "second_command": true,
+          "no_args": true,
+          "explicit_help": true,
+          "first_command_help": true,
+          "second_command_help": true
+        },
+        "expected_status": "FAIL",
+        "historical_evidence": {
+          "record": "Typer_Controlador_05_r2/public/baseline-evidence/controls/SC-BALANCE-wrong_output/control.json",
+          "sha256": "1e57242d05466ef7f5a232246c2060559f40ce92b7d5aab46a3e57ee018b9c05",
+          "selectors": [
+            "$.expected_checks",
+            "$.observed_checks",
+            "$.final.profile",
+            "$.final.source_files.app.py"
+          ],
+          "historical_final_source_sha256": "3fcb822b5057b3156c4d388cd7e94f42640fa1bb631c19e120391c714b8b315b",
+          "source_correspondence": "UTF-8 text identical after CRLF-to-LF conversion by the historical write_file path; distribution bytes retained unchanged.",
+          "raw_record_access": "retained locally; not distributed because it contains host paths"
+        }
+      }
+    },
+    "SC-SORT": {
+      "alternative": {
+        "source": "cases-package/cases/SC-SORT/alternative.py",
+        "source_sha256": "d0750a8dd34676c6c4a903bfb46b4919bbb3710bd05db6107dc23f718c02d098",
+        "profile": "typer0160_click820",
+        "expected_checks": {
+          "first_command": true,
+          "second_command": true,
+          "no_args": true,
+          "explicit_help": true,
+          "first_command_help": true,
+          "second_command_help": true
+        },
+        "expected_status": "PASS",
+        "historical_evidence": {
+          "record": "Typer_Controlador_05_r2/public/baseline-evidence/controls/SC-SORT-alternative_repair/control.json",
+          "sha256": "8447cb1f42efcfcda9377bce140b54cc1903299875d632e36e6fe085e611afb0",
+          "selectors": [
+            "$.expected_checks",
+            "$.observed_checks",
+            "$.final.profile",
+            "$.final.source_files.app.py"
+          ],
+          "historical_final_source_sha256": "c839afd72bb39604e5d88bf914cc930e5c81a85c40a30740de1ff7fc01b73ba6",
+          "source_correspondence": "UTF-8 text identical after CRLF-to-LF conversion by the historical write_file path; distribution bytes retained unchanged.",
+          "raw_record_access": "retained locally; not distributed because it contains host paths"
+        }
+      },
+      "negative": {
+        "source": "cases-package/cases/SC-SORT/negative.py",
+        "source_sha256": "10bc3912c380166db84c7729dee0b079a92991697d4c8992fdcd0fc32f9c1c86",
+        "profile": "typer0160_click820",
+        "expected_checks": {
+          "first_command": false,
+          "second_command": true,
+          "no_args": true,
+          "explicit_help": true,
+          "first_command_help": true,
+          "second_command_help": true
+        },
+        "expected_status": "FAIL",
+        "historical_evidence": {
+          "record": "Typer_Controlador_05_r2/public/baseline-evidence/controls/SC-SORT-wrong_output/control.json",
+          "sha256": "1cb447f1a518b0c2f336587a50d75fa6d2343cede8485ab37fce205bf45604c4",
+          "selectors": [
+            "$.expected_checks",
+            "$.observed_checks",
+            "$.final.profile",
+            "$.final.source_files.app.py"
+          ],
+          "historical_final_source_sha256": "8f22728aad751db8de30b9f215238d52c5be34ed65ec02012fe566e1bbcbc999",
+          "source_correspondence": "UTF-8 text identical after CRLF-to-LF conversion by the historical write_file path; distribution bytes retained unchanged.",
+          "raw_record_access": "retained locally; not distributed because it contains host paths"
+        }
+      }
+    },
+    "SH-FLAG": {
+      "alternative": {
+        "source": "cases-package/cases/SH-FLAG/alternative.py",
+        "source_sha256": "5c87ee941936ac2713f8cbf0c3b4c14e248e0ccf1f75223c27c90f3e3942d153",
+        "profile": "typer0160_click820",
+        "expected_checks": {
+          "first_command": true,
+          "second_command": true,
+          "no_args": true,
+          "explicit_help": true,
+          "first_command_help": true,
+          "second_command_help": true
+        },
+        "expected_status": "PASS",
+        "historical_evidence": {
+          "record": "Typer_Controlador_05_r2/public/baseline-evidence/controls/SH-FLAG-alternative_repair/control.json",
+          "sha256": "1dbe147315cd44d9c19bf5b9914796cb1f6829d41e33c35ade94bdd41509c778",
+          "selectors": [
+            "$.expected_checks",
+            "$.observed_checks",
+            "$.final.profile",
+            "$.final.source_files.app.py"
+          ],
+          "historical_final_source_sha256": "87ef9e313d246b4bbef37a8de482883816206de940f92bc0b6c4b167adc9efe8",
+          "source_correspondence": "UTF-8 text identical after CRLF-to-LF conversion by the historical write_file path; distribution bytes retained unchanged.",
+          "raw_record_access": "retained locally; not distributed because it contains host paths"
+        }
+      },
+      "negative": {
+        "source": "cases-package/cases/SH-FLAG/negative.py",
+        "source_sha256": "9e4ffe63fb5d2a528859db64058d545afaa1a7e21fa1ca2e789fb5c814f8f40e",
+        "profile": "typer0160_click820",
+        "expected_checks": {
+          "first_command": false,
+          "second_command": true,
+          "no_args": true,
+          "explicit_help": true,
+          "first_command_help": true,
+          "second_command_help": true
+        },
+        "expected_status": "FAIL",
+        "historical_evidence": {
+          "record": "Typer_Controlador_05_r2/public/baseline-evidence/controls/SH-FLAG-wrong_output/control.json",
+          "sha256": "129dbc22f673ae78b09aa0e9320c9a1e7e9bba4f3845b58a64bdc68b177f649c",
+          "selectors": [
+            "$.expected_checks",
+            "$.observed_checks",
+            "$.final.profile",
+            "$.final.source_files.app.py"
+          ],
+          "historical_final_source_sha256": "3fcb822b5057b3156c4d388cd7e94f42640fa1bb631c19e120391c714b8b315b",
+          "source_correspondence": "UTF-8 text identical after CRLF-to-LF conversion by the historical write_file path; distribution bytes retained unchanged.",
+          "raw_record_access": "retained locally; not distributed because it contains host paths"
+        }
+      }
+    },
+    "SH-FORMAT": {
+      "alternative": {
+        "source": "cases-package/cases/SH-FORMAT/alternative.py",
+        "source_sha256": "2d5fd72f4c5da8054f82b23c5228af6edb73ae41a1462023a8af2145d7fea351",
+        "profile": "typer0160_click820",
+        "expected_checks": {
+          "first_command": true,
+          "second_command": true,
+          "no_args": true,
+          "explicit_help": true,
+          "first_command_help": true,
+          "second_command_help": true
+        },
+        "expected_status": "PASS",
+        "historical_evidence": {
+          "record": "Typer_Controlador_05_r2/public/baseline-evidence/controls/SH-FORMAT-alternative_repair/control.json",
+          "sha256": "78a3da592dbb84579bf4412c02479499693f870db5c66effec7345a44a556e63",
+          "selectors": [
+            "$.expected_checks",
+            "$.observed_checks",
+            "$.final.profile",
+            "$.final.source_files.app.py"
+          ],
+          "historical_final_source_sha256": "a28c58ff856a4e57b67b25372f5d6a33f20032fa686555272eb26ac877bd9254",
+          "source_correspondence": "UTF-8 text identical after CRLF-to-LF conversion by the historical write_file path; distribution bytes retained unchanged.",
+          "raw_record_access": "retained locally; not distributed because it contains host paths"
+        }
+      },
+      "negative": {
+        "source": "cases-package/cases/SH-FORMAT/negative.py",
+        "source_sha256": "9e4ffe63fb5d2a528859db64058d545afaa1a7e21fa1ca2e789fb5c814f8f40e",
+        "profile": "typer0160_click820",
+        "expected_checks": {
+          "first_command": false,
+          "second_command": true,
+          "no_args": true,
+          "explicit_help": true,
+          "first_command_help": true,
+          "second_command_help": true
+        },
+        "expected_status": "FAIL",
+        "historical_evidence": {
+          "record": "Typer_Controlador_05_r2/public/baseline-evidence/controls/SH-FORMAT-wrong_output/control.json",
+          "sha256": "82a999593cb455f818264ad9c353e3910c73b1a86d7cae73bdd5ece76297b6cf",
+          "selectors": [
+            "$.expected_checks",
+            "$.observed_checks",
+            "$.final.profile",
+            "$.final.source_files.app.py"
+          ],
+          "historical_final_source_sha256": "3fcb822b5057b3156c4d388cd7e94f42640fa1bb631c19e120391c714b8b315b",
+          "source_correspondence": "UTF-8 text identical after CRLF-to-LF conversion by the historical write_file path; distribution bytes retained unchanged.",
+          "raw_record_access": "retained locally; not distributed because it contains host paths"
+        }
+      }
+    },
+    "H-RC0": {
+      "alternative": {
+        "source": "cases-package/cases/H-RC0/alternative.py",
+        "source_sha256": "6d2bf080f36e5ebdbcc8f30235c5189a7bfdbd5e7df66dacc4aba6d7bede7309",
+        "profile": "typer0160_click820",
+        "expected_checks": {
+          "first_command": true,
+          "second_command": true,
+          "no_args": true,
+          "explicit_help": true,
+          "first_command_help": true,
+          "second_command_help": true
+        },
+        "expected_status": "PASS",
+        "historical_evidence": {
+          "record": "Typer_Controlador_05_r2/public/baseline-evidence/controls/H-RC0-alternative_repair/control.json",
+          "sha256": "d8953398fd5eaa6a959f8cf84660e645e0d4c5fe5d8a36e7fb94b91cf4b693e1",
+          "selectors": [
+            "$.expected_checks",
+            "$.observed_checks",
+            "$.final.profile",
+            "$.final.source_files.app.py"
+          ],
+          "historical_final_source_sha256": "30ed1ea82f18569249243fa3101a23ace585aa99a2b48129ed5f109017118db4",
+          "source_correspondence": "UTF-8 text identical after CRLF-to-LF conversion by the historical write_file path; distribution bytes retained unchanged.",
+          "raw_record_access": "retained locally; not distributed because it contains host paths"
+        }
+      },
+      "negative": {
+        "source": "cases-package/cases/H-RC0/negative.py",
+        "source_sha256": "9e4ffe63fb5d2a528859db64058d545afaa1a7e21fa1ca2e789fb5c814f8f40e",
+        "profile": "typer0153_click818",
+        "expected_checks": {
+          "first_command": false,
+          "second_command": true,
+          "no_args": true,
+          "explicit_help": true,
+          "first_command_help": true,
+          "second_command_help": true
+        },
+        "expected_status": "FAIL",
+        "historical_evidence": {
+          "record": "Typer_Controlador_05_r2/public/baseline-evidence/controls/H-RC0-wrong_output/control.json",
+          "sha256": "c8f45e841ddddf33302969fde0721b4c85b50e2ff3596cfd4fde80b1a57a2c1f",
+          "selectors": [
+            "$.expected_checks",
+            "$.observed_checks",
+            "$.final.profile",
+            "$.final.source_files.app.py"
+          ],
+          "historical_final_source_sha256": "3fcb822b5057b3156c4d388cd7e94f42640fa1bb631c19e120391c714b8b315b",
+          "source_correspondence": "UTF-8 text identical after CRLF-to-LF conversion by the historical write_file path; distribution bytes retained unchanged.",
+          "raw_record_access": "retained locally; not distributed because it contains host paths"
+        }
+      }
+    },
+    "H-RC2": {
+      "alternative": {
+        "source": "cases-package/cases/H-RC2/alternative.py",
+        "source_sha256": "6d2bf080f36e5ebdbcc8f30235c5189a7bfdbd5e7df66dacc4aba6d7bede7309",
+        "profile": "typer0153_click818",
+        "expected_checks": {
+          "first_command": true,
+          "second_command": true,
+          "no_args": true,
+          "explicit_help": true,
+          "first_command_help": true,
+          "second_command_help": true
+        },
+        "expected_status": "PASS",
+        "historical_evidence": {
+          "record": "Typer_Controlador_05_r2/public/baseline-evidence/controls/H-RC2-alternative_repair/control.json",
+          "sha256": "cbba78b0a50b6f8d1cf1ebe55646c17ba7a560673a143939f6e89b2308402cb6",
+          "selectors": [
+            "$.expected_checks",
+            "$.observed_checks",
+            "$.final.profile",
+            "$.final.source_files.app.py"
+          ],
+          "historical_final_source_sha256": "30ed1ea82f18569249243fa3101a23ace585aa99a2b48129ed5f109017118db4",
+          "source_correspondence": "UTF-8 text identical after CRLF-to-LF conversion by the historical write_file path; distribution bytes retained unchanged.",
+          "raw_record_access": "retained locally; not distributed because it contains host paths"
+        }
+      },
+      "negative": {
+        "source": "cases-package/cases/H-RC2/negative.py",
+        "source_sha256": "9e4ffe63fb5d2a528859db64058d545afaa1a7e21fa1ca2e789fb5c814f8f40e",
+        "profile": "typer0160_click820",
+        "expected_checks": {
+          "first_command": false,
+          "second_command": true,
+          "no_args": true,
+          "explicit_help": true,
+          "first_command_help": true,
+          "second_command_help": true
+        },
+        "expected_status": "FAIL",
+        "historical_evidence": {
+          "record": "Typer_Controlador_05_r2/public/baseline-evidence/controls/H-RC2-wrong_output/control.json",
+          "sha256": "c5dfc388920f435591612bcf3648d1c5d609e8d0f001907d53c103de540b02d9",
+          "selectors": [
+            "$.expected_checks",
+            "$.observed_checks",
+            "$.final.profile",
+            "$.final.source_files.app.py"
+          ],
+          "historical_final_source_sha256": "3fcb822b5057b3156c4d388cd7e94f42640fa1bb631c19e120391c714b8b315b",
+          "source_correspondence": "UTF-8 text identical after CRLF-to-LF conversion by the historical write_file path; distribution bytes retained unchanged.",
+          "raw_record_access": "retained locally; not distributed because it contains host paths"
+        }
+      }
+    }
+  }
+}

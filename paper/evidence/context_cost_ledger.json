@@ -1,0 +1,2466 @@
+[
+  {
+    "configuration": "C3",
+    "fixture": "EH-API",
+    "source_file": "SourceEnv_Prospectiva_v05_C3_C1_r3_20261011/execution/C3/EH-API.json",
+    "source_sha256": "7755f4b6bff308cec8a840197b127fdfd7ba1aeeaaed05a691162a97fc835fb5",
+    "model_calls": 10,
+    "generated_tokens": 1632,
+    "context": 32768,
+    "maximum_input": 9240,
+    "turns": [
+      {
+        "action": 1,
+        "input_tokens": 1434,
+        "generated_tokens": 846,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/0/reply"
+      },
+      {
+        "action": 2,
+        "input_tokens": 2423,
+        "generated_tokens": 17,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/1/reply"
+      },
+      {
+        "action": 3,
+        "input_tokens": 2574,
+        "generated_tokens": 50,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/2/reply"
+      },
+      {
+        "action": 4,
+        "input_tokens": 2769,
+        "generated_tokens": 312,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/3/reply"
+      },
+      {
+        "action": 5,
+        "input_tokens": 4265,
+        "generated_tokens": 19,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/4/reply"
+      },
+      {
+        "action": 6,
+        "input_tokens": 5466,
+        "generated_tokens": 225,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/5/reply"
+      },
+      {
+        "action": 7,
+        "input_tokens": 5786,
+        "generated_tokens": 17,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/6/reply"
+      },
+      {
+        "action": 8,
+        "input_tokens": 6848,
+        "generated_tokens": 17,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/7/reply"
+      },
+      {
+        "action": 9,
+        "input_tokens": 8033,
+        "generated_tokens": 19,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/8/reply"
+      },
+      {
+        "action": 10,
+        "input_tokens": 9240,
+        "generated_tokens": 110,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/9/reply"
+      }
+    ]
+  },
+  {
+    "configuration": "C3",
+    "fixture": "SC-BALANCE",
+    "source_file": "SourceEnv_Prospectiva_v05_C3_C1_r3_20261011/execution/C3/SC-BALANCE.json",
+    "source_sha256": "0f4c9c5cbe856e940ccb886fd06582be24fc66b275e6bc3aa80b8de89e508425",
+    "model_calls": 9,
+    "generated_tokens": 834,
+    "context": 32768,
+    "maximum_input": 3736,
+    "turns": [
+      {
+        "action": 1,
+        "input_tokens": 1441,
+        "generated_tokens": 453,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/0/reply"
+      },
+      {
+        "action": 2,
+        "input_tokens": 2021,
+        "generated_tokens": 124,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/1/reply"
+      },
+      {
+        "action": 3,
+        "input_tokens": 2272,
+        "generated_tokens": 17,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/2/reply"
+      },
+      {
+        "action": 4,
+        "input_tokens": 2644,
+        "generated_tokens": 17,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/3/reply"
+      },
+      {
+        "action": 5,
+        "input_tokens": 2958,
+        "generated_tokens": 19,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/4/reply"
+      },
+      {
+        "action": 6,
+        "input_tokens": 3190,
+        "generated_tokens": 19,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/5/reply"
+      },
+      {
+        "action": 7,
+        "input_tokens": 3423,
+        "generated_tokens": 17,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/6/reply"
+      },
+      {
+        "action": 8,
+        "input_tokens": 3579,
+        "generated_tokens": 17,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/7/reply"
+      },
+      {
+        "action": 9,
+        "input_tokens": 3736,
+        "generated_tokens": 151,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/8/reply"
+      }
+    ]
+  },
+  {
+    "configuration": "C3",
+    "fixture": "H-RC0",
+    "source_file": "SourceEnv_Prospectiva_v05_C3_C1_r3_20261011/execution/C3/H-RC0.json",
+    "source_sha256": "ee8280ac70093af36a27b68a29b745493ab6c6ebde33ec150c46f0df1eb5b992",
+    "model_calls": 10,
+    "generated_tokens": 2537,
+    "context": 32768,
+    "maximum_input": 5186,
+    "turns": [
+      {
+        "action": 1,
+        "input_tokens": 1434,
+        "generated_tokens": 1685,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/0/reply"
+      },
+      {
+        "action": 2,
+        "input_tokens": 3152,
+        "generated_tokens": 228,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/1/reply"
+      },
+      {
+        "action": 3,
+        "input_tokens": 3404,
+        "generated_tokens": 423,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/2/reply"
+      },
+      {
+        "action": 4,
+        "input_tokens": 3778,
+        "generated_tokens": 17,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/3/reply"
+      },
+      {
+        "action": 5,
+        "input_tokens": 3934,
+        "generated_tokens": 17,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/4/reply"
+      },
+      {
+        "action": 6,
+        "input_tokens": 4091,
+        "generated_tokens": 17,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/5/reply"
+      },
+      {
+        "action": 7,
+        "input_tokens": 4405,
+        "generated_tokens": 19,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/6/reply"
+      },
+      {
+        "action": 8,
+        "input_tokens": 4638,
+        "generated_tokens": 19,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/7/reply"
+      },
+      {
+        "action": 9,
+        "input_tokens": 4872,
+        "generated_tokens": 17,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/8/reply"
+      },
+      {
+        "action": 10,
+        "input_tokens": 5186,
+        "generated_tokens": 95,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/9/reply"
+      }
+    ]
+  },
+  {
+    "configuration": "C3",
+    "fixture": "EC-MISSING",
+    "source_file": "SourceEnv_Prospectiva_v05_C3_C1_r3_20261011/execution/C3/EC-MISSING.json",
+    "source_sha256": "4758f1a03ddd7fa3411ecf991a57b7ab3081b5df8738cce4cd491ef5e964828c",
+    "model_calls": 13,
+    "generated_tokens": 3610,
+    "context": 32768,
+    "maximum_input": 6263,
+    "turns": [
+      {
+        "action": 1,
+        "input_tokens": 1461,
+        "generated_tokens": 2048,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/0/reply"
+      },
+      {
+        "action": 2,
+        "input_tokens": 3578,
+        "generated_tokens": 593,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/1/reply"
+      },
+      {
+        "action": 3,
+        "input_tokens": 4204,
+        "generated_tokens": 237,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/2/reply"
+      },
+      {
+        "action": 4,
+        "input_tokens": 4465,
+        "generated_tokens": 54,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/3/reply"
+      },
+      {
+        "action": 5,
+        "input_tokens": 4647,
+        "generated_tokens": 125,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/4/reply"
+      },
+      {
+        "action": 6,
+        "input_tokens": 4916,
+        "generated_tokens": 17,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/5/reply"
+      },
+      {
+        "action": 7,
+        "input_tokens": 5068,
+        "generated_tokens": 257,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/6/reply"
+      },
+      {
+        "action": 8,
+        "input_tokens": 5470,
+        "generated_tokens": 17,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/7/reply"
+      },
+      {
+        "action": 9,
+        "input_tokens": 5622,
+        "generated_tokens": 26,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/8/reply"
+      },
+      {
+        "action": 10,
+        "input_tokens": 5793,
+        "generated_tokens": 17,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/9/reply"
+      },
+      {
+        "action": 11,
+        "input_tokens": 5945,
+        "generated_tokens": 19,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/10/reply"
+      },
+      {
+        "action": 12,
+        "input_tokens": 6104,
+        "generated_tokens": 19,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/11/reply"
+      },
+      {
+        "action": 13,
+        "input_tokens": 6263,
+        "generated_tokens": 181,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/12/reply"
+      }
+    ]
+  },
+  {
+    "configuration": "C3",
+    "fixture": "SH-FLAG",
+    "source_file": "SourceEnv_Prospectiva_v05_C3_C1_r3_20261011/execution/C3/SH-FLAG.json",
+    "source_sha256": "0f0c5ae18e53e539a6775899f5fdd158b67a99a27eb8465cfce25b35f6e25116",
+    "model_calls": 12,
+    "generated_tokens": 3783,
+    "context": 32768,
+    "maximum_input": 5576,
+    "turns": [
+      {
+        "action": 1,
+        "input_tokens": 1449,
+        "generated_tokens": 1716,
+        "reasoning_tokens_subset": 911,
+        "reservation": 2048,
+        "selector": "/conversation/turns/0/reply"
+      },
+      {
+        "action": 2,
+        "input_tokens": 2373,
+        "generated_tokens": 17,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/1/reply"
+      },
+      {
+        "action": 3,
+        "input_tokens": 2640,
+        "generated_tokens": 922,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/2/reply"
+      },
+      {
+        "action": 4,
+        "input_tokens": 3594,
+        "generated_tokens": 758,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/3/reply"
+      },
+      {
+        "action": 5,
+        "input_tokens": 4010,
+        "generated_tokens": 17,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/4/reply"
+      },
+      {
+        "action": 6,
+        "input_tokens": 4395,
+        "generated_tokens": 19,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/5/reply"
+      },
+      {
+        "action": 7,
+        "input_tokens": 4606,
+        "generated_tokens": 17,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/6/reply"
+      },
+      {
+        "action": 8,
+        "input_tokens": 4762,
+        "generated_tokens": 17,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/7/reply"
+      },
+      {
+        "action": 9,
+        "input_tokens": 4919,
+        "generated_tokens": 19,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/8/reply"
+      },
+      {
+        "action": 10,
+        "input_tokens": 5130,
+        "generated_tokens": 164,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/9/reply"
+      },
+      {
+        "action": 11,
+        "input_tokens": 5368,
+        "generated_tokens": 17,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/10/reply"
+      },
+      {
+        "action": 12,
+        "input_tokens": 5576,
+        "generated_tokens": 100,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/11/reply"
+      }
+    ]
+  },
+  {
+    "configuration": "C3",
+    "fixture": "EH-RENDERER",
+    "source_file": "SourceEnv_Prospectiva_v05_C3_C1_r3_20261011/execution/C3/EH-RENDERER.json",
+    "source_sha256": "c85cd7e670909dbe6dc182c5b9b97126d6e321efacaca76c8ecbb8acf7a17c90",
+    "model_calls": 17,
+    "generated_tokens": 4179,
+    "context": 32768,
+    "maximum_input": 7703,
+    "turns": [
+      {
+        "action": 1,
+        "input_tokens": 1462,
+        "generated_tokens": 2048,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/0/reply"
+      },
+      {
+        "action": 2,
+        "input_tokens": 3579,
+        "generated_tokens": 798,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/1/reply"
+      },
+      {
+        "action": 3,
+        "input_tokens": 4445,
+        "generated_tokens": 39,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/2/reply"
+      },
+      {
+        "action": 4,
+        "input_tokens": 4611,
+        "generated_tokens": 63,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/3/reply"
+      },
+      {
+        "action": 5,
+        "input_tokens": 4817,
+        "generated_tokens": 17,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/4/reply"
+      },
+      {
+        "action": 6,
+        "input_tokens": 4969,
+        "generated_tokens": 17,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/5/reply"
+      },
+      {
+        "action": 7,
+        "input_tokens": 5162,
+        "generated_tokens": 495,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/6/reply"
+      },
+      {
+        "action": 8,
+        "input_tokens": 5837,
+        "generated_tokens": 217,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/7/reply"
+      },
+      {
+        "action": 9,
+        "input_tokens": 6078,
+        "generated_tokens": 17,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/8/reply"
+      },
+      {
+        "action": 10,
+        "input_tokens": 6323,
+        "generated_tokens": 19,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/9/reply"
+      },
+      {
+        "action": 11,
+        "input_tokens": 6508,
+        "generated_tokens": 19,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/10/reply"
+      },
+      {
+        "action": 12,
+        "input_tokens": 6694,
+        "generated_tokens": 116,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/11/reply"
+      },
+      {
+        "action": 13,
+        "input_tokens": 6902,
+        "generated_tokens": 98,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/12/reply"
+      },
+      {
+        "action": 14,
+        "input_tokens": 7143,
+        "generated_tokens": 17,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/13/reply"
+      },
+      {
+        "action": 15,
+        "input_tokens": 7294,
+        "generated_tokens": 24,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/14/reply"
+      },
+      {
+        "action": 16,
+        "input_tokens": 7463,
+        "generated_tokens": 17,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/15/reply"
+      },
+      {
+        "action": 17,
+        "input_tokens": 7703,
+        "generated_tokens": 158,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/16/reply"
+      }
+    ]
+  },
+  {
+    "configuration": "C3",
+    "fixture": "SC-SORT",
+    "source_file": "SourceEnv_Prospectiva_v05_C3_C1_r3_20261011/execution/C3/SC-SORT.json",
+    "source_sha256": "7c98f9157bb388f33b66d542acce944b534684c8657b82c3021b237f19897de3",
+    "model_calls": 10,
+    "generated_tokens": 723,
+    "context": 32768,
+    "maximum_input": 3571,
+    "turns": [
+      {
+        "action": 1,
+        "input_tokens": 1405,
+        "generated_tokens": 150,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/0/reply"
+      },
+      {
+        "action": 2,
+        "input_tokens": 1674,
+        "generated_tokens": 236,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/1/reply"
+      },
+      {
+        "action": 3,
+        "input_tokens": 1934,
+        "generated_tokens": 17,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/2/reply"
+      },
+      {
+        "action": 4,
+        "input_tokens": 2090,
+        "generated_tokens": 17,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/3/reply"
+      },
+      {
+        "action": 5,
+        "input_tokens": 2242,
+        "generated_tokens": 70,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/4/reply"
+      },
+      {
+        "action": 6,
+        "input_tokens": 2422,
+        "generated_tokens": 132,
+        "reasoning_tokens_subset": 115,
+        "reservation": 2048,
+        "selector": "/conversation/turns/5/reply"
+      },
+      {
+        "action": 7,
+        "input_tokens": 2793,
+        "generated_tokens": 17,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/6/reply"
+      },
+      {
+        "action": 8,
+        "input_tokens": 3106,
+        "generated_tokens": 19,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/7/reply"
+      },
+      {
+        "action": 9,
+        "input_tokens": 3339,
+        "generated_tokens": 19,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/8/reply"
+      },
+      {
+        "action": 10,
+        "input_tokens": 3571,
+        "generated_tokens": 46,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/9/reply"
+      }
+    ]
+  },
+  {
+    "configuration": "C3",
+    "fixture": "H-RC2",
+    "source_file": "SourceEnv_Prospectiva_v05_C3_C1_r3_20261011/execution/C3/H-RC2.json",
+    "source_sha256": "bdf072913662ffd0c25b375066f5867198a04dce421d9bc373545b820dda2fe6",
+    "model_calls": 10,
+    "generated_tokens": 2111,
+    "context": 32768,
+    "maximum_input": 5140,
+    "turns": [
+      {
+        "action": 1,
+        "input_tokens": 1434,
+        "generated_tokens": 1417,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/0/reply"
+      },
+      {
+        "action": 2,
+        "input_tokens": 3095,
+        "generated_tokens": 237,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/1/reply"
+      },
+      {
+        "action": 3,
+        "input_tokens": 3356,
+        "generated_tokens": 94,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/2/reply"
+      },
+      {
+        "action": 4,
+        "input_tokens": 3577,
+        "generated_tokens": 97,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/3/reply"
+      },
+      {
+        "action": 5,
+        "input_tokens": 4039,
+        "generated_tokens": 17,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/4/reply"
+      },
+      {
+        "action": 6,
+        "input_tokens": 4190,
+        "generated_tokens": 17,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/5/reply"
+      },
+      {
+        "action": 7,
+        "input_tokens": 4347,
+        "generated_tokens": 17,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/6/reply"
+      },
+      {
+        "action": 8,
+        "input_tokens": 4667,
+        "generated_tokens": 19,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/7/reply"
+      },
+      {
+        "action": 9,
+        "input_tokens": 4903,
+        "generated_tokens": 19,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/8/reply"
+      },
+      {
+        "action": 10,
+        "input_tokens": 5140,
+        "generated_tokens": 177,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/9/reply"
+      }
+    ]
+  },
+  {
+    "configuration": "C3",
+    "fixture": "EC-SYMBOL",
+    "source_file": "SourceEnv_Prospectiva_v05_C3_C1_r3_20261011/execution/C3/EC-SYMBOL.json",
+    "source_sha256": "2efa56170d728c4b311873d4d5b3a63d30bba2b4e6e03000c529f83732e832c1",
+    "model_calls": 17,
+    "generated_tokens": 4312,
+    "context": 32768,
+    "maximum_input": 8473,
+    "turns": [
+      {
+        "action": 1,
+        "input_tokens": 1520,
+        "generated_tokens": 1578,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/0/reply"
+      },
+      {
+        "action": 2,
+        "input_tokens": 3131,
+        "generated_tokens": 17,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/1/reply"
+      },
+      {
+        "action": 3,
+        "input_tokens": 3500,
+        "generated_tokens": 1053,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/2/reply"
+      },
+      {
+        "action": 4,
+        "input_tokens": 4586,
+        "generated_tokens": 295,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/3/reply"
+      },
+      {
+        "action": 5,
+        "input_tokens": 4905,
+        "generated_tokens": 56,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/4/reply"
+      },
+      {
+        "action": 6,
+        "input_tokens": 5317,
+        "generated_tokens": 17,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/5/reply"
+      },
+      {
+        "action": 7,
+        "input_tokens": 5681,
+        "generated_tokens": 550,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/6/reply"
+      },
+      {
+        "action": 8,
+        "input_tokens": 6264,
+        "generated_tokens": 217,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/7/reply"
+      },
+      {
+        "action": 9,
+        "input_tokens": 6505,
+        "generated_tokens": 48,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/8/reply"
+      },
+      {
+        "action": 10,
+        "input_tokens": 6697,
+        "generated_tokens": 17,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/9/reply"
+      },
+      {
+        "action": 11,
+        "input_tokens": 6848,
+        "generated_tokens": 44,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/10/reply"
+      },
+      {
+        "action": 12,
+        "input_tokens": 7037,
+        "generated_tokens": 239,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/11/reply"
+      },
+      {
+        "action": 13,
+        "input_tokens": 7380,
+        "generated_tokens": 17,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/12/reply"
+      },
+      {
+        "action": 14,
+        "input_tokens": 7694,
+        "generated_tokens": 17,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/13/reply"
+      },
+      {
+        "action": 15,
+        "input_tokens": 8008,
+        "generated_tokens": 19,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/14/reply"
+      },
+      {
+        "action": 16,
+        "input_tokens": 8240,
+        "generated_tokens": 19,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/15/reply"
+      },
+      {
+        "action": 17,
+        "input_tokens": 8473,
+        "generated_tokens": 109,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/16/reply"
+      }
+    ]
+  },
+  {
+    "configuration": "C3",
+    "fixture": "SH-FORMAT",
+    "source_file": "SourceEnv_Prospectiva_v05_C3_C1_r3_20261011/execution/C3/SH-FORMAT.json",
+    "source_sha256": "16cc5ab619a567529796a1f054773983a23db8e290bf0efae3b052933ac7b1ac",
+    "model_calls": 11,
+    "generated_tokens": 2556,
+    "context": 32768,
+    "maximum_input": 5253,
+    "turns": [
+      {
+        "action": 1,
+        "input_tokens": 1491,
+        "generated_tokens": 1540,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/0/reply"
+      },
+      {
+        "action": 2,
+        "input_tokens": 3064,
+        "generated_tokens": 282,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/1/reply"
+      },
+      {
+        "action": 3,
+        "input_tokens": 3370,
+        "generated_tokens": 119,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/2/reply"
+      },
+      {
+        "action": 4,
+        "input_tokens": 3632,
+        "generated_tokens": 19,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/3/reply"
+      },
+      {
+        "action": 5,
+        "input_tokens": 3864,
+        "generated_tokens": 77,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/4/reply"
+      },
+      {
+        "action": 6,
+        "input_tokens": 4086,
+        "generated_tokens": 322,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/5/reply"
+      },
+      {
+        "action": 7,
+        "input_tokens": 4504,
+        "generated_tokens": 57,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/6/reply"
+      },
+      {
+        "action": 8,
+        "input_tokens": 4651,
+        "generated_tokens": 17,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/7/reply"
+      },
+      {
+        "action": 9,
+        "input_tokens": 4861,
+        "generated_tokens": 17,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/8/reply"
+      },
+      {
+        "action": 10,
+        "input_tokens": 5015,
+        "generated_tokens": 19,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/9/reply"
+      },
+      {
+        "action": 11,
+        "input_tokens": 5253,
+        "generated_tokens": 87,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/10/reply"
+      }
+    ]
+  },
+  {
+    "configuration": "C1",
+    "fixture": "EH-API",
+    "source_file": "SourceEnv_Prospectiva_v05_C3_C1_r3_20261011/execution/C1/EH-API.json",
+    "source_sha256": "afcdcdb07e472a0d9fbf458b58201b34d042bb79a9d75d4e8e0a65f33186262e",
+    "model_calls": 11,
+    "generated_tokens": 1776,
+    "context": 32768,
+    "maximum_input": 8395,
+    "turns": [
+      {
+        "action": 1,
+        "input_tokens": 1434,
+        "generated_tokens": 17,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/0/reply"
+      },
+      {
+        "action": 2,
+        "input_tokens": 1590,
+        "generated_tokens": 17,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/1/reply"
+      },
+      {
+        "action": 3,
+        "input_tokens": 1747,
+        "generated_tokens": 650,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/2/reply"
+      },
+      {
+        "action": 4,
+        "input_tokens": 2511,
+        "generated_tokens": 125,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/3/reply"
+      },
+      {
+        "action": 5,
+        "input_tokens": 2741,
+        "generated_tokens": 272,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/4/reply"
+      },
+      {
+        "action": 6,
+        "input_tokens": 4062,
+        "generated_tokens": 17,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/5/reply"
+      },
+      {
+        "action": 7,
+        "input_tokens": 5241,
+        "generated_tokens": 138,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/6/reply"
+      },
+      {
+        "action": 8,
+        "input_tokens": 5475,
+        "generated_tokens": 422,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/7/reply"
+      },
+      {
+        "action": 9,
+        "input_tokens": 5983,
+        "generated_tokens": 19,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/8/reply"
+      },
+      {
+        "action": 10,
+        "input_tokens": 7189,
+        "generated_tokens": 19,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/9/reply"
+      },
+      {
+        "action": 11,
+        "input_tokens": 8395,
+        "generated_tokens": 80,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/10/reply"
+      }
+    ]
+  },
+  {
+    "configuration": "C1",
+    "fixture": "SC-BALANCE",
+    "source_file": "SourceEnv_Prospectiva_v05_C3_C1_r3_20261011/execution/C1/SC-BALANCE.json",
+    "source_sha256": "5fd88259bb4638e03bb4759c82f1cf604ca35e31b55eb9eb813bf17f6f69c75d",
+    "model_calls": 20,
+    "generated_tokens": 3209,
+    "context": 32768,
+    "maximum_input": 6965,
+    "turns": [
+      {
+        "action": 1,
+        "input_tokens": 1441,
+        "generated_tokens": 9,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/0/reply"
+      },
+      {
+        "action": 2,
+        "input_tokens": 1486,
+        "generated_tokens": 17,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/1/reply"
+      },
+      {
+        "action": 3,
+        "input_tokens": 1642,
+        "generated_tokens": 17,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/2/reply"
+      },
+      {
+        "action": 4,
+        "input_tokens": 1799,
+        "generated_tokens": 708,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/3/reply"
+      },
+      {
+        "action": 5,
+        "input_tokens": 2540,
+        "generated_tokens": 128,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/4/reply"
+      },
+      {
+        "action": 6,
+        "input_tokens": 2791,
+        "generated_tokens": 15,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/5/reply"
+      },
+      {
+        "action": 7,
+        "input_tokens": 2932,
+        "generated_tokens": 151,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/6/reply"
+      },
+      {
+        "action": 8,
+        "input_tokens": 3253,
+        "generated_tokens": 17,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/7/reply"
+      },
+      {
+        "action": 9,
+        "input_tokens": 3432,
+        "generated_tokens": 766,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/8/reply"
+      },
+      {
+        "action": 10,
+        "input_tokens": 4231,
+        "generated_tokens": 210,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/9/reply"
+      },
+      {
+        "action": 11,
+        "input_tokens": 4465,
+        "generated_tokens": 38,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/10/reply"
+      },
+      {
+        "action": 12,
+        "input_tokens": 4646,
+        "generated_tokens": 17,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/11/reply"
+      },
+      {
+        "action": 13,
+        "input_tokens": 4798,
+        "generated_tokens": 230,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/12/reply"
+      },
+      {
+        "action": 14,
+        "input_tokens": 5142,
+        "generated_tokens": 118,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/13/reply"
+      },
+      {
+        "action": 15,
+        "input_tokens": 5365,
+        "generated_tokens": 215,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/14/reply"
+      },
+      {
+        "action": 16,
+        "input_tokens": 5939,
+        "generated_tokens": 17,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/15/reply"
+      },
+      {
+        "action": 17,
+        "input_tokens": 6306,
+        "generated_tokens": 19,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/16/reply"
+      },
+      {
+        "action": 18,
+        "input_tokens": 6538,
+        "generated_tokens": 19,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/17/reply"
+      },
+      {
+        "action": 19,
+        "input_tokens": 6771,
+        "generated_tokens": 119,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/18/reply"
+      },
+      {
+        "action": 20,
+        "input_tokens": 6965,
+        "generated_tokens": 379,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/19/reply"
+      }
+    ]
+  },
+  {
+    "configuration": "C1",
+    "fixture": "H-RC0",
+    "source_file": "SourceEnv_Prospectiva_v05_C3_C1_r3_20261011/execution/C1/H-RC0.json",
+    "source_sha256": "737f403f64bb245a3c7cfeee02a89eec100f051145d7a9c8781b0c6de559a6de",
+    "model_calls": 8,
+    "generated_tokens": 1106,
+    "context": 32768,
+    "maximum_input": 3636,
+    "turns": [
+      {
+        "action": 1,
+        "input_tokens": 1434,
+        "generated_tokens": 17,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/0/reply"
+      },
+      {
+        "action": 2,
+        "input_tokens": 1590,
+        "generated_tokens": 17,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/1/reply"
+      },
+      {
+        "action": 3,
+        "input_tokens": 1747,
+        "generated_tokens": 432,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/2/reply"
+      },
+      {
+        "action": 4,
+        "input_tokens": 2288,
+        "generated_tokens": 273,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/3/reply"
+      },
+      {
+        "action": 5,
+        "input_tokens": 2862,
+        "generated_tokens": 17,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/4/reply"
+      },
+      {
+        "action": 6,
+        "input_tokens": 3171,
+        "generated_tokens": 19,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/5/reply"
+      },
+      {
+        "action": 7,
+        "input_tokens": 3403,
+        "generated_tokens": 19,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/6/reply"
+      },
+      {
+        "action": 8,
+        "input_tokens": 3636,
+        "generated_tokens": 312,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/7/reply"
+      }
+    ]
+  },
+  {
+    "configuration": "C1",
+    "fixture": "EC-MISSING",
+    "source_file": "SourceEnv_Prospectiva_v05_C3_C1_r3_20261011/execution/C1/EC-MISSING.json",
+    "source_sha256": "5e27e9c57c474a95846072d965b0f5e3ab0c7b0235cf4dc55f42280ab43682b4",
+    "model_calls": 15,
+    "generated_tokens": 3414,
+    "context": 32768,
+    "maximum_input": 7005,
+    "turns": [
+      {
+        "action": 1,
+        "input_tokens": 1461,
+        "generated_tokens": 9,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/0/reply"
+      },
+      {
+        "action": 2,
+        "input_tokens": 1506,
+        "generated_tokens": 17,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/1/reply"
+      },
+      {
+        "action": 3,
+        "input_tokens": 1663,
+        "generated_tokens": 17,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/2/reply"
+      },
+      {
+        "action": 4,
+        "input_tokens": 1820,
+        "generated_tokens": 17,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/3/reply"
+      },
+      {
+        "action": 5,
+        "input_tokens": 2114,
+        "generated_tokens": 1029,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/4/reply"
+      },
+      {
+        "action": 6,
+        "input_tokens": 3176,
+        "generated_tokens": 336,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/5/reply"
+      },
+      {
+        "action": 7,
+        "input_tokens": 3633,
+        "generated_tokens": 17,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/6/reply"
+      },
+      {
+        "action": 8,
+        "input_tokens": 3863,
+        "generated_tokens": 17,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/7/reply"
+      },
+      {
+        "action": 9,
+        "input_tokens": 4093,
+        "generated_tokens": 162,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/8/reply"
+      },
+      {
+        "action": 10,
+        "input_tokens": 4364,
+        "generated_tokens": 17,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/9/reply"
+      },
+      {
+        "action": 11,
+        "input_tokens": 4594,
+        "generated_tokens": 17,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/10/reply"
+      },
+      {
+        "action": 12,
+        "input_tokens": 4824,
+        "generated_tokens": 19,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/11/reply"
+      },
+      {
+        "action": 13,
+        "input_tokens": 5056,
+        "generated_tokens": 19,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/12/reply"
+      },
+      {
+        "action": 14,
+        "input_tokens": 5288,
+        "generated_tokens": 1649,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/13/reply"
+      },
+      {
+        "action": 15,
+        "input_tokens": 7005,
+        "generated_tokens": 72,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/14/reply"
+      }
+    ]
+  },
+  {
+    "configuration": "C1",
+    "fixture": "SH-FLAG",
+    "source_file": "SourceEnv_Prospectiva_v05_C3_C1_r3_20261011/execution/C1/SH-FLAG.json",
+    "source_sha256": "74b63e6a221825c74ed720e4d28ecbdaa65561d557271c629f39817b026ef02c",
+    "model_calls": 20,
+    "generated_tokens": 2897,
+    "context": 32768,
+    "maximum_input": 6674,
+    "turns": [
+      {
+        "action": 1,
+        "input_tokens": 1449,
+        "generated_tokens": 9,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/0/reply"
+      },
+      {
+        "action": 2,
+        "input_tokens": 1494,
+        "generated_tokens": 17,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/1/reply"
+      },
+      {
+        "action": 3,
+        "input_tokens": 1650,
+        "generated_tokens": 17,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/2/reply"
+      },
+      {
+        "action": 4,
+        "input_tokens": 1807,
+        "generated_tokens": 441,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/3/reply"
+      },
+      {
+        "action": 5,
+        "input_tokens": 2362,
+        "generated_tokens": 537,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/4/reply"
+      },
+      {
+        "action": 6,
+        "input_tokens": 2927,
+        "generated_tokens": 232,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/5/reply"
+      },
+      {
+        "action": 7,
+        "input_tokens": 3183,
+        "generated_tokens": 259,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/6/reply"
+      },
+      {
+        "action": 8,
+        "input_tokens": 3575,
+        "generated_tokens": 241,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/7/reply"
+      },
+      {
+        "action": 9,
+        "input_tokens": 3954,
+        "generated_tokens": 17,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/8/reply"
+      },
+      {
+        "action": 10,
+        "input_tokens": 4105,
+        "generated_tokens": 17,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/9/reply"
+      },
+      {
+        "action": 11,
+        "input_tokens": 4262,
+        "generated_tokens": 153,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/10/reply"
+      },
+      {
+        "action": 12,
+        "input_tokens": 4529,
+        "generated_tokens": 210,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/11/reply"
+      },
+      {
+        "action": 13,
+        "input_tokens": 4848,
+        "generated_tokens": 270,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/12/reply"
+      },
+      {
+        "action": 14,
+        "input_tokens": 5227,
+        "generated_tokens": 122,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/13/reply"
+      },
+      {
+        "action": 15,
+        "input_tokens": 5454,
+        "generated_tokens": 76,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/14/reply"
+      },
+      {
+        "action": 16,
+        "input_tokens": 5674,
+        "generated_tokens": 17,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/15/reply"
+      },
+      {
+        "action": 17,
+        "input_tokens": 6044,
+        "generated_tokens": 17,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/16/reply"
+      },
+      {
+        "action": 18,
+        "input_tokens": 6252,
+        "generated_tokens": 19,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/17/reply"
+      },
+      {
+        "action": 19,
+        "input_tokens": 6463,
+        "generated_tokens": 19,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/18/reply"
+      },
+      {
+        "action": 20,
+        "input_tokens": 6674,
+        "generated_tokens": 207,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/19/reply"
+      }
+    ]
+  },
+  {
+    "configuration": "C1",
+    "fixture": "EH-RENDERER",
+    "source_file": "SourceEnv_Prospectiva_v05_C3_C1_r3_20261011/execution/C1/EH-RENDERER.json",
+    "source_sha256": "d63a60b6bc017fef909b3fdc1138d75a120fb9542c736847dd501ec9b264bdeb",
+    "model_calls": 20,
+    "generated_tokens": 2409,
+    "context": 32768,
+    "maximum_input": 6469,
+    "turns": [
+      {
+        "action": 1,
+        "input_tokens": 1462,
+        "generated_tokens": 17,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/0/reply"
+      },
+      {
+        "action": 2,
+        "input_tokens": 1618,
+        "generated_tokens": 17,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/1/reply"
+      },
+      {
+        "action": 3,
+        "input_tokens": 1775,
+        "generated_tokens": 806,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/2/reply"
+      },
+      {
+        "action": 4,
+        "input_tokens": 2614,
+        "generated_tokens": 548,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/3/reply"
+      },
+      {
+        "action": 5,
+        "input_tokens": 3289,
+        "generated_tokens": 100,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/4/reply"
+      },
+      {
+        "action": 6,
+        "input_tokens": 3511,
+        "generated_tokens": 164,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/5/reply"
+      },
+      {
+        "action": 7,
+        "input_tokens": 3802,
+        "generated_tokens": 48,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/6/reply"
+      },
+      {
+        "action": 8,
+        "input_tokens": 3993,
+        "generated_tokens": 17,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/7/reply"
+      },
+      {
+        "action": 9,
+        "input_tokens": 4144,
+        "generated_tokens": 25,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/8/reply"
+      },
+      {
+        "action": 10,
+        "input_tokens": 4314,
+        "generated_tokens": 17,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/9/reply"
+      },
+      {
+        "action": 11,
+        "input_tokens": 4466,
+        "generated_tokens": 168,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/10/reply"
+      },
+      {
+        "action": 12,
+        "input_tokens": 4748,
+        "generated_tokens": 104,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/11/reply"
+      },
+      {
+        "action": 13,
+        "input_tokens": 4957,
+        "generated_tokens": 185,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/12/reply"
+      },
+      {
+        "action": 14,
+        "input_tokens": 5251,
+        "generated_tokens": 51,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/13/reply"
+      },
+      {
+        "action": 15,
+        "input_tokens": 5483,
+        "generated_tokens": 17,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/14/reply"
+      },
+      {
+        "action": 16,
+        "input_tokens": 5671,
+        "generated_tokens": 27,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/15/reply"
+      },
+      {
+        "action": 17,
+        "input_tokens": 5879,
+        "generated_tokens": 17,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/16/reply"
+      },
+      {
+        "action": 18,
+        "input_tokens": 6067,
+        "generated_tokens": 31,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/17/reply"
+      },
+      {
+        "action": 19,
+        "input_tokens": 6279,
+        "generated_tokens": 19,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/18/reply"
+      },
+      {
+        "action": 20,
+        "input_tokens": 6469,
+        "generated_tokens": 31,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/19/reply"
+      }
+    ]
+  },
+  {
+    "configuration": "C1",
+    "fixture": "SC-SORT",
+    "source_file": "SourceEnv_Prospectiva_v05_C3_C1_r3_20261011/execution/C1/SC-SORT.json",
+    "source_sha256": "cd391d86132cc2ad5b223d4208f2e7fd31b7f35e91856e395a9cd78dfbca87aa",
+    "model_calls": 20,
+    "generated_tokens": 2795,
+    "context": 32768,
+    "maximum_input": 6043,
+    "turns": [
+      {
+        "action": 1,
+        "input_tokens": 1405,
+        "generated_tokens": 9,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/0/reply"
+      },
+      {
+        "action": 2,
+        "input_tokens": 1450,
+        "generated_tokens": 17,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/1/reply"
+      },
+      {
+        "action": 3,
+        "input_tokens": 1606,
+        "generated_tokens": 17,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/2/reply"
+      },
+      {
+        "action": 4,
+        "input_tokens": 1758,
+        "generated_tokens": 1165,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/3/reply"
+      },
+      {
+        "action": 5,
+        "input_tokens": 2956,
+        "generated_tokens": 198,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/4/reply"
+      },
+      {
+        "action": 6,
+        "input_tokens": 3178,
+        "generated_tokens": 17,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/5/reply"
+      },
+      {
+        "action": 7,
+        "input_tokens": 3334,
+        "generated_tokens": 17,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/6/reply"
+      },
+      {
+        "action": 8,
+        "input_tokens": 3486,
+        "generated_tokens": 158,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/7/reply"
+      },
+      {
+        "action": 9,
+        "input_tokens": 3758,
+        "generated_tokens": 61,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/8/reply"
+      },
+      {
+        "action": 10,
+        "input_tokens": 3928,
+        "generated_tokens": 70,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/9/reply"
+      },
+      {
+        "action": 11,
+        "input_tokens": 4103,
+        "generated_tokens": 87,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/10/reply"
+      },
+      {
+        "action": 12,
+        "input_tokens": 4304,
+        "generated_tokens": 103,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/11/reply"
+      },
+      {
+        "action": 13,
+        "input_tokens": 4512,
+        "generated_tokens": 75,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/12/reply"
+      },
+      {
+        "action": 14,
+        "input_tokens": 4696,
+        "generated_tokens": 106,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/13/reply"
+      },
+      {
+        "action": 15,
+        "input_tokens": 4911,
+        "generated_tokens": 123,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/14/reply"
+      },
+      {
+        "action": 16,
+        "input_tokens": 5143,
+        "generated_tokens": 129,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/15/reply"
+      },
+      {
+        "action": 17,
+        "input_tokens": 5381,
+        "generated_tokens": 75,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/16/reply"
+      },
+      {
+        "action": 18,
+        "input_tokens": 5565,
+        "generated_tokens": 174,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/17/reply"
+      },
+      {
+        "action": 19,
+        "input_tokens": 5848,
+        "generated_tokens": 86,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/18/reply"
+      },
+      {
+        "action": 20,
+        "input_tokens": 6043,
+        "generated_tokens": 108,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/19/reply"
+      }
+    ]
+  },
+  {
+    "configuration": "C1",
+    "fixture": "H-RC2",
+    "source_file": "SourceEnv_Prospectiva_v05_C3_C1_r3_20261011/execution/C1/H-RC2.json",
+    "source_sha256": "dabec3085efbfd802e43f9f66a42ece76be1c7837a058d03c20f0e99f0170dc7",
+    "model_calls": 14,
+    "generated_tokens": 1998,
+    "context": 32768,
+    "maximum_input": 5512,
+    "turns": [
+      {
+        "action": 1,
+        "input_tokens": 1434,
+        "generated_tokens": 9,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/0/reply"
+      },
+      {
+        "action": 2,
+        "input_tokens": 1479,
+        "generated_tokens": 17,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/1/reply"
+      },
+      {
+        "action": 3,
+        "input_tokens": 1635,
+        "generated_tokens": 17,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/2/reply"
+      },
+      {
+        "action": 4,
+        "input_tokens": 1792,
+        "generated_tokens": 1286,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/3/reply"
+      },
+      {
+        "action": 5,
+        "input_tokens": 3111,
+        "generated_tokens": 217,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/4/reply"
+      },
+      {
+        "action": 6,
+        "input_tokens": 3352,
+        "generated_tokens": 17,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/5/reply"
+      },
+      {
+        "action": 7,
+        "input_tokens": 3508,
+        "generated_tokens": 17,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/6/reply"
+      },
+      {
+        "action": 8,
+        "input_tokens": 3665,
+        "generated_tokens": 117,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/7/reply"
+      },
+      {
+        "action": 9,
+        "input_tokens": 3891,
+        "generated_tokens": 116,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/8/reply"
+      },
+      {
+        "action": 10,
+        "input_tokens": 4366,
+        "generated_tokens": 17,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/9/reply"
+      },
+      {
+        "action": 11,
+        "input_tokens": 4733,
+        "generated_tokens": 17,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/10/reply"
+      },
+      {
+        "action": 12,
+        "input_tokens": 5047,
+        "generated_tokens": 19,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/11/reply"
+      },
+      {
+        "action": 13,
+        "input_tokens": 5279,
+        "generated_tokens": 19,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/12/reply"
+      },
+      {
+        "action": 14,
+        "input_tokens": 5512,
+        "generated_tokens": 113,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/13/reply"
+      }
+    ]
+  },
+  {
+    "configuration": "C1",
+    "fixture": "EC-SYMBOL",
+    "source_file": "SourceEnv_Prospectiva_v05_C3_C1_r3_20261011/execution/C1/EC-SYMBOL.json",
+    "source_sha256": "e66bc0ce6a4ffb33db9925987be220756a96eb05a22893bf2bed4f41a075d90f",
+    "model_calls": 15,
+    "generated_tokens": 2804,
+    "context": 32768,
+    "maximum_input": 6660,
+    "turns": [
+      {
+        "action": 1,
+        "input_tokens": 1520,
+        "generated_tokens": 9,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/0/reply"
+      },
+      {
+        "action": 2,
+        "input_tokens": 1565,
+        "generated_tokens": 17,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/1/reply"
+      },
+      {
+        "action": 3,
+        "input_tokens": 1934,
+        "generated_tokens": 1723,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/2/reply"
+      },
+      {
+        "action": 4,
+        "input_tokens": 3690,
+        "generated_tokens": 240,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/3/reply"
+      },
+      {
+        "action": 5,
+        "input_tokens": 3954,
+        "generated_tokens": 17,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/4/reply"
+      },
+      {
+        "action": 6,
+        "input_tokens": 4110,
+        "generated_tokens": 17,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/5/reply"
+      },
+      {
+        "action": 7,
+        "input_tokens": 4267,
+        "generated_tokens": 243,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/6/reply"
+      },
+      {
+        "action": 8,
+        "input_tokens": 4624,
+        "generated_tokens": 83,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/7/reply"
+      },
+      {
+        "action": 9,
+        "input_tokens": 4812,
+        "generated_tokens": 170,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/8/reply"
+      },
+      {
+        "action": 10,
+        "input_tokens": 5091,
+        "generated_tokens": 158,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/9/reply"
+      },
+      {
+        "action": 11,
+        "input_tokens": 5550,
+        "generated_tokens": 17,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/10/reply"
+      },
+      {
+        "action": 12,
+        "input_tokens": 5859,
+        "generated_tokens": 27,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/11/reply"
+      },
+      {
+        "action": 13,
+        "input_tokens": 6188,
+        "generated_tokens": 31,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/12/reply"
+      },
+      {
+        "action": 14,
+        "input_tokens": 6432,
+        "generated_tokens": 19,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/13/reply"
+      },
+      {
+        "action": 15,
+        "input_tokens": 6660,
+        "generated_tokens": 33,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/14/reply"
+      }
+    ]
+  },
+  {
+    "configuration": "C1",
+    "fixture": "SH-FORMAT",
+    "source_file": "SourceEnv_Prospectiva_v05_C3_C1_r3_20261011/execution/C1/SH-FORMAT.json",
+    "source_sha256": "2ae78163af20c8ecf3d337cd9dc2be99d71ccac3cc3c67d4be93ebd4cff43365",
+    "model_calls": 16,
+    "generated_tokens": 2344,
+    "context": 32768,
+    "maximum_input": 5608,
+    "turns": [
+      {
+        "action": 1,
+        "input_tokens": 1491,
+        "generated_tokens": 9,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/0/reply"
+      },
+      {
+        "action": 2,
+        "input_tokens": 1536,
+        "generated_tokens": 17,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/1/reply"
+      },
+      {
+        "action": 3,
+        "input_tokens": 1692,
+        "generated_tokens": 17,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/2/reply"
+      },
+      {
+        "action": 4,
+        "input_tokens": 1849,
+        "generated_tokens": 1035,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/3/reply"
+      },
+      {
+        "action": 5,
+        "input_tokens": 2918,
+        "generated_tokens": 270,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/4/reply"
+      },
+      {
+        "action": 6,
+        "input_tokens": 3212,
+        "generated_tokens": 203,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/5/reply"
+      },
+      {
+        "action": 7,
+        "input_tokens": 3547,
+        "generated_tokens": 122,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/6/reply"
+      },
+      {
+        "action": 8,
+        "input_tokens": 3807,
+        "generated_tokens": 17,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/7/reply"
+      },
+      {
+        "action": 9,
+        "input_tokens": 3958,
+        "generated_tokens": 17,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/8/reply"
+      },
+      {
+        "action": 10,
+        "input_tokens": 4115,
+        "generated_tokens": 78,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/9/reply"
+      },
+      {
+        "action": 11,
+        "input_tokens": 4302,
+        "generated_tokens": 232,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/10/reply"
+      },
+      {
+        "action": 12,
+        "input_tokens": 4731,
+        "generated_tokens": 17,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/11/reply"
+      },
+      {
+        "action": 13,
+        "input_tokens": 4936,
+        "generated_tokens": 70,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/12/reply"
+      },
+      {
+        "action": 14,
+        "input_tokens": 5148,
+        "generated_tokens": 19,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/13/reply"
+      },
+      {
+        "action": 15,
+        "input_tokens": 5375,
+        "generated_tokens": 19,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/14/reply"
+      },
+      {
+        "action": 16,
+        "input_tokens": 5608,
+        "generated_tokens": 202,
+        "reasoning_tokens_subset": 0,
+        "reservation": 2048,
+        "selector": "/conversation/turns/15/reply"
+      }
+    ]
+  }
+]

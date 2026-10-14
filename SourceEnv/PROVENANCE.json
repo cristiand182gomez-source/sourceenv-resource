@@ -1,0 +1,497 @@
+{
+  "source_revision": "v05-c3-c1-r3",
+  "source_freeze_sha256": "ddd3a67d19fe8bd652a1df56ae6b9b8e77ad0b1c5585687e7f46fd35ba15e3e1",
+  "files": [
+    {
+      "path": "source/action.gbnf",
+      "sha256": "92673934ee46e7849d8158f2daa15ecdc3da5e14ab2e0163e9938074385c9539",
+      "relation": "byte-identical r3"
+    },
+    {
+      "path": "source/availability.py",
+      "sha256": "e230292671ba458e1d03c0cded5031f09b2c854e4a9414c72743367faf892298",
+      "relation": "byte-identical r3"
+    },
+    {
+      "path": "source/cases.json",
+      "sha256": "3a3999130aa780971499a06f19225f5c04fcf3a819ef106b58ba020f1d720724",
+      "relation": "byte-identical r3"
+    },
+    {
+      "path": "source/checkpoint.py",
+      "sha256": "9f27535226485a74867019c9732df3b1e5fc2eb26312c8b0619cda73d5f7b82b",
+      "relation": "byte-identical r3"
+    },
+    {
+      "path": "source/common.py",
+      "sha256": "19e3a1b48d9a01189ec3297c19c2a33d1e5592a223d398ce53ebeee4962a6c86",
+      "relation": "byte-identical r3"
+    },
+    {
+      "path": "source/coverage_policy.py",
+      "sha256": "f7bfaf84e54f975a4272412316f01ac050aa9a0a59efc7a1e23b03c951cb1ad1",
+      "relation": "byte-identical r3"
+    },
+    {
+      "path": "source/critical_guards.py",
+      "sha256": "117c88dfa736adf7d4a22102104ad12a9516c7af0d3c7708370d61c1ed63f2ef",
+      "relation": "byte-identical r3"
+    },
+    {
+      "path": "source/exploration_episode.py",
+      "sha256": "0089fe3e616c5058bf4f07173d0f97b8bb7824d1913a9d54a3bca809db1b585b",
+      "relation": "byte-identical r3"
+    },
+    {
+      "path": "source/file_worker.py",
+      "sha256": "177a75f657429c5d49e0e97f717ef5251bba71923eb472e4b583dd2e137cbeb0",
+      "relation": "byte-identical r3"
+    },
+    {
+      "path": "source/health_metrics.py",
+      "sha256": "6ab2cbdc016c6729ed21a5e7bfd6060e09253befbd5dffa6fdd4ef3239a982e3",
+      "relation": "byte-identical r3"
+    },
+    {
+      "path": "source/interface.py",
+      "sha256": "820b4183c9bd4f19db1ed702adaad0aa9dae17b2910e878c79a64625075ff6da",
+      "relation": "byte-identical r3"
+    },
+    {
+      "path": "source/interface_contract.json",
+      "sha256": "22ed315c67a934326305ec0adb1453555a4fd001469c313b049879a7e9dcc5f2",
+      "relation": "byte-identical r3"
+    },
+    {
+      "path": "source/invalid_feedback.py",
+      "sha256": "8f9b1199d039fcf192ce519611388220686632bb7ac52be226fa573fa8b47727",
+      "relation": "byte-identical r3"
+    },
+    {
+      "path": "source/lifecycle.py",
+      "sha256": "d5eddc8ef256a834c66baa99a661dac4267d8d5cd0ce7e2624caaa3e4eece82b",
+      "relation": "byte-identical r3"
+    },
+    {
+      "path": "source/loop_metrics.py",
+      "sha256": "43eb1f5002115d4000455f0994b30f764a742011faa3f3b501faac3027df0e90",
+      "relation": "byte-identical r3"
+    },
+    {
+      "path": "source/native_actions.py",
+      "sha256": "741cf04a64f591407a51b22c04e6b096521eddbc21d1d825e75f2230e1a03306",
+      "relation": "byte-identical r3"
+    },
+    {
+      "path": "source/native_cost.py",
+      "sha256": "5da0f96f1b6c1a4c164117d748317993109dfe1717ed8855cb385753a0f2df07",
+      "relation": "byte-identical r3"
+    },
+    {
+      "path": "source/port_closure.py",
+      "sha256": "f5e7ee60d71242965482e43298e43e60367c915204c885108377fd3871e2e30a",
+      "relation": "byte-identical r3"
+    },
+    {
+      "path": "source/prompts/EC-MISSING.system.txt",
+      "sha256": "382bfeee28149372b8f3f69dfbcc454ee18a9a1a4bf63d9050df7a22ee616e7d",
+      "relation": "byte-identical r3"
+    },
+    {
+      "path": "source/prompts/EC-SYMBOL.system.txt",
+      "sha256": "382bfeee28149372b8f3f69dfbcc454ee18a9a1a4bf63d9050df7a22ee616e7d",
+      "relation": "byte-identical r3"
+    },
+    {
+      "path": "source/prompts/EH-API.system.txt",
+      "sha256": "382bfeee28149372b8f3f69dfbcc454ee18a9a1a4bf63d9050df7a22ee616e7d",
+      "relation": "byte-identical r3"
+    },
+    {
+      "path": "source/prompts/EH-RENDERER.system.txt",
+      "sha256": "382bfeee28149372b8f3f69dfbcc454ee18a9a1a4bf63d9050df7a22ee616e7d",
+      "relation": "byte-identical r3"
+    },
+    {
+      "path": "source/prompts/H-RC0.system.txt",
+      "sha256": "382bfeee28149372b8f3f69dfbcc454ee18a9a1a4bf63d9050df7a22ee616e7d",
+      "relation": "byte-identical r3"
+    },
+    {
+      "path": "source/prompts/H-RC2.system.txt",
+      "sha256": "382bfeee28149372b8f3f69dfbcc454ee18a9a1a4bf63d9050df7a22ee616e7d",
+      "relation": "byte-identical r3"
+    },
+    {
+      "path": "source/prompts/SC-BALANCE.system.txt",
+      "sha256": "382bfeee28149372b8f3f69dfbcc454ee18a9a1a4bf63d9050df7a22ee616e7d",
+      "relation": "byte-identical r3"
+    },
+    {
+      "path": "source/prompts/SC-SORT.system.txt",
+      "sha256": "49f6c05e0d27d5e9b6805dc8560edb59859c9b4077047acdd53d8452d9246a80",
+      "relation": "byte-identical r3"
+    },
+    {
+      "path": "source/prompts/SH-FLAG.system.txt",
+      "sha256": "382bfeee28149372b8f3f69dfbcc454ee18a9a1a4bf63d9050df7a22ee616e7d",
+      "relation": "byte-identical r3"
+    },
+    {
+      "path": "source/prompts/SH-FORMAT.system.txt",
+      "sha256": "382bfeee28149372b8f3f69dfbcc454ee18a9a1a4bf63d9050df7a22ee616e7d",
+      "relation": "byte-identical r3"
+    },
+    {
+      "path": "source/prospective_metrics.py",
+      "sha256": "be5aba998f1213347b725a1d7cffcefad953fb1ddc8ea9311e97c33cf26caffe",
+      "relation": "byte-identical r3"
+    },
+    {
+      "path": "source/public_contract.py",
+      "sha256": "b9bac2e04e1ecd16e0e1b2d0314d90e1561559e2bde97f4297442933ba7f7e85",
+      "relation": "byte-identical r3"
+    },
+    {
+      "path": "source/public_feedback.py",
+      "sha256": "a2c3486c0fefcfd547560633f6bb6b1b070dfba19a1147501e3678ad36114db4",
+      "relation": "byte-identical r3"
+    },
+    {
+      "path": "source/rpc_failures.py",
+      "sha256": "4301cf37fe044d1612d225845a2fe23b21025dd4237d87695c7dcf1a22cabbcd",
+      "relation": "byte-identical r3"
+    },
+    {
+      "path": "source/scoring.py",
+      "sha256": "18b96975ac65b18dad40b94cfb926e13e861bbfac7756935296e29c3f17e9759",
+      "relation": "byte-identical r3"
+    },
+    {
+      "path": "cases-package/cases/EC-MISSING/alternative.py",
+      "sha256": "df75e2cf058f8319158dc12c2e8fc4cfcf8ed36508261d1598f4b25ec71a3e95",
+      "relation": "byte-identical r3"
+    },
+    {
+      "path": "cases-package/cases/EC-MISSING/initial.py",
+      "sha256": "df75e2cf058f8319158dc12c2e8fc4cfcf8ed36508261d1598f4b25ec71a3e95",
+      "relation": "byte-identical r3"
+    },
+    {
+      "path": "cases-package/cases/EC-MISSING/negative.py",
+      "sha256": "44ad8ba8f9191bc65ca95a09673ddd553a37eba5152849efe7e2982ed67e5c86",
+      "relation": "byte-identical r3"
+    },
+    {
+      "path": "cases-package/cases/EC-MISSING/reference.py",
+      "sha256": "df75e2cf058f8319158dc12c2e8fc4cfcf8ed36508261d1598f4b25ec71a3e95",
+      "relation": "byte-identical r3"
+    },
+    {
+      "path": "cases-package/cases/EC-SYMBOL/alternative.py",
+      "sha256": "593069471705d6f087227d1e72141077aec2b85c47f7849527e5e41d11051d7e",
+      "relation": "byte-identical r3"
+    },
+    {
+      "path": "cases-package/cases/EC-SYMBOL/initial.py",
+      "sha256": "fbafcdafcc598ce441eb6d1632b01e3274d9453ec9d046335621a03d9569c44f",
+      "relation": "byte-identical r3"
+    },
+    {
+      "path": "cases-package/cases/EC-SYMBOL/negative.py",
+      "sha256": "0be58d6b60baf8652d4f2958d37b119f1684fc53f1be6427172c45bf31b97d05",
+      "relation": "byte-identical r3"
+    },
+    {
+      "path": "cases-package/cases/EC-SYMBOL/reference.py",
+      "sha256": "fbafcdafcc598ce441eb6d1632b01e3274d9453ec9d046335621a03d9569c44f",
+      "relation": "byte-identical r3"
+    },
+    {
+      "path": "cases-package/cases/EH-API/alternative.py",
+      "sha256": "6d2bf080f36e5ebdbcc8f30235c5189a7bfdbd5e7df66dacc4aba6d7bede7309",
+      "relation": "byte-identical r3"
+    },
+    {
+      "path": "cases-package/cases/EH-API/initial.py",
+      "sha256": "6d2bf080f36e5ebdbcc8f30235c5189a7bfdbd5e7df66dacc4aba6d7bede7309",
+      "relation": "byte-identical r3"
+    },
+    {
+      "path": "cases-package/cases/EH-API/negative.py",
+      "sha256": "9e4ffe63fb5d2a528859db64058d545afaa1a7e21fa1ca2e789fb5c814f8f40e",
+      "relation": "byte-identical r3"
+    },
+    {
+      "path": "cases-package/cases/EH-API/reference.py",
+      "sha256": "6d2bf080f36e5ebdbcc8f30235c5189a7bfdbd5e7df66dacc4aba6d7bede7309",
+      "relation": "byte-identical r3"
+    },
+    {
+      "path": "cases-package/cases/EH-RENDERER/alternative.py",
+      "sha256": "be9c5c105e64509b4112f58cbc81dcc4159068f1daa2f044fd36d8dea8300919",
+      "relation": "byte-identical r3"
+    },
+    {
+      "path": "cases-package/cases/EH-RENDERER/initial.py",
+      "sha256": "f71fc58ba767962a189b27d4bd4c7028f5449f6a76be602137d96fd65b7757e0",
+      "relation": "byte-identical r3"
+    },
+    {
+      "path": "cases-package/cases/EH-RENDERER/negative.py",
+      "sha256": "99aeaf1e6402d83256bc910d3e4eaac9164be4697882d2c34b7075833385a347",
+      "relation": "byte-identical r3"
+    },
+    {
+      "path": "cases-package/cases/EH-RENDERER/reference.py",
+      "sha256": "f71fc58ba767962a189b27d4bd4c7028f5449f6a76be602137d96fd65b7757e0",
+      "relation": "byte-identical r3"
+    },
+    {
+      "path": "cases-package/cases/H-RC0/alternative.py",
+      "sha256": "6d2bf080f36e5ebdbcc8f30235c5189a7bfdbd5e7df66dacc4aba6d7bede7309",
+      "relation": "byte-identical r3"
+    },
+    {
+      "path": "cases-package/cases/H-RC0/initial.py",
+      "sha256": "6d2bf080f36e5ebdbcc8f30235c5189a7bfdbd5e7df66dacc4aba6d7bede7309",
+      "relation": "byte-identical r3"
+    },
+    {
+      "path": "cases-package/cases/H-RC0/negative.py",
+      "sha256": "9e4ffe63fb5d2a528859db64058d545afaa1a7e21fa1ca2e789fb5c814f8f40e",
+      "relation": "byte-identical r3"
+    },
+    {
+      "path": "cases-package/cases/H-RC0/reference.py",
+      "sha256": "6d2bf080f36e5ebdbcc8f30235c5189a7bfdbd5e7df66dacc4aba6d7bede7309",
+      "relation": "byte-identical r3"
+    },
+    {
+      "path": "cases-package/cases/H-RC2/alternative.py",
+      "sha256": "6d2bf080f36e5ebdbcc8f30235c5189a7bfdbd5e7df66dacc4aba6d7bede7309",
+      "relation": "byte-identical r3"
+    },
+    {
+      "path": "cases-package/cases/H-RC2/initial.py",
+      "sha256": "6d2bf080f36e5ebdbcc8f30235c5189a7bfdbd5e7df66dacc4aba6d7bede7309",
+      "relation": "byte-identical r3"
+    },
+    {
+      "path": "cases-package/cases/H-RC2/negative.py",
+      "sha256": "9e4ffe63fb5d2a528859db64058d545afaa1a7e21fa1ca2e789fb5c814f8f40e",
+      "relation": "byte-identical r3"
+    },
+    {
+      "path": "cases-package/cases/H-RC2/reference.py",
+      "sha256": "6d2bf080f36e5ebdbcc8f30235c5189a7bfdbd5e7df66dacc4aba6d7bede7309",
+      "relation": "byte-identical r3"
+    },
+    {
+      "path": "cases-package/cases/SC-BALANCE/alternative.py",
+      "sha256": "da210184452eb4ae3268303bd9be82090d590f1e9b9c654c3820a5225b96d048",
+      "relation": "byte-identical r3"
+    },
+    {
+      "path": "cases-package/cases/SC-BALANCE/initial.py",
+      "sha256": "c042b654fc9ac3491732010de22db01c2fe68406b22399831c38e2e3e71e6f03",
+      "relation": "byte-identical r3"
+    },
+    {
+      "path": "cases-package/cases/SC-BALANCE/negative.py",
+      "sha256": "9e4ffe63fb5d2a528859db64058d545afaa1a7e21fa1ca2e789fb5c814f8f40e",
+      "relation": "byte-identical r3"
+    },
+    {
+      "path": "cases-package/cases/SC-BALANCE/reference.py",
+      "sha256": "6d2bf080f36e5ebdbcc8f30235c5189a7bfdbd5e7df66dacc4aba6d7bede7309",
+      "relation": "byte-identical r3"
+    },
+    {
+      "path": "cases-package/cases/SC-SORT/alternative.py",
+      "sha256": "d0750a8dd34676c6c4a903bfb46b4919bbb3710bd05db6107dc23f718c02d098",
+      "relation": "byte-identical r3"
+    },
+    {
+      "path": "cases-package/cases/SC-SORT/initial.py",
+      "sha256": "bbf9dbdbbfb935d0067569f6a279b0c707d5266adf20c59da6c1a48de8db2077",
+      "relation": "byte-identical r3"
+    },
+    {
+      "path": "cases-package/cases/SC-SORT/negative.py",
+      "sha256": "10bc3912c380166db84c7729dee0b079a92991697d4c8992fdcd0fc32f9c1c86",
+      "relation": "byte-identical r3"
+    },
+    {
+      "path": "cases-package/cases/SC-SORT/reference.py",
+      "sha256": "65c03df6f0775841cdcabc83bc63dd7a77b299c3db95320f32b73a645c77fcd4",
+      "relation": "byte-identical r3"
+    },
+    {
+      "path": "cases-package/cases/SH-FLAG/alternative.py",
+      "sha256": "5c87ee941936ac2713f8cbf0c3b4c14e248e0ccf1f75223c27c90f3e3942d153",
+      "relation": "byte-identical r3"
+    },
+    {
+      "path": "cases-package/cases/SH-FLAG/initial.py",
+      "sha256": "96e43ff82001e47bea26914ee68263004b0f161d319a0b1a9f2f7a46f310113e",
+      "relation": "byte-identical r3"
+    },
+    {
+      "path": "cases-package/cases/SH-FLAG/negative.py",
+      "sha256": "9e4ffe63fb5d2a528859db64058d545afaa1a7e21fa1ca2e789fb5c814f8f40e",
+      "relation": "byte-identical r3"
+    },
+    {
+      "path": "cases-package/cases/SH-FLAG/reference.py",
+      "sha256": "6d2bf080f36e5ebdbcc8f30235c5189a7bfdbd5e7df66dacc4aba6d7bede7309",
+      "relation": "byte-identical r3"
+    },
+    {
+      "path": "cases-package/cases/SH-FORMAT/alternative.py",
+      "sha256": "2d5fd72f4c5da8054f82b23c5228af6edb73ae41a1462023a8af2145d7fea351",
+      "relation": "byte-identical r3"
+    },
+    {
+      "path": "cases-package/cases/SH-FORMAT/initial.py",
+      "sha256": "d65ec3a2b70d9eedaed3b8fb9106504dd46db2159cad293c3e2d2733ae0416d8",
+      "relation": "byte-identical r3"
+    },
+    {
+      "path": "cases-package/cases/SH-FORMAT/negative.py",
+      "sha256": "9e4ffe63fb5d2a528859db64058d545afaa1a7e21fa1ca2e789fb5c814f8f40e",
+      "relation": "byte-identical r3"
+    },
+    {
+      "path": "cases-package/cases/SH-FORMAT/reference.py",
+      "sha256": "6d2bf080f36e5ebdbcc8f30235c5189a7bfdbd5e7df66dacc4aba6d7bede7309",
+      "relation": "byte-identical r3"
+    },
+    {
+      "path": "cases-package/contract.json",
+      "sha256": "d3e0acc5cbc96ac06dfe92ebbb4caa1ac40dd2b3f49d93a88a3ad92a22217b98",
+      "relation": "byte-identical r3"
+    },
+    {
+      "path": "cases-package/frozen_runtime/judge.py",
+      "sha256": "6996a25a816684e5999e08c07a2a70c22dff3fd5e4a04b16930d71c1cecd639e",
+      "relation": "byte-identical r3"
+    },
+    {
+      "path": "cases-package/frozen_runtime/native_probe.py",
+      "sha256": "2ad1446a8c9bf89394592c0d1602d683b307ef4845d99aee732a89e8454dc3b7",
+      "relation": "byte-identical r3"
+    },
+    {
+      "path": "cases-package/frozen_runtime/offline.py",
+      "sha256": "f941d84531b3811e16b11443fd64282e56dc5ead3790ce3d67a37f25acf981ed",
+      "relation": "byte-identical r3"
+    },
+    {
+      "path": "cases-package/frozen_runtime/policy.json",
+      "sha256": "f8a08ab739a0037987dc28779455749dbfc468ea59198c39fc0cce165faf9729",
+      "relation": "byte-identical r3"
+    },
+    {
+      "path": "cases-package/frozen_runtime/wheel_sha256.json",
+      "sha256": "0aec654df8a917c43f9ede3eeadfac10923d1a1d92ca8ae89a3529b0dca13576",
+      "relation": "byte-identical r3"
+    },
+    {
+      "path": "cases-package/manifest.json",
+      "sha256": "60267d631505a8a1d4662619e6c44fe46728574fb813e4ca2072a086ccf0f01c",
+      "relation": "byte-identical r3"
+    },
+    {
+      "path": "cases-package/oracle.py",
+      "sha256": "5296356c695c80285996fffde9a829870d35ab5b9e58687bbd56bb676c370771",
+      "relation": "byte-identical r3"
+    }
+  ],
+  "distribution_adaptations": [
+    "Native schema functions retained verbatim; platform-specific model process owner excluded.",
+    "Unused older JSON adapter excluded; native episode adapter retained.",
+    "New non-model scripted reproduction and aggregate-only analyzer.",
+    "Original wheels excluded to avoid generic upstream platform-path examples; immutable runtime inputs reconstructed from hash-verified external wheels without altering public inputs.",
+    "One training-exclusion canary comment on each task; agent prompt files unchanged.",
+    "Portable endpoint runner and dependency fetcher added; Windows owner absent; core dispatcher, launcher, oracle, metrics and budgets unchanged.",
+    "Generic OpenAI context without an exact counter: prior prompt usage plus new-message UTF-8 JSON bytes/3; 85% input+reply guard; explicitly approximate, not r3 exact accounting.",
+    "No changes to retained r3 adapter/dispatcher/launcher/oracle/fixtures/prompts; approximate guard implemented in the public endpoint wrapper.",
+    "Quickstart moved to README opening; runtime details in RUNNING; local-VM E2B smoke and diagnostic retry policy documented without executing it."
+  ],
+  "not_a_new_experiment_or_freeze": true,
+  "external_wheel_hashes": {
+    "click-8.1.8-py3-none-any.whl": "63c132bbbed01578a06712a2d1f497bb62d9c1c0d329b7903a866228027263b2",
+    "click-8.2.0-py3-none-any.whl": "6b303f0b2aa85f1cb4e5303078fadcbcd4e476f114fab9b5007005711839325c",
+    "markdown_it_py-3.0.0-py3-none-any.whl": "355216845c60bd96232cd8d8c40e8f9765cc86f46880e43a8fd22dc1a1a8cab1",
+    "mdurl-0.1.2-py3-none-any.whl": "84008a41e51615a49fc9966191ff91509e3c40b939176e643fd50a5c2196b8f8",
+    "pygments-2.18.0-py3-none-any.whl": "b8e6aca0523f3ab76fee51799c488e38782ac06eafcf95e7ba832985c8e7b13a",
+    "rich-13.9.4-py3-none-any.whl": "6049d5e6ec054bf2779ab3358186963bac2ea89175919d699e378b99738c2a90",
+    "shellingham-1.5.4-py2.py3-none-any.whl": "7ecfff8f2fd72616f7481040475a65b2bf8af90a56c89140852d1120324e8686",
+    "typer-0.15.3-py3-none-any.whl": "c86a65ad77ca531f03de08d1b9cb67cd09ad02ddddf4b34745b5008f43b239bd",
+    "typer-0.16.0-py3-none-any.whl": "1f79bed11d4d02d4310e3c1b7ba594183bcedb0ac73b27a9e5f28f6fb5b98855",
+    "typing_extensions-4.12.2-py3-none-any.whl": "04e5ca0351e0f3f85c6853954072df659d0d13fac324d0072316b67d7794700d"
+  },
+  "adapted_tasks": [
+    {
+      "path": "cases-package/cases/EC-MISSING/task.txt",
+      "original_r3_sha256": "b9a76fa1d40e58d3519f0b347d1b484c7d32a09936c6693722f82fca3d385f8f",
+      "distribution_sha256": "cfa0b4236d6c1f99705f09bff88ce9e7bc3be11064575da35cf44977682bac16",
+      "adaptation": "Training-exclusion comment prepended; original task bytes follow unchanged; retained source/prompts sent to agents are byte-identical r3."
+    },
+    {
+      "path": "cases-package/cases/EC-SYMBOL/task.txt",
+      "original_r3_sha256": "b9a76fa1d40e58d3519f0b347d1b484c7d32a09936c6693722f82fca3d385f8f",
+      "distribution_sha256": "cfa0b4236d6c1f99705f09bff88ce9e7bc3be11064575da35cf44977682bac16",
+      "adaptation": "Training-exclusion comment prepended; original task bytes follow unchanged; retained source/prompts sent to agents are byte-identical r3."
+    },
+    {
+      "path": "cases-package/cases/EH-API/task.txt",
+      "original_r3_sha256": "b9a76fa1d40e58d3519f0b347d1b484c7d32a09936c6693722f82fca3d385f8f",
+      "distribution_sha256": "cfa0b4236d6c1f99705f09bff88ce9e7bc3be11064575da35cf44977682bac16",
+      "adaptation": "Training-exclusion comment prepended; original task bytes follow unchanged; retained source/prompts sent to agents are byte-identical r3."
+    },
+    {
+      "path": "cases-package/cases/EH-RENDERER/task.txt",
+      "original_r3_sha256": "b9a76fa1d40e58d3519f0b347d1b484c7d32a09936c6693722f82fca3d385f8f",
+      "distribution_sha256": "cfa0b4236d6c1f99705f09bff88ce9e7bc3be11064575da35cf44977682bac16",
+      "adaptation": "Training-exclusion comment prepended; original task bytes follow unchanged; retained source/prompts sent to agents are byte-identical r3."
+    },
+    {
+      "path": "cases-package/cases/H-RC0/task.txt",
+      "original_r3_sha256": "b9a76fa1d40e58d3519f0b347d1b484c7d32a09936c6693722f82fca3d385f8f",
+      "distribution_sha256": "cfa0b4236d6c1f99705f09bff88ce9e7bc3be11064575da35cf44977682bac16",
+      "adaptation": "Training-exclusion comment prepended; original task bytes follow unchanged; retained source/prompts sent to agents are byte-identical r3."
+    },
+    {
+      "path": "cases-package/cases/H-RC2/task.txt",
+      "original_r3_sha256": "b9a76fa1d40e58d3519f0b347d1b484c7d32a09936c6693722f82fca3d385f8f",
+      "distribution_sha256": "cfa0b4236d6c1f99705f09bff88ce9e7bc3be11064575da35cf44977682bac16",
+      "adaptation": "Training-exclusion comment prepended; original task bytes follow unchanged; retained source/prompts sent to agents are byte-identical r3."
+    },
+    {
+      "path": "cases-package/cases/SC-BALANCE/task.txt",
+      "original_r3_sha256": "b9a76fa1d40e58d3519f0b347d1b484c7d32a09936c6693722f82fca3d385f8f",
+      "distribution_sha256": "cfa0b4236d6c1f99705f09bff88ce9e7bc3be11064575da35cf44977682bac16",
+      "adaptation": "Training-exclusion comment prepended; original task bytes follow unchanged; retained source/prompts sent to agents are byte-identical r3."
+    },
+    {
+      "path": "cases-package/cases/SC-SORT/task.txt",
+      "original_r3_sha256": "5b78a86424bd42555311771b0a89eb3de38bd755b8b6451e7099409d136ab925",
+      "distribution_sha256": "04017c9e6550d38cfeee0dc489f1a73921d45bcd6933f536586ca5ad10e57ff6",
+      "adaptation": "Training-exclusion comment prepended; original task bytes follow unchanged; retained source/prompts sent to agents are byte-identical r3."
+    },
+    {
+      "path": "cases-package/cases/SH-FLAG/task.txt",
+      "original_r3_sha256": "b9a76fa1d40e58d3519f0b347d1b484c7d32a09936c6693722f82fca3d385f8f",
+      "distribution_sha256": "cfa0b4236d6c1f99705f09bff88ce9e7bc3be11064575da35cf44977682bac16",
+      "adaptation": "Training-exclusion comment prepended; original task bytes follow unchanged; retained source/prompts sent to agents are byte-identical r3."
+    },
+    {
+      "path": "cases-package/cases/SH-FORMAT/task.txt",
+      "original_r3_sha256": "b9a76fa1d40e58d3519f0b347d1b484c7d32a09936c6693722f82fca3d385f8f",
+      "distribution_sha256": "cfa0b4236d6c1f99705f09bff88ce9e7bc3be11064575da35cf44977682bac16",
+      "adaptation": "Training-exclusion comment prepended; original task bytes follow unchanged; retained source/prompts sent to agents are byte-identical r3."
+    }
+  ]
+}

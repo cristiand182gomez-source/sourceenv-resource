@@ -1,0 +1,142 @@
+--- rc2/resource/CLEAN_MACHINE.md
++++ rc3/resource/CLEAN_MACHINE.md
+@@ -1,6 +1,6 @@
+ # Clean Debian 13 check
+ 
+-This procedure documents a new Debian 13 installation. The historical check of the earlier public package completed on a fresh Debian 13.7 installation, including both scripted drivers and one E2B smoke; see `HISTORICAL_CLEAN_CHECK.md` for component identities and the later cost-alias correction. The current 1.0.0-rc2 release is checked without a model on an overlay of that retained installation, not on a newly installed machine. Its exact ZIP and results are recorded in the external release-validation sidecar.
++This procedure documents a new Debian 13 installation. The historical check of the earlier public package completed on a fresh Debian 13.7 installation, including both scripted drivers and one E2B smoke; see `HISTORICAL_CLEAN_CHECK.md` for component identities and the later cost-alias correction. Release 1.0.0-rc2 was checked without a model on an overlay of that retained installation, not on a newly installed machine. Release 1.0.0-rc3 only corrects the extraction-root name and updates distribution documentation/identities. Its components are byte-equivalent to those tested in rc2; the rc3 ZIP was not executed. The external documentary addendum links both archives and the unchanged rc2 execution receipt.
+ 
+ **For model-free release validation, execute steps 1–3 and 5 only. Skip all of step 4: do not download or start a model.** Reuse exact prior component evidence where documented; the added `validate_fixture.py` has its own explicit matrix/budgets in `FIXTURES.md`. A candidate may run only after all isolation guards pass.
+ 
+@@ -12,7 +12,7 @@
+    bwrap --version
+    ```
+ 
+-2. Return to the ordinary account. Extract `SourceEnv_Public` beneath its writable working directory; run the following inside that directory. Never run the evaluator as root, with `-O`, or without `-I -S`. Do not disable or bypass isolation if a probe fails. The package must remain unchanged; outputs and wheels go into siblings.
++2. Return to the ordinary account. Extract `SourceEnv/` beneath its writable working directory; run the following inside that directory. Never run the evaluator as root, with `-O`, or without `-I -S`. Do not disable or bypass isolation if a probe fails. The package must remain unchanged; outputs and wheels go into siblings.
+ 
+    ```sh
+    /usr/bin/python3 -I -S reproduce.py --verify-only
+--- rc2/resource/HISTORICAL_CLEAN_CHECK.md
++++ rc3/resource/HISTORICAL_CLEAN_CHECK.md
+@@ -4,6 +4,6 @@
+ 
+ The initial tested manifest was `ab91947ea5a80c88a8c919d1fb63acab7dc76f2d31dbe72d7e4c3ee5175abd27`. The smoke exposed a stale aggregate generated-token alias despite correct lower/upper bounds. The public endpoint wrapper/analyzer were corrected; seven targeted cost tests and replay of sixteen retained replies passed on Windows and Debian, and analysis values agreed. No candidate/model execution was repeated for that repair. The final original public manifest is `e61f192c00768cd2d5e212da11db112523e4b045eab9017e8f8735d74c7ee792`.
+ 
+-`evidence/historical_clean_binding.json` records per-component hashes before/after that correction. The current release preserves those executable bytes and adds a separate validator, with its own new test evidence. Documentation/licensing changes do not retroactively change the historical tested manifest. The current check runs on an overlay of the retained clean-check installation, not on a second newly installed system; no model smoke is run in this phase.
++`evidence/historical_clean_binding.json` records per-component hashes before/after that correction. The current release preserves those executable bytes and adds a separate validator, with its own new test evidence. Documentation/licensing changes do not retroactively change the historical tested manifest. The rc2 check ran on an overlay of the retained clean-check installation, not on a second newly installed system, without a new model smoke. The rc3 correction is documentary only; unchanged component hashes link it to the retained rc2 checks, without a new execution.
+ 
+ These identities link claims to tested components. Raw administrative evidence and full model conversations remain access-limited; published aggregates are insufficient for an independent reconstruction of every trajectory metric.
+--- rc2/resource/PACKAGE_MANIFEST.json
++++ rc3/resource/PACKAGE_MANIFEST.json
+@@ -1,10 +1,12 @@
+ {
+   "schema": 1,
+-  "version": "1.0.0-rc2",
++  "version": "1.0.0-rc3",
+   "status": "PREPARED_FOR_REVIEW_NOT_PUBLISHED",
+   "kind": "distribution_manifest_not_experimental_freeze",
+   "source_manifest_sha256": "e61f192c00768cd2d5e212da11db112523e4b045eab9017e8f8735d74c7ee792",
+-  "created_utc": "2026-10-14T17:46:44.155910+00:00",
++  "created_utc": "2026-10-14T18:14:17.336845+00:00",
++  "parent_manifest_sha256": "ae78ad40f529d8bff24e7ee6a2c35946c6602997e7a1403935c0141cb9dd5fca",
++  "revision_kind": "DOCUMENTATION_ONLY; unchanged executable and input components",
+   "files": [
+     {
+       "path": "analyze.py",
+@@ -303,8 +305,8 @@
+     },
+     {
+       "path": "CLEAN_MACHINE.md",
+-      "bytes": 6869,
+-      "sha256": "d1365372ab72cee0fc11a7ffdd839ee274ed54873f55089dd7c4108e23c874c3"
++      "bytes": 7061,
++      "sha256": "fe19430ebfab39a1bebedeb1391413b5e3051bd23d43d783071714c748038878"
+     },
+     {
+       "path": "CONTRACT_ERRATA.md",
+@@ -423,8 +425,8 @@
+     },
+     {
+       "path": "HISTORICAL_CLEAN_CHECK.md",
+-      "bytes": 1852,
+-      "sha256": "f36d096c445a4a4b8482849d3e463a50f25cf79cb10678bb68bac8f03de0bb93"
++      "bytes": 1965,
++      "sha256": "467a042f5b15b7bf51036ed3c1cc0f492615d79da7c0b8152a9f333359df1ac9"
+     },
+     {
+       "path": "LICENSE",
+@@ -523,13 +525,13 @@
+     },
+     {
+       "path": "PUBLIC_CHECK.md",
+-      "bytes": 1969,
+-      "sha256": "a0423611e3323e22ebfd4dd1c329cada84c28bd5001de77fe3f51baf2e6bf909"
++      "bytes": 2101,
++      "sha256": "eba585fdf46520de5a12181cb5013ad41c2f9d42e88951b2c1f7434a40a619c0"
+     },
+     {
+       "path": "README.md",
+-      "bytes": 5898,
+-      "sha256": "afe250757a31395321d88fc63824f72446fb5e839bd30bbe9e5a02ddb5f5d175"
++      "bytes": 6028,
++      "sha256": "a14ca23e65d05f35604d1f59deabbd5313f900f31de0f6455a4cf0ed00d5eac2"
+     },
+     {
+       "path": "reproduce.py",
+@@ -784,7 +786,7 @@
+     {
+       "path": "VERSION",
+       "bytes": 11,
+-      "sha256": "68cbe639040204db0a6c1b8f0fb5b158d0ebf9bb5b5293662fa7646ee99bd53b"
++      "sha256": "66cc7ef225b7ee2342c3acea8b43852d6388e70d85a9d2be549d0ffacc199ead"
+     }
+   ]
+ }
+--- rc2/resource/PACKAGE_MANIFEST.sha256
++++ rc3/resource/PACKAGE_MANIFEST.sha256
+@@ -1 +1 @@
+-ae78ad40f529d8bff24e7ee6a2c35946c6602997e7a1403935c0141cb9dd5fca  PACKAGE_MANIFEST.json
++a6e4d165738b27cb05ec102ca5c1f695a226c044f14b91fc9431a0e28fa7230d  PACKAGE_MANIFEST.json
+--- rc2/resource/PUBLIC_CHECK.md
++++ rc3/resource/PUBLIC_CHECK.md
+@@ -1,11 +1,11 @@
+-# Public release check — 1.0.0-rc2
++# Public release check — 1.0.0-rc3
+ 
+-Status: prepared for review, not published. The exact archive digest, post-extraction checks, model-free control/validator outcomes and costs are in the external release-validation sidecar. This document is packaged before that validation; it does not anticipate a PASS.
++Status: prepared for review, not published. This rc3 revision is documentary only. CRC, archive/manifest hashes and component equivalence were checked; the rc3 ZIP was not executed. The external addendum identifies rc3 and the exact rc2 ZIP previously tested, whose receipt and costs remain unchanged.
+ 
+ The original public package was checked on a fresh Debian 13.7 installation: Python 3.13.5, Bubblewrap 0.12.0, ten exact wheels, sixteen `reproduce.py` controls, sixteen public runner controls and one E2B H-RC0 smoke. The smoke used 16 calls, 2,267 generated tokens and 27 applications. Its correct retained cost bounds exposed an aggregate-alias defect; the public wrapper/analyzer correction passed seven directed tests and replay of retained usage, without another generation. See `HISTORICAL_CLEAN_CHECK.md` for component-level linkage. These are historical diagnostics, distinct from r3 results and current validation.
+ 
+-Current changes: distribution documentation/licensing, exact release identity and an external fixture validator. The r3 core, sources, profiles, oracle, prompts, budgets and original results are unchanged. `reproduce.py` still defaults to eight reference and eight noop episodes. The new validator consumes its own matrix and costs; it does not reinterpret model outcomes.
++Changes in rc2: distribution documentation/licensing, exact release identity and an external fixture validator. The r3 core, sources, profiles, oracle, prompts, budgets and original results are unchanged. `reproduce.py` still defaults to eight reference and eight noop episodes. The new validator consumes its own matrix and costs; it does not reinterpret model outcomes.
+ 
+-The current validation uses an overlay of the retained clean-check VM, not a new clean installation. No model is started. It checks integrity and ten wheel downloads/hashes, portable code tests, sixteen scripted episodes and the additional validator scenarios. An isolation failure blocks all candidate execution without fallback; outputs and failures remain outside the release.
++The rc2 validation used an overlay of the retained clean-check VM, not a new clean installation. It checked integrity, ten wheel downloads/hashes, portable tests, sixteen scripted episodes and the additional validator scenarios, without a model. This rc3 phase checks bytes, unchanged executable/input components and affected document links only; no applications, controls, wheel fetch or sandbox changes were made. The isolation requirements and no-fallback rule remain unchanged.
+ 
+ Distribution excludes private conversations, model/wheel binaries, credentials and administration. Package inventory/ZIP checksums and privacy scan are separate, attributable records. Publication and submission await review; the historical repository remains private.
+--- rc2/resource/README.md
++++ rc3/resource/README.md
+@@ -1,6 +1,6 @@
+ # SourceEnv: source and environment repair of a stateless CLI
+ 
+-Version **1.0.0-rc2**, prepared for review; not published. Eight damaged fixtures and two healthy controls expose source and dependency interventions, losses of previously correct behavior and closure with publicly evidenced failures. They are synthetic, author-visible examples from one Typer/Click family, not a representative software sample.
++Version **1.0.0-rc3**, prepared for review; not published. Eight damaged fixtures and two healthy controls expose source and dependency interventions, losses of previously correct behavior and closure with publicly evidenced failures. They are synthetic, author-visible examples from one Typer/Click family, not a representative software sample.
+ 
+ ## Model-free quickstart
+ 
+@@ -44,7 +44,7 @@
+ 
+ R3: C3 repaired 3/8 damaged fixtures under FC and 2/8 under BASE; C1 repaired 2/8 under each. Both preserved 2/2 healthy controls. One seed, overlapping synthetic surfaces, no held-out set and configuration differences prohibit broad capability or causal claims. Every repair used source edits under the retained framing; no effective profile change occurred. Scripted references establish reachable repairs, not autonomous model capability.
+ 
+-The historical clean check used a fresh Debian 13.7 installation and included scripted controls plus one E2B smoke. Its components and later cost-alias repair are linked in [HISTORICAL_CLEAN_CHECK.md](HISTORICAL_CLEAN_CHECK.md). Current release validation is **without model**, on a copy-on-write derivative of that retained installation, not another clean install. The external release sidecar identifies the exact ZIP, checks and costs. No current smoke is implied. Private receipts/conversations have restricted access; public aggregates alone do not reconstruct them.
++The historical clean check used a fresh Debian 13.7 installation and included scripted controls plus one E2B smoke. Its components and later cost-alias repair are linked in [HISTORICAL_CLEAN_CHECK.md](HISTORICAL_CLEAN_CHECK.md). The rc2 release validation ran without a model on a copy-on-write derivative of that retained installation. The rc3 revision only corrects the extraction-root name and distribution documentation/identities; all executed components and inputs are unchanged. The external addendum links both ZIPs and rc2 evidence. No rc3 application/control execution or smoke occurred. Private receipts/conversations have restricted access; public aggregates alone do not reconstruct them.
+ 
+ Own material is dual **MIT OR Apache-2.0**, subject to [LICENSING.md](LICENSING.md); dependencies, quotations and third-party data keep their terms. No wheels, model weights or runtime binaries are redistributed. Publication remains pending human review in a destination separate from the historical private repository.
+ 
+--- rc2/resource/VERSION
++++ rc3/resource/VERSION
+@@ -1 +1 @@
+-1.0.0-rc2
++1.0.0-rc3

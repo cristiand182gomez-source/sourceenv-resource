@@ -1,0 +1,35 @@
+{
+  "selection": "Explicit list only; no recursive source/evidence/history/private-local inclusion",
+  "not_bundled": [
+    {
+      "item": "full private conversations, unselected responses, reasoning and tool arguments",
+      "reason": "private evidence; only five selected excerpts and non-content annotations included"
+    },
+    {
+      "item": "private repository history, original GitHub receipt and authorizations",
+      "reason": "keep private; only already redacted derivative with its source identity"
+    },
+    {
+      "item": "rc2 ZIP and raw validation archive/logs/states",
+      "reason": "access-limited originals; receipt and component comparison selected"
+    },
+    {
+      "item": "full primary papers/webpages/API bodies and original sources/history folders",
+      "reason": "metadata, URLs, selectors and hashes only; no fulltext redistribution"
+    },
+    {
+      "item": "models, wheels, runtime binaries, VM disks, keys and unsanitized host configurations",
+      "reason": "not public payload; identities/prerequisites/notices only"
+    },
+    {
+      "item": "competition tasks, issue text, patches and repository snapshots from M01/M02",
+      "reason": "only published labels/measurements and derived masks licensed CC BY 4.0 selected"
+    },
+    {
+      "item": "historical figure generator",
+      "reason": "not needed to display or count the exact SVG/PNG; generator hash is historical provenance, no promise of byte-identical regeneration on arbitrary font systems"
+    }
+  ],
+  "immutable_companion": "Exact 158 rc3 resource files included to resolve paper links; same original internal manifest and licenses",
+  "new_version_of_resource": false
+}

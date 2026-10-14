@@ -1,0 +1,2818 @@
+{
+  "status": "PASS_SELECTED_CONTENT_LOCAL_SCAN",
+  "files": [
+    {
+      "file": ".gitattributes",
+      "sha256": "d458ab58f47a30061b38d9211718b708352cdab2fe522e32bde2276a4534b92b",
+      "bytes": 20,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "README.md",
+      "sha256": "8301867641ef1575bb1b6b097b47f121cd3e2465ebd1e57820bb3758771e5a60",
+      "bytes": 3213,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/CLEAN_MACHINE.md",
+      "sha256": "fe19430ebfab39a1bebedeb1391413b5e3051bd23d43d783071714c748038878",
+      "bytes": 7061,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/CONTRACT_ERRATA.md",
+      "sha256": "81ff102a4260465d17c642a77381a3db3a5056a60195c63e71af57770703a70e",
+      "bytes": 1850,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/FIXTURES.md",
+      "sha256": "ec2f747ecf6ad712aa5c1961298228885d78445f6175dbd3280c50905a6ef118",
+      "bytes": 13431,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/HISTORICAL_CLEAN_CHECK.md",
+      "sha256": "467a042f5b15b7bf51036ed3c1cc0f492615d79da7c0b8152a9f333359df1ac9",
+      "bytes": 1965,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/LICENSE",
+      "sha256": "50920f0e983966c8e5f784c5543fd444ed6973006fc23d18dda106a3f6c5616c",
+      "bytes": 823,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/LICENSING.md",
+      "sha256": "e514d0b78b7644575ff267333bcf9773dc9126df8a92323e65d630855debb6b8",
+      "bytes": 3697,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/METRICS.md",
+      "sha256": "4fa1af074a9f2b006956b5270b49fd194e7d944ce57a5584e4e7bbff6b37f003",
+      "bytes": 5272,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/NOTICE",
+      "sha256": "b1eea8523103394705c814007407a0d52268b7feb6971b0ce7b9a84e4a0cb81c",
+      "bytes": 486,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/PACKAGE_MANIFEST.json",
+      "sha256": "a6e4d165738b27cb05ec102ca5c1f695a226c044f14b91fc9431a0e28fa7230d",
+      "bytes": 27593,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/PACKAGE_MANIFEST.sha256",
+      "sha256": "487b2f4d6b1194681640bcbf28e312e0f8593558ea4ac5b23bbe4f350aa1e2b2",
+      "bytes": 89,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/PROVENANCE.json",
+      "sha256": "814f145712f956a1987c0c7cca96a61bd707f654654124810e066cb4774bc432",
+      "bytes": 22386,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/PUBLIC_CHECK.md",
+      "sha256": "eba585fdf46520de5a12181cb5013ad41c2f9d42e88951b2c1f7434a40a619c0",
+      "bytes": 2101,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/README.md",
+      "sha256": "a14ca23e65d05f35604d1f59deabbd5313f900f31de0f6455a4cf0ed00d5eac2",
+      "bytes": 6028,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/RUNNING.md",
+      "sha256": "ef01cd70cbac26799d0046a898eabb3b95729c3676ffa0706177ab50c01290f1",
+      "bytes": 10969,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/THIRD_PARTY_NOTICES.md",
+      "sha256": "b6baeae2bf796d3e8a74505f16bac112a562260fa9ebd62f91aaeea8d9abc313",
+      "bytes": 1895,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/VERSION",
+      "sha256": "66cc7ef225b7ee2342c3acea8b43852d6388e70d85a9d2be549d0ffacc199ead",
+      "bytes": 11,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/analyze.py",
+      "sha256": "b2b9b7d7aa01100472300eb26374dcffca002e9db1ef4b61028925ecd96b9f72",
+      "bytes": 3829,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/cases-package/cases/EC-MISSING/alternative.py",
+      "sha256": "df75e2cf058f8319158dc12c2e8fc4cfcf8ed36508261d1598f4b25ec71a3e95",
+      "bytes": 789,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/cases-package/cases/EC-MISSING/initial.py",
+      "sha256": "df75e2cf058f8319158dc12c2e8fc4cfcf8ed36508261d1598f4b25ec71a3e95",
+      "bytes": 789,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/cases-package/cases/EC-MISSING/negative.py",
+      "sha256": "44ad8ba8f9191bc65ca95a09673ddd553a37eba5152849efe7e2982ed67e5c86",
+      "bytes": 867,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/cases-package/cases/EC-MISSING/reference.py",
+      "sha256": "df75e2cf058f8319158dc12c2e8fc4cfcf8ed36508261d1598f4b25ec71a3e95",
+      "bytes": 789,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/cases-package/cases/EC-MISSING/task.txt",
+      "sha256": "cfa0b4236d6c1f99705f09bff88ce9e7bc3be11064575da35cf44977682bac16",
+      "bytes": 1741,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/cases-package/cases/EC-SYMBOL/alternative.py",
+      "sha256": "593069471705d6f087227d1e72141077aec2b85c47f7849527e5e41d11051d7e",
+      "bytes": 1161,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/cases-package/cases/EC-SYMBOL/initial.py",
+      "sha256": "fbafcdafcc598ce441eb6d1632b01e3274d9453ec9d046335621a03d9569c44f",
+      "bytes": 943,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/cases-package/cases/EC-SYMBOL/negative.py",
+      "sha256": "0be58d6b60baf8652d4f2958d37b119f1684fc53f1be6427172c45bf31b97d05",
+      "bytes": 1021,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/cases-package/cases/EC-SYMBOL/reference.py",
+      "sha256": "fbafcdafcc598ce441eb6d1632b01e3274d9453ec9d046335621a03d9569c44f",
+      "bytes": 943,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/cases-package/cases/EC-SYMBOL/task.txt",
+      "sha256": "cfa0b4236d6c1f99705f09bff88ce9e7bc3be11064575da35cf44977682bac16",
+      "bytes": 1741,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/cases-package/cases/EH-API/alternative.py",
+      "sha256": "6d2bf080f36e5ebdbcc8f30235c5189a7bfdbd5e7df66dacc4aba6d7bede7309",
+      "bytes": 635,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/cases-package/cases/EH-API/initial.py",
+      "sha256": "6d2bf080f36e5ebdbcc8f30235c5189a7bfdbd5e7df66dacc4aba6d7bede7309",
+      "bytes": 635,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/cases-package/cases/EH-API/negative.py",
+      "sha256": "9e4ffe63fb5d2a528859db64058d545afaa1a7e21fa1ca2e789fb5c814f8f40e",
+      "bytes": 713,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/cases-package/cases/EH-API/reference.py",
+      "sha256": "6d2bf080f36e5ebdbcc8f30235c5189a7bfdbd5e7df66dacc4aba6d7bede7309",
+      "bytes": 635,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/cases-package/cases/EH-API/task.txt",
+      "sha256": "cfa0b4236d6c1f99705f09bff88ce9e7bc3be11064575da35cf44977682bac16",
+      "bytes": 1741,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/cases-package/cases/EH-RENDERER/alternative.py",
+      "sha256": "be9c5c105e64509b4112f58cbc81dcc4159068f1daa2f044fd36d8dea8300919",
+      "bytes": 868,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/cases-package/cases/EH-RENDERER/initial.py",
+      "sha256": "f71fc58ba767962a189b27d4bd4c7028f5449f6a76be602137d96fd65b7757e0",
+      "bytes": 777,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/cases-package/cases/EH-RENDERER/negative.py",
+      "sha256": "99aeaf1e6402d83256bc910d3e4eaac9164be4697882d2c34b7075833385a347",
+      "bytes": 855,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/cases-package/cases/EH-RENDERER/reference.py",
+      "sha256": "f71fc58ba767962a189b27d4bd4c7028f5449f6a76be602137d96fd65b7757e0",
+      "bytes": 777,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/cases-package/cases/EH-RENDERER/task.txt",
+      "sha256": "cfa0b4236d6c1f99705f09bff88ce9e7bc3be11064575da35cf44977682bac16",
+      "bytes": 1741,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/cases-package/cases/H-RC0/alternative.py",
+      "sha256": "6d2bf080f36e5ebdbcc8f30235c5189a7bfdbd5e7df66dacc4aba6d7bede7309",
+      "bytes": 635,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/cases-package/cases/H-RC0/initial.py",
+      "sha256": "6d2bf080f36e5ebdbcc8f30235c5189a7bfdbd5e7df66dacc4aba6d7bede7309",
+      "bytes": 635,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/cases-package/cases/H-RC0/negative.py",
+      "sha256": "9e4ffe63fb5d2a528859db64058d545afaa1a7e21fa1ca2e789fb5c814f8f40e",
+      "bytes": 713,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/cases-package/cases/H-RC0/reference.py",
+      "sha256": "6d2bf080f36e5ebdbcc8f30235c5189a7bfdbd5e7df66dacc4aba6d7bede7309",
+      "bytes": 635,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/cases-package/cases/H-RC0/task.txt",
+      "sha256": "cfa0b4236d6c1f99705f09bff88ce9e7bc3be11064575da35cf44977682bac16",
+      "bytes": 1741,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/cases-package/cases/H-RC2/alternative.py",
+      "sha256": "6d2bf080f36e5ebdbcc8f30235c5189a7bfdbd5e7df66dacc4aba6d7bede7309",
+      "bytes": 635,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/cases-package/cases/H-RC2/initial.py",
+      "sha256": "6d2bf080f36e5ebdbcc8f30235c5189a7bfdbd5e7df66dacc4aba6d7bede7309",
+      "bytes": 635,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/cases-package/cases/H-RC2/negative.py",
+      "sha256": "9e4ffe63fb5d2a528859db64058d545afaa1a7e21fa1ca2e789fb5c814f8f40e",
+      "bytes": 713,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/cases-package/cases/H-RC2/reference.py",
+      "sha256": "6d2bf080f36e5ebdbcc8f30235c5189a7bfdbd5e7df66dacc4aba6d7bede7309",
+      "bytes": 635,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/cases-package/cases/H-RC2/task.txt",
+      "sha256": "cfa0b4236d6c1f99705f09bff88ce9e7bc3be11064575da35cf44977682bac16",
+      "bytes": 1741,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/cases-package/cases/SC-BALANCE/alternative.py",
+      "sha256": "da210184452eb4ae3268303bd9be82090d590f1e9b9c654c3820a5225b96d048",
+      "bytes": 687,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/cases-package/cases/SC-BALANCE/initial.py",
+      "sha256": "c042b654fc9ac3491732010de22db01c2fe68406b22399831c38e2e3e71e6f03",
+      "bytes": 651,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/cases-package/cases/SC-BALANCE/negative.py",
+      "sha256": "9e4ffe63fb5d2a528859db64058d545afaa1a7e21fa1ca2e789fb5c814f8f40e",
+      "bytes": 713,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/cases-package/cases/SC-BALANCE/reference.py",
+      "sha256": "6d2bf080f36e5ebdbcc8f30235c5189a7bfdbd5e7df66dacc4aba6d7bede7309",
+      "bytes": 635,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/cases-package/cases/SC-BALANCE/task.txt",
+      "sha256": "cfa0b4236d6c1f99705f09bff88ce9e7bc3be11064575da35cf44977682bac16",
+      "bytes": 1741,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/cases-package/cases/SC-SORT/alternative.py",
+      "sha256": "d0750a8dd34676c6c4a903bfb46b4919bbb3710bd05db6107dc23f718c02d098",
+      "bytes": 617,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/cases-package/cases/SC-SORT/initial.py",
+      "sha256": "bbf9dbdbbfb935d0067569f6a279b0c707d5266adf20c59da6c1a48de8db2077",
+      "bytes": 608,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/cases-package/cases/SC-SORT/negative.py",
+      "sha256": "10bc3912c380166db84c7729dee0b079a92991697d4c8992fdcd0fc32f9c1c86",
+      "bytes": 684,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/cases-package/cases/SC-SORT/reference.py",
+      "sha256": "65c03df6f0775841cdcabc83bc63dd7a77b299c3db95320f32b73a645c77fcd4",
+      "bytes": 606,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/cases-package/cases/SC-SORT/task.txt",
+      "sha256": "04017c9e6550d38cfeee0dc489f1a73921d45bcd6933f536586ca5ad10e57ff6",
+      "bytes": 1702,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/cases-package/cases/SH-FLAG/alternative.py",
+      "sha256": "5c87ee941936ac2713f8cbf0c3b4c14e248e0ccf1f75223c27c90f3e3942d153",
+      "bytes": 693,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/cases-package/cases/SH-FLAG/initial.py",
+      "sha256": "96e43ff82001e47bea26914ee68263004b0f161d319a0b1a9f2f7a46f310113e",
+      "bytes": 683,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/cases-package/cases/SH-FLAG/negative.py",
+      "sha256": "9e4ffe63fb5d2a528859db64058d545afaa1a7e21fa1ca2e789fb5c814f8f40e",
+      "bytes": 713,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/cases-package/cases/SH-FLAG/reference.py",
+      "sha256": "6d2bf080f36e5ebdbcc8f30235c5189a7bfdbd5e7df66dacc4aba6d7bede7309",
+      "bytes": 635,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/cases-package/cases/SH-FLAG/task.txt",
+      "sha256": "cfa0b4236d6c1f99705f09bff88ce9e7bc3be11064575da35cf44977682bac16",
+      "bytes": 1741,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/cases-package/cases/SH-FORMAT/alternative.py",
+      "sha256": "2d5fd72f4c5da8054f82b23c5228af6edb73ae41a1462023a8af2145d7fea351",
+      "bytes": 842,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/cases-package/cases/SH-FORMAT/initial.py",
+      "sha256": "d65ec3a2b70d9eedaed3b8fb9106504dd46db2159cad293c3e2d2733ae0416d8",
+      "bytes": 827,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/cases-package/cases/SH-FORMAT/negative.py",
+      "sha256": "9e4ffe63fb5d2a528859db64058d545afaa1a7e21fa1ca2e789fb5c814f8f40e",
+      "bytes": 713,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/cases-package/cases/SH-FORMAT/reference.py",
+      "sha256": "6d2bf080f36e5ebdbcc8f30235c5189a7bfdbd5e7df66dacc4aba6d7bede7309",
+      "bytes": 635,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/cases-package/cases/SH-FORMAT/task.txt",
+      "sha256": "cfa0b4236d6c1f99705f09bff88ce9e7bc3be11064575da35cf44977682bac16",
+      "bytes": 1741,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/cases-package/contract.json",
+      "sha256": "d3e0acc5cbc96ac06dfe92ebbb4caa1ac40dd2b3f49d93a88a3ad92a22217b98",
+      "bytes": 15741,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/cases-package/frozen_runtime/judge.py",
+      "sha256": "6996a25a816684e5999e08c07a2a70c22dff3fd5e4a04b16930d71c1cecd639e",
+      "bytes": 8267,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/cases-package/frozen_runtime/native_probe.py",
+      "sha256": "2ad1446a8c9bf89394592c0d1602d683b307ef4845d99aee732a89e8454dc3b7",
+      "bytes": 1586,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/cases-package/frozen_runtime/offline.py",
+      "sha256": "f941d84531b3811e16b11443fd64282e56dc5ead3790ce3d67a37f25acf981ed",
+      "bytes": 8441,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/cases-package/frozen_runtime/policy.json",
+      "sha256": "f8a08ab739a0037987dc28779455749dbfc468ea59198c39fc0cce165faf9729",
+      "bytes": 3623,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/cases-package/frozen_runtime/wheel_sha256.json",
+      "sha256": "0aec654df8a917c43f9ede3eeadfac10923d1a1d92ca8ae89a3529b0dca13576",
+      "bytes": 1061,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/cases-package/manifest.json",
+      "sha256": "60267d631505a8a1d4662619e6c44fe46728574fb813e4ca2072a086ccf0f01c",
+      "bytes": 11426,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/cases-package/oracle.py",
+      "sha256": "5296356c695c80285996fffde9a829870d35ab5b9e58687bbd56bb676c370771",
+      "bytes": 3233,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/endpoint_backend.py",
+      "sha256": "af4dd48f5f56dbf1dce9666fbd187c8bb0f85247c4f3df7db14ed3eedfe3ae26",
+      "bytes": 18342,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/evidence/C1_H_RC0_integration_check.json",
+      "sha256": "83c2f651fe0d6b2ff8dcbbe6ff1e09827a9f66c1b4291523012795df5c68a0b6",
+      "bytes": 977,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/evidence/context_accounting_verification.json",
+      "sha256": "5bb17c5a14f16710b38ac79b3ba212353d6c4ca2c05a08a412280393339c6d3a",
+      "bytes": 2077,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/evidence/cost_accounting_verification.json",
+      "sha256": "ee8f129329b4ef3d57f1c7e52415f002e9d8ac48f6d12a921efdbe24800f62d9",
+      "bytes": 732,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/evidence/directed_checks.json",
+      "sha256": "547743ed81cb0bafe2d9d738e8f7dc6296a3b83dfeea7086cb87c3d1ece1bcf0",
+      "bytes": 115,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/evidence/distribution_inputs_check.json",
+      "sha256": "8db293aca60dd4b5bae52d75c08a53583020283b611e82797262f58dce1876a7",
+      "bytes": 295,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/evidence/historical_clean_binding.json",
+      "sha256": "1f05f266118156982a351dd27ef1560cbc825231e02b19cdba346b5b7817f0a6",
+      "bytes": 23327,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/evidence/historical_preservation.json",
+      "sha256": "d90ab3adf9c33e253529571ba13cd74d4053f6f1922f5c737528320a0c5b795d",
+      "bytes": 155,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/evidence/portable_directed_tests.json",
+      "sha256": "4f67c4302a48970f84663b9d576b554837b0581bee51d0a79590cbfcb81f6767",
+      "bytes": 1271,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/evidence/preparation_costs.json",
+      "sha256": "16f1ed70e68588db2d1a7515c8c9cd306c56e8018aa0b5a9f24bb991493875c7",
+      "bytes": 752,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/evidence/privacy_scan.json",
+      "sha256": "239576f3a0cf2136967ce3dff252eaaf06e098c0461a6e59735258f6b6f335c2",
+      "bytes": 695,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/evidence/resolvability.csv",
+      "sha256": "39a97b3560d85d9b517e9199af635434200d1dfefdc76e913c6fefc078f5eb94",
+      "bytes": 2322,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/evidence/resolvability.json",
+      "sha256": "d33d7e82cd3181bfa63583e8eb34217670b04a58bfadeb2c8a0eea69f974ed04",
+      "bytes": 14536,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/evidence/resolvability.sha256",
+      "sha256": "6d61147623c2cad550438ad59a1788f0e1bc246af56f38dad3cb31d49943d466",
+      "bytes": 86,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/evidence/runner_scripted_verification.json",
+      "sha256": "94d633345bbcfd07b544b76867c90724bf47abb35f20133d466b50ae7c9a1d74",
+      "bytes": 15733,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/evidence/scripted_checks.json",
+      "sha256": "774e6bf497ec03182616dd089749c31c056b2eed2f3d0dffab05ac29c98d55a7",
+      "bytes": 636,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/evidence/scripted_example.json",
+      "sha256": "b3c7a52dcf3d6fa066f266a01078da4aa0391377f1637e6f26feba6c914a3c35",
+      "bytes": 11720,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/evidence/upgrade_costs.json",
+      "sha256": "717614bbfe845da0ac6d3d0c273d2b448234b2e61e498556cce470649578a190",
+      "bytes": 1337,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/evidence/wheel_fetch_verification.json",
+      "sha256": "6b57d708bf8453e8421bb29994089306431367e6146edad686ed4c1a737d39c9",
+      "bytes": 1414,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/fetch_wheels.py",
+      "sha256": "add517233806743bca5477a75f425d626bc965b10a0be2c9af7bc4758e039572",
+      "bytes": 4300,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/fixture_validation.json",
+      "sha256": "df685a8f1227f08aba4c012fb88d952b04c979176425d28cdff957ffce3ca7d3",
+      "bytes": 27510,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/licenses/Apache-2.0.txt",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "bytes": 11358,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/licenses/MIT.txt",
+      "sha256": "2242c7f96eab67dbe45ae0bf64643c0f66fb734588918ed61c6f496f86559fb4",
+      "bytes": 1079,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/licenses/click-8.1.8-py3-none-any.whl/click-8.1.8.dist-info/LICENSE.txt",
+      "sha256": "9a8ad106a394e853bfe21f42f4e72d592819a22805d991b5f3275029292b658d",
+      "bytes": 1475,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/licenses/click-8.2.0-py3-none-any.whl/click-8.2.0.dist-info/licenses/LICENSE.txt",
+      "sha256": "9a8ad106a394e853bfe21f42f4e72d592819a22805d991b5f3275029292b658d",
+      "bytes": 1475,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/licenses/inventory.json",
+      "sha256": "e5cbcbdb6adbe2f9810efbe12716e9691f90aa903fb2931ecb2f3a67b8522b79",
+      "bytes": 2674,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/licenses/markdown_it_py-3.0.0-py3-none-any.whl/markdown_it_py-3.0.0.dist-info/LICENSE",
+      "sha256": "4a2260d6e2cd0f5a151a1e86dbfe7d3ed552b1e2beabf9941c1ba5c49cbce484",
+      "bytes": 1078,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/licenses/markdown_it_py-3.0.0-py3-none-any.whl/markdown_it_py-3.0.0.dist-info/LICENSE.markdown-it",
+      "sha256": "792c48c5a849a15fdf9e37e8bcf9e6d1dd13b32b46c642a748a0a46a9919d473",
+      "bytes": 1073,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/licenses/mdurl-0.1.2-py3-none-any.whl/mdurl-0.1.2.dist-info/LICENSE",
+      "sha256": "7c605df6e28667a9603118e98274f64a49ce3eed0d26fccce9534a345e0ef955",
+      "bytes": 2338,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/licenses/pygments-2.18.0-py3-none-any.whl/pygments-2.18.0.dist-info/licenses/LICENSE",
+      "sha256": "a9d66f1d526df02e29dce73436d34e56e8632f46c275bbdffc70569e882f9f17",
+      "bytes": 1331,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/licenses/rich-13.9.4-py3-none-any.whl/rich-13.9.4.dist-info/LICENSE",
+      "sha256": "deed7c17a4318158190a3ea239cc879a5a50271cebb98ae7025f48fbe58dca15",
+      "bytes": 1056,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/licenses/shellingham-1.5.4-py2.py3-none-any.whl/shellingham-1.5.4.dist-info/LICENSE",
+      "sha256": "f388fd38cad13112c1dc0f669bbe80e7f84541edbafb72f3030d2ca7642c3c9d",
+      "bytes": 751,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/licenses/typer-0.15.3-py3-none-any.whl/typer-0.15.3.dist-info/licenses/LICENSE",
+      "sha256": "58992cebcf8dfb6e40c4e2112ed12126c243666dca3912a3d78b7ecac4859d49",
+      "bytes": 1086,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/licenses/typer-0.16.0-py3-none-any.whl/typer-0.16.0.dist-info/licenses/LICENSE",
+      "sha256": "58992cebcf8dfb6e40c4e2112ed12126c243666dca3912a3d78b7ecac4859d49",
+      "bytes": 1086,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/licenses/typing_extensions-4.12.2-py3-none-any.whl/typing_extensions-4.12.2.dist-info/LICENSE",
+      "sha256": "3b2f81fe21d181c499c59a256c8e1968455d6689d269aa85373bfb6af41da3bf",
+      "bytes": 13936,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/reproduce.py",
+      "sha256": "eef7acc2de1d34f4fab56a3a463cefe5ff951d921ffd9cd2e049f2f4cc54abd5",
+      "bytes": 13824,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/requirements-wheels.txt",
+      "sha256": "8c4421d96db38a1964256d7e0501df561ec2ae9ecb43b57aa0bdefdeaeb0e1f8",
+      "bytes": 325,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/results/r3_by_arm.json",
+      "sha256": "069299d7614c1f56e3b922f2a3655e16137024df9ac343e794d4fbabf1dbeaa3",
+      "bytes": 101534,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/results/r3_costs.json",
+      "sha256": "ebac4ab572112e6f9f3c4ea2d23adde5ef9aef3b206ea562b0341ffd1b5d240b",
+      "bytes": 2302,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/results/r3_gate_exposure.json",
+      "sha256": "fbd6b512cebdc84736ba5e04d257bb41057a878a9aa10bd5e048cdaf589bd890",
+      "bytes": 2790,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/results/r3_predictions.json",
+      "sha256": "e6cd3380a8ae8ddb5240f87c5cfebc506096742294d0ad87ceb690e3a06a81d7",
+      "bytes": 1891,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/results/r3_summary.json",
+      "sha256": "06e5c2a319619685bb535747809285c9d96a3a4758c3def1fb7d9e06988afa5a",
+      "bytes": 5296,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/results/report_quoted_extracts.json",
+      "sha256": "1e8ce1aa0c13f557ffd0bb175e417f9c4c118fec05cca23eab2c162e928f1753",
+      "bytes": 3788,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/run_agent.py",
+      "sha256": "b758b18c3afcd755818a5ed74de4e2e076179b4fe58447842246495dca8e1ace",
+      "bytes": 16159,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/source/action.gbnf",
+      "sha256": "92673934ee46e7849d8158f2daa15ecdc3da5e14ab2e0163e9938074385c9539",
+      "bytes": 1483,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/source/availability.py",
+      "sha256": "e230292671ba458e1d03c0cded5031f09b2c854e4a9414c72743367faf892298",
+      "bytes": 3829,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/source/cases.json",
+      "sha256": "3a3999130aa780971499a06f19225f5c04fcf3a819ef106b58ba020f1d720724",
+      "bytes": 12497,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/source/checkpoint.py",
+      "sha256": "9f27535226485a74867019c9732df3b1e5fc2eb26312c8b0619cda73d5f7b82b",
+      "bytes": 6597,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/source/common.py",
+      "sha256": "19e3a1b48d9a01189ec3297c19c2a33d1e5592a223d398ce53ebeee4962a6c86",
+      "bytes": 3125,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/source/coverage_policy.py",
+      "sha256": "f7bfaf84e54f975a4272412316f01ac050aa9a0a59efc7a1e23b03c951cb1ad1",
+      "bytes": 8268,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/source/critical_guards.py",
+      "sha256": "117c88dfa736adf7d4a22102104ad12a9516c7af0d3c7708370d61c1ed63f2ef",
+      "bytes": 303,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/source/exploration_episode.py",
+      "sha256": "0089fe3e616c5058bf4f07173d0f97b8bb7824d1913a9d54a3bca809db1b585b",
+      "bytes": 10801,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/source/file_worker.py",
+      "sha256": "177a75f657429c5d49e0e97f717ef5251bba71923eb472e4b583dd2e137cbeb0",
+      "bytes": 9774,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/source/health_metrics.py",
+      "sha256": "6ab2cbdc016c6729ed21a5e7bfd6060e09253befbd5dffa6fdd4ef3239a982e3",
+      "bytes": 5018,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/source/interface.py",
+      "sha256": "820b4183c9bd4f19db1ed702adaad0aa9dae17b2910e878c79a64625075ff6da",
+      "bytes": 15961,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/source/interface_contract.json",
+      "sha256": "22ed315c67a934326305ec0adb1453555a4fd001469c313b049879a7e9dcc5f2",
+      "bytes": 8098,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/source/invalid_feedback.py",
+      "sha256": "8f9b1199d039fcf192ce519611388220686632bb7ac52be226fa573fa8b47727",
+      "bytes": 3135,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/source/lifecycle.py",
+      "sha256": "d5eddc8ef256a834c66baa99a661dac4267d8d5cd0ce7e2624caaa3e4eece82b",
+      "bytes": 4386,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/source/loop_metrics.py",
+      "sha256": "43eb1f5002115d4000455f0994b30f764a742011faa3f3b501faac3027df0e90",
+      "bytes": 9861,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/source/native_actions.py",
+      "sha256": "741cf04a64f591407a51b22c04e6b096521eddbc21d1d825e75f2230e1a03306",
+      "bytes": 2556,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/source/native_api.py",
+      "sha256": "067af2c5719ee4d91c92b7b82abb4f45739dbfdbc1bacfb1288e0bbd716a1c47",
+      "bytes": 1493,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/source/native_cost.py",
+      "sha256": "5da0f96f1b6c1a4c164117d748317993109dfe1717ed8855cb385753a0f2df07",
+      "bytes": 553,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/source/port_closure.py",
+      "sha256": "f5e7ee60d71242965482e43298e43e60367c915204c885108377fd3871e2e30a",
+      "bytes": 3443,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/source/prompts/EC-MISSING.system.txt",
+      "sha256": "382bfeee28149372b8f3f69dfbcc454ee18a9a1a4bf63d9050df7a22ee616e7d",
+      "bytes": 1971,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/source/prompts/EC-SYMBOL.system.txt",
+      "sha256": "382bfeee28149372b8f3f69dfbcc454ee18a9a1a4bf63d9050df7a22ee616e7d",
+      "bytes": 1971,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/source/prompts/EH-API.system.txt",
+      "sha256": "382bfeee28149372b8f3f69dfbcc454ee18a9a1a4bf63d9050df7a22ee616e7d",
+      "bytes": 1971,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/source/prompts/EH-RENDERER.system.txt",
+      "sha256": "382bfeee28149372b8f3f69dfbcc454ee18a9a1a4bf63d9050df7a22ee616e7d",
+      "bytes": 1971,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/source/prompts/H-RC0.system.txt",
+      "sha256": "382bfeee28149372b8f3f69dfbcc454ee18a9a1a4bf63d9050df7a22ee616e7d",
+      "bytes": 1971,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/source/prompts/H-RC2.system.txt",
+      "sha256": "382bfeee28149372b8f3f69dfbcc454ee18a9a1a4bf63d9050df7a22ee616e7d",
+      "bytes": 1971,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/source/prompts/SC-BALANCE.system.txt",
+      "sha256": "382bfeee28149372b8f3f69dfbcc454ee18a9a1a4bf63d9050df7a22ee616e7d",
+      "bytes": 1971,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/source/prompts/SC-SORT.system.txt",
+      "sha256": "49f6c05e0d27d5e9b6805dc8560edb59859c9b4077047acdd53d8452d9246a80",
+      "bytes": 1932,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/source/prompts/SH-FLAG.system.txt",
+      "sha256": "382bfeee28149372b8f3f69dfbcc454ee18a9a1a4bf63d9050df7a22ee616e7d",
+      "bytes": 1971,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/source/prompts/SH-FORMAT.system.txt",
+      "sha256": "382bfeee28149372b8f3f69dfbcc454ee18a9a1a4bf63d9050df7a22ee616e7d",
+      "bytes": 1971,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/source/prospective_metrics.py",
+      "sha256": "be5aba998f1213347b725a1d7cffcefad953fb1ddc8ea9311e97c33cf26caffe",
+      "bytes": 6251,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/source/public_contract.py",
+      "sha256": "b9bac2e04e1ecd16e0e1b2d0314d90e1561559e2bde97f4297442933ba7f7e85",
+      "bytes": 2254,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/source/public_feedback.py",
+      "sha256": "a2c3486c0fefcfd547560633f6bb6b1b070dfba19a1147501e3678ad36114db4",
+      "bytes": 1252,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/source/rpc_failures.py",
+      "sha256": "4301cf37fe044d1612d225845a2fe23b21025dd4237d87695c7dcf1a22cabbcd",
+      "bytes": 453,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/source/scoring.py",
+      "sha256": "18b96975ac65b18dad40b94cfb926e13e861bbfac7756935296e29c3f17e9759",
+      "bytes": 2351,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/tests/test_context.py",
+      "sha256": "cbe0ea0140e3c5eca779bdafc364c47ea03f55413f5dff176c91b1099edd8830",
+      "bytes": 11235,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/tests/test_costs.py",
+      "sha256": "5119a60728c615c62a78e76d57b00ae2cba29e6f1642873b15a1f339287c57de",
+      "bytes": 2446,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/tests/test_portable.py",
+      "sha256": "f998d9370df1e040fa54cb31e4c5b1c356730513f45f2dfe8925df87b964af87",
+      "bytes": 14312,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/tests/test_validate_fixture.py",
+      "sha256": "25be5913f26f5b7fbebd1f49a2b3b449cab74fac733631f0e1671590a1106e0f",
+      "bytes": 7503,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "SourceEnv/validate_fixture.py",
+      "sha256": "ff924d882bc26eb0ac3ffd4a0f5be55d6d0a82e2e46e116c2a8167a5be54cadc",
+      "bytes": 20630,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "paper/ACCESS_LIMITS.md",
+      "sha256": "f014e733b8186f1b007a0bab0096271a44f5926c32084422257302c4cb1e70ed",
+      "bytes": 4024,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "paper/CAPTURE_RIGHTS.md",
+      "sha256": "22c962f72b35492d73c5906ca36d278ee7d46be584dd76edc13f8d14d188b949",
+      "bytes": 2267,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "paper/CITATIONS.json",
+      "sha256": "9344244dd320fa4f899875abaa342e6abc2f0bd648ecb2197d9a3fc5466ab380",
+      "bytes": 44545,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "metadata/URLs/selectors/hashes only; no fulltext or abstract"
+    },
+    {
+      "file": "paper/DATA_ATTRIBUTION.md",
+      "sha256": "8d51f44d9b17cc5aa5b6971c76f40a81581f9d5f9cc72ba6d3ac81934e8b7871",
+      "bytes": 2724,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "paper/DOCUMENTARY_ADDENDUM.md",
+      "sha256": "a7ccd53257c202df91fd463d618168157b9e8e4be5e4373a53062c0a4c5509e2",
+      "bytes": 3366,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "paper/DRAFT.md",
+      "sha256": "37e0a3eb570bbe4033c235af4d805452117b8d10c78a4dd16a999715114aba20",
+      "bytes": 21019,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "paper/EXTRACTOS.md",
+      "sha256": "ad10f95703b300995b2683e01cfc2fec2d4c9eeff3a63ea4fd5b837521d90925",
+      "bytes": 4946,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "paper/LICENSING.md",
+      "sha256": "d89f409cff31804af01eb95b6e6c454bae158782a888699ed50e9bdaaec0f676",
+      "bytes": 6751,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "paper/PROVENANCE.json",
+      "sha256": "72fc10bf91e327e78dc59ff3fc0d096f5fe5c02fea2340b49797f952a06402c4",
+      "bytes": 96406,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "paper/REFERENCIAS.bib",
+      "sha256": "98394d3321a65f5b5eb02105f1a064ff47ceb2f21abd556e9a3cf74e5539bfaf",
+      "bytes": 9414,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "paper/SUPPLEMENT.md",
+      "sha256": "6a44db7900b05622ea8c3729b6e80c19db3481bcb6250735e5fc294d215e4fe0",
+      "bytes": 35592,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "paper/WORD_COUNT.json",
+      "sha256": "35c8ff1247f369fbfd0675412e1c8115fdb869667616f88115823e88fd0a5ac7",
+      "bytes": 4475,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "paper/attributions/M01_v6_LICENSE_EXCERPT.md",
+      "sha256": "f65fd1457b265bd4810b644f7b8e7bb1adf9584feb0d80e295a998fd90b45143",
+      "bytes": 356,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "CC-BY-4.0 source data or separately identified derivative; attribution retained"
+    },
+    {
+      "file": "paper/attributions/M02_v8_LICENSE.txt",
+      "sha256": "252c6c52a17dea7576423cdc716a447313e028ed90a4b3b4a694943c7de85292",
+      "bytes": 263,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "CC-BY-4.0 source data or separately identified derivative; attribution retained"
+    },
+    {
+      "file": "paper/count_words.py",
+      "sha256": "bf74c185173683761ce1ee433f74400ef70f0d1a3d32252ba69dd585e1f042dc",
+      "bytes": 5902,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "paper/evidence/C1_model_binding.json",
+      "sha256": "fadb60685f1fc7418a432c234f78f146d0b78fead4c85ce17c99608619c4c67b",
+      "bytes": 473,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "paper/evidence/CRITERIOS_RECUENTO.json",
+      "sha256": "9aa797bef7412bcaac5050c83f9e2b4cdd6edb6cb36a5a02fe9b2882f3837aaf",
+      "bytes": 1110,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "paper/evidence/CRITERIOS_RECUENTO.md",
+      "sha256": "a1abbdefe302c2e908c340560244923e996f89b884b2b0cb80318c88248fa046",
+      "bytes": 3430,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "paper/evidence/M01_M02_masks.json",
+      "sha256": "cc1123cc1470e3551818e32de09aa14ea9ee2ecc0b9b21d9268a9a918933b889",
+      "bytes": 13172,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "CC-BY-4.0 source data or separately identified derivative; attribution retained"
+    },
+    {
+      "file": "paper/evidence/M01_M02_recount.json",
+      "sha256": "a1d554ffe548635048364d0c293b9bc7a467f7d7b3832651a21db6148c3fdad3",
+      "bytes": 46343,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "CC-BY-4.0 source data or separately identified derivative; attribution retained"
+    },
+    {
+      "file": "paper/evidence/M01_shared_ids.csv",
+      "sha256": "d6fb9dfc0f5ba743c6fd458705a50db2be701969d9df707b29e6363e0aae431c",
+      "bytes": 774,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "CC-BY-4.0 source data or separately identified derivative; attribution retained"
+    },
+    {
+      "file": "paper/evidence/M01_v6_gradability_labels.csv",
+      "sha256": "7f54059a0e79c28c0f46f9ab8d92b4c61706274b61285603f48131fc8ebbe408",
+      "bytes": 8660,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "CC-BY-4.0 source data or separately identified derivative; attribution retained"
+    },
+    {
+      "file": "paper/evidence/M01_writeup_identity.json",
+      "sha256": "8c4ef942e69494ca2f43dcc3f7cd288ec38dfc72861a3cebcd2366655985fcbf",
+      "bytes": 989,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "CC-BY-4.0 source data or separately identified derivative; attribution retained"
+    },
+    {
+      "file": "paper/evidence/M02_timeouts.json",
+      "sha256": "88d38804b9caf2be26ad17b9d513019271187465fbe5e9531d0de47251afd9f7",
+      "bytes": 2202,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "CC-BY-4.0 source data or separately identified derivative; attribution retained"
+    },
+    {
+      "file": "paper/evidence/M02_v8_task_soundness.csv",
+      "sha256": "910280fba76a0578eefe00f5e14b764969b8caa2f77032a671ec3f927c0ca142",
+      "bytes": 13252,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "CC-BY-4.0 source data or separately identified derivative; attribution retained"
+    },
+    {
+      "file": "paper/evidence/SUPLEMENTO_CRITERIO_M02.md",
+      "sha256": "97a0e3a9d8ed86d07a32f7724b288d4b58f31fa7092b0178dee970b9b302040e",
+      "bytes": 1637,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "CC-BY-4.0 source data or separately identified derivative; attribution retained"
+    },
+    {
+      "file": "paper/evidence/aggregate_metrics.json",
+      "sha256": "a5a5b98351770210bf1c2f9637b30a36365114987a30b63cb21930fa5b76c659",
+      "bytes": 3737,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "paper/evidence/cases.json",
+      "sha256": "3cd50ae82fdd71607305164a8f84dac5efc583a71ed3117f7b442635a58b907c",
+      "bytes": 12141,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "paper/evidence/closure_patterns.json",
+      "sha256": "bf370713eb919eba12f8a1d487534cd10d0d04b7287e3889ecd0b2b8a8538ece",
+      "bytes": 36733,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "paper/evidence/context_cost_ledger.json",
+      "sha256": "e0fcc29f4a4dd94714fb5623b44bba415633863562a726e6fbd81777c06bd77f",
+      "bytes": 67960,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "paper/evidence/dataset_versions.json",
+      "sha256": "68db90342fa7cdf1c67b03f610f72d77d185b0fcfd33a413b847e3b48b3ef5ac",
+      "bytes": 3479,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "paper/evidence/development_profile_counts.json",
+      "sha256": "7a7d9d3fde99388183b8882bbb8a66c56bc01ba3411ec666d3ab08c700b43430",
+      "bytes": 344,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C1-EC-MISSING-BASE.stderr.txt",
+      "sha256": "a7cf9b8b22db51d58f28d995e05e0a6d9ce6d45ba2636d1048a7739df11936d0",
+      "bytes": 273,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "traceback/diagnostic",
+      "rights_review": "CAPTURE_RIGHTS.md; short diagnostic/source fragments, relevant third-party notices retained; no full work"
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C1-EC-MISSING-BASE.stdout.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "empty channel",
+      "rights_review": "CAPTURE_RIGHTS.md; short diagnostic/source fragments, relevant third-party notices retained; no full work"
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C1-EC-MISSING-FC.stderr.txt",
+      "sha256": "a7cf9b8b22db51d58f28d995e05e0a6d9ce6d45ba2636d1048a7739df11936d0",
+      "bytes": 273,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "traceback/diagnostic",
+      "rights_review": "CAPTURE_RIGHTS.md; short diagnostic/source fragments, relevant third-party notices retained; no full work"
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C1-EC-MISSING-FC.stdout.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "empty channel",
+      "rights_review": "CAPTURE_RIGHTS.md; short diagnostic/source fragments, relevant third-party notices retained; no full work"
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C1-EC-SYMBOL-BASE.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "empty channel",
+      "rights_review": "CAPTURE_RIGHTS.md; short diagnostic/source fragments, relevant third-party notices retained; no full work"
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C1-EC-SYMBOL-BASE.stdout.txt",
+      "sha256": "bc45543e3a917468d3e2232d2ed87ab95118461afa4ddd775fb2fcb22303b141",
+      "bytes": 2100,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "CLI output/help/warning",
+      "rights_review": "CAPTURE_RIGHTS.md; short diagnostic/source fragments, relevant third-party notices retained; no full work"
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C1-EC-SYMBOL-FC.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "empty channel",
+      "rights_review": "CAPTURE_RIGHTS.md; short diagnostic/source fragments, relevant third-party notices retained; no full work"
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C1-EC-SYMBOL-FC.stdout.txt",
+      "sha256": "bc45543e3a917468d3e2232d2ed87ab95118461afa4ddd775fb2fcb22303b141",
+      "bytes": 2100,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "CLI output/help/warning",
+      "rights_review": "CAPTURE_RIGHTS.md; short diagnostic/source fragments, relevant third-party notices retained; no full work"
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C1-EH-API-BASE.stderr.txt",
+      "sha256": "4dc0c3d69f2a957030d3228eb2aed1320aa6030feb19d44968350162f6299cc9",
+      "bytes": 5311,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "traceback/diagnostic",
+      "rights_review": "CAPTURE_RIGHTS.md; short diagnostic/source fragments, relevant third-party notices retained; no full work"
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C1-EH-API-BASE.stdout.txt",
+      "sha256": "57fe58350332d80551995be508c88270ca0ee1c63b66718c455cf745efb93b65",
+      "bytes": 303,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "CLI output/help/warning",
+      "rights_review": "CAPTURE_RIGHTS.md; short diagnostic/source fragments, relevant third-party notices retained; no full work"
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C1-EH-API-FC.stderr.txt",
+      "sha256": "b83121124b8fe9e51ce05ec7ac351256f827dde814ae91844fdaf933d4147181",
+      "bytes": 5311,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "traceback/diagnostic",
+      "rights_review": "CAPTURE_RIGHTS.md; short diagnostic/source fragments, relevant third-party notices retained; no full work"
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C1-EH-API-FC.stdout.txt",
+      "sha256": "57fe58350332d80551995be508c88270ca0ee1c63b66718c455cf745efb93b65",
+      "bytes": 303,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "CLI output/help/warning",
+      "rights_review": "CAPTURE_RIGHTS.md; short diagnostic/source fragments, relevant third-party notices retained; no full work"
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C1-EH-RENDERER-BASE.stderr.txt",
+      "sha256": "8fb2b1ebbfe5f45be749f6f2fe8c4503a87e6e67e7f10516072e76999cfa3db4",
+      "bytes": 165,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "traceback/diagnostic",
+      "rights_review": "CAPTURE_RIGHTS.md; short diagnostic/source fragments, relevant third-party notices retained; no full work"
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C1-EH-RENDERER-BASE.stdout.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "empty channel",
+      "rights_review": "CAPTURE_RIGHTS.md; short diagnostic/source fragments, relevant third-party notices retained; no full work"
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C1-EH-RENDERER-FC.stderr.txt",
+      "sha256": "8fb2b1ebbfe5f45be749f6f2fe8c4503a87e6e67e7f10516072e76999cfa3db4",
+      "bytes": 165,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "traceback/diagnostic",
+      "rights_review": "CAPTURE_RIGHTS.md; short diagnostic/source fragments, relevant third-party notices retained; no full work"
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C1-EH-RENDERER-FC.stdout.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "empty channel",
+      "rights_review": "CAPTURE_RIGHTS.md; short diagnostic/source fragments, relevant third-party notices retained; no full work"
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C1-H-RC0-BASE.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "empty channel",
+      "rights_review": "CAPTURE_RIGHTS.md; short diagnostic/source fragments, relevant third-party notices retained; no full work"
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C1-H-RC0-BASE.stdout.txt",
+      "sha256": "bc45543e3a917468d3e2232d2ed87ab95118461afa4ddd775fb2fcb22303b141",
+      "bytes": 2100,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "CLI output/help/warning",
+      "rights_review": "CAPTURE_RIGHTS.md; short diagnostic/source fragments, relevant third-party notices retained; no full work"
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C1-H-RC0-FC.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "empty channel",
+      "rights_review": "CAPTURE_RIGHTS.md; short diagnostic/source fragments, relevant third-party notices retained; no full work"
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C1-H-RC0-FC.stdout.txt",
+      "sha256": "bc45543e3a917468d3e2232d2ed87ab95118461afa4ddd775fb2fcb22303b141",
+      "bytes": 2100,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "CLI output/help/warning",
+      "rights_review": "CAPTURE_RIGHTS.md; short diagnostic/source fragments, relevant third-party notices retained; no full work"
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C1-H-RC2-BASE.stderr.txt",
+      "sha256": "ad3da1e313c0b72118868ec78325cd95e646340547ec90d070fdeb622093e240",
+      "bytes": 765,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "CLI output/help/warning",
+      "rights_review": "CAPTURE_RIGHTS.md; short diagnostic/source fragments, relevant third-party notices retained; no full work"
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C1-H-RC2-BASE.stdout.txt",
+      "sha256": "c380540b07d2c7e7063d03581f2d9eb77a9bc26c59ed641c5bef770c7479d6c7",
+      "bytes": 2099,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "CLI output/help/warning",
+      "rights_review": "CAPTURE_RIGHTS.md; short diagnostic/source fragments, relevant third-party notices retained; no full work"
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C1-H-RC2-FC.stderr.txt",
+      "sha256": "ad3da1e313c0b72118868ec78325cd95e646340547ec90d070fdeb622093e240",
+      "bytes": 765,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "CLI output/help/warning",
+      "rights_review": "CAPTURE_RIGHTS.md; short diagnostic/source fragments, relevant third-party notices retained; no full work"
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C1-H-RC2-FC.stdout.txt",
+      "sha256": "c380540b07d2c7e7063d03581f2d9eb77a9bc26c59ed641c5bef770c7479d6c7",
+      "bytes": 2099,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "CLI output/help/warning",
+      "rights_review": "CAPTURE_RIGHTS.md; short diagnostic/source fragments, relevant third-party notices retained; no full work"
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C1-SC-BALANCE-BASE.stderr.txt",
+      "sha256": "55e8427409c9dcb1c25314946b768c8328cdcace06e6715516d6c7d1f6c7b2a2",
+      "bytes": 147,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "CLI output/help/warning",
+      "rights_review": "CAPTURE_RIGHTS.md; short diagnostic/source fragments, relevant third-party notices retained; no full work"
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C1-SC-BALANCE-BASE.stdout.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "empty channel",
+      "rights_review": "CAPTURE_RIGHTS.md; short diagnostic/source fragments, relevant third-party notices retained; no full work"
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C1-SC-BALANCE-FC.stderr.txt",
+      "sha256": "ad3da1e313c0b72118868ec78325cd95e646340547ec90d070fdeb622093e240",
+      "bytes": 765,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "CLI output/help/warning",
+      "rights_review": "CAPTURE_RIGHTS.md; short diagnostic/source fragments, relevant third-party notices retained; no full work"
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C1-SC-BALANCE-FC.stdout.txt",
+      "sha256": "c380540b07d2c7e7063d03581f2d9eb77a9bc26c59ed641c5bef770c7479d6c7",
+      "bytes": 2099,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "CLI output/help/warning",
+      "rights_review": "CAPTURE_RIGHTS.md; short diagnostic/source fragments, relevant third-party notices retained; no full work"
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C1-SC-SORT-BASE.stderr.txt",
+      "sha256": "ad3da1e313c0b72118868ec78325cd95e646340547ec90d070fdeb622093e240",
+      "bytes": 765,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "CLI output/help/warning",
+      "rights_review": "CAPTURE_RIGHTS.md; short diagnostic/source fragments, relevant third-party notices retained; no full work"
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C1-SC-SORT-BASE.stdout.txt",
+      "sha256": "fbf53378b62143aa1b65d91fb50e8bad6fa5f05c1c3131707547474b37114a05",
+      "bytes": 2099,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "CLI output/help/warning",
+      "rights_review": "CAPTURE_RIGHTS.md; short diagnostic/source fragments, relevant third-party notices retained; no full work"
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C1-SC-SORT-FC.stderr.txt",
+      "sha256": "ad3da1e313c0b72118868ec78325cd95e646340547ec90d070fdeb622093e240",
+      "bytes": 765,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "CLI output/help/warning",
+      "rights_review": "CAPTURE_RIGHTS.md; short diagnostic/source fragments, relevant third-party notices retained; no full work"
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C1-SC-SORT-FC.stdout.txt",
+      "sha256": "fbf53378b62143aa1b65d91fb50e8bad6fa5f05c1c3131707547474b37114a05",
+      "bytes": 2099,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "CLI output/help/warning",
+      "rights_review": "CAPTURE_RIGHTS.md; short diagnostic/source fragments, relevant third-party notices retained; no full work"
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C1-SH-FLAG-BASE.stderr.txt",
+      "sha256": "1560e509b46f0cf8fd84a64d75b4155427604324e57dafc9aececa68e5e48424",
+      "bytes": 761,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "CLI output/help/warning",
+      "rights_review": "CAPTURE_RIGHTS.md; short diagnostic/source fragments, relevant third-party notices retained; no full work"
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C1-SH-FLAG-BASE.stdout.txt",
+      "sha256": "aa8bba86d1a71d0cbcd2ea34cebe126062b7db1aa3b5efcc4395e9506710ae92",
+      "bytes": 2099,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "CLI output/help/warning",
+      "rights_review": "CAPTURE_RIGHTS.md; short diagnostic/source fragments, relevant third-party notices retained; no full work"
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C1-SH-FLAG-FC.stderr.txt",
+      "sha256": "1560e509b46f0cf8fd84a64d75b4155427604324e57dafc9aececa68e5e48424",
+      "bytes": 761,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "CLI output/help/warning",
+      "rights_review": "CAPTURE_RIGHTS.md; short diagnostic/source fragments, relevant third-party notices retained; no full work"
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C1-SH-FLAG-FC.stdout.txt",
+      "sha256": "aa8bba86d1a71d0cbcd2ea34cebe126062b7db1aa3b5efcc4395e9506710ae92",
+      "bytes": 2099,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "CLI output/help/warning",
+      "rights_review": "CAPTURE_RIGHTS.md; short diagnostic/source fragments, relevant third-party notices retained; no full work"
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C1-SH-FORMAT-BASE.stderr.txt",
+      "sha256": "cba203d606bedbff6a058af1c099c016b25863973e1351e262f3f43cfb5ec06b",
+      "bytes": 765,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "CLI output/help/warning",
+      "rights_review": "CAPTURE_RIGHTS.md; short diagnostic/source fragments, relevant third-party notices retained; no full work"
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C1-SH-FORMAT-BASE.stdout.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "empty channel",
+      "rights_review": "CAPTURE_RIGHTS.md; short diagnostic/source fragments, relevant third-party notices retained; no full work"
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C1-SH-FORMAT-FC.stderr.txt",
+      "sha256": "cba203d606bedbff6a058af1c099c016b25863973e1351e262f3f43cfb5ec06b",
+      "bytes": 765,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "CLI output/help/warning",
+      "rights_review": "CAPTURE_RIGHTS.md; short diagnostic/source fragments, relevant third-party notices retained; no full work"
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C1-SH-FORMAT-FC.stdout.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "empty channel",
+      "rights_review": "CAPTURE_RIGHTS.md; short diagnostic/source fragments, relevant third-party notices retained; no full work"
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C3-EC-MISSING-BASE.stderr.txt",
+      "sha256": "a876efdfa1ee88929fe108d3575edcc2ad8e6dd0f5ba24982aa9344823725bb6",
+      "bytes": 67,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "CLI output/help/warning",
+      "rights_review": "CAPTURE_RIGHTS.md; short diagnostic/source fragments, relevant third-party notices retained; no full work"
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C3-EC-MISSING-BASE.stdout.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "empty channel",
+      "rights_review": "CAPTURE_RIGHTS.md; short diagnostic/source fragments, relevant third-party notices retained; no full work"
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C3-EC-MISSING-FC.stderr.txt",
+      "sha256": "a876efdfa1ee88929fe108d3575edcc2ad8e6dd0f5ba24982aa9344823725bb6",
+      "bytes": 67,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "CLI output/help/warning",
+      "rights_review": "CAPTURE_RIGHTS.md; short diagnostic/source fragments, relevant third-party notices retained; no full work"
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C3-EC-MISSING-FC.stdout.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "empty channel",
+      "rights_review": "CAPTURE_RIGHTS.md; short diagnostic/source fragments, relevant third-party notices retained; no full work"
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C3-EC-SYMBOL-BASE.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "empty channel",
+      "rights_review": "CAPTURE_RIGHTS.md; short diagnostic/source fragments, relevant third-party notices retained; no full work"
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C3-EC-SYMBOL-BASE.stdout.txt",
+      "sha256": "bc45543e3a917468d3e2232d2ed87ab95118461afa4ddd775fb2fcb22303b141",
+      "bytes": 2100,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "CLI output/help/warning",
+      "rights_review": "CAPTURE_RIGHTS.md; short diagnostic/source fragments, relevant third-party notices retained; no full work"
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C3-EC-SYMBOL-FC.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "empty channel",
+      "rights_review": "CAPTURE_RIGHTS.md; short diagnostic/source fragments, relevant third-party notices retained; no full work"
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C3-EC-SYMBOL-FC.stdout.txt",
+      "sha256": "bc45543e3a917468d3e2232d2ed87ab95118461afa4ddd775fb2fcb22303b141",
+      "bytes": 2100,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "CLI output/help/warning",
+      "rights_review": "CAPTURE_RIGHTS.md; short diagnostic/source fragments, relevant third-party notices retained; no full work"
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C3-EH-API-BASE.stderr.txt",
+      "sha256": "912e653f3541383bc65d553178ddf9bc786dc3931e8c96ce43aa0f4d3eec1b17",
+      "bytes": 5311,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "traceback/diagnostic",
+      "rights_review": "CAPTURE_RIGHTS.md; short diagnostic/source fragments, relevant third-party notices retained; no full work"
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C3-EH-API-BASE.stdout.txt",
+      "sha256": "57fe58350332d80551995be508c88270ca0ee1c63b66718c455cf745efb93b65",
+      "bytes": 303,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "CLI output/help/warning",
+      "rights_review": "CAPTURE_RIGHTS.md; short diagnostic/source fragments, relevant third-party notices retained; no full work"
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C3-EH-API-FC.stderr.txt",
+      "sha256": "1ed6720eea029c57b5646fcb5bc631be829bd3a1305b49c05cfec55d3ff670e3",
+      "bytes": 5311,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "traceback/diagnostic",
+      "rights_review": "CAPTURE_RIGHTS.md; short diagnostic/source fragments, relevant third-party notices retained; no full work"
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C3-EH-API-FC.stdout.txt",
+      "sha256": "57fe58350332d80551995be508c88270ca0ee1c63b66718c455cf745efb93b65",
+      "bytes": 303,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "CLI output/help/warning",
+      "rights_review": "CAPTURE_RIGHTS.md; short diagnostic/source fragments, relevant third-party notices retained; no full work"
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C3-EH-RENDERER-BASE.stderr.txt",
+      "sha256": "8fb2b1ebbfe5f45be749f6f2fe8c4503a87e6e67e7f10516072e76999cfa3db4",
+      "bytes": 165,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "traceback/diagnostic",
+      "rights_review": "CAPTURE_RIGHTS.md; short diagnostic/source fragments, relevant third-party notices retained; no full work"
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C3-EH-RENDERER-BASE.stdout.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "empty channel",
+      "rights_review": "CAPTURE_RIGHTS.md; short diagnostic/source fragments, relevant third-party notices retained; no full work"
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C3-EH-RENDERER-FC.stderr.txt",
+      "sha256": "14b1e144c5960acd704eb2afccc9a16861a6a07dafaf4412737a3397b293280f",
+      "bytes": 435,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "CLI output/help/warning",
+      "rights_review": "CAPTURE_RIGHTS.md; short diagnostic/source fragments, relevant third-party notices retained; no full work"
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C3-EH-RENDERER-FC.stdout.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "empty channel",
+      "rights_review": "CAPTURE_RIGHTS.md; short diagnostic/source fragments, relevant third-party notices retained; no full work"
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C3-H-RC0-BASE.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "empty channel",
+      "rights_review": "CAPTURE_RIGHTS.md; short diagnostic/source fragments, relevant third-party notices retained; no full work"
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C3-H-RC0-BASE.stdout.txt",
+      "sha256": "6870395d28d0f05f939e88ca2364a9567d80a4f1abe9ba378f535749a7140180",
+      "bytes": 2100,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "CLI output/help/warning",
+      "rights_review": "CAPTURE_RIGHTS.md; short diagnostic/source fragments, relevant third-party notices retained; no full work"
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C3-H-RC0-FC.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "empty channel",
+      "rights_review": "CAPTURE_RIGHTS.md; short diagnostic/source fragments, relevant third-party notices retained; no full work"
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C3-H-RC0-FC.stdout.txt",
+      "sha256": "6870395d28d0f05f939e88ca2364a9567d80a4f1abe9ba378f535749a7140180",
+      "bytes": 2100,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "CLI output/help/warning",
+      "rights_review": "CAPTURE_RIGHTS.md; short diagnostic/source fragments, relevant third-party notices retained; no full work"
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C3-H-RC2-BASE.stderr.txt",
+      "sha256": "ad3da1e313c0b72118868ec78325cd95e646340547ec90d070fdeb622093e240",
+      "bytes": 765,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "CLI output/help/warning",
+      "rights_review": "CAPTURE_RIGHTS.md; short diagnostic/source fragments, relevant third-party notices retained; no full work"
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C3-H-RC2-BASE.stdout.txt",
+      "sha256": "8346e1409cae7f908d4d1b86a89d778807ec4c7d7cd1e35ce3e1d44335f21ea1",
+      "bytes": 2099,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "CLI output/help/warning",
+      "rights_review": "CAPTURE_RIGHTS.md; short diagnostic/source fragments, relevant third-party notices retained; no full work"
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C3-H-RC2-FC.stderr.txt",
+      "sha256": "ad3da1e313c0b72118868ec78325cd95e646340547ec90d070fdeb622093e240",
+      "bytes": 765,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "CLI output/help/warning",
+      "rights_review": "CAPTURE_RIGHTS.md; short diagnostic/source fragments, relevant third-party notices retained; no full work"
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C3-H-RC2-FC.stdout.txt",
+      "sha256": "8346e1409cae7f908d4d1b86a89d778807ec4c7d7cd1e35ce3e1d44335f21ea1",
+      "bytes": 2099,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "CLI output/help/warning",
+      "rights_review": "CAPTURE_RIGHTS.md; short diagnostic/source fragments, relevant third-party notices retained; no full work"
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C3-SC-BALANCE-BASE.stderr.txt",
+      "sha256": "ad3da1e313c0b72118868ec78325cd95e646340547ec90d070fdeb622093e240",
+      "bytes": 765,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "CLI output/help/warning",
+      "rights_review": "CAPTURE_RIGHTS.md; short diagnostic/source fragments, relevant third-party notices retained; no full work"
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C3-SC-BALANCE-BASE.stdout.txt",
+      "sha256": "c380540b07d2c7e7063d03581f2d9eb77a9bc26c59ed641c5bef770c7479d6c7",
+      "bytes": 2099,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "CLI output/help/warning",
+      "rights_review": "CAPTURE_RIGHTS.md; short diagnostic/source fragments, relevant third-party notices retained; no full work"
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C3-SC-BALANCE-FC.stderr.txt",
+      "sha256": "ad3da1e313c0b72118868ec78325cd95e646340547ec90d070fdeb622093e240",
+      "bytes": 765,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "CLI output/help/warning",
+      "rights_review": "CAPTURE_RIGHTS.md; short diagnostic/source fragments, relevant third-party notices retained; no full work"
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C3-SC-BALANCE-FC.stdout.txt",
+      "sha256": "c380540b07d2c7e7063d03581f2d9eb77a9bc26c59ed641c5bef770c7479d6c7",
+      "bytes": 2099,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "CLI output/help/warning",
+      "rights_review": "CAPTURE_RIGHTS.md; short diagnostic/source fragments, relevant third-party notices retained; no full work"
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C3-SC-SORT-BASE.stderr.txt",
+      "sha256": "ad3da1e313c0b72118868ec78325cd95e646340547ec90d070fdeb622093e240",
+      "bytes": 765,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "CLI output/help/warning",
+      "rights_review": "CAPTURE_RIGHTS.md; short diagnostic/source fragments, relevant third-party notices retained; no full work"
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C3-SC-SORT-BASE.stdout.txt",
+      "sha256": "fbf53378b62143aa1b65d91fb50e8bad6fa5f05c1c3131707547474b37114a05",
+      "bytes": 2099,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "CLI output/help/warning",
+      "rights_review": "CAPTURE_RIGHTS.md; short diagnostic/source fragments, relevant third-party notices retained; no full work"
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C3-SC-SORT-FC.stderr.txt",
+      "sha256": "ad3da1e313c0b72118868ec78325cd95e646340547ec90d070fdeb622093e240",
+      "bytes": 765,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "CLI output/help/warning",
+      "rights_review": "CAPTURE_RIGHTS.md; short diagnostic/source fragments, relevant third-party notices retained; no full work"
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C3-SC-SORT-FC.stdout.txt",
+      "sha256": "fbf53378b62143aa1b65d91fb50e8bad6fa5f05c1c3131707547474b37114a05",
+      "bytes": 2099,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "CLI output/help/warning",
+      "rights_review": "CAPTURE_RIGHTS.md; short diagnostic/source fragments, relevant third-party notices retained; no full work"
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C3-SH-FLAG-BASE.stderr.txt",
+      "sha256": "1560e509b46f0cf8fd84a64d75b4155427604324e57dafc9aececa68e5e48424",
+      "bytes": 761,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "CLI output/help/warning",
+      "rights_review": "CAPTURE_RIGHTS.md; short diagnostic/source fragments, relevant third-party notices retained; no full work"
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C3-SH-FLAG-BASE.stdout.txt",
+      "sha256": "d2b419aad7007bcc6ccd6ed737a48294d6a37dc5aa84c4c155dc3ceb70e15771",
+      "bytes": 2099,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "CLI output/help/warning",
+      "rights_review": "CAPTURE_RIGHTS.md; short diagnostic/source fragments, relevant third-party notices retained; no full work"
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C3-SH-FLAG-FC.stderr.txt",
+      "sha256": "1560e509b46f0cf8fd84a64d75b4155427604324e57dafc9aececa68e5e48424",
+      "bytes": 761,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "CLI output/help/warning",
+      "rights_review": "CAPTURE_RIGHTS.md; short diagnostic/source fragments, relevant third-party notices retained; no full work"
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C3-SH-FLAG-FC.stdout.txt",
+      "sha256": "d2b419aad7007bcc6ccd6ed737a48294d6a37dc5aa84c4c155dc3ceb70e15771",
+      "bytes": 2099,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "CLI output/help/warning",
+      "rights_review": "CAPTURE_RIGHTS.md; short diagnostic/source fragments, relevant third-party notices retained; no full work"
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C3-SH-FORMAT-BASE.stderr.txt",
+      "sha256": "cba203d606bedbff6a058af1c099c016b25863973e1351e262f3f43cfb5ec06b",
+      "bytes": 765,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "CLI output/help/warning",
+      "rights_review": "CAPTURE_RIGHTS.md; short diagnostic/source fragments, relevant third-party notices retained; no full work"
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C3-SH-FORMAT-BASE.stdout.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "empty channel",
+      "rights_review": "CAPTURE_RIGHTS.md; short diagnostic/source fragments, relevant third-party notices retained; no full work"
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C3-SH-FORMAT-FC.stderr.txt",
+      "sha256": "cba203d606bedbff6a058af1c099c016b25863973e1351e262f3f43cfb5ec06b",
+      "bytes": 765,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "CLI output/help/warning",
+      "rights_review": "CAPTURE_RIGHTS.md; short diagnostic/source fragments, relevant third-party notices retained; no full work"
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C3-SH-FORMAT-FC.stdout.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "empty channel",
+      "rights_review": "CAPTURE_RIGHTS.md; short diagnostic/source fragments, relevant third-party notices retained; no full work"
+    },
+    {
+      "file": "paper/evidence/environment.json",
+      "sha256": "1295f3ce36e53644e0ed459bd7e516aeb4ed8a9a1ab51543823e409b1e1a292a",
+      "bytes": 1368,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "paper/evidence/environment_inventory.md",
+      "sha256": "6b17452847e9fc6c9ef31a873953b8575e4fa358075e0ea4323827d33b5eaf8e",
+      "bytes": 4664,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "paper/evidence/health_development.json",
+      "sha256": "aa8e889e6d4772116452ae4c84129534ab7b9b9953f27a322e959cbfba58d79f",
+      "bytes": 4267,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "paper/evidence/health_recount_note.md",
+      "sha256": "bbe4264a71a4f8ccb36903a89f06136ef32bad4e50a1a249dfa43951b10fbb49",
+      "bytes": 1352,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "paper/evidence/historical_clean_check.md",
+      "sha256": "2bda86997e83cae3580f1c68aa76e6faea8ff2b5774b500e581a7cb903b80422",
+      "bytes": 3103,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "paper/evidence/no_args_capture_audit.json",
+      "sha256": "eaca4e0bb368d8cec73bbbc05dc9ab8caa2339b7095f76e1bdb654561042e921",
+      "bytes": 56003,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "paper/evidence/r2_profile_requests.json",
+      "sha256": "73716216bc6e4d2ffe0594f50d1790e03ff49f39801bdfb2bc0e1d70cccae2e7",
+      "bytes": 1202,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "paper/evidence/r3_by_arm.json",
+      "sha256": "069299d7614c1f56e3b922f2a3655e16137024df9ac343e794d4fbabf1dbeaa3",
+      "bytes": 101534,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "paper/evidence/r3_costs.json",
+      "sha256": "ebac4ab572112e6f9f3c4ea2d23adde5ef9aef3b206ea562b0341ffd1b5d240b",
+      "bytes": 2302,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "paper/evidence/r3_gate_exposure.json",
+      "sha256": "fbd6b512cebdc84736ba5e04d257bb41057a878a9aa10bd5e048cdaf589bd890",
+      "bytes": 2790,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "paper/evidence/r3_predictions.json",
+      "sha256": "e6cd3380a8ae8ddb5240f87c5cfebc506096742294d0ad87ceb690e3a06a81d7",
+      "bytes": 1891,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "paper/evidence/r3_proposal.json",
+      "sha256": "169452c46f70e96ccbf7856b4d304c9d46f5155285c2d116a30ac41db13a8923",
+      "bytes": 3948,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "paper/evidence/r3_proposal_README.md",
+      "sha256": "fee074ee6510f26e209fa41f1ead5eba191f1b2dc4aa2cb74e656a384fccd796",
+      "bytes": 504,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "paper/evidence/r3_summary.json",
+      "sha256": "06e5c2a319619685bb535747809285c9d96a3a4758c3def1fb7d9e06988afa5a",
+      "bytes": 5296,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "paper/evidence/resolvability.json",
+      "sha256": "d33d7e82cd3181bfa63583e8eb34217670b04a58bfadeb2c8a0eea69f974ed04",
+      "bytes": 14536,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "paper/evidence/response_counts.json",
+      "sha256": "d64176dcbb233489be3d1074ef4cfd03516bea6eaa035d28f1708010ecd1be93",
+      "bytes": 520039,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "paper/evidence/seal.json",
+      "sha256": "9181f006c2f39c80300d6c81bca774388e552c1580400228942c4ae2c67fb3c3",
+      "bytes": 596,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "paper/evidence/server_C1.json",
+      "sha256": "3b9c926298a8ea97d36d834f46f0e5a5069add8c66cab386406ddfdc1cd4cc83",
+      "bytes": 593,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "paper/evidence/server_C3.json",
+      "sha256": "8507b85ce469c032b69ef9dd09ac76320346ed7dbcee6cac266c4d751727928e",
+      "bytes": 593,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "paper/evidence/wheel_license_inventory.json",
+      "sha256": "e5cbcbdb6adbe2f9810efbe12716e9691f90aa903fb2931ecb2f3a67b8522b79",
+      "bytes": 2674,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "paper/figures/FIGURE_MANIFEST.json",
+      "sha256": "955fc7b2efb6b02627a6d14902f95a72f98c2a64fc63874e38c7d2e5e1278c64",
+      "bytes": 546,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "paper/figures/prefix_closure.png",
+      "sha256": "edff85476f8a66286983e34437e5a9dc8da38292ef546fe0feb816c16b4e4c47",
+      "bytes": 187130,
+      "review": "selected content and privacy/format review",
+      "format": "retained PNG bound to SVG and figure manifest",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "paper/figures/prefix_closure.svg",
+      "sha256": "823eb7d3795037d21a9b23cc560619146b61a52f4dc576d254a758b99e3d040c",
+      "bytes": 6490,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "paper/sources/KAGGLE_PRIMARY_VERIFICATION.json",
+      "sha256": "26a3720f1bb2f6e074816182d6ac0bb21f55935cced5a1f28d684ca0e8719732",
+      "bytes": 6000,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "metadata/URLs/selectors/hashes only; no fulltext or abstract"
+    },
+    {
+      "file": "paper/sources/SOURCE_INDEX.json",
+      "sha256": "0a2f02126d0ad182a28630f507de3b449fe9e5870e8f9ca84b075caf8f01765a",
+      "bytes": 59348,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "metadata/URLs/selectors/hashes only; no fulltext or abstract"
+    },
+    {
+      "file": "release-info/EXCLUSIONS.json",
+      "sha256": "0cd76b8caf1250524314f40e20886a418cfe476531ddbe3e3c92d2e435914889",
+      "bytes": 1687,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "release-info/RELEASE_CHECKSUMS.json",
+      "sha256": "70746389ce26676f6c4a167fdfea9ca9a24a7a7509bcaaede76fcb212eceb667",
+      "bytes": 903,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "release-info/RESOURCE_RC2_TO_RC3.diff",
+      "sha256": "19fb94f4e66cedd0a8fe8cc3b2cc700d6b5e17b7198f2e04d11df7c543026218",
+      "bytes": 13262,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "release-info/history/rc2/validation/RELEASE_VALIDATION.json",
+      "sha256": "7c7925399c1e4ad23557c2c5e3b5ebb1dd681f27eacba9c99125126b7abc7238",
+      "bytes": 5261,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "release-info/receipt-dossier/README.md",
+      "sha256": "267cf7a09bf58df30471d2c1902a6e67526ce821e3bf64332c6cf862f29af841",
+      "bytes": 1337,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "release-info/receipt-dossier/receipt-redacted.json",
+      "sha256": "ab4d90861351d31c08006e9aacd578762e71a56b6de49e002d0db48cb22af649",
+      "bytes": 1434,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "release-info/validation/COMPONENT_EQUIVALENCE.json",
+      "sha256": "97012f55dd1b4c80f3fb6c883859ab95dd7783bc26aa45e75066eb920ad46471",
+      "bytes": 61158,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "release-info/validation/RELEASE_VALIDATION.json",
+      "sha256": "4bf354175320c9c1b88f3cdfaa4a78ed595ebd18901d8f96333b5e69ac68e955",
+      "bytes": 2064,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    },
+    {
+      "file": "release-info/verify_public_tree.py",
+      "sha256": "d7350f80e71a4d7a4eb82efd04477273425c5ace8b8b1938ac15668081d25359",
+      "bytes": 4162,
+      "review": "selected content and privacy/format review",
+      "format": "UTF-8",
+      "content_class": "approved resource, editorial material, metrics or selected receipt"
+    }
+  ],
+  "rules": [
+    "windows_absolute_path",
+    "personal_unix_home",
+    "internal_IP",
+    "machine_hostname",
+    "private_repository",
+    "private_key",
+    "credential_token",
+    "ssh_key_material"
+  ],
+  "unresolved_findings": [],
+  "namespace_dispositions": [
+    {
+      "file": "SourceEnv/CLEAN_MACHINE.md",
+      "paths": [
+        "/usr/bin/python3"
+      ],
+      "disposition": "Evidentiary sandbox/runtime or generic documented path; not a personal-host identifier"
+    },
+    {
+      "file": "SourceEnv/FIXTURES.md",
+      "paths": [
+        "/usr/bin/python3"
+      ],
+      "disposition": "Evidentiary sandbox/runtime or generic documented path; not a personal-host identifier"
+    },
+    {
+      "file": "SourceEnv/README.md",
+      "paths": [
+        "/usr/bin/python3"
+      ],
+      "disposition": "Evidentiary sandbox/runtime or generic documented path; not a personal-host identifier"
+    },
+    {
+      "file": "SourceEnv/RUNNING.md",
+      "paths": [
+        "/usr/bin/python3"
+      ],
+      "disposition": "Evidentiary sandbox/runtime or generic documented path; not a personal-host identifier"
+    },
+    {
+      "file": "SourceEnv/cases-package/contract.json",
+      "paths": [
+        "/tmp/cache",
+        "/tmp/home",
+        "/tmp/tmp",
+        "/usr/bin:/bin"
+      ],
+      "disposition": "Evidentiary sandbox/runtime or generic documented path; not a personal-host identifier"
+    },
+    {
+      "file": "SourceEnv/cases-package/frozen_runtime/judge.py",
+      "paths": [
+        "/candidate/app.py",
+        "/environment/bin/python",
+        "/tmp/cache",
+        "/tmp/home",
+        "/tmp/tmp",
+        "/usr/bin/python3",
+        "/usr/bin:/bin"
+      ],
+      "disposition": "Evidentiary sandbox/runtime or generic documented path; not a personal-host identifier"
+    },
+    {
+      "file": "SourceEnv/cases-package/frozen_runtime/native_probe.py",
+      "paths": [
+        "/candidate/.native-probe",
+        "/environment/.native-probe",
+        "/tmp/typer-probe-marker",
+        "/usr/.native-probe"
+      ],
+      "disposition": "Evidentiary sandbox/runtime or generic documented path; not a personal-host identifier"
+    },
+    {
+      "file": "SourceEnv/cases-package/frozen_runtime/offline.py",
+      "paths": [
+        "/usr/bin/python3"
+      ],
+      "disposition": "Evidentiary sandbox/runtime or generic documented path; not a personal-host identifier"
+    },
+    {
+      "file": "SourceEnv/cases-package/frozen_runtime/policy.json",
+      "paths": [
+        "/usr/bin/python3"
+      ],
+      "disposition": "Evidentiary sandbox/runtime or generic documented path; not a personal-host identifier"
+    },
+    {
+      "file": "SourceEnv/run_agent.py",
+      "paths": [
+        "/usr/bin/python3"
+      ],
+      "disposition": "Evidentiary sandbox/runtime or generic documented path; not a personal-host identifier"
+    },
+    {
+      "file": "SourceEnv/source/file_worker.py",
+      "paths": [
+        "/environment/.interface-probe",
+        "/usr/.interface-probe"
+      ],
+      "disposition": "Evidentiary sandbox/runtime or generic documented path; not a personal-host identifier"
+    },
+    {
+      "file": "SourceEnv/source/interface.py",
+      "paths": [
+        "/usr/bin/python3"
+      ],
+      "disposition": "Evidentiary sandbox/runtime or generic documented path; not a personal-host identifier"
+    },
+    {
+      "file": "SourceEnv/source/interface_contract.json",
+      "paths": [
+        "/tmp/cache",
+        "/tmp/home",
+        "/tmp/tmp",
+        "/usr/bin/python3",
+        "/usr/bin:/bin"
+      ],
+      "disposition": "Evidentiary sandbox/runtime or generic documented path; not a personal-host identifier"
+    },
+    {
+      "file": "SourceEnv/validate_fixture.py",
+      "paths": [
+        "/usr/bin/python3"
+      ],
+      "disposition": "Evidentiary sandbox/runtime or generic documented path; not a personal-host identifier"
+    },
+    {
+      "file": "paper/DRAFT.md",
+      "paths": [
+        "/tmp/cache"
+      ],
+      "disposition": "Evidentiary sandbox/runtime or generic documented path; not a personal-host identifier"
+    },
+    {
+      "file": "paper/SUPPLEMENT.md",
+      "paths": [
+        "/tmp/cache",
+        "/usr/bin/python3"
+      ],
+      "disposition": "Evidentiary sandbox/runtime or generic documented path; not a personal-host identifier"
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C1-EC-MISSING-BASE.stderr.txt",
+      "paths": [
+        "/candidate/app.py"
+      ],
+      "disposition": "Evidentiary sandbox/runtime or generic documented path; not a personal-host identifier"
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C1-EC-MISSING-FC.stderr.txt",
+      "paths": [
+        "/candidate/app.py"
+      ],
+      "disposition": "Evidentiary sandbox/runtime or generic documented path; not a personal-host identifier"
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C1-EH-API-BASE.stderr.txt",
+      "paths": [
+        "/candidate/app.py:18",
+        "/environment/lib/python3.13/site-packages/click/core.py:1064",
+        "/environment/lib/python3.13/site-packages/click/core.py:1186",
+        "/environment/lib/python3.13/site-packages/click/core.py:1442",
+        "/environment/lib/python3.13/site-packages/click/core.py:1784",
+        "/environment/lib/python3.13/site-packages/click/core.py:730",
+        "/environment/lib/python3.13/site-packages/click/exceptions.py:271",
+        "/environment/lib/python3.13/site-packages/typer/__init__.py",
+        "/environment/lib/python3.13/site-packages/typer/core.py:194",
+        "/environment/lib/python3.13/site-packages/typer/core.py:740",
+        "/environment/lib/python3.13/site-packages/typer/core.py:754",
+        "/environment/lib/python3.13/site-packages/typer/main.py:323",
+        "/environment/lib/python3.13/site-packages/typer/main.py:340",
+        "/environment/lib/python3.13/site-packages/typer/rich_utils.py:373",
+        "/environment/lib/python3.13/site-packages/typer/rich_utils.py:614",
+        "/usr/lib/python3.13/json/__init__.py"
+      ],
+      "disposition": "Evidentiary sandbox/runtime or generic documented path; not a personal-host identifier"
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C1-EH-API-FC.stderr.txt",
+      "paths": [
+        "/candidate/app.py:18",
+        "/environment/lib/python3.13/site-packages/click/core.py:1064",
+        "/environment/lib/python3.13/site-packages/click/core.py:1186",
+        "/environment/lib/python3.13/site-packages/click/core.py:1442",
+        "/environment/lib/python3.13/site-packages/click/core.py:1784",
+        "/environment/lib/python3.13/site-packages/click/core.py:730",
+        "/environment/lib/python3.13/site-packages/click/exceptions.py:271",
+        "/environment/lib/python3.13/site-packages/typer/__init__.py",
+        "/environment/lib/python3.13/site-packages/typer/core.py:194",
+        "/environment/lib/python3.13/site-packages/typer/core.py:740",
+        "/environment/lib/python3.13/site-packages/typer/core.py:754",
+        "/environment/lib/python3.13/site-packages/typer/main.py:323",
+        "/environment/lib/python3.13/site-packages/typer/main.py:340",
+        "/environment/lib/python3.13/site-packages/typer/rich_utils.py:373",
+        "/environment/lib/python3.13/site-packages/typer/rich_utils.py:614",
+        "/usr/lib/python3.13/json/__init__.py"
+      ],
+      "disposition": "Evidentiary sandbox/runtime or generic documented path; not a personal-host identifier"
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C1-EH-RENDERER-BASE.stderr.txt",
+      "paths": [
+        "/candidate/app.py"
+      ],
+      "disposition": "Evidentiary sandbox/runtime or generic documented path; not a personal-host identifier"
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C1-EH-RENDERER-FC.stderr.txt",
+      "paths": [
+        "/candidate/app.py"
+      ],
+      "disposition": "Evidentiary sandbox/runtime or generic documented path; not a personal-host identifier"
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C1-SC-BALANCE-BASE.stderr.txt",
+      "paths": [
+        "/candidate/app.py"
+      ],
+      "disposition": "Evidentiary sandbox/runtime or generic documented path; not a personal-host identifier"
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C3-EH-API-BASE.stderr.txt",
+      "paths": [
+        "/candidate/app.py:18",
+        "/environment/lib/python3.13/site-packages/click/core.py:1064",
+        "/environment/lib/python3.13/site-packages/click/core.py:1186",
+        "/environment/lib/python3.13/site-packages/click/core.py:1442",
+        "/environment/lib/python3.13/site-packages/click/core.py:1784",
+        "/environment/lib/python3.13/site-packages/click/core.py:730",
+        "/environment/lib/python3.13/site-packages/click/exceptions.py:271",
+        "/environment/lib/python3.13/site-packages/typer/__init__.py",
+        "/environment/lib/python3.13/site-packages/typer/core.py:194",
+        "/environment/lib/python3.13/site-packages/typer/core.py:740",
+        "/environment/lib/python3.13/site-packages/typer/core.py:754",
+        "/environment/lib/python3.13/site-packages/typer/main.py:323",
+        "/environment/lib/python3.13/site-packages/typer/main.py:340",
+        "/environment/lib/python3.13/site-packages/typer/rich_utils.py:373",
+        "/environment/lib/python3.13/site-packages/typer/rich_utils.py:614",
+        "/usr/lib/python3.13/json/__init__.py"
+      ],
+      "disposition": "Evidentiary sandbox/runtime or generic documented path; not a personal-host identifier"
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C3-EH-API-FC.stderr.txt",
+      "paths": [
+        "/candidate/app.py:18",
+        "/environment/lib/python3.13/site-packages/click/core.py:1064",
+        "/environment/lib/python3.13/site-packages/click/core.py:1186",
+        "/environment/lib/python3.13/site-packages/click/core.py:1442",
+        "/environment/lib/python3.13/site-packages/click/core.py:1784",
+        "/environment/lib/python3.13/site-packages/click/core.py:730",
+        "/environment/lib/python3.13/site-packages/click/exceptions.py:271",
+        "/environment/lib/python3.13/site-packages/typer/__init__.py",
+        "/environment/lib/python3.13/site-packages/typer/core.py:194",
+        "/environment/lib/python3.13/site-packages/typer/core.py:740",
+        "/environment/lib/python3.13/site-packages/typer/core.py:754",
+        "/environment/lib/python3.13/site-packages/typer/main.py:323",
+        "/environment/lib/python3.13/site-packages/typer/main.py:340",
+        "/environment/lib/python3.13/site-packages/typer/rich_utils.py:373",
+        "/environment/lib/python3.13/site-packages/typer/rich_utils.py:614",
+        "/usr/lib/python3.13/json/__init__.py"
+      ],
+      "disposition": "Evidentiary sandbox/runtime or generic documented path; not a personal-host identifier"
+    },
+    {
+      "file": "paper/evidence/endpoint_no_args/C3-EH-RENDERER-BASE.stderr.txt",
+      "paths": [
+        "/candidate/app.py"
+      ],
+      "disposition": "Evidentiary sandbox/runtime or generic documented path; not a personal-host identifier"
+    },
+    {
+      "file": "release-info/RESOURCE_RC2_TO_RC3.diff",
+      "paths": [
+        "/usr/bin/python3"
+      ],
+      "disposition": "Evidentiary sandbox/runtime or generic documented path; not a personal-host identifier"
+    }
+  ],
+  "intentional_identifiers": "Published authors/Kaggle accounts and intended new public repository; loopback examples are not internal-network endpoints.",
+  "limits": "Pattern/content review is not proof of absence of every possible secret. Generated inventory/map/self-check files are separately validated; historical sources are never copied by directory glob.",
+  "no_args_channels": 80,
+  "fulltexts_included": false,
+  "complete_conversations_included": false
+}

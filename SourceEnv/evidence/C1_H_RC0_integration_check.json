@@ -1,0 +1,30 @@
+{
+  "status": "BLOCKED_BEFORE_EPISODE",
+  "phase": "SSH_REVERSE_FORWARD_SETUP",
+  "error_type": "SSHException",
+  "error": "TCP forwarding request denied",
+  "model_processes_started": 1,
+  "model_generation_calls": 0,
+  "generated_tokens": 0,
+  "reasoning_tokens": 0,
+  "tokenizer_calls": 0,
+  "physical_FC_episodes_started": 0,
+  "derived_BASE_results": 0,
+  "applications": 0,
+  "probes": 0,
+  "workers": 0,
+  "offline_installs": 0,
+  "fresh_states": 0,
+  "retries": 0,
+  "replacements": 0,
+  "unattempted": [
+    "H-RC0"
+  ],
+  "initial_TCP_closure": "INDETERMINATE (connect_ex=10035), retained verbatim",
+  "process_terminated": true,
+  "OS_no_process_or_listener": true,
+  "subsequent_TCP_closure": "CLOSED",
+  "single_process_allowance_used": true,
+  "no_relaunch": "The authorized process ceiling was used; this phase stops without model generation.",
+  "model_sha256": "8e30dff3ac4c8434c49a7036fa15564bdbb6044e42bf04550bf1a096ad7e6a52"
+}

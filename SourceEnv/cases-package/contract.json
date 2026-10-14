@@ -1,0 +1,436 @@
+{
+  "schema": 6,
+  "experiment_id": "TR-20261008-05-r1",
+  "status": "PREPARATION_IN_PROGRESS_MODEL_BLOCKED",
+  "agent_gate": "BLOCKED",
+  "scientific_gate": "DESCRIPTIVE_ONLY",
+  "authorized_new_model_episodes": 0,
+  "cases": [
+    {
+      "case_id": "EH-API",
+      "category": "environment",
+      "healthy": false,
+      "matrix_cell": "environment/helps",
+      "symptom_surface": "helps",
+      "also_affects_other_surface": false,
+      "mechanism": "Typer/Click help API signature incompatibility",
+      "initial_profile": "typer0153_click820",
+      "reference_profile": "typer0160_click820",
+      "alternative_profile": "typer0153_click818",
+      "initial_checks_expected": {
+        "first_command": true,
+        "second_command": true,
+        "no_args": false,
+        "explicit_help": false,
+        "first_command_help": false,
+        "second_command_help": false
+      },
+      "source_sha256": "6d2bf080f36e5ebdbcc8f30235c5189a7bfdbd5e7df66dacc4aba6d7bede7309",
+      "reference_source_sha256": "6d2bf080f36e5ebdbcc8f30235c5189a7bfdbd5e7df66dacc4aba6d7bede7309",
+      "alternative_source_sha256": "6d2bf080f36e5ebdbcc8f30235c5189a7bfdbd5e7df66dacc4aba6d7bede7309",
+      "provenance": "SYNTHETIC_AUTHOR_VISIBLE_V05",
+      "fixture_contract": "stateless-cli-v1",
+      "command_json": {
+        "first_command": {
+          "balance": 17,
+          "entries": 3
+        },
+        "second_command": {
+          "credits": 23,
+          "debits": 6
+        }
+      }
+    },
+    {
+      "case_id": "EH-RENDERER",
+      "category": "environment",
+      "healthy": false,
+      "matrix_cell": "environment/helps",
+      "symptom_surface": "helps",
+      "also_affects_other_surface": false,
+      "mechanism": "Optional renderer absent; import deferred to help entry",
+      "initial_profile": "missing_rich_typer0160_click820",
+      "reference_profile": "typer0160_click820",
+      "alternative_profile": "missing_rich_typer0160_click820",
+      "initial_checks_expected": {
+        "first_command": true,
+        "second_command": true,
+        "no_args": false,
+        "explicit_help": false,
+        "first_command_help": false,
+        "second_command_help": false
+      },
+      "source_sha256": "f71fc58ba767962a189b27d4bd4c7028f5449f6a76be602137d96fd65b7757e0",
+      "reference_source_sha256": "f71fc58ba767962a189b27d4bd4c7028f5449f6a76be602137d96fd65b7757e0",
+      "alternative_source_sha256": "be9c5c105e64509b4112f58cbc81dcc4159068f1daa2f044fd36d8dea8300919",
+      "provenance": "SYNTHETIC_AUTHOR_VISIBLE_V05",
+      "fixture_contract": "stateless-cli-v1",
+      "command_json": {
+        "first_command": {
+          "balance": 17,
+          "entries": 3
+        },
+        "second_command": {
+          "credits": 23,
+          "debits": 6
+        }
+      }
+    },
+    {
+      "case_id": "EC-MISSING",
+      "category": "environment",
+      "healthy": false,
+      "matrix_cell": "environment/commands",
+      "symptom_surface": "commands",
+      "also_affects_other_surface": true,
+      "mechanism": "Required CLI dependency absent at startup",
+      "initial_profile": "missing_typer_click820",
+      "reference_profile": "typer0160_click820",
+      "alternative_profile": "typer0153_click818",
+      "initial_checks_expected": {
+        "first_command": false,
+        "second_command": false,
+        "no_args": false,
+        "explicit_help": false,
+        "first_command_help": false,
+        "second_command_help": false
+      },
+      "source_sha256": "df75e2cf058f8319158dc12c2e8fc4cfcf8ed36508261d1598f4b25ec71a3e95",
+      "reference_source_sha256": "df75e2cf058f8319158dc12c2e8fc4cfcf8ed36508261d1598f4b25ec71a3e95",
+      "alternative_source_sha256": "df75e2cf058f8319158dc12c2e8fc4cfcf8ed36508261d1598f4b25ec71a3e95",
+      "provenance": "SYNTHETIC_AUTHOR_VISIBLE_V05",
+      "fixture_contract": "stateless-cli-v1",
+      "command_json": {
+        "first_command": {
+          "balance": 17,
+          "entries": 3
+        },
+        "second_command": {
+          "credits": 23,
+          "debits": 6
+        }
+      }
+    },
+    {
+      "case_id": "EC-SYMBOL",
+      "category": "environment",
+      "healthy": false,
+      "matrix_cell": "environment/commands",
+      "symptom_surface": "commands",
+      "also_affects_other_surface": false,
+      "mechanism": "Installed older dependency lacks command-path public exception API",
+      "initial_profile": "typer0153_click818",
+      "reference_profile": "typer0160_click820",
+      "alternative_profile": "typer0153_click818",
+      "initial_checks_expected": {
+        "first_command": false,
+        "second_command": false,
+        "no_args": true,
+        "explicit_help": true,
+        "first_command_help": true,
+        "second_command_help": true
+      },
+      "source_sha256": "fbafcdafcc598ce441eb6d1632b01e3274d9453ec9d046335621a03d9569c44f",
+      "reference_source_sha256": "fbafcdafcc598ce441eb6d1632b01e3274d9453ec9d046335621a03d9569c44f",
+      "alternative_source_sha256": "593069471705d6f087227d1e72141077aec2b85c47f7849527e5e41d11051d7e",
+      "provenance": "SYNTHETIC_AUTHOR_VISIBLE_V05",
+      "fixture_contract": "stateless-cli-v1",
+      "command_json": {
+        "first_command": {
+          "balance": 17,
+          "entries": 3
+        },
+        "second_command": {
+          "credits": 23,
+          "debits": 6
+        }
+      }
+    },
+    {
+      "case_id": "SC-BALANCE",
+      "category": "source",
+      "healthy": false,
+      "matrix_cell": "source/commands",
+      "symptom_surface": "commands",
+      "also_affects_other_surface": false,
+      "mechanism": "Unsigned aggregation loses debit sign",
+      "initial_profile": "typer0160_click820",
+      "reference_profile": "typer0160_click820",
+      "alternative_profile": "typer0160_click820",
+      "initial_checks_expected": {
+        "first_command": false,
+        "second_command": true,
+        "no_args": true,
+        "explicit_help": true,
+        "first_command_help": true,
+        "second_command_help": true
+      },
+      "source_sha256": "c042b654fc9ac3491732010de22db01c2fe68406b22399831c38e2e3e71e6f03",
+      "reference_source_sha256": "6d2bf080f36e5ebdbcc8f30235c5189a7bfdbd5e7df66dacc4aba6d7bede7309",
+      "alternative_source_sha256": "da210184452eb4ae3268303bd9be82090d590f1e9b9c654c3820a5225b96d048",
+      "provenance": "SYNTHETIC_AUTHOR_VISIBLE_V05",
+      "fixture_contract": "stateless-cli-v1",
+      "command_json": {
+        "first_command": {
+          "balance": 17,
+          "entries": 3
+        },
+        "second_command": {
+          "credits": 23,
+          "debits": 6
+        }
+      }
+    },
+    {
+      "case_id": "SC-SORT",
+      "category": "source",
+      "healthy": false,
+      "matrix_cell": "source/commands",
+      "symptom_surface": "commands",
+      "also_affects_other_surface": false,
+      "mechanism": "Lexicographic ordering of numeric text",
+      "initial_profile": "typer0160_click820",
+      "reference_profile": "typer0160_click820",
+      "alternative_profile": "typer0160_click820",
+      "initial_checks_expected": {
+        "first_command": false,
+        "second_command": true,
+        "no_args": true,
+        "explicit_help": true,
+        "first_command_help": true,
+        "second_command_help": true
+      },
+      "source_sha256": "bbf9dbdbbfb935d0067569f6a279b0c707d5266adf20c59da6c1a48de8db2077",
+      "reference_source_sha256": "65c03df6f0775841cdcabc83bc63dd7a77b299c3db95320f32b73a645c77fcd4",
+      "alternative_source_sha256": "d0750a8dd34676c6c4a903bfb46b4919bbb3710bd05db6107dc23f718c02d098",
+      "provenance": "SYNTHETIC_AUTHOR_VISIBLE_V05",
+      "fixture_contract": "stateless-cli-v1",
+      "command_json": {
+        "first_command": {
+          "ordered": [
+            2,
+            9,
+            12
+          ]
+        },
+        "second_command": {
+          "maximum": 12
+        }
+      }
+    },
+    {
+      "case_id": "SH-FLAG",
+      "category": "source",
+      "healthy": false,
+      "matrix_cell": "source/helps",
+      "symptom_surface": "helps",
+      "also_affects_other_surface": false,
+      "mechanism": "Help option registration removes --help",
+      "initial_profile": "typer0160_click820",
+      "reference_profile": "typer0160_click820",
+      "alternative_profile": "typer0160_click820",
+      "initial_checks_expected": {
+        "first_command": true,
+        "second_command": true,
+        "no_args": true,
+        "explicit_help": false,
+        "first_command_help": false,
+        "second_command_help": false
+      },
+      "source_sha256": "96e43ff82001e47bea26914ee68263004b0f161d319a0b1a9f2f7a46f310113e",
+      "reference_source_sha256": "6d2bf080f36e5ebdbcc8f30235c5189a7bfdbd5e7df66dacc4aba6d7bede7309",
+      "alternative_source_sha256": "5c87ee941936ac2713f8cbf0c3b4c14e248e0ccf1f75223c27c90f3e3942d153",
+      "provenance": "SYNTHETIC_AUTHOR_VISIBLE_V05",
+      "fixture_contract": "stateless-cli-v1",
+      "command_json": {
+        "first_command": {
+          "balance": 17,
+          "entries": 3
+        },
+        "second_command": {
+          "credits": 23,
+          "debits": 6
+        }
+      }
+    },
+    {
+      "case_id": "SH-FORMAT",
+      "category": "source",
+      "healthy": false,
+      "matrix_cell": "source/helps",
+      "symptom_surface": "helps",
+      "also_affects_other_surface": false,
+      "mechanism": "Group help formatter suppresses command information",
+      "initial_profile": "typer0160_click820",
+      "reference_profile": "typer0160_click820",
+      "alternative_profile": "typer0160_click820",
+      "initial_checks_expected": {
+        "first_command": true,
+        "second_command": true,
+        "no_args": false,
+        "explicit_help": false,
+        "first_command_help": true,
+        "second_command_help": true
+      },
+      "source_sha256": "d65ec3a2b70d9eedaed3b8fb9106504dd46db2159cad293c3e2d2733ae0416d8",
+      "reference_source_sha256": "6d2bf080f36e5ebdbcc8f30235c5189a7bfdbd5e7df66dacc4aba6d7bede7309",
+      "alternative_source_sha256": "2d5fd72f4c5da8054f82b23c5228af6edb73ae41a1462023a8af2145d7fea351",
+      "provenance": "SYNTHETIC_AUTHOR_VISIBLE_V05",
+      "fixture_contract": "stateless-cli-v1",
+      "command_json": {
+        "first_command": {
+          "balance": 17,
+          "entries": 3
+        },
+        "second_command": {
+          "credits": 23,
+          "debits": 6
+        }
+      }
+    },
+    {
+      "case_id": "H-RC0",
+      "category": "healthy_negative_control",
+      "healthy": true,
+      "matrix_cell": null,
+      "symptom_surface": "none",
+      "also_affects_other_surface": false,
+      "mechanism": "Valid implicit help rc 0",
+      "initial_profile": "typer0153_click818",
+      "reference_profile": "typer0153_click818",
+      "alternative_profile": "typer0160_click820",
+      "initial_checks_expected": {
+        "first_command": true,
+        "second_command": true,
+        "no_args": true,
+        "explicit_help": true,
+        "first_command_help": true,
+        "second_command_help": true
+      },
+      "source_sha256": "6d2bf080f36e5ebdbcc8f30235c5189a7bfdbd5e7df66dacc4aba6d7bede7309",
+      "reference_source_sha256": "6d2bf080f36e5ebdbcc8f30235c5189a7bfdbd5e7df66dacc4aba6d7bede7309",
+      "alternative_source_sha256": "6d2bf080f36e5ebdbcc8f30235c5189a7bfdbd5e7df66dacc4aba6d7bede7309",
+      "provenance": "SYNTHETIC_AUTHOR_VISIBLE_V05",
+      "fixture_contract": "stateless-cli-v1",
+      "initial_no_args_rc": 0,
+      "command_json": {
+        "first_command": {
+          "balance": 17,
+          "entries": 3
+        },
+        "second_command": {
+          "credits": 23,
+          "debits": 6
+        }
+      }
+    },
+    {
+      "case_id": "H-RC2",
+      "category": "healthy_negative_control",
+      "healthy": true,
+      "matrix_cell": null,
+      "symptom_surface": "none",
+      "also_affects_other_surface": false,
+      "mechanism": "Valid implicit help rc 2 under Click 8.2.0",
+      "initial_profile": "typer0160_click820",
+      "reference_profile": "typer0160_click820",
+      "alternative_profile": "typer0153_click818",
+      "initial_checks_expected": {
+        "first_command": true,
+        "second_command": true,
+        "no_args": true,
+        "explicit_help": true,
+        "first_command_help": true,
+        "second_command_help": true
+      },
+      "source_sha256": "6d2bf080f36e5ebdbcc8f30235c5189a7bfdbd5e7df66dacc4aba6d7bede7309",
+      "reference_source_sha256": "6d2bf080f36e5ebdbcc8f30235c5189a7bfdbd5e7df66dacc4aba6d7bede7309",
+      "alternative_source_sha256": "6d2bf080f36e5ebdbcc8f30235c5189a7bfdbd5e7df66dacc4aba6d7bede7309",
+      "provenance": "SYNTHETIC_AUTHOR_VISIBLE_V05",
+      "fixture_contract": "stateless-cli-v1",
+      "initial_no_args_rc": 2,
+      "command_json": {
+        "first_command": {
+          "balance": 17,
+          "entries": 3
+        },
+        "second_command": {
+          "credits": 23,
+          "debits": 6
+        }
+      }
+    }
+  ],
+  "episode_budget": {
+    "max_actions": 20,
+    "max_run_app_actions": 12,
+    "max_install_actions": 3,
+    "max_generated_tokens_total": 8192,
+    "max_generated_tokens_per_reply": 2048,
+    "max_context_tokens_including_generation_reservation": 16384,
+    "wall_seconds_including_inference": 600,
+    "application_timeout_seconds": 10,
+    "process_output_limit_bytes": 2097152,
+    "agent_output_view_limit_bytes": 16384,
+    "file_limit_bytes": 65536,
+    "workspace_file_limit": 64,
+    "workspace_bytes_limit": 1048576,
+    "nproc_soft": 64,
+    "nproc_hard": 64,
+    "rejected_actions_consume_budget": true,
+    "hidden_grading_does_not_consume_agent_action_budget": true
+  },
+  "fixed_controls": [
+    "noop",
+    "always_click818",
+    "always_typer0160",
+    "reference_repair",
+    "alternative_repair",
+    "wrong_output"
+  ],
+  "maximum_preparation_control_applications": 90,
+  "agent_allowed_profiles": {
+    "typer0153_click820": {
+      "typer": "0.15.3",
+      "click": "8.2.0"
+    },
+    "typer0153_click818": {
+      "typer": "0.15.3",
+      "click": "8.1.8"
+    },
+    "typer0160_click820": {
+      "typer": "0.16.0",
+      "click": "8.2.0"
+    }
+  },
+  "initial_only_profiles": [
+    "missing_typer_click820",
+    "missing_rich_typer0160_click820"
+  ],
+  "application_contract": {
+    "id": "stateless-cli-v1",
+    "source_mount": "readonly",
+    "environment_mount": "readonly",
+    "auxiliaries": "fresh per invocation",
+    "file_tools": "source writable through trusted dispatcher",
+    "fixed_environment": {
+      "PATH": "/usr/bin:/bin",
+      "HOME": "/tmp/home",
+      "TMPDIR": "/tmp/tmp",
+      "XDG_CACHE_HOME": "/tmp/cache",
+      "LANG": "C.UTF-8",
+      "LC_ALL": "C.UTF-8",
+      "TZ": "UTC",
+      "PYTHONHASHSEED": "0",
+      "NO_COLOR": "1",
+      "COLUMNS": "100",
+      "TERM": "dumb",
+      "PYTHONNOUSERSITE": "1",
+      "PYTHONDONTWRITEBYTECODE": "1",
+      "PYTHONIOENCODING": "utf-8"
+    }
+  },
+  "interpretation": "Ten synthetic author-visible fixtures; two mechanisms per broad cell, overlapping symptom surfaces; descriptive resource demonstration, not an isolated factorial",
+  "command_output_contract": "exact schema/value JSON objects, unique keys, finite numbers, order and JSON whitespace free, no other content, rc 0 and empty stderr",
+  "resource_version": "typer-cli-repair-v05-r1"
+}

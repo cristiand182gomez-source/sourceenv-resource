@@ -1,0 +1,73 @@
+[
+  {
+    "wheel": "click-8.1.8-py3-none-any.whl",
+    "sha256": "63c132bbbed01578a06712a2d1f497bb62d9c1c0d329b7903a866228027263b2",
+    "license_files": [
+      "licenses/click-8.1.8-py3-none-any.whl/click-8.1.8.dist-info/LICENSE.txt"
+    ]
+  },
+  {
+    "wheel": "click-8.2.0-py3-none-any.whl",
+    "sha256": "6b303f0b2aa85f1cb4e5303078fadcbcd4e476f114fab9b5007005711839325c",
+    "license_files": [
+      "licenses/click-8.2.0-py3-none-any.whl/click-8.2.0.dist-info/licenses/LICENSE.txt"
+    ]
+  },
+  {
+    "wheel": "markdown_it_py-3.0.0-py3-none-any.whl",
+    "sha256": "355216845c60bd96232cd8d8c40e8f9765cc86f46880e43a8fd22dc1a1a8cab1",
+    "license_files": [
+      "licenses/markdown_it_py-3.0.0-py3-none-any.whl/markdown_it_py-3.0.0.dist-info/LICENSE",
+      "licenses/markdown_it_py-3.0.0-py3-none-any.whl/markdown_it_py-3.0.0.dist-info/LICENSE.markdown-it"
+    ]
+  },
+  {
+    "wheel": "mdurl-0.1.2-py3-none-any.whl",
+    "sha256": "84008a41e51615a49fc9966191ff91509e3c40b939176e643fd50a5c2196b8f8",
+    "license_files": [
+      "licenses/mdurl-0.1.2-py3-none-any.whl/mdurl-0.1.2.dist-info/LICENSE"
+    ]
+  },
+  {
+    "wheel": "pygments-2.18.0-py3-none-any.whl",
+    "sha256": "b8e6aca0523f3ab76fee51799c488e38782ac06eafcf95e7ba832985c8e7b13a",
+    "license_files": [
+      "licenses/pygments-2.18.0-py3-none-any.whl/pygments-2.18.0.dist-info/licenses/LICENSE"
+    ]
+  },
+  {
+    "wheel": "rich-13.9.4-py3-none-any.whl",
+    "sha256": "6049d5e6ec054bf2779ab3358186963bac2ea89175919d699e378b99738c2a90",
+    "license_files": [
+      "licenses/rich-13.9.4-py3-none-any.whl/rich-13.9.4.dist-info/LICENSE"
+    ]
+  },
+  {
+    "wheel": "shellingham-1.5.4-py2.py3-none-any.whl",
+    "sha256": "7ecfff8f2fd72616f7481040475a65b2bf8af90a56c89140852d1120324e8686",
+    "license_files": [
+      "licenses/shellingham-1.5.4-py2.py3-none-any.whl/shellingham-1.5.4.dist-info/LICENSE"
+    ]
+  },
+  {
+    "wheel": "typer-0.15.3-py3-none-any.whl",
+    "sha256": "c86a65ad77ca531f03de08d1b9cb67cd09ad02ddddf4b34745b5008f43b239bd",
+    "license_files": [
+      "licenses/typer-0.15.3-py3-none-any.whl/typer-0.15.3.dist-info/licenses/LICENSE"
+    ]
+  },
+  {
+    "wheel": "typer-0.16.0-py3-none-any.whl",
+    "sha256": "1f79bed11d4d02d4310e3c1b7ba594183bcedb0ac73b27a9e5f28f6fb5b98855",
+    "license_files": [
+      "licenses/typer-0.16.0-py3-none-any.whl/typer-0.16.0.dist-info/licenses/LICENSE"
+    ]
+  },
+  {
+    "wheel": "typing_extensions-4.12.2-py3-none-any.whl",
+    "sha256": "04e5ca0351e0f3f85c6853954072df659d0d13fac324d0072316b67d7794700d",
+    "license_files": [
+      "licenses/typing_extensions-4.12.2-py3-none-any.whl/typing_extensions-4.12.2.dist-info/LICENSE"
+    ]
+  }
+]

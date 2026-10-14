@@ -1,0 +1,40 @@
+{
+  "scripted": {
+    "model_calls": 0,
+    "generated_tokens": 0,
+    "applications": 288,
+    "probes": 32,
+    "workers": 140,
+    "offline_installs": 20,
+    "fresh_states": 16,
+    "checkpoint_copies": 8,
+    "machine_seconds": 154.08129849500256,
+    "scripted_replies": 224
+  },
+  "real_attempt": {
+    "model_processes_started": 1,
+    "model_generation_calls": 0,
+    "generated_tokens": 0,
+    "reasoning_tokens": 0,
+    "physical_FC_episodes_started": 0,
+    "derived_BASE_results": 0,
+    "applications": 0,
+    "probes": 0,
+    "workers": 0,
+    "offline_installs": 0,
+    "fresh_states": 0,
+    "retries": 0
+  },
+  "model_start_to_initial_closure_record_seconds": 8.377774,
+  "model_start_to_initial_closure_record_basis": "UTC model start record to closure file mtime; raw closure sampled its timer before shutdown, so raw seconds are not used as the full interval.",
+  "real_check_status": "BLOCKED_BEFORE_EPISODE",
+  "new_model_inference_calls": 0,
+  "download": {
+    "files": 10,
+    "bytes": 1884551,
+    "metadata_queries": 10,
+    "payload_downloads": 10
+  },
+  "separately_retained": "administrative copy/archive, token-free tests and closure/scan timing are in per-command receipts; interactive editing time was not instrumented.",
+  "clean_machine_test_executed": false
+}

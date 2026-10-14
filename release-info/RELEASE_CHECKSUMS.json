@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0-rc3",
+  "status": "PREPARED_FOR_REVIEW_NOT_PUBLISHED",
+  "archive": "SourceEnv-1.0.0-rc3.zip",
+  "archive_sha256": "7a59f1c3cf01e49cbf98356d14de65bf83a7cfb492f0504c9badbe1c57704e28",
+  "archive_bytes": 230002,
+  "manifest_sha256": "a6e4d165738b27cb05ec102ca5c1f695a226c044f14b91fc9431a0e28fa7230d",
+  "files": 158,
+  "entries_byte_verified": true,
+  "validation_mode": "DOCUMENTARY_INTEGRITY_AND_COMPONENT_EQUIVALENCE_ONLY",
+  "new_archive_executed": false,
+  "tested_predecessor": {
+    "archive": "SourceEnv-1.0.0-rc2.zip",
+    "archive_sha256": "18f9d83a432b4213f63408e66ff51694471b8c6caf0b83a6dd215198c41fc71e",
+    "manifest_sha256": "ae78ad40f529d8bff24e7ee6a2c35946c6602997e7a1403935c0141cb9dd5fca"
+  },
+  "original_experimental_freeze_sha256": "ddd3a67d19fe8bd652a1df56ae6b9b8e77ad0b1c5585687e7f46fd35ba15e3e1",
+  "not_a_new_experimental_freeze": true
+}
