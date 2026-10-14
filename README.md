@@ -2,7 +2,7 @@
 
 **Public release, verified on 2026-10-14.** Resource version **1.0.0-rc3** is available in the [versioned release](https://github.com/cristiand182gomez-source/sourceenv-resource/releases/tag/v1.0.0-rc3). “r4” identifies the editorial/distribution bundle, not a new experimental resource or run.
 
-The current manuscript prepared for submission is the [Kaggle Writeup](https://www.kaggle.com/competitions/gemma-4-developer-agent-paper/writeups/sourceenv-separating-source-and-environment-fault). It is saved as a draft and has not been submitted; draft access may require the owner's account. The manuscript includes verified public destinations and presentation corrections made after publication.
+The current manuscript was **submitted to the Kaggle Paper Track on 2026-10-14**: [Kaggle Writeup](https://www.kaggle.com/competitions/gemma-4-developer-agent-paper/writeups/sourceenv-separating-source-and-environment-fault). Kaggle confirmed “Submitted!” after the author accepted the Writeup's CC BY 4.0 license and its public availability when the hackathon closes. Access before the close may be restricted. The submitted manuscript includes verified public destinations and the audited presentation corrections.
 
 **Historical snapshots:** `paper/DRAFT.md`, `paper/SUPPLEMENT.md`, the texts inside `SourceEnv/`, and the release bundles preserve the audited bytes prepared before publication. Their statements such as “not published” and `PENDING_PUBLICATION` describe that preparation stage, not the current availability of this repository. The paper snapshot is not the latest submission manuscript. Public release does not make the private historical predeclaration receipt publicly time-verifiable.
 
