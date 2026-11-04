@@ -1,0 +1,6 @@
+{
+  "url": "https://github.com/cristiand182gomez-source/sourceenv-resource/releases/download/v1.0.0-rc3/SourceEnv-1.0.0-rc3.zip",
+  "sha256": "7a59f1c3cf01e49cbf98356d14de65bf83a7cfb492f0504c9badbe1c57704e28",
+  "expected": "7a59f1c3cf01e49cbf98356d14de65bf83a7cfb492f0504c9badbe1c57704e28",
+  "match": true
+}

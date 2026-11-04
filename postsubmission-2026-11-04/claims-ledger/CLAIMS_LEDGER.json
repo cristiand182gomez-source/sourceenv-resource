@@ -1,0 +1,313 @@
+{
+  "manuscript_sha256": "6c1b9903c8bc07e6149df4a3a4999ed14ec5a1fe680644a2662c8461db87532b",
+  "manuscript_identity": "SUBMITTED_KAGGLE_MANUSCRIPT",
+  "public_tree": "commit 20dfaf03 (local staging copy or downloaded archive)",
+  "claims": [
+    {
+      "id": "T3-C3-FC",
+      "phrase": "| C3 FC | 3/8 | 2/2 | 6/6 | 15/10/5 | 7/24 |",
+      "present_in_submitted": true,
+      "recomputed": "| C3 FC | 3/8 | 2/2 | 6/6 | 15/10/5 | 7/24 |",
+      "matches": true,
+      "source": "paper/evidence/r3_by_arm.json + aggregate_metrics.json",
+      "method": "repair=PASS among damaged; preserve=PASS among healthy; median coverage_current; source counters; visible_finish/policy_finishes",
+      "status": "MEASURED",
+      "raw_cross_check": {
+        "repaired_from_raw_snapshots": 3,
+        "preserved_from_raw_snapshots": 2,
+        "agrees": true
+      }
+    },
+    {
+      "id": "T3-C3-BASE",
+      "phrase": "| C3 BASE | 2/8 | 2/2 | 0/6 | 14/9/5 | 1/10 |",
+      "present_in_submitted": true,
+      "recomputed": "| C3 BASE | 2/8 | 2/2 | 0/6 | 14/9/5 | 1/10 |",
+      "matches": true,
+      "source": "paper/evidence/r3_by_arm.json + aggregate_metrics.json",
+      "method": "repair=PASS among damaged; preserve=PASS among healthy; median coverage_current; source counters; visible_finish/policy_finishes",
+      "status": "MEASURED",
+      "raw_cross_check": {
+        "repaired_from_raw_snapshots": 2,
+        "preserved_from_raw_snapshots": 2,
+        "agrees": true
+      }
+    },
+    {
+      "id": "T3-C1-FC",
+      "phrase": "| C1 FC | 2/8 | 2/2 | 6/6 | 15/9/6 | 11/51 |",
+      "present_in_submitted": true,
+      "recomputed": "| C1 FC | 2/8 | 2/2 | 6/6 | 15/9/6 | 11/51 |",
+      "matches": true,
+      "source": "paper/evidence/r3_by_arm.json + aggregate_metrics.json",
+      "method": "repair=PASS among damaged; preserve=PASS among healthy; median coverage_current; source counters; visible_finish/policy_finishes",
+      "status": "MEASURED",
+      "raw_cross_check": {
+        "repaired_from_raw_snapshots": 2,
+        "preserved_from_raw_snapshots": 2,
+        "agrees": true
+      }
+    },
+    {
+      "id": "T3-C1-BASE",
+      "phrase": "| C1 BASE | 2/8 | 2/2 | 2/6 | 11/7/4 | 0/10 |",
+      "present_in_submitted": true,
+      "recomputed": "| C1 BASE | 2/8 | 2/2 | 2/6 | 11/7/4 | 0/10 |",
+      "matches": true,
+      "source": "paper/evidence/r3_by_arm.json + aggregate_metrics.json",
+      "method": "repair=PASS among damaged; preserve=PASS among healthy; median coverage_current; source counters; visible_finish/policy_finishes",
+      "status": "MEASURED",
+      "raw_cross_check": {
+        "repaired_from_raw_snapshots": 2,
+        "preserved_from_raw_snapshots": 2,
+        "agrees": true
+      }
+    },
+    {
+      "id": "T2-FC_accepted_with_public_failure",
+      "phrase": "| **FC accepted with public failure / accepted** | **5/10** | **4/7** |",
+      "present_in_submitted": true,
+      "recomputed": "| **FC accepted with public failure / accepted** | **5/10** | **4/7** |",
+      "matches": true,
+      "source": "paper/evidence/closure_patterns.json",
+      "method": "summary numerator/denominator",
+      "status": "MEASURED",
+      "raw_cross_check": null
+    },
+    {
+      "id": "T2-BASE_zero_current_coverage",
+      "phrase": "| BASE zero current coverage / endpoints | 6/10 | 4/10 |",
+      "present_in_submitted": true,
+      "recomputed": "| BASE zero current coverage / endpoints | 6/10 | 4/10 |",
+      "matches": true,
+      "source": "paper/evidence/closure_patterns.json",
+      "method": "summary numerator/denominator",
+      "status": "MEASURED",
+      "raw_cross_check": null
+    },
+    {
+      "id": "T2-BASE_zero_current_coverage_with_prior_effective_change",
+      "phrase": "| BASE zero coverage with prior effective change / endpoints | 4/10 | 4/10 |",
+      "present_in_submitted": true,
+      "recomputed": "| BASE zero coverage with prior effective change / endpoints | 4/10 | 4/10 |",
+      "matches": true,
+      "source": "paper/evidence/closure_patterns.json",
+      "method": "summary numerator/denominator",
+      "status": "MEASURED",
+      "raw_cross_check": null
+    },
+    {
+      "id": "COST-C3-calls",
+      "phrase": "119",
+      "present_in_submitted": true,
+      "recomputed": true,
+      "matches": true,
+      "source": "paper/evidence/r3_costs.json",
+      "method": "model_calls",
+      "status": "MEASURED",
+      "raw_cross_check": null
+    },
+    {
+      "id": "COST-C3-hours",
+      "phrase": "1.38",
+      "present_in_submitted": true,
+      "recomputed": true,
+      "matches": true,
+      "source": "paper/evidence/r3_costs.json",
+      "method": "machine_seconds/3600 rounded to 2",
+      "status": "DERIVED",
+      "raw_cross_check": null
+    },
+    {
+      "id": "COST-C1-calls",
+      "phrase": "159",
+      "present_in_submitted": true,
+      "recomputed": true,
+      "matches": true,
+      "source": "paper/evidence/r3_costs.json",
+      "method": "model_calls",
+      "status": "MEASURED",
+      "raw_cross_check": null
+    },
+    {
+      "id": "COST-C1-hours",
+      "phrase": "0.76",
+      "present_in_submitted": true,
+      "recomputed": true,
+      "matches": true,
+      "source": "paper/evidence/r3_costs.json",
+      "method": "machine_seconds/3600 rounded to 2",
+      "status": "DERIVED",
+      "raw_cross_check": null
+    },
+    {
+      "id": "COSTS",
+      "phrase": "C3 119 calls, 26,277 tokens, 253 applications, 1.38 hours; C1 159, 24,752, 263, 0.76",
+      "present_in_submitted": true,
+      "recomputed": "C3 119 calls, 26,277 tokens, 253 applications, 1.38 hours; C1 159, 24,752, 263, 0.76",
+      "matches": true,
+      "source": "paper/evidence/r3_costs.json",
+      "method": "physical FC costs",
+      "status": "MEASURED+DERIVED",
+      "raw_cross_check": null
+    },
+    {
+      "id": "REASONING",
+      "phrase": "1,026 reasoning tokens",
+      "present_in_submitted": true,
+      "recomputed": true,
+      "matches": true,
+      "source": "paper/evidence/r3_costs.json",
+      "method": "reasoning_tokens_subset",
+      "status": "MEASURED",
+      "raw_cross_check": null
+    },
+    {
+      "id": "INVALID",
+      "phrase": "Invalid responses were C3 3/119 and C1 1/159",
+      "present_in_submitted": true,
+      "recomputed": "Invalid responses were C3 3/119 and C1 1/159",
+      "matches": true,
+      "source": "paper/evidence/response_counts.json",
+      "method": "invalid_actions/responses",
+      "status": "MEASURED",
+      "raw_cross_check": null
+    },
+    {
+      "id": "NO-TOOLS",
+      "phrase": "16/25 breakdown",
+      "present_in_submitted": true,
+      "recomputed": "16/25 breakdown",
+      "matches": true,
+      "source": "paper/evidence/response_counts.json",
+      "method": "without_tool_calls",
+      "status": "MEASURED",
+      "raw_cross_check": null
+    },
+    {
+      "id": "ACCEPT-C3",
+      "phrase": "C3 accepted ten closures and rejected fourteen",
+      "present_in_submitted": true,
+      "recomputed": "C3 accepted ten closures and rejected fourteen",
+      "matches": true,
+      "source": "paper/evidence/response_counts.json",
+      "method": "fc_finish_accepted / coverage_rejections",
+      "status": "MEASURED",
+      "raw_cross_check": null
+    },
+    {
+      "id": "ACCEPT-C1",
+      "phrase": "C1 accepted seven, rejected forty-four",
+      "present_in_submitted": true,
+      "recomputed": true,
+      "matches": true,
+      "source": "paper/evidence/response_counts.json",
+      "method": "fc_finish_accepted / coverage_rejections",
+      "status": "MEASURED",
+      "raw_cross_check": null
+    },
+    {
+      "id": "REJECTED-PUBLIC-FAILURE",
+      "phrase": "rejected FC requests had C3 2/14 and C1 7/44",
+      "present_in_submitted": true,
+      "recomputed": "rejected FC requests had C3 2/14 and C1 7/44",
+      "matches": true,
+      "source": "paper/evidence/r3_by_arm.json + response_counts.json",
+      "method": "sum FC finish_public_failure.rejected / coverage_rejections",
+      "status": "MEASURED",
+      "raw_cross_check": null
+    },
+    {
+      "id": "DISCORDANT",
+      "phrase": "One of sixteen damaged pairs was discordant",
+      "present_in_submitted": true,
+      "recomputed": true,
+      "matches": true,
+      "source": "paper/evidence/r3_summary.json",
+      "method": "discordant_pairs over complete_damaged_pairs",
+      "status": "MEASURED",
+      "raw_cross_check": null
+    },
+    {
+      "id": "PRED",
+      "phrase": "P3 was refuted in C3 and compatible in C1",
+      "present_in_submitted": true,
+      "recomputed": true,
+      "matches": true,
+      "source": "paper/evidence/r3_predictions.json",
+      "method": "status fields",
+      "status": "MEASURED",
+      "raw_cross_check": null
+    },
+    {
+      "id": "NO-PROFILE-CHANGE",
+      "phrase": "neither configuration effectively changed profiles",
+      "present_in_submitted": true,
+      "recomputed": true,
+      "matches": true,
+      "source": "paper/evidence/aggregate_metrics.json",
+      "method": "sum environment.effective == 0",
+      "status": "MEASURED",
+      "raw_cross_check": {
+        "profile_changed_in_raw_endpoints": 0,
+        "agrees": true
+      }
+    },
+    {
+      "id": "HEALTHY-EDITS",
+      "phrase": "Three of four physical healthy episodes effectively edited source",
+      "present_in_submitted": true,
+      "recomputed": true,
+      "matches": true,
+      "source": "raw R3 endpoint snapshots (private) ; effective = byte identity change",
+      "method": "count FC healthy endpoints whose app.py bytes differ from initial",
+      "status": "MEASURED_BYTE_LEVEL",
+      "raw_cross_check": {
+        "note": "1 of the 3 (C1/H-RC2) is a line-ending-only rewrite; semantically 2 of 4 (see r3_normalized_diffs.json)"
+      }
+    }
+  ],
+  "numerals_in_manuscript": 88,
+  "numerals_not_in_registered_phrases": [
+    "0,",
+    "0.12",
+    "1.0",
+    "114/129",
+    "117,",
+    "12",
+    "12,",
+    "13",
+    "13.7",
+    "17",
+    "2,048",
+    "2.0",
+    "20",
+    "2015",
+    "2024",
+    "2025",
+    "2026",
+    "2310.06770",
+    "2312.10448",
+    "2503.14443",
+    "2604.27148",
+    "2606.09863",
+    "2607.01213",
+    "2607.06273",
+    "2608.02464",
+    "2608.30300",
+    "3.12",
+    "3.13",
+    "32,768",
+    "47",
+    "48/129",
+    "532",
+    "543",
+    "5800",
+    "6/8",
+    "64,",
+    "7,",
+    "70/129",
+    "8,192"
+  ],
+  "all_registered_match": true
+}

@@ -1,0 +1,19 @@
+{
+  "reproduce_rows_rc3": 16,
+  "reproduce_rows_rc2": 16,
+  "excluded_run_specific_fields": [
+    "elapsed_seconds",
+    "episode_sha256",
+    "scenario_sha256",
+    "score_sha256",
+    "state_identity"
+  ],
+  "reproduce_differences": [],
+  "validator_rows": 24,
+  "validator_all_pass": true,
+  "validator_oracle_status_counts": {
+    "PASS": 14,
+    "FAIL": 10
+  },
+  "shipped_fixture_validation_note": "rc2 receipt fields: schema, fixture_contract, scope, provenance_note, historical_control_builder, cases"
+}

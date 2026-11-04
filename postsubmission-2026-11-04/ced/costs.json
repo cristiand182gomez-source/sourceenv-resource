@@ -1,0 +1,10 @@
+{
+  "applications": 366,
+  "automatic_retries": 0,
+  "fresh_states": 61,
+  "machine_seconds": 173.70008824499996,
+  "model_calls": 0,
+  "offline_installs": 61,
+  "probes": 122,
+  "workers": 122
+}

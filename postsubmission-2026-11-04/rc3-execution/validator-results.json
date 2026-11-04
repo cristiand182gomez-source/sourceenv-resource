@@ -1,0 +1,386 @@
+[
+  {
+    "id": "EH-API/alternative",
+    "observed_checks": {
+      "explicit_help": true,
+      "first_command": true,
+      "first_command_help": true,
+      "no_args": true,
+      "second_command": true,
+      "second_command_help": true
+    },
+    "oracle_status": "PASS",
+    "scenario_sha256": "1b70c1baca5f98aa98f0c9309d0aa193d2d6d888212d1a432163e445282893f4",
+    "score_sha256": "6e0f513fc408acc6b5a053f6cc6e3b33e00db2c8f17a121926024d22dfcbf313",
+    "scored_before_cleanup": true,
+    "validation_status": "PASS"
+  },
+  {
+    "id": "EH-API/negative",
+    "observed_checks": {
+      "explicit_help": true,
+      "first_command": false,
+      "first_command_help": true,
+      "no_args": true,
+      "second_command": true,
+      "second_command_help": true
+    },
+    "oracle_status": "FAIL",
+    "scenario_sha256": "27b16bfe92251e80ea7a9ffeabe70c7231dcbb2a596dc2cb133a6668fe375dc1",
+    "score_sha256": "1d9a783597e52de4e1d5ab323cbf1d787190cbd5323b6181f630fc83709b92f4",
+    "scored_before_cleanup": true,
+    "validation_status": "PASS"
+  },
+  {
+    "id": "EH-RENDERER/alternative",
+    "observed_checks": {
+      "explicit_help": true,
+      "first_command": true,
+      "first_command_help": true,
+      "no_args": true,
+      "second_command": true,
+      "second_command_help": true
+    },
+    "oracle_status": "PASS",
+    "scenario_sha256": "89172726ced15efcc2e2d607a28ac06739047bee429e5e34bea123c3d7ff187a",
+    "score_sha256": "17fc6fe7ff6670c64f76cc484f101fdbdb48823c832c751d3cc116e94f760d12",
+    "scored_before_cleanup": true,
+    "validation_status": "PASS"
+  },
+  {
+    "id": "EH-RENDERER/negative",
+    "observed_checks": {
+      "explicit_help": true,
+      "first_command": false,
+      "first_command_help": true,
+      "no_args": true,
+      "second_command": true,
+      "second_command_help": true
+    },
+    "oracle_status": "FAIL",
+    "scenario_sha256": "2458e5897e7618470613899464b356199c10a4fb1e4380ce8f1370d215328a41",
+    "score_sha256": "38ace1bdcec26c926c8841b8ab98ca31a6240eae1055f8ba3f02bb81798467b7",
+    "scored_before_cleanup": true,
+    "validation_status": "PASS"
+  },
+  {
+    "id": "EC-MISSING/alternative",
+    "observed_checks": {
+      "explicit_help": true,
+      "first_command": true,
+      "first_command_help": true,
+      "no_args": true,
+      "second_command": true,
+      "second_command_help": true
+    },
+    "oracle_status": "PASS",
+    "scenario_sha256": "4b62f4f21bcdc8227cfbe8ee45552cdd1ee9045bd75ca1dcd5938b66bd12dc5e",
+    "score_sha256": "bba3fd530f4270a510e2ef13382ae2f61c5c95b23d02a14145e48706f85e567b",
+    "scored_before_cleanup": true,
+    "validation_status": "PASS"
+  },
+  {
+    "id": "EC-MISSING/negative",
+    "observed_checks": {
+      "explicit_help": true,
+      "first_command": false,
+      "first_command_help": true,
+      "no_args": true,
+      "second_command": true,
+      "second_command_help": true
+    },
+    "oracle_status": "FAIL",
+    "scenario_sha256": "fe590ebe2b8e7111190d064c2329a0c5c9cd816e77641a3da5d755b3c569d3a7",
+    "score_sha256": "73f0f734da1db1c9879eeb2f8b98abbfd36ae07b6a3d2c56297efcc4d9f4961c",
+    "scored_before_cleanup": true,
+    "validation_status": "PASS"
+  },
+  {
+    "id": "EC-SYMBOL/alternative",
+    "observed_checks": {
+      "explicit_help": true,
+      "first_command": true,
+      "first_command_help": true,
+      "no_args": true,
+      "second_command": true,
+      "second_command_help": true
+    },
+    "oracle_status": "PASS",
+    "scenario_sha256": "0f9b36b79be9d990e71273cea4447d4119aa6d93016ac1e95bf9659bdb039ebe",
+    "score_sha256": "637fa3242c6c76ae530edae5b3412a68991cb1227fed9eb1548ab2e0d658b75a",
+    "scored_before_cleanup": true,
+    "validation_status": "PASS"
+  },
+  {
+    "id": "EC-SYMBOL/negative",
+    "observed_checks": {
+      "explicit_help": true,
+      "first_command": false,
+      "first_command_help": true,
+      "no_args": true,
+      "second_command": true,
+      "second_command_help": true
+    },
+    "oracle_status": "FAIL",
+    "scenario_sha256": "31e7ac9862dfe85052b7a115ee5c7522e57d2207c6f82d392fdac2cb240e2e38",
+    "score_sha256": "0e9fbbc9d4fe081449a69ba99fafdd79777b833975d76da80f017416cb21bc8a",
+    "scored_before_cleanup": true,
+    "validation_status": "PASS"
+  },
+  {
+    "id": "SC-BALANCE/alternative",
+    "observed_checks": {
+      "explicit_help": true,
+      "first_command": true,
+      "first_command_help": true,
+      "no_args": true,
+      "second_command": true,
+      "second_command_help": true
+    },
+    "oracle_status": "PASS",
+    "scenario_sha256": "36603ee47293934405dbd86a11e536ea76b8f2ad53fc9d93741569dfd0f3e1ad",
+    "score_sha256": "d25c86d0843b4c2c5e939a40f75ec03ea1068ca44c9c79b0d9e0bcaa7fb7b3c8",
+    "scored_before_cleanup": true,
+    "validation_status": "PASS"
+  },
+  {
+    "id": "SC-BALANCE/negative",
+    "observed_checks": {
+      "explicit_help": true,
+      "first_command": false,
+      "first_command_help": true,
+      "no_args": true,
+      "second_command": true,
+      "second_command_help": true
+    },
+    "oracle_status": "FAIL",
+    "scenario_sha256": "e34976b24f59b41e75a646190e4c3b7acbc106f1976b8010aa630b8c1e50ff9b",
+    "score_sha256": "8640ce7714806d43716c6eb6e137652f4c7c17a35472c60642c3542339b426fd",
+    "scored_before_cleanup": true,
+    "validation_status": "PASS"
+  },
+  {
+    "id": "SC-SORT/alternative",
+    "observed_checks": {
+      "explicit_help": true,
+      "first_command": true,
+      "first_command_help": true,
+      "no_args": true,
+      "second_command": true,
+      "second_command_help": true
+    },
+    "oracle_status": "PASS",
+    "scenario_sha256": "67b60c9251346c3035bb64d23f98b01bc721750a6f42c0d0d77dda8fa7f8fbe2",
+    "score_sha256": "9322fdf74be0f5c7d26056802c968ba37cf7a402b6434f7f1b35c67698b944c9",
+    "scored_before_cleanup": true,
+    "validation_status": "PASS"
+  },
+  {
+    "id": "SC-SORT/negative",
+    "observed_checks": {
+      "explicit_help": true,
+      "first_command": false,
+      "first_command_help": true,
+      "no_args": true,
+      "second_command": true,
+      "second_command_help": true
+    },
+    "oracle_status": "FAIL",
+    "scenario_sha256": "b9c9fbad3dce7d9bc030e85448484c849e044b5b5882a19ae4dcb2cbf99ad775",
+    "score_sha256": "442afd2c9156e29282bf6dda523437c1a6602f0717b34288b437730baae7c20b",
+    "scored_before_cleanup": true,
+    "validation_status": "PASS"
+  },
+  {
+    "id": "SH-FLAG/alternative",
+    "observed_checks": {
+      "explicit_help": true,
+      "first_command": true,
+      "first_command_help": true,
+      "no_args": true,
+      "second_command": true,
+      "second_command_help": true
+    },
+    "oracle_status": "PASS",
+    "scenario_sha256": "301b0049d9de31c4dc3ff4114541232d9fb7a36f50b90e53d3c4858a8623b0cd",
+    "score_sha256": "4e6846b244e6d6e86b75e6aefd0d6223d53e63527c2cfa41dfdc7e4d3ae9175a",
+    "scored_before_cleanup": true,
+    "validation_status": "PASS"
+  },
+  {
+    "id": "SH-FLAG/negative",
+    "observed_checks": {
+      "explicit_help": true,
+      "first_command": false,
+      "first_command_help": true,
+      "no_args": true,
+      "second_command": true,
+      "second_command_help": true
+    },
+    "oracle_status": "FAIL",
+    "scenario_sha256": "3a5b0659c2d1f924ce87ae15316cc4ac9e48d73e366aa4488ccff6af9c0947c0",
+    "score_sha256": "508350c2ed3c405c75519996c504a309baafbba62f634339e05d7cd3bb5e4a48",
+    "scored_before_cleanup": true,
+    "validation_status": "PASS"
+  },
+  {
+    "id": "SH-FORMAT/alternative",
+    "observed_checks": {
+      "explicit_help": true,
+      "first_command": true,
+      "first_command_help": true,
+      "no_args": true,
+      "second_command": true,
+      "second_command_help": true
+    },
+    "oracle_status": "PASS",
+    "scenario_sha256": "5fe4cf40c0280a9fc916ff1b196a85b1606122885379e7caddcf46af75cfd513",
+    "score_sha256": "d1b9200bbd5d905e842d949f08b243dc7e1e98327805819c9952212fbfac8a6c",
+    "scored_before_cleanup": true,
+    "validation_status": "PASS"
+  },
+  {
+    "id": "SH-FORMAT/negative",
+    "observed_checks": {
+      "explicit_help": true,
+      "first_command": false,
+      "first_command_help": true,
+      "no_args": true,
+      "second_command": true,
+      "second_command_help": true
+    },
+    "oracle_status": "FAIL",
+    "scenario_sha256": "e33ad098a8a95417e76ad4605208bc3709f3c8e045c4b9b2eaffb35a1d6c2ffe",
+    "score_sha256": "b0fffd2c2e8ea0af571668aafc981dcba380a7dcbc649cd1e133002a8381cbd9",
+    "scored_before_cleanup": true,
+    "validation_status": "PASS"
+  },
+  {
+    "id": "H-RC0/initial",
+    "observed_checks": {
+      "explicit_help": true,
+      "first_command": true,
+      "first_command_help": true,
+      "no_args": true,
+      "second_command": true,
+      "second_command_help": true
+    },
+    "oracle_status": "PASS",
+    "scenario_sha256": "830d432059fac6958c5e0e7eabb5b3be24dcb82a449b5908a19117dc7c384472",
+    "score_sha256": "c093fd9d657ad9a209dcc77880ea1b5512400f077db05fcadde3885a4bb38855",
+    "scored_before_cleanup": true,
+    "validation_status": "PASS"
+  },
+  {
+    "id": "H-RC0/noop",
+    "observed_checks": {
+      "explicit_help": true,
+      "first_command": true,
+      "first_command_help": true,
+      "no_args": true,
+      "second_command": true,
+      "second_command_help": true
+    },
+    "oracle_status": "PASS",
+    "scenario_sha256": "c9c23784f58874925b0ad92feee81fba5ffa6bc8d0fff7fbd48bfb0231829887",
+    "score_sha256": "fdd3573a0e86d97fe5a6283cac559439d8865c5569c8ac421eb89dbf58c421b4",
+    "scored_before_cleanup": true,
+    "validation_status": "PASS"
+  },
+  {
+    "id": "H-RC0/alternative",
+    "observed_checks": {
+      "explicit_help": true,
+      "first_command": true,
+      "first_command_help": true,
+      "no_args": true,
+      "second_command": true,
+      "second_command_help": true
+    },
+    "oracle_status": "PASS",
+    "scenario_sha256": "8d82d9dd54f189aadea22c72cfdfd6c6f954768f82e119cf415fc1eef6c86a66",
+    "score_sha256": "9a8d5682dffbb878ffa0717036c161b1031c0e5d313c91658d03818b9ff54872",
+    "scored_before_cleanup": true,
+    "validation_status": "PASS"
+  },
+  {
+    "id": "H-RC0/negative",
+    "observed_checks": {
+      "explicit_help": true,
+      "first_command": false,
+      "first_command_help": true,
+      "no_args": true,
+      "second_command": true,
+      "second_command_help": true
+    },
+    "oracle_status": "FAIL",
+    "scenario_sha256": "f8e704d89e08741e512c672a5072d7b9100a20c214e3695801a76079b5b30262",
+    "score_sha256": "2cbf0b31fbbbe492d997291e716bbea4395d838e5cda31bfd071a92d800b3262",
+    "scored_before_cleanup": true,
+    "validation_status": "PASS"
+  },
+  {
+    "id": "H-RC2/initial",
+    "observed_checks": {
+      "explicit_help": true,
+      "first_command": true,
+      "first_command_help": true,
+      "no_args": true,
+      "second_command": true,
+      "second_command_help": true
+    },
+    "oracle_status": "PASS",
+    "scenario_sha256": "e0696f1df50dd45098d7c178d3f904226ef11a3f0790723f9f5677f6f5e32418",
+    "score_sha256": "eea944b22fc822f219ab1fbabe1c39a7465f6600a6b0cb3ea1de72556cb25c3c",
+    "scored_before_cleanup": true,
+    "validation_status": "PASS"
+  },
+  {
+    "id": "H-RC2/noop",
+    "observed_checks": {
+      "explicit_help": true,
+      "first_command": true,
+      "first_command_help": true,
+      "no_args": true,
+      "second_command": true,
+      "second_command_help": true
+    },
+    "oracle_status": "PASS",
+    "scenario_sha256": "0c70cc2336323ad89a0fe2806c920362e4242f4d369271c34bf82d27e33dc6c0",
+    "score_sha256": "8818a9c01b1649d9e1bd00e4e3f4477325869dde4fb4ad4677b69bab02b88b1e",
+    "scored_before_cleanup": true,
+    "validation_status": "PASS"
+  },
+  {
+    "id": "H-RC2/alternative",
+    "observed_checks": {
+      "explicit_help": true,
+      "first_command": true,
+      "first_command_help": true,
+      "no_args": true,
+      "second_command": true,
+      "second_command_help": true
+    },
+    "oracle_status": "PASS",
+    "scenario_sha256": "65955b27c37c2649e69c9be80c67aaa3da8a820fab95033c17a569725eaa029f",
+    "score_sha256": "8e8c0485dfa37b78d1d6c9c0738aa5ef7d645bd4277e7e2a85c49c0f2ce211b6",
+    "scored_before_cleanup": true,
+    "validation_status": "PASS"
+  },
+  {
+    "id": "H-RC2/negative",
+    "observed_checks": {
+      "explicit_help": true,
+      "first_command": false,
+      "first_command_help": true,
+      "no_args": true,
+      "second_command": true,
+      "second_command_help": true
+    },
+    "oracle_status": "FAIL",
+    "scenario_sha256": "7060eb831537925ceedfc5da7d4cd88812d7836c2db01141b16c26a6555f0979",
+    "score_sha256": "1a46a859b90ff9abd3c77ffe02aab8e14810fe5b5edf845736fd7b83cf9c1851",
+    "scored_before_cleanup": true,
+    "validation_status": "PASS"
+  }
+]

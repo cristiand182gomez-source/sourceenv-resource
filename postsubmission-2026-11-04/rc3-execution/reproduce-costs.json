@@ -1,0 +1,13 @@
+{
+  "applications": 288,
+  "probes": 32,
+  "workers": 140,
+  "offline_installs": 20,
+  "fresh_states": 16,
+  "checkpoint_copies": 8,
+  "machine_seconds": 193.52913939500002,
+  "model_calls": 0,
+  "generated_tokens": 0,
+  "model_processes": 0,
+  "tokenizer_calls": 0
+}

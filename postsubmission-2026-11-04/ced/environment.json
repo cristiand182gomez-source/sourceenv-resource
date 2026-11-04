@@ -1,0 +1,10 @@
+{
+  "bubblewrap_sha256": "573236e5328ac2ebb08f59ae3a9805b4f8d12bdef14be8af4450d5463294985f",
+  "debian_version": "13.7",
+  "kernel": "6.12.107+deb13-amd64",
+  "package_manifest_sha256": "a6e4d165738b27cb05ec102ca5c1f695a226c044f14b91fc9431a0e28fa7230d",
+  "plan_sha256": "4f8ffa64b5b16ca7d16416f23fe2304f67020f7085ed38b527e9f37da892ea66",
+  "python_sha256": "889c603f0d17cb54060951bcf4c4f9b8c9ebd9e52b392c70209bbb9755d797d9",
+  "python_version": "3.13.5",
+  "uid": 1000
+}

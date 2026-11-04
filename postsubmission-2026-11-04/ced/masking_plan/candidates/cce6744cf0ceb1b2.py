@@ -1,0 +1,22 @@
+"""Synthetic CLI: no persistent state, fixed public sample data."""
+import json
+import sys
+import typer
+DATA = ["12", "2", "9"]
+def emit(value):
+    print(json.dumps(value, sort_keys=True, separators=(',', ':')))
+app = typer.Typer(no_args_is_help=True)
+@app.command()
+def first_command():
+    """Report DATA readings sorted numerically as integer values."""
+    # Sorted numerically as integer-valued numbers under ordered
+    ordered_data = sorted([int(v) for v in DATA])
+    emit({"ordered": ordered_data})
+@app.command()
+def second_command():
+    """Report the numeric maximum of DATA readings."""
+    # Numeric maximum under maximum
+    maximum_val = max(int(v) for v in DATA)
+    emit({"maximum": maximum_val})
+if __name__ == "__main__":
+    app()

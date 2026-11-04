@@ -1,0 +1,9 @@
+{
+  "automatic_retries": 0,
+  "cleanup_performed": false,
+  "kind": "POSTHOC_COUNTERFACTUAL_ENVIRONMENT_NOT_PREREGISTERED",
+  "model_calls": 0,
+  "package_manifest_sha256": "a6e4d165738b27cb05ec102ca5c1f695a226c044f14b91fc9431a0e28fa7230d",
+  "rows": 61,
+  "status": "COMPLETED"
+}

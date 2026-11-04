@@ -1,0 +1,682 @@
+[
+  {
+    "configuration": "C3",
+    "fixture": "SC-BALANCE",
+    "arm": "FC",
+    "axis": "source",
+    "endpoint_pass": false,
+    "crlf_initial": true,
+    "crlf_final": true,
+    "semantic_lines_removed": [],
+    "semantic_lines_added": [],
+    "only_whitespace_or_eol": true
+  },
+  {
+    "configuration": "C3",
+    "fixture": "SC-BALANCE",
+    "arm": "BASE",
+    "axis": "source",
+    "endpoint_pass": false,
+    "crlf_initial": true,
+    "crlf_final": true,
+    "semantic_lines_removed": [],
+    "semantic_lines_added": [],
+    "only_whitespace_or_eol": true
+  },
+  {
+    "configuration": "C3",
+    "fixture": "SC-SORT",
+    "arm": "FC",
+    "axis": "source",
+    "endpoint_pass": true,
+    "crlf_initial": true,
+    "crlf_final": false,
+    "semantic_lines_removed": [
+      "    emit({\"ordered\": [int(v) for v in sorted(DATA)]})",
+      "    emit({\"maximum\": max(int(v) for v in DATA)})"
+    ],
+    "semantic_lines_added": [
+      "    # Sorted numerically as integer-valued numbers under ordered",
+      "    ordered_data = sorted([int(v) for v in DATA])",
+      "    emit({\"ordered\": ordered_data})",
+      "    # Numeric maximum under maximum",
+      "    maximum_val = max(int(v) for v in DATA)",
+      "    emit({\"maximum\": maximum_val})"
+    ],
+    "only_whitespace_or_eol": false
+  },
+  {
+    "configuration": "C3",
+    "fixture": "SC-SORT",
+    "arm": "BASE",
+    "axis": "source",
+    "endpoint_pass": true,
+    "crlf_initial": true,
+    "crlf_final": false,
+    "semantic_lines_removed": [
+      "    emit({\"ordered\": [int(v) for v in sorted(DATA)]})",
+      "    emit({\"maximum\": max(int(v) for v in DATA)})"
+    ],
+    "semantic_lines_added": [
+      "    # Sorted numerically as integer-valued numbers under ordered",
+      "    ordered_data = sorted([int(v) for v in DATA])",
+      "    emit({\"ordered\": ordered_data})",
+      "    # Numeric maximum under maximum",
+      "    maximum_val = max(int(v) for v in DATA)",
+      "    emit({\"maximum\": maximum_val})"
+    ],
+    "only_whitespace_or_eol": false
+  },
+  {
+    "configuration": "C3",
+    "fixture": "SH-FLAG",
+    "arm": "FC",
+    "axis": "source",
+    "endpoint_pass": false,
+    "crlf_initial": true,
+    "crlf_final": false,
+    "semantic_lines_removed": [
+      "\"\"\"Synthetic CLI: no persistent state, fixed public sample data.\"\"\"",
+      "    \"\"\"Report the signed balance and entry count.\"\"\"",
+      "    \"\"\"Report credits and debits as positive totals.\"\"\""
+    ],
+    "semantic_lines_added": [
+      "\"\"\"Synthetic CLI: no persistent state, fixed public sample data.",
+      "Usage:",
+      "  first-command: Report the signed balance and entry count.",
+      "  second-command: Report credits and debits as positive totals.",
+      "\"\"\"",
+      "    \"\"\"Usage and first_command. Report the signed balance and entry count.\"\"\"",
+      "    \"\"\"Usage and second_command. Report credits and debits as positive totals.\"\"\""
+    ],
+    "only_whitespace_or_eol": false
+  },
+  {
+    "configuration": "C3",
+    "fixture": "SH-FLAG",
+    "arm": "BASE",
+    "axis": "source",
+    "endpoint_pass": false,
+    "crlf_initial": true,
+    "crlf_final": false,
+    "semantic_lines_removed": [
+      "\"\"\"Synthetic CLI: no persistent state, fixed public sample data.\"\"\"",
+      "    \"\"\"Report the signed balance and entry count.\"\"\"",
+      "    \"\"\"Report credits and debits as positive totals.\"\"\""
+    ],
+    "semantic_lines_added": [
+      "\"\"\"Synthetic CLI: no persistent state, fixed public sample data.",
+      "Usage:",
+      "  first-command: Report the signed balance and entry count.",
+      "  second-command: Report credits and debits as positive totals.",
+      "\"\"\"",
+      "    \"\"\"Usage and first_command. Report the signed balance and entry count.\"\"\"",
+      "    \"\"\"Usage and second_command. Report credits and debits as positive totals.\"\"\""
+    ],
+    "only_whitespace_or_eol": false
+  },
+  {
+    "configuration": "C3",
+    "fixture": "SH-FORMAT",
+    "arm": "FC",
+    "axis": "source",
+    "endpoint_pass": false,
+    "crlf_initial": true,
+    "crlf_final": false,
+    "semantic_lines_removed": [
+      "    \"\"\"Report the signed balance and entry count.\"\"\"",
+      "    \"\"\"Report credits and debits as positive totals.\"\"\""
+    ],
+    "semantic_lines_added": [
+      "    \"\"\"Usage: first-command",
+      "Report the signed balance and entry count.\"\"\"",
+      "    \"\"\"Usage: second-command",
+      "Report credits and debits as positive totals.\"\"\""
+    ],
+    "only_whitespace_or_eol": false
+  },
+  {
+    "configuration": "C3",
+    "fixture": "SH-FORMAT",
+    "arm": "BASE",
+    "axis": "source",
+    "endpoint_pass": false,
+    "crlf_initial": true,
+    "crlf_final": false,
+    "semantic_lines_removed": [
+      "    \"\"\"Report the signed balance and entry count.\"\"\"",
+      "    \"\"\"Report credits and debits as positive totals.\"\"\""
+    ],
+    "semantic_lines_added": [
+      "    \"\"\"Usage: first-command",
+      "Report the signed balance and entry count.\"\"\"",
+      "    \"\"\"Usage: second-command",
+      "Report credits and debits as positive totals.\"\"\""
+    ],
+    "only_whitespace_or_eol": false
+  },
+  {
+    "configuration": "C3",
+    "fixture": "EC-MISSING",
+    "arm": "FC",
+    "axis": "environment",
+    "endpoint_pass": false,
+    "crlf_initial": true,
+    "crlf_final": false,
+    "semantic_lines_removed": [
+      "\"\"\"Synthetic CLI: no persistent state, fixed public sample data.\"\"\"",
+      "    \"\"\"Report the signed balance and entry count.\"\"\"",
+      "    \"\"\"Report credits and debits as positive totals.\"\"\""
+    ],
+    "semantic_lines_added": [
+      "    \"\"\"Report signed balance and entry count.\"\"\"",
+      "    \"\"\"Report positive credits and debits.\"\"\""
+    ],
+    "only_whitespace_or_eol": false
+  },
+  {
+    "configuration": "C3",
+    "fixture": "EC-MISSING",
+    "arm": "BASE",
+    "axis": "environment",
+    "endpoint_pass": false,
+    "crlf_initial": true,
+    "crlf_final": false,
+    "semantic_lines_removed": [
+      "\"\"\"Synthetic CLI: no persistent state, fixed public sample data.\"\"\"",
+      "    \"\"\"Report the signed balance and entry count.\"\"\"",
+      "    \"\"\"Report credits and debits as positive totals.\"\"\""
+    ],
+    "semantic_lines_added": [
+      "    \"\"\"Report signed balance and entry count.\"\"\"",
+      "    \"\"\"Report positive credits and debits.\"\"\""
+    ],
+    "only_whitespace_or_eol": false
+  },
+  {
+    "configuration": "C3",
+    "fixture": "EC-SYMBOL",
+    "arm": "FC",
+    "axis": "environment",
+    "endpoint_pass": true,
+    "crlf_initial": true,
+    "crlf_final": false,
+    "semantic_lines_removed": [
+      "    from click.exceptions import NoArgsIsHelpError",
+      "    if not DATA:",
+      "        import click",
+      "        raise NoArgsIsHelpError(click.get_current_context())",
+      "    from click.exceptions import NoArgsIsHelpError",
+      "    if not DATA:",
+      "        import click",
+      "        raise NoArgsIsHelpError(click.get_current_context())"
+    ],
+    "semantic_lines_added": [],
+    "only_whitespace_or_eol": false
+  },
+  {
+    "configuration": "C3",
+    "fixture": "EC-SYMBOL",
+    "arm": "BASE",
+    "axis": "environment",
+    "endpoint_pass": true,
+    "crlf_initial": true,
+    "crlf_final": false,
+    "semantic_lines_removed": [
+      "    from click.exceptions import NoArgsIsHelpError",
+      "    if not DATA:",
+      "        import click",
+      "        raise NoArgsIsHelpError(click.get_current_context())",
+      "    from click.exceptions import NoArgsIsHelpError",
+      "    if not DATA:",
+      "        import click",
+      "        raise NoArgsIsHelpError(click.get_current_context())"
+    ],
+    "semantic_lines_added": [],
+    "only_whitespace_or_eol": false
+  },
+  {
+    "configuration": "C3",
+    "fixture": "EH-API",
+    "arm": "FC",
+    "axis": "environment",
+    "endpoint_pass": false,
+    "crlf_initial": true,
+    "crlf_final": true,
+    "semantic_lines_removed": [],
+    "semantic_lines_added": [],
+    "only_whitespace_or_eol": true
+  },
+  {
+    "configuration": "C3",
+    "fixture": "EH-API",
+    "arm": "BASE",
+    "axis": "environment",
+    "endpoint_pass": false,
+    "crlf_initial": true,
+    "crlf_final": true,
+    "semantic_lines_removed": [],
+    "semantic_lines_added": [],
+    "only_whitespace_or_eol": true
+  },
+  {
+    "configuration": "C3",
+    "fixture": "EH-RENDERER",
+    "arm": "FC",
+    "axis": "environment",
+    "endpoint_pass": true,
+    "crlf_initial": true,
+    "crlf_final": false,
+    "semantic_lines_removed": [
+      "    if not sys.argv[1:] or \"--help\" in sys.argv[1:]:",
+      "        from rich.console import Console",
+      "        Console().print(\"Command reference\")"
+    ],
+    "semantic_lines_added": [],
+    "only_whitespace_or_eol": false
+  },
+  {
+    "configuration": "C3",
+    "fixture": "EH-RENDERER",
+    "arm": "BASE",
+    "axis": "environment",
+    "endpoint_pass": false,
+    "crlf_initial": true,
+    "crlf_final": true,
+    "semantic_lines_removed": [],
+    "semantic_lines_added": [],
+    "only_whitespace_or_eol": true
+  },
+  {
+    "configuration": "C3",
+    "fixture": "H-RC0",
+    "arm": "FC",
+    "axis": "healthy",
+    "endpoint_pass": true,
+    "crlf_initial": true,
+    "crlf_final": false,
+    "semantic_lines_removed": [
+      "    \"\"\"Report the signed balance and entry count.\"\"\"",
+      "    \"\"\"Report credits and debits as positive totals.\"\"\""
+    ],
+    "semantic_lines_added": [
+      "    \"\"\"Usage",
+      "Report the signed balance and entry count.",
+      "    \"\"\"",
+      "    \"\"\"Usage",
+      "Report credits and debits as positive totals.",
+      "    \"\"\""
+    ],
+    "only_whitespace_or_eol": false
+  },
+  {
+    "configuration": "C3",
+    "fixture": "H-RC0",
+    "arm": "BASE",
+    "axis": "healthy",
+    "endpoint_pass": true,
+    "crlf_initial": true,
+    "crlf_final": false,
+    "semantic_lines_removed": [
+      "    \"\"\"Report the signed balance and entry count.\"\"\"",
+      "    \"\"\"Report credits and debits as positive totals.\"\"\""
+    ],
+    "semantic_lines_added": [
+      "    \"\"\"Usage",
+      "Report the signed balance and entry count.",
+      "    \"\"\"",
+      "    \"\"\"Usage",
+      "Report credits and debits as positive totals.",
+      "    \"\"\""
+    ],
+    "only_whitespace_or_eol": false
+  },
+  {
+    "configuration": "C3",
+    "fixture": "H-RC2",
+    "arm": "FC",
+    "axis": "healthy",
+    "endpoint_pass": true,
+    "crlf_initial": true,
+    "crlf_final": false,
+    "semantic_lines_removed": [
+      "    \"\"\"Report the signed balance and entry count.\"\"\"",
+      "    \"\"\"Report credits and debits as positive totals.\"\"\""
+    ],
+    "semantic_lines_added": [
+      "    \"\"\"",
+      "Usage",
+      "first-command",
+      "Report the signed balance and entry count.",
+      "    \"\"\"",
+      "    \"\"\"",
+      "Usage",
+      "second-command",
+      "Report credits and debits as positive totals.",
+      "    \"\"\""
+    ],
+    "only_whitespace_or_eol": false
+  },
+  {
+    "configuration": "C3",
+    "fixture": "H-RC2",
+    "arm": "BASE",
+    "axis": "healthy",
+    "endpoint_pass": true,
+    "crlf_initial": true,
+    "crlf_final": false,
+    "semantic_lines_removed": [
+      "    \"\"\"Report the signed balance and entry count.\"\"\"",
+      "    \"\"\"Report credits and debits as positive totals.\"\"\""
+    ],
+    "semantic_lines_added": [
+      "    \"\"\"",
+      "Usage",
+      "first-command",
+      "Report the signed balance and entry count.",
+      "    \"\"\"",
+      "    \"\"\"",
+      "Usage",
+      "second-command",
+      "Report credits and debits as positive totals.",
+      "    \"\"\""
+    ],
+    "only_whitespace_or_eol": false
+  },
+  {
+    "configuration": "C1",
+    "fixture": "SC-BALANCE",
+    "arm": "FC",
+    "axis": "source",
+    "endpoint_pass": false,
+    "crlf_initial": true,
+    "crlf_final": false,
+    "semantic_lines_removed": [
+      "\"\"\"Synthetic CLI: no persistent state, fixed public sample data.\"\"\""
+    ],
+    "semantic_lines_added": [],
+    "only_whitespace_or_eol": false
+  },
+  {
+    "configuration": "C1",
+    "fixture": "SC-BALANCE",
+    "arm": "BASE",
+    "axis": "source",
+    "endpoint_pass": false,
+    "crlf_initial": true,
+    "crlf_final": false,
+    "semantic_lines_removed": [
+      "\"\"\"Synthetic CLI: no persistent state, fixed public sample data.\"\"\""
+    ],
+    "semantic_lines_added": [
+      "Synthetic CLI: no persistent state, fixed public sample data."
+    ],
+    "only_whitespace_or_eol": false
+  },
+  {
+    "configuration": "C1",
+    "fixture": "SC-SORT",
+    "arm": "FC",
+    "axis": "source",
+    "endpoint_pass": true,
+    "crlf_initial": true,
+    "crlf_final": false,
+    "semantic_lines_removed": [
+      "    emit({\"ordered\": [int(v) for v in sorted(DATA)]})"
+    ],
+    "semantic_lines_added": [
+      "    emit({\"ordered\": sorted([int(v) for v in DATA])})"
+    ],
+    "only_whitespace_or_eol": false
+  },
+  {
+    "configuration": "C1",
+    "fixture": "SC-SORT",
+    "arm": "BASE",
+    "axis": "source",
+    "endpoint_pass": true,
+    "crlf_initial": true,
+    "crlf_final": false,
+    "semantic_lines_removed": [
+      "    emit({\"ordered\": [int(v) for v in sorted(DATA)]})"
+    ],
+    "semantic_lines_added": [
+      "    emit({\"ordered\": sorted([int(v) for v in DATA])})"
+    ],
+    "only_whitespace_or_eol": false
+  },
+  {
+    "configuration": "C1",
+    "fixture": "SH-FLAG",
+    "arm": "FC",
+    "axis": "source",
+    "endpoint_pass": false,
+    "crlf_initial": true,
+    "crlf_final": false,
+    "semantic_lines_removed": [],
+    "semantic_lines_added": [],
+    "only_whitespace_or_eol": true
+  },
+  {
+    "configuration": "C1",
+    "fixture": "SH-FLAG",
+    "arm": "BASE",
+    "axis": "source",
+    "endpoint_pass": false,
+    "crlf_initial": true,
+    "crlf_final": true,
+    "semantic_lines_removed": [],
+    "semantic_lines_added": [],
+    "only_whitespace_or_eol": true
+  },
+  {
+    "configuration": "C1",
+    "fixture": "SH-FORMAT",
+    "arm": "FC",
+    "axis": "source",
+    "endpoint_pass": false,
+    "crlf_initial": true,
+    "crlf_final": false,
+    "semantic_lines_removed": [],
+    "semantic_lines_added": [],
+    "only_whitespace_or_eol": true
+  },
+  {
+    "configuration": "C1",
+    "fixture": "SH-FORMAT",
+    "arm": "BASE",
+    "axis": "source",
+    "endpoint_pass": false,
+    "crlf_initial": true,
+    "crlf_final": false,
+    "semantic_lines_removed": [],
+    "semantic_lines_added": [],
+    "only_whitespace_or_eol": true
+  },
+  {
+    "configuration": "C1",
+    "fixture": "EC-MISSING",
+    "arm": "FC",
+    "axis": "environment",
+    "endpoint_pass": false,
+    "crlf_initial": true,
+    "crlf_final": false,
+    "semantic_lines_removed": [
+      "    raise SystemExit(3)"
+    ],
+    "semantic_lines_added": [],
+    "only_whitespace_or_eol": false
+  },
+  {
+    "configuration": "C1",
+    "fixture": "EC-MISSING",
+    "arm": "BASE",
+    "axis": "environment",
+    "endpoint_pass": false,
+    "crlf_initial": true,
+    "crlf_final": false,
+    "semantic_lines_removed": [
+      "    raise SystemExit(3)"
+    ],
+    "semantic_lines_added": [],
+    "only_whitespace_or_eol": false
+  },
+  {
+    "configuration": "C1",
+    "fixture": "EC-SYMBOL",
+    "arm": "FC",
+    "axis": "environment",
+    "endpoint_pass": true,
+    "crlf_initial": true,
+    "crlf_final": false,
+    "semantic_lines_removed": [
+      "import sys",
+      "    from click.exceptions import NoArgsIsHelpError",
+      "    if not DATA:",
+      "        import click",
+      "        raise NoArgsIsHelpError(click.get_current_context())",
+      "    emit({\"balance\": sum(DATA), \"entries\": len(DATA)})",
+      "    from click.exceptions import NoArgsIsHelpError",
+      "    if not DATA:",
+      "        import click",
+      "        raise NoArgsIsHelpError(click.get_current_context())",
+      "    emit({\"credits\": sum(v for v in DATA if v > 0), \"debits\": -sum(v for v in DATA if v < 0)})"
+    ],
+    "semantic_lines_added": [
+      "    balance = sum(DATA)",
+      "    entries = len(DATA)",
+      "    emit({\"balance\": balance, \"entries\": entries})",
+      "    credits = sum(v for v in DATA if v > 0)",
+      "    debits = -sum(v for v in DATA if v < 0)",
+      "    emit({\"credits\": credits, \"debits\": debits})"
+    ],
+    "only_whitespace_or_eol": false
+  },
+  {
+    "configuration": "C1",
+    "fixture": "EC-SYMBOL",
+    "arm": "BASE",
+    "axis": "environment",
+    "endpoint_pass": true,
+    "crlf_initial": true,
+    "crlf_final": false,
+    "semantic_lines_removed": [
+      "import sys",
+      "    from click.exceptions import NoArgsIsHelpError",
+      "    if not DATA:",
+      "        import click",
+      "        raise NoArgsIsHelpError(click.get_current_context())",
+      "    emit({\"balance\": sum(DATA), \"entries\": len(DATA)})",
+      "    from click.exceptions import NoArgsIsHelpError",
+      "    if not DATA:",
+      "        import click",
+      "        raise NoArgsIsHelpError(click.get_current_context())",
+      "    emit({\"credits\": sum(v for v in DATA if v > 0), \"debits\": -sum(v for v in DATA if v < 0)})"
+    ],
+    "semantic_lines_added": [
+      "    balance = sum(DATA)",
+      "    entries = len(DATA)",
+      "    emit({\"balance\": balance, \"entries\": entries})",
+      "    credits = sum(v for v in DATA if v > 0)",
+      "    debits = -sum(v for v in DATA if v < 0)",
+      "    emit({\"credits\": credits, \"debits\": debits})"
+    ],
+    "only_whitespace_or_eol": false
+  },
+  {
+    "configuration": "C1",
+    "fixture": "EH-API",
+    "arm": "FC",
+    "axis": "environment",
+    "endpoint_pass": false,
+    "crlf_initial": true,
+    "crlf_final": true,
+    "semantic_lines_removed": [],
+    "semantic_lines_added": [],
+    "only_whitespace_or_eol": true
+  },
+  {
+    "configuration": "C1",
+    "fixture": "EH-API",
+    "arm": "BASE",
+    "axis": "environment",
+    "endpoint_pass": false,
+    "crlf_initial": true,
+    "crlf_final": true,
+    "semantic_lines_removed": [],
+    "semantic_lines_added": [],
+    "only_whitespace_or_eol": true
+  },
+  {
+    "configuration": "C1",
+    "fixture": "EH-RENDERER",
+    "arm": "FC",
+    "axis": "environment",
+    "endpoint_pass": false,
+    "crlf_initial": true,
+    "crlf_final": false,
+    "semantic_lines_removed": [],
+    "semantic_lines_added": [],
+    "only_whitespace_or_eol": true
+  },
+  {
+    "configuration": "C1",
+    "fixture": "EH-RENDERER",
+    "arm": "BASE",
+    "axis": "environment",
+    "endpoint_pass": false,
+    "crlf_initial": true,
+    "crlf_final": false,
+    "semantic_lines_removed": [],
+    "semantic_lines_added": [],
+    "only_whitespace_or_eol": true
+  },
+  {
+    "configuration": "C1",
+    "fixture": "H-RC0",
+    "arm": "FC",
+    "axis": "healthy",
+    "endpoint_pass": true,
+    "crlf_initial": true,
+    "crlf_final": true,
+    "semantic_lines_removed": [],
+    "semantic_lines_added": [],
+    "only_whitespace_or_eol": true
+  },
+  {
+    "configuration": "C1",
+    "fixture": "H-RC0",
+    "arm": "BASE",
+    "axis": "healthy",
+    "endpoint_pass": true,
+    "crlf_initial": true,
+    "crlf_final": true,
+    "semantic_lines_removed": [],
+    "semantic_lines_added": [],
+    "only_whitespace_or_eol": true
+  },
+  {
+    "configuration": "C1",
+    "fixture": "H-RC2",
+    "arm": "FC",
+    "axis": "healthy",
+    "endpoint_pass": true,
+    "crlf_initial": true,
+    "crlf_final": false,
+    "semantic_lines_removed": [],
+    "semantic_lines_added": [],
+    "only_whitespace_or_eol": true
+  },
+  {
+    "configuration": "C1",
+    "fixture": "H-RC2",
+    "arm": "BASE",
+    "axis": "healthy",
+    "endpoint_pass": true,
+    "crlf_initial": true,
+    "crlf_final": false,
+    "semantic_lines_removed": [],
+    "semantic_lines_added": [],
+    "only_whitespace_or_eol": true
+  }
+]

@@ -1,0 +1,288 @@
+[
+  {
+    "name": "download-public-rc3",
+    "argv": [
+      "curl",
+      "-fsSL",
+      "--retry",
+      "0",
+      "-o",
+      "/home/sourceenv/rc3-check-20261103/SourceEnv-1.0.0-rc3.zip",
+      "https://github.com/cristiand182gomez-source/sourceenv-resource/releases/download/v1.0.0-rc3/SourceEnv-1.0.0-rc3.zip"
+    ],
+    "cwd": "/home/sourceenv/rc3-check-20261103",
+    "status": "PASS",
+    "started_utc": "2026-11-04T02:05:18.588836+00:00",
+    "returncode": 0,
+    "elapsed_seconds": 1.7240063249999906
+  },
+  {
+    "name": "verify-before",
+    "argv": [
+      "/usr/bin/python3",
+      "-I",
+      "-S",
+      "reproduce.py",
+      "--verify-only"
+    ],
+    "cwd": "/home/sourceenv/rc3-check-20261103/rc3/SourceEnv",
+    "status": "PASS",
+    "started_utc": "2026-11-04T02:05:31.608439+00:00",
+    "returncode": 0,
+    "elapsed_seconds": 0.21537108900000135
+  },
+  {
+    "name": "tests-test_portable",
+    "argv": [
+      "/usr/bin/python3",
+      "-I",
+      "-S",
+      "tests/test_portable.py"
+    ],
+    "cwd": "/home/sourceenv/rc3-check-20261103/rc3/SourceEnv",
+    "status": "PASS",
+    "started_utc": "2026-11-04T02:05:31.824980+00:00",
+    "returncode": 0,
+    "elapsed_seconds": 2.3729702880000048
+  },
+  {
+    "name": "tests-test_validate_fixture",
+    "argv": [
+      "/usr/bin/python3",
+      "-I",
+      "-S",
+      "tests/test_validate_fixture.py"
+    ],
+    "cwd": "/home/sourceenv/rc3-check-20261103/rc3/SourceEnv",
+    "status": "PASS",
+    "started_utc": "2026-11-04T02:05:34.199419+00:00",
+    "returncode": 0,
+    "elapsed_seconds": 0.2657813779999998
+  },
+  {
+    "name": "tests-test_context",
+    "argv": [
+      "/usr/bin/python3",
+      "-I",
+      "-S",
+      "tests/test_context.py"
+    ],
+    "cwd": "/home/sourceenv/rc3-check-20261103/rc3/SourceEnv",
+    "status": "PASS",
+    "started_utc": "2026-11-04T02:05:34.467106+00:00",
+    "returncode": 0,
+    "elapsed_seconds": 0.4157454119999926
+  },
+  {
+    "name": "tests-test_costs",
+    "argv": [
+      "/usr/bin/python3",
+      "-I",
+      "-S",
+      "tests/test_costs.py"
+    ],
+    "cwd": "/home/sourceenv/rc3-check-20261103/rc3/SourceEnv",
+    "status": "PASS",
+    "started_utc": "2026-11-04T02:05:34.884425+00:00",
+    "returncode": 0,
+    "elapsed_seconds": 0.16519908700000485
+  },
+  {
+    "name": "fetch-wheels",
+    "argv": [
+      "/usr/bin/python3",
+      "-I",
+      "-S",
+      "fetch_wheels.py",
+      "../../wheels"
+    ],
+    "cwd": "/home/sourceenv/rc3-check-20261103/rc3/SourceEnv",
+    "status": "PASS",
+    "started_utc": "2026-11-04T02:05:35.050510+00:00",
+    "returncode": 0,
+    "elapsed_seconds": 7.29131353599999
+  },
+  {
+    "name": "reproduce-16",
+    "argv": [
+      "/usr/bin/python3",
+      "-I",
+      "-S",
+      "reproduce.py",
+      "--wheelhouse",
+      "../../wheels",
+      "--output",
+      "../../out-reproduce"
+    ],
+    "cwd": "/home/sourceenv/rc3-check-20261103/rc3/SourceEnv",
+    "status": "PASS",
+    "started_utc": "2026-11-04T02:05:42.343943+00:00",
+    "returncode": 0,
+    "elapsed_seconds": 193.74895836899998
+  },
+  {
+    "name": "validator-plan",
+    "argv": [
+      "/usr/bin/python3",
+      "-I",
+      "-S",
+      "validate_fixture.py",
+      "--write-plan",
+      "../../validator-plan.json",
+      "--selection",
+      "new-coverage"
+    ],
+    "cwd": "/home/sourceenv/rc3-check-20261103/rc3/SourceEnv",
+    "status": "PASS",
+    "started_utc": "2026-11-04T02:08:56.095117+00:00",
+    "returncode": 0,
+    "elapsed_seconds": 0.1148146010000346
+  },
+  {
+    "name": "validator-24",
+    "argv": [
+      "/usr/bin/python3",
+      "-I",
+      "-S",
+      "validate_fixture.py",
+      "--execute-plan",
+      "../../validator-plan.json",
+      "--output",
+      "../../out-validator",
+      "--wheelhouse",
+      "../../wheels"
+    ],
+    "cwd": "/home/sourceenv/rc3-check-20261103/rc3/SourceEnv",
+    "status": "PASS",
+    "started_utc": "2026-11-04T02:08:56.211408+00:00",
+    "returncode": 0,
+    "elapsed_seconds": 80.59122663900001
+  },
+  {
+    "name": "runner-reference",
+    "argv": [
+      "/usr/bin/python3",
+      "-I",
+      "-S",
+      "run_agent.py",
+      "--backend",
+      "scripted",
+      "--control",
+      "reference",
+      "--fixtures",
+      "EH-API",
+      "SC-BALANCE",
+      "EC-MISSING",
+      "SH-FLAG",
+      "EH-RENDERER",
+      "SC-SORT",
+      "EC-SYMBOL",
+      "SH-FORMAT",
+      "--wheelhouse",
+      "../../wheels",
+      "--output",
+      "../../out-runner-reference"
+    ],
+    "cwd": "/home/sourceenv/rc3-check-20261103/rc3/SourceEnv",
+    "status": "PASS",
+    "started_utc": "2026-11-04T02:10:16.804129+00:00",
+    "returncode": 0,
+    "elapsed_seconds": 106.32060972800002
+  },
+  {
+    "name": "analyze-reference",
+    "argv": [
+      "/usr/bin/python3",
+      "-I",
+      "-S",
+      "analyze.py",
+      "../../out-runner-reference",
+      "--output",
+      "../../analysis-reference.json"
+    ],
+    "cwd": "/home/sourceenv/rc3-check-20261103/rc3/SourceEnv",
+    "status": "PASS",
+    "started_utc": "2026-11-04T02:12:03.125925+00:00",
+    "returncode": 0,
+    "elapsed_seconds": 0.1648146090000182
+  },
+  {
+    "name": "runner-noop",
+    "argv": [
+      "/usr/bin/python3",
+      "-I",
+      "-S",
+      "run_agent.py",
+      "--backend",
+      "scripted",
+      "--control",
+      "noop",
+      "--fixtures",
+      "EH-API",
+      "SC-BALANCE",
+      "EC-MISSING",
+      "SH-FLAG",
+      "EH-RENDERER",
+      "SC-SORT",
+      "EC-SYMBOL",
+      "SH-FORMAT",
+      "--wheelhouse",
+      "../../wheels",
+      "--output",
+      "../../out-runner-noop"
+    ],
+    "cwd": "/home/sourceenv/rc3-check-20261103/rc3/SourceEnv",
+    "status": "PASS",
+    "started_utc": "2026-11-04T02:12:03.292029+00:00",
+    "returncode": 0,
+    "elapsed_seconds": 113.17158582299999
+  },
+  {
+    "name": "analyze-noop",
+    "argv": [
+      "/usr/bin/python3",
+      "-I",
+      "-S",
+      "analyze.py",
+      "../../out-runner-noop",
+      "--output",
+      "../../analysis-noop.json"
+    ],
+    "cwd": "/home/sourceenv/rc3-check-20261103/rc3/SourceEnv",
+    "status": "PASS",
+    "started_utc": "2026-11-04T02:13:56.466046+00:00",
+    "returncode": 0,
+    "elapsed_seconds": 0.16520085800004836
+  },
+  {
+    "name": "verify-after-controls",
+    "argv": [
+      "/usr/bin/python3",
+      "-I",
+      "-S",
+      "reproduce.py",
+      "--verify-only"
+    ],
+    "cwd": "/home/sourceenv/rc3-check-20261103/rc3/SourceEnv",
+    "status": "PASS",
+    "started_utc": "2026-11-04T02:13:56.632211+00:00",
+    "returncode": 0,
+    "elapsed_seconds": 0.11433283500002744
+  },
+  {
+    "name": "ced-61",
+    "argv": [
+      "/usr/bin/python3",
+      "-I",
+      "-S",
+      "/home/sourceenv/rc3-check-20261103/admin/masking_check.py",
+      "/home/sourceenv/rc3-check-20261103/rc3/SourceEnv",
+      "/home/sourceenv/rc3-check-20261103/masking_plan",
+      "/home/sourceenv/rc3-check-20261103/out-ced",
+      "/home/sourceenv/rc3-check-20261103/wheels"
+    ],
+    "cwd": "/home/sourceenv/rc3-check-20261103",
+    "status": "STARTED",
+    "started_utc": "2026-11-04T02:15:11.352042+00:00"
+  }
+]

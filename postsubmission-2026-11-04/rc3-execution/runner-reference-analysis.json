@@ -1,0 +1,3539 @@
+{
+  "episodes": {
+    "EC-MISSING": {
+      "FC": {
+        "source": {
+          "requests": 0,
+          "effective": 0,
+          "noops": 0,
+          "rejected_or_failed": 0,
+          "unknown_effect": 0
+        },
+        "environment": {
+          "requests": 1,
+          "effective": 1,
+          "noops": 0,
+          "rejected_or_failed": 0,
+          "unknown_effect": 0
+        },
+        "valid_finish_requests": 1,
+        "finish_with_current_public_failure": {
+          "accepted": 0,
+          "rejected": 0
+        },
+        "blind_modifying_requests": 1,
+        "diagnostic_effective_current": 0,
+        "diagnostic_effective_historical": 0,
+        "profile_after_help_failure_current": 0,
+        "profile_after_help_failure_historical": 0,
+        "profile_effective_after_help_failure_current": 0,
+        "profile_effective_after_help_failure_historical": 0,
+        "terminal_current_public_failure_operations": [],
+        "primary_availability": "VALID",
+        "final_task_pass": true,
+        "losses": [],
+        "coverage": {
+          "epoch": 1,
+          "state_identity": "793bb1b909dcc25fe233d57d10b92bfc60de0c2e69cea1788f97d4342cc01ab2",
+          "epoch_changes": [
+            {
+              "action_index": 1,
+              "cause": "effective_source_or_environment_change",
+              "before": "a77fd2b48461162e3a04696708377f35e950717e734de4cf9ebc73e26f732ff0",
+              "after": "793bb1b909dcc25fe233d57d10b92bfc60de0c2e69cea1788f97d4342cc01ab2",
+              "epoch_before": 0,
+              "epoch_after": 1
+            }
+          ],
+          "cumulative_operations": [
+            "first_command",
+            "second_command",
+            "no_args",
+            "explicit_help",
+            "first_command_help",
+            "second_command_help"
+          ],
+          "cumulative_coverage_count": 6,
+          "final_state_operations": [
+            "first_command",
+            "second_command",
+            "no_args",
+            "explicit_help",
+            "first_command_help",
+            "second_command_help"
+          ],
+          "final_state_coverage_count": 6,
+          "current_observations": {
+            "first_command": {
+              "action_index": 2,
+              "completed": true,
+              "oracle_pass": true,
+              "feedback_verdict": "PASS",
+              "truncated": false
+            },
+            "second_command": {
+              "action_index": 3,
+              "completed": true,
+              "oracle_pass": true,
+              "feedback_verdict": "PASS",
+              "truncated": false
+            },
+            "no_args": {
+              "action_index": 4,
+              "completed": true,
+              "oracle_pass": true,
+              "feedback_verdict": "PASS",
+              "truncated": false
+            },
+            "explicit_help": {
+              "action_index": 5,
+              "completed": true,
+              "oracle_pass": true,
+              "feedback_verdict": "PASS",
+              "truncated": false
+            },
+            "first_command_help": {
+              "action_index": 6,
+              "completed": true,
+              "oracle_pass": true,
+              "feedback_verdict": "PASS",
+              "truncated": false
+            },
+            "second_command_help": {
+              "action_index": 7,
+              "completed": true,
+              "oracle_pass": true,
+              "feedback_verdict": "PASS",
+              "truncated": false
+            }
+          },
+          "finish_attempts": [
+            {
+              "action_index": 8,
+              "epoch": 1,
+              "state_identity": "793bb1b909dcc25fe233d57d10b92bfc60de0c2e69cea1788f97d4342cc01ab2",
+              "coverage_count": 6,
+              "missing_operations": [],
+              "accepted": true,
+              "oracle_failure_operations": [],
+              "feedback_failure_operations": [],
+              "feedback_unknown_operations": [],
+              "unobserved_operations": []
+            }
+          ],
+          "finish_policy_rejections": 0,
+          "coverage_before_finish": 6
+        },
+        "stop_reason": "finish"
+      },
+      "BASE": {
+        "source": {
+          "requests": 0,
+          "effective": 0,
+          "noops": 0,
+          "rejected_or_failed": 0,
+          "unknown_effect": 0
+        },
+        "environment": {
+          "requests": 1,
+          "effective": 1,
+          "noops": 0,
+          "rejected_or_failed": 0,
+          "unknown_effect": 0
+        },
+        "valid_finish_requests": 1,
+        "finish_with_current_public_failure": {
+          "accepted": 0,
+          "rejected": 0
+        },
+        "blind_modifying_requests": 1,
+        "diagnostic_effective_current": 0,
+        "diagnostic_effective_historical": 0,
+        "profile_after_help_failure_current": 0,
+        "profile_after_help_failure_historical": 0,
+        "profile_effective_after_help_failure_current": 0,
+        "profile_effective_after_help_failure_historical": 0,
+        "terminal_current_public_failure_operations": [],
+        "primary_availability": "VALID",
+        "final_task_pass": true,
+        "losses": [],
+        "coverage": {
+          "epoch": 1,
+          "state_identity": "793bb1b909dcc25fe233d57d10b92bfc60de0c2e69cea1788f97d4342cc01ab2",
+          "epoch_changes": [
+            {
+              "action_index": 1,
+              "cause": "effective_source_or_environment_change",
+              "before": "a77fd2b48461162e3a04696708377f35e950717e734de4cf9ebc73e26f732ff0",
+              "after": "793bb1b909dcc25fe233d57d10b92bfc60de0c2e69cea1788f97d4342cc01ab2",
+              "epoch_before": 0,
+              "epoch_after": 1
+            }
+          ],
+          "cumulative_operations": [
+            "first_command",
+            "second_command",
+            "no_args",
+            "explicit_help",
+            "first_command_help",
+            "second_command_help"
+          ],
+          "cumulative_coverage_count": 6,
+          "final_state_operations": [
+            "first_command",
+            "second_command",
+            "no_args",
+            "explicit_help",
+            "first_command_help",
+            "second_command_help"
+          ],
+          "final_state_coverage_count": 6,
+          "current_observations": {
+            "first_command": {
+              "action_index": 2,
+              "completed": true,
+              "oracle_pass": true,
+              "feedback_verdict": "PASS",
+              "truncated": false
+            },
+            "second_command": {
+              "action_index": 3,
+              "completed": true,
+              "oracle_pass": true,
+              "feedback_verdict": "PASS",
+              "truncated": false
+            },
+            "no_args": {
+              "action_index": 4,
+              "completed": true,
+              "oracle_pass": true,
+              "feedback_verdict": "PASS",
+              "truncated": false
+            },
+            "explicit_help": {
+              "action_index": 5,
+              "completed": true,
+              "oracle_pass": true,
+              "feedback_verdict": "PASS",
+              "truncated": false
+            },
+            "first_command_help": {
+              "action_index": 6,
+              "completed": true,
+              "oracle_pass": true,
+              "feedback_verdict": "PASS",
+              "truncated": false
+            },
+            "second_command_help": {
+              "action_index": 7,
+              "completed": true,
+              "oracle_pass": true,
+              "feedback_verdict": "PASS",
+              "truncated": false
+            }
+          },
+          "finish_attempts": [
+            {
+              "action_index": 8,
+              "epoch": 1,
+              "state_identity": "793bb1b909dcc25fe233d57d10b92bfc60de0c2e69cea1788f97d4342cc01ab2",
+              "coverage_count": 6,
+              "missing_operations": [],
+              "accepted": true,
+              "oracle_failure_operations": [],
+              "feedback_failure_operations": [],
+              "feedback_unknown_operations": [],
+              "unobserved_operations": []
+            }
+          ],
+          "finish_policy_rejections": 0,
+          "coverage_before_finish": 6
+        },
+        "stop_reason": "finish"
+      },
+      "loops": {
+        "schema": 1,
+        "case_id": "EC-MISSING",
+        "FC": {
+          "availability": "AVAILABLE",
+          "retained_actions": 8,
+          "argumentally_valid_actions": 8,
+          "invalid_actions": 0,
+          "maximum_identical_action_streak": {
+            "available": true,
+            "value": 1
+          },
+          "run_app_redundancy": {
+            "available": true,
+            "value": 0.0,
+            "numerator": 0,
+            "denominator": 6
+          },
+          "distinct_completed_operations_cumulative": {
+            "available": true,
+            "value": 6,
+            "operations": [
+              "first_command",
+              "second_command",
+              "no_args",
+              "explicit_help",
+              "first_command_help",
+              "second_command_help"
+            ],
+            "denominator": 6
+          },
+          "distinct_completed_operations_terminal_epoch": {
+            "available": true,
+            "value": 6,
+            "operations": [
+              "first_command",
+              "second_command",
+              "no_args",
+              "explicit_help",
+              "first_command_help",
+              "second_command_help"
+            ],
+            "denominator": 6,
+            "epoch": 1
+          },
+          "suffix_without_new_operation_epoch": {
+            "available": true,
+            "value": 0,
+            "accepted_terminal_finish_excluded": 1
+          },
+          "understanding_or_no_progress_inferred": false
+        },
+        "BASE": {
+          "availability": "AVAILABLE",
+          "retained_actions": 8,
+          "argumentally_valid_actions": 8,
+          "invalid_actions": 0,
+          "maximum_identical_action_streak": {
+            "available": true,
+            "value": 1
+          },
+          "run_app_redundancy": {
+            "available": true,
+            "value": 0.0,
+            "numerator": 0,
+            "denominator": 6
+          },
+          "distinct_completed_operations_cumulative": {
+            "available": true,
+            "value": 6,
+            "operations": [
+              "first_command",
+              "second_command",
+              "no_args",
+              "explicit_help",
+              "first_command_help",
+              "second_command_help"
+            ],
+            "denominator": 6
+          },
+          "distinct_completed_operations_terminal_epoch": {
+            "available": true,
+            "value": 6,
+            "operations": [
+              "first_command",
+              "second_command",
+              "no_args",
+              "explicit_help",
+              "first_command_help",
+              "second_command_help"
+            ],
+            "denominator": 6,
+            "epoch": 1
+          },
+          "suffix_without_new_operation_epoch": {
+            "available": true,
+            "value": 0,
+            "accepted_terminal_finish_excluded": 1
+          },
+          "understanding_or_no_progress_inferred": false
+        },
+        "primary_availability_is_separate": true,
+        "retrospective_unless_declared_before_new_lot": true
+      },
+      "gate_exposure": {
+        "policy_rejections": 0,
+        "bifurcated": false,
+        "checkpoint_reached_policy": true
+      },
+      "physical_generation_counted_once": true,
+      "health": {
+        "case_id": "EC-MISSING",
+        "FC": {
+          "arm": "FC",
+          "terminal": "finish",
+          "primary_availability": "VALID",
+          "replies_received": 8,
+          "actions_dispatched": 8,
+          "action_budget": 20,
+          "complete_retained_trace": true,
+          "responses_without_tool_calls": {
+            "count": 0,
+            "denominator": 8,
+            "rate": 0.0
+          },
+          "empty_replies_without_tool_calls": 0,
+          "invalid_actions": 0,
+          "invalid_rate": 0.0,
+          "invalid_by_type": {},
+          "invalid_share_of_action_budget": {
+            "count": 0,
+            "denominator": 20,
+            "percent": 0.0
+          },
+          "valid_finish_requests": 1,
+          "accepted_finish_requests": 1,
+          "first_FC_rejection_action": null,
+          "actions_after_first_FC_rejection": {},
+          "actions_after_first_FC_rejection_total": 0,
+          "outdated_messages": [],
+          "model_replies_not_dispatched": 0,
+          "denominators": "no-tool/replies retained; invalid/actions dispatched; budget percent/20; finish rejection is valid, not invalid"
+        },
+        "BASE": {
+          "arm": "BASE",
+          "terminal": "finish",
+          "primary_availability": "VALID",
+          "replies_received": 8,
+          "actions_dispatched": 8,
+          "action_budget": 20,
+          "complete_retained_trace": true,
+          "responses_without_tool_calls": {
+            "count": 0,
+            "denominator": 8,
+            "rate": 0.0
+          },
+          "empty_replies_without_tool_calls": 0,
+          "invalid_actions": 0,
+          "invalid_rate": 0.0,
+          "invalid_by_type": {},
+          "invalid_share_of_action_budget": {
+            "count": 0,
+            "denominator": 20,
+            "percent": 0.0
+          },
+          "valid_finish_requests": 1,
+          "accepted_finish_requests": 1,
+          "first_FC_rejection_action": null,
+          "actions_after_first_FC_rejection": {},
+          "actions_after_first_FC_rejection_total": 0,
+          "outdated_messages": [],
+          "model_replies_not_dispatched": 0,
+          "denominators": "no-tool/replies retained; invalid/actions dispatched; budget percent/20; finish rejection is valid, not invalid"
+        }
+      },
+      "context_accounting": "synthetic"
+    },
+    "EC-SYMBOL": {
+      "FC": {
+        "source": {
+          "requests": 0,
+          "effective": 0,
+          "noops": 0,
+          "rejected_or_failed": 0,
+          "unknown_effect": 0
+        },
+        "environment": {
+          "requests": 1,
+          "effective": 1,
+          "noops": 0,
+          "rejected_or_failed": 0,
+          "unknown_effect": 0
+        },
+        "valid_finish_requests": 1,
+        "finish_with_current_public_failure": {
+          "accepted": 0,
+          "rejected": 0
+        },
+        "blind_modifying_requests": 1,
+        "diagnostic_effective_current": 0,
+        "diagnostic_effective_historical": 0,
+        "profile_after_help_failure_current": 0,
+        "profile_after_help_failure_historical": 0,
+        "profile_effective_after_help_failure_current": 0,
+        "profile_effective_after_help_failure_historical": 0,
+        "terminal_current_public_failure_operations": [],
+        "primary_availability": "VALID",
+        "final_task_pass": true,
+        "losses": [],
+        "coverage": {
+          "epoch": 1,
+          "state_identity": "45c4a279a07aeb9fead51a0acf00e26283c0d414fb8d110a54f67f3dea7f5464",
+          "epoch_changes": [
+            {
+              "action_index": 1,
+              "cause": "effective_source_or_environment_change",
+              "before": "b57da33b63b8d5dcd1a9f3f34d5a1deb50625b2be23b2991b6aa2c2b47f61224",
+              "after": "45c4a279a07aeb9fead51a0acf00e26283c0d414fb8d110a54f67f3dea7f5464",
+              "epoch_before": 0,
+              "epoch_after": 1
+            }
+          ],
+          "cumulative_operations": [
+            "first_command",
+            "second_command",
+            "no_args",
+            "explicit_help",
+            "first_command_help",
+            "second_command_help"
+          ],
+          "cumulative_coverage_count": 6,
+          "final_state_operations": [
+            "first_command",
+            "second_command",
+            "no_args",
+            "explicit_help",
+            "first_command_help",
+            "second_command_help"
+          ],
+          "final_state_coverage_count": 6,
+          "current_observations": {
+            "first_command": {
+              "action_index": 2,
+              "completed": true,
+              "oracle_pass": true,
+              "feedback_verdict": "PASS",
+              "truncated": false
+            },
+            "second_command": {
+              "action_index": 3,
+              "completed": true,
+              "oracle_pass": true,
+              "feedback_verdict": "PASS",
+              "truncated": false
+            },
+            "no_args": {
+              "action_index": 4,
+              "completed": true,
+              "oracle_pass": true,
+              "feedback_verdict": "PASS",
+              "truncated": false
+            },
+            "explicit_help": {
+              "action_index": 5,
+              "completed": true,
+              "oracle_pass": true,
+              "feedback_verdict": "PASS",
+              "truncated": false
+            },
+            "first_command_help": {
+              "action_index": 6,
+              "completed": true,
+              "oracle_pass": true,
+              "feedback_verdict": "PASS",
+              "truncated": false
+            },
+            "second_command_help": {
+              "action_index": 7,
+              "completed": true,
+              "oracle_pass": true,
+              "feedback_verdict": "PASS",
+              "truncated": false
+            }
+          },
+          "finish_attempts": [
+            {
+              "action_index": 8,
+              "epoch": 1,
+              "state_identity": "45c4a279a07aeb9fead51a0acf00e26283c0d414fb8d110a54f67f3dea7f5464",
+              "coverage_count": 6,
+              "missing_operations": [],
+              "accepted": true,
+              "oracle_failure_operations": [],
+              "feedback_failure_operations": [],
+              "feedback_unknown_operations": [],
+              "unobserved_operations": []
+            }
+          ],
+          "finish_policy_rejections": 0,
+          "coverage_before_finish": 6
+        },
+        "stop_reason": "finish"
+      },
+      "BASE": {
+        "source": {
+          "requests": 0,
+          "effective": 0,
+          "noops": 0,
+          "rejected_or_failed": 0,
+          "unknown_effect": 0
+        },
+        "environment": {
+          "requests": 1,
+          "effective": 1,
+          "noops": 0,
+          "rejected_or_failed": 0,
+          "unknown_effect": 0
+        },
+        "valid_finish_requests": 1,
+        "finish_with_current_public_failure": {
+          "accepted": 0,
+          "rejected": 0
+        },
+        "blind_modifying_requests": 1,
+        "diagnostic_effective_current": 0,
+        "diagnostic_effective_historical": 0,
+        "profile_after_help_failure_current": 0,
+        "profile_after_help_failure_historical": 0,
+        "profile_effective_after_help_failure_current": 0,
+        "profile_effective_after_help_failure_historical": 0,
+        "terminal_current_public_failure_operations": [],
+        "primary_availability": "VALID",
+        "final_task_pass": true,
+        "losses": [],
+        "coverage": {
+          "epoch": 1,
+          "state_identity": "45c4a279a07aeb9fead51a0acf00e26283c0d414fb8d110a54f67f3dea7f5464",
+          "epoch_changes": [
+            {
+              "action_index": 1,
+              "cause": "effective_source_or_environment_change",
+              "before": "b57da33b63b8d5dcd1a9f3f34d5a1deb50625b2be23b2991b6aa2c2b47f61224",
+              "after": "45c4a279a07aeb9fead51a0acf00e26283c0d414fb8d110a54f67f3dea7f5464",
+              "epoch_before": 0,
+              "epoch_after": 1
+            }
+          ],
+          "cumulative_operations": [
+            "first_command",
+            "second_command",
+            "no_args",
+            "explicit_help",
+            "first_command_help",
+            "second_command_help"
+          ],
+          "cumulative_coverage_count": 6,
+          "final_state_operations": [
+            "first_command",
+            "second_command",
+            "no_args",
+            "explicit_help",
+            "first_command_help",
+            "second_command_help"
+          ],
+          "final_state_coverage_count": 6,
+          "current_observations": {
+            "first_command": {
+              "action_index": 2,
+              "completed": true,
+              "oracle_pass": true,
+              "feedback_verdict": "PASS",
+              "truncated": false
+            },
+            "second_command": {
+              "action_index": 3,
+              "completed": true,
+              "oracle_pass": true,
+              "feedback_verdict": "PASS",
+              "truncated": false
+            },
+            "no_args": {
+              "action_index": 4,
+              "completed": true,
+              "oracle_pass": true,
+              "feedback_verdict": "PASS",
+              "truncated": false
+            },
+            "explicit_help": {
+              "action_index": 5,
+              "completed": true,
+              "oracle_pass": true,
+              "feedback_verdict": "PASS",
+              "truncated": false
+            },
+            "first_command_help": {
+              "action_index": 6,
+              "completed": true,
+              "oracle_pass": true,
+              "feedback_verdict": "PASS",
+              "truncated": false
+            },
+            "second_command_help": {
+              "action_index": 7,
+              "completed": true,
+              "oracle_pass": true,
+              "feedback_verdict": "PASS",
+              "truncated": false
+            }
+          },
+          "finish_attempts": [
+            {
+              "action_index": 8,
+              "epoch": 1,
+              "state_identity": "45c4a279a07aeb9fead51a0acf00e26283c0d414fb8d110a54f67f3dea7f5464",
+              "coverage_count": 6,
+              "missing_operations": [],
+              "accepted": true,
+              "oracle_failure_operations": [],
+              "feedback_failure_operations": [],
+              "feedback_unknown_operations": [],
+              "unobserved_operations": []
+            }
+          ],
+          "finish_policy_rejections": 0,
+          "coverage_before_finish": 6
+        },
+        "stop_reason": "finish"
+      },
+      "loops": {
+        "schema": 1,
+        "case_id": "EC-SYMBOL",
+        "FC": {
+          "availability": "AVAILABLE",
+          "retained_actions": 8,
+          "argumentally_valid_actions": 8,
+          "invalid_actions": 0,
+          "maximum_identical_action_streak": {
+            "available": true,
+            "value": 1
+          },
+          "run_app_redundancy": {
+            "available": true,
+            "value": 0.0,
+            "numerator": 0,
+            "denominator": 6
+          },
+          "distinct_completed_operations_cumulative": {
+            "available": true,
+            "value": 6,
+            "operations": [
+              "first_command",
+              "second_command",
+              "no_args",
+              "explicit_help",
+              "first_command_help",
+              "second_command_help"
+            ],
+            "denominator": 6
+          },
+          "distinct_completed_operations_terminal_epoch": {
+            "available": true,
+            "value": 6,
+            "operations": [
+              "first_command",
+              "second_command",
+              "no_args",
+              "explicit_help",
+              "first_command_help",
+              "second_command_help"
+            ],
+            "denominator": 6,
+            "epoch": 1
+          },
+          "suffix_without_new_operation_epoch": {
+            "available": true,
+            "value": 0,
+            "accepted_terminal_finish_excluded": 1
+          },
+          "understanding_or_no_progress_inferred": false
+        },
+        "BASE": {
+          "availability": "AVAILABLE",
+          "retained_actions": 8,
+          "argumentally_valid_actions": 8,
+          "invalid_actions": 0,
+          "maximum_identical_action_streak": {
+            "available": true,
+            "value": 1
+          },
+          "run_app_redundancy": {
+            "available": true,
+            "value": 0.0,
+            "numerator": 0,
+            "denominator": 6
+          },
+          "distinct_completed_operations_cumulative": {
+            "available": true,
+            "value": 6,
+            "operations": [
+              "first_command",
+              "second_command",
+              "no_args",
+              "explicit_help",
+              "first_command_help",
+              "second_command_help"
+            ],
+            "denominator": 6
+          },
+          "distinct_completed_operations_terminal_epoch": {
+            "available": true,
+            "value": 6,
+            "operations": [
+              "first_command",
+              "second_command",
+              "no_args",
+              "explicit_help",
+              "first_command_help",
+              "second_command_help"
+            ],
+            "denominator": 6,
+            "epoch": 1
+          },
+          "suffix_without_new_operation_epoch": {
+            "available": true,
+            "value": 0,
+            "accepted_terminal_finish_excluded": 1
+          },
+          "understanding_or_no_progress_inferred": false
+        },
+        "primary_availability_is_separate": true,
+        "retrospective_unless_declared_before_new_lot": true
+      },
+      "gate_exposure": {
+        "policy_rejections": 0,
+        "bifurcated": false,
+        "checkpoint_reached_policy": true
+      },
+      "physical_generation_counted_once": true,
+      "health": {
+        "case_id": "EC-SYMBOL",
+        "FC": {
+          "arm": "FC",
+          "terminal": "finish",
+          "primary_availability": "VALID",
+          "replies_received": 8,
+          "actions_dispatched": 8,
+          "action_budget": 20,
+          "complete_retained_trace": true,
+          "responses_without_tool_calls": {
+            "count": 0,
+            "denominator": 8,
+            "rate": 0.0
+          },
+          "empty_replies_without_tool_calls": 0,
+          "invalid_actions": 0,
+          "invalid_rate": 0.0,
+          "invalid_by_type": {},
+          "invalid_share_of_action_budget": {
+            "count": 0,
+            "denominator": 20,
+            "percent": 0.0
+          },
+          "valid_finish_requests": 1,
+          "accepted_finish_requests": 1,
+          "first_FC_rejection_action": null,
+          "actions_after_first_FC_rejection": {},
+          "actions_after_first_FC_rejection_total": 0,
+          "outdated_messages": [],
+          "model_replies_not_dispatched": 0,
+          "denominators": "no-tool/replies retained; invalid/actions dispatched; budget percent/20; finish rejection is valid, not invalid"
+        },
+        "BASE": {
+          "arm": "BASE",
+          "terminal": "finish",
+          "primary_availability": "VALID",
+          "replies_received": 8,
+          "actions_dispatched": 8,
+          "action_budget": 20,
+          "complete_retained_trace": true,
+          "responses_without_tool_calls": {
+            "count": 0,
+            "denominator": 8,
+            "rate": 0.0
+          },
+          "empty_replies_without_tool_calls": 0,
+          "invalid_actions": 0,
+          "invalid_rate": 0.0,
+          "invalid_by_type": {},
+          "invalid_share_of_action_budget": {
+            "count": 0,
+            "denominator": 20,
+            "percent": 0.0
+          },
+          "valid_finish_requests": 1,
+          "accepted_finish_requests": 1,
+          "first_FC_rejection_action": null,
+          "actions_after_first_FC_rejection": {},
+          "actions_after_first_FC_rejection_total": 0,
+          "outdated_messages": [],
+          "model_replies_not_dispatched": 0,
+          "denominators": "no-tool/replies retained; invalid/actions dispatched; budget percent/20; finish rejection is valid, not invalid"
+        }
+      },
+      "context_accounting": "synthetic"
+    },
+    "EH-API": {
+      "FC": {
+        "source": {
+          "requests": 0,
+          "effective": 0,
+          "noops": 0,
+          "rejected_or_failed": 0,
+          "unknown_effect": 0
+        },
+        "environment": {
+          "requests": 1,
+          "effective": 1,
+          "noops": 0,
+          "rejected_or_failed": 0,
+          "unknown_effect": 0
+        },
+        "valid_finish_requests": 1,
+        "finish_with_current_public_failure": {
+          "accepted": 0,
+          "rejected": 0
+        },
+        "blind_modifying_requests": 1,
+        "diagnostic_effective_current": 0,
+        "diagnostic_effective_historical": 0,
+        "profile_after_help_failure_current": 0,
+        "profile_after_help_failure_historical": 0,
+        "profile_effective_after_help_failure_current": 0,
+        "profile_effective_after_help_failure_historical": 0,
+        "terminal_current_public_failure_operations": [],
+        "primary_availability": "VALID",
+        "final_task_pass": true,
+        "losses": [],
+        "coverage": {
+          "epoch": 1,
+          "state_identity": "54111a5406f87d1624fdbf7cdad67e214b1dac9632f0e36bd111e76eb8cc10dd",
+          "epoch_changes": [
+            {
+              "action_index": 1,
+              "cause": "effective_source_or_environment_change",
+              "before": "57295c34e52131fe595b989d5b08a96e7e7f21afc54f5945fc7e13d9c2c23433",
+              "after": "54111a5406f87d1624fdbf7cdad67e214b1dac9632f0e36bd111e76eb8cc10dd",
+              "epoch_before": 0,
+              "epoch_after": 1
+            }
+          ],
+          "cumulative_operations": [
+            "first_command",
+            "second_command",
+            "no_args",
+            "explicit_help",
+            "first_command_help",
+            "second_command_help"
+          ],
+          "cumulative_coverage_count": 6,
+          "final_state_operations": [
+            "first_command",
+            "second_command",
+            "no_args",
+            "explicit_help",
+            "first_command_help",
+            "second_command_help"
+          ],
+          "final_state_coverage_count": 6,
+          "current_observations": {
+            "first_command": {
+              "action_index": 2,
+              "completed": true,
+              "oracle_pass": true,
+              "feedback_verdict": "PASS",
+              "truncated": false
+            },
+            "second_command": {
+              "action_index": 3,
+              "completed": true,
+              "oracle_pass": true,
+              "feedback_verdict": "PASS",
+              "truncated": false
+            },
+            "no_args": {
+              "action_index": 4,
+              "completed": true,
+              "oracle_pass": true,
+              "feedback_verdict": "PASS",
+              "truncated": false
+            },
+            "explicit_help": {
+              "action_index": 5,
+              "completed": true,
+              "oracle_pass": true,
+              "feedback_verdict": "PASS",
+              "truncated": false
+            },
+            "first_command_help": {
+              "action_index": 6,
+              "completed": true,
+              "oracle_pass": true,
+              "feedback_verdict": "PASS",
+              "truncated": false
+            },
+            "second_command_help": {
+              "action_index": 7,
+              "completed": true,
+              "oracle_pass": true,
+              "feedback_verdict": "PASS",
+              "truncated": false
+            }
+          },
+          "finish_attempts": [
+            {
+              "action_index": 8,
+              "epoch": 1,
+              "state_identity": "54111a5406f87d1624fdbf7cdad67e214b1dac9632f0e36bd111e76eb8cc10dd",
+              "coverage_count": 6,
+              "missing_operations": [],
+              "accepted": true,
+              "oracle_failure_operations": [],
+              "feedback_failure_operations": [],
+              "feedback_unknown_operations": [],
+              "unobserved_operations": []
+            }
+          ],
+          "finish_policy_rejections": 0,
+          "coverage_before_finish": 6
+        },
+        "stop_reason": "finish"
+      },
+      "BASE": {
+        "source": {
+          "requests": 0,
+          "effective": 0,
+          "noops": 0,
+          "rejected_or_failed": 0,
+          "unknown_effect": 0
+        },
+        "environment": {
+          "requests": 1,
+          "effective": 1,
+          "noops": 0,
+          "rejected_or_failed": 0,
+          "unknown_effect": 0
+        },
+        "valid_finish_requests": 1,
+        "finish_with_current_public_failure": {
+          "accepted": 0,
+          "rejected": 0
+        },
+        "blind_modifying_requests": 1,
+        "diagnostic_effective_current": 0,
+        "diagnostic_effective_historical": 0,
+        "profile_after_help_failure_current": 0,
+        "profile_after_help_failure_historical": 0,
+        "profile_effective_after_help_failure_current": 0,
+        "profile_effective_after_help_failure_historical": 0,
+        "terminal_current_public_failure_operations": [],
+        "primary_availability": "VALID",
+        "final_task_pass": true,
+        "losses": [],
+        "coverage": {
+          "epoch": 1,
+          "state_identity": "54111a5406f87d1624fdbf7cdad67e214b1dac9632f0e36bd111e76eb8cc10dd",
+          "epoch_changes": [
+            {
+              "action_index": 1,
+              "cause": "effective_source_or_environment_change",
+              "before": "57295c34e52131fe595b989d5b08a96e7e7f21afc54f5945fc7e13d9c2c23433",
+              "after": "54111a5406f87d1624fdbf7cdad67e214b1dac9632f0e36bd111e76eb8cc10dd",
+              "epoch_before": 0,
+              "epoch_after": 1
+            }
+          ],
+          "cumulative_operations": [
+            "first_command",
+            "second_command",
+            "no_args",
+            "explicit_help",
+            "first_command_help",
+            "second_command_help"
+          ],
+          "cumulative_coverage_count": 6,
+          "final_state_operations": [
+            "first_command",
+            "second_command",
+            "no_args",
+            "explicit_help",
+            "first_command_help",
+            "second_command_help"
+          ],
+          "final_state_coverage_count": 6,
+          "current_observations": {
+            "first_command": {
+              "action_index": 2,
+              "completed": true,
+              "oracle_pass": true,
+              "feedback_verdict": "PASS",
+              "truncated": false
+            },
+            "second_command": {
+              "action_index": 3,
+              "completed": true,
+              "oracle_pass": true,
+              "feedback_verdict": "PASS",
+              "truncated": false
+            },
+            "no_args": {
+              "action_index": 4,
+              "completed": true,
+              "oracle_pass": true,
+              "feedback_verdict": "PASS",
+              "truncated": false
+            },
+            "explicit_help": {
+              "action_index": 5,
+              "completed": true,
+              "oracle_pass": true,
+              "feedback_verdict": "PASS",
+              "truncated": false
+            },
+            "first_command_help": {
+              "action_index": 6,
+              "completed": true,
+              "oracle_pass": true,
+              "feedback_verdict": "PASS",
+              "truncated": false
+            },
+            "second_command_help": {
+              "action_index": 7,
+              "completed": true,
+              "oracle_pass": true,
+              "feedback_verdict": "PASS",
+              "truncated": false
+            }
+          },
+          "finish_attempts": [
+            {
+              "action_index": 8,
+              "epoch": 1,
+              "state_identity": "54111a5406f87d1624fdbf7cdad67e214b1dac9632f0e36bd111e76eb8cc10dd",
+              "coverage_count": 6,
+              "missing_operations": [],
+              "accepted": true,
+              "oracle_failure_operations": [],
+              "feedback_failure_operations": [],
+              "feedback_unknown_operations": [],
+              "unobserved_operations": []
+            }
+          ],
+          "finish_policy_rejections": 0,
+          "coverage_before_finish": 6
+        },
+        "stop_reason": "finish"
+      },
+      "loops": {
+        "schema": 1,
+        "case_id": "EH-API",
+        "FC": {
+          "availability": "AVAILABLE",
+          "retained_actions": 8,
+          "argumentally_valid_actions": 8,
+          "invalid_actions": 0,
+          "maximum_identical_action_streak": {
+            "available": true,
+            "value": 1
+          },
+          "run_app_redundancy": {
+            "available": true,
+            "value": 0.0,
+            "numerator": 0,
+            "denominator": 6
+          },
+          "distinct_completed_operations_cumulative": {
+            "available": true,
+            "value": 6,
+            "operations": [
+              "first_command",
+              "second_command",
+              "no_args",
+              "explicit_help",
+              "first_command_help",
+              "second_command_help"
+            ],
+            "denominator": 6
+          },
+          "distinct_completed_operations_terminal_epoch": {
+            "available": true,
+            "value": 6,
+            "operations": [
+              "first_command",
+              "second_command",
+              "no_args",
+              "explicit_help",
+              "first_command_help",
+              "second_command_help"
+            ],
+            "denominator": 6,
+            "epoch": 1
+          },
+          "suffix_without_new_operation_epoch": {
+            "available": true,
+            "value": 0,
+            "accepted_terminal_finish_excluded": 1
+          },
+          "understanding_or_no_progress_inferred": false
+        },
+        "BASE": {
+          "availability": "AVAILABLE",
+          "retained_actions": 8,
+          "argumentally_valid_actions": 8,
+          "invalid_actions": 0,
+          "maximum_identical_action_streak": {
+            "available": true,
+            "value": 1
+          },
+          "run_app_redundancy": {
+            "available": true,
+            "value": 0.0,
+            "numerator": 0,
+            "denominator": 6
+          },
+          "distinct_completed_operations_cumulative": {
+            "available": true,
+            "value": 6,
+            "operations": [
+              "first_command",
+              "second_command",
+              "no_args",
+              "explicit_help",
+              "first_command_help",
+              "second_command_help"
+            ],
+            "denominator": 6
+          },
+          "distinct_completed_operations_terminal_epoch": {
+            "available": true,
+            "value": 6,
+            "operations": [
+              "first_command",
+              "second_command",
+              "no_args",
+              "explicit_help",
+              "first_command_help",
+              "second_command_help"
+            ],
+            "denominator": 6,
+            "epoch": 1
+          },
+          "suffix_without_new_operation_epoch": {
+            "available": true,
+            "value": 0,
+            "accepted_terminal_finish_excluded": 1
+          },
+          "understanding_or_no_progress_inferred": false
+        },
+        "primary_availability_is_separate": true,
+        "retrospective_unless_declared_before_new_lot": true
+      },
+      "gate_exposure": {
+        "policy_rejections": 0,
+        "bifurcated": false,
+        "checkpoint_reached_policy": true
+      },
+      "physical_generation_counted_once": true,
+      "health": {
+        "case_id": "EH-API",
+        "FC": {
+          "arm": "FC",
+          "terminal": "finish",
+          "primary_availability": "VALID",
+          "replies_received": 8,
+          "actions_dispatched": 8,
+          "action_budget": 20,
+          "complete_retained_trace": true,
+          "responses_without_tool_calls": {
+            "count": 0,
+            "denominator": 8,
+            "rate": 0.0
+          },
+          "empty_replies_without_tool_calls": 0,
+          "invalid_actions": 0,
+          "invalid_rate": 0.0,
+          "invalid_by_type": {},
+          "invalid_share_of_action_budget": {
+            "count": 0,
+            "denominator": 20,
+            "percent": 0.0
+          },
+          "valid_finish_requests": 1,
+          "accepted_finish_requests": 1,
+          "first_FC_rejection_action": null,
+          "actions_after_first_FC_rejection": {},
+          "actions_after_first_FC_rejection_total": 0,
+          "outdated_messages": [],
+          "model_replies_not_dispatched": 0,
+          "denominators": "no-tool/replies retained; invalid/actions dispatched; budget percent/20; finish rejection is valid, not invalid"
+        },
+        "BASE": {
+          "arm": "BASE",
+          "terminal": "finish",
+          "primary_availability": "VALID",
+          "replies_received": 8,
+          "actions_dispatched": 8,
+          "action_budget": 20,
+          "complete_retained_trace": true,
+          "responses_without_tool_calls": {
+            "count": 0,
+            "denominator": 8,
+            "rate": 0.0
+          },
+          "empty_replies_without_tool_calls": 0,
+          "invalid_actions": 0,
+          "invalid_rate": 0.0,
+          "invalid_by_type": {},
+          "invalid_share_of_action_budget": {
+            "count": 0,
+            "denominator": 20,
+            "percent": 0.0
+          },
+          "valid_finish_requests": 1,
+          "accepted_finish_requests": 1,
+          "first_FC_rejection_action": null,
+          "actions_after_first_FC_rejection": {},
+          "actions_after_first_FC_rejection_total": 0,
+          "outdated_messages": [],
+          "model_replies_not_dispatched": 0,
+          "denominators": "no-tool/replies retained; invalid/actions dispatched; budget percent/20; finish rejection is valid, not invalid"
+        }
+      },
+      "context_accounting": "synthetic"
+    },
+    "EH-RENDERER": {
+      "FC": {
+        "source": {
+          "requests": 0,
+          "effective": 0,
+          "noops": 0,
+          "rejected_or_failed": 0,
+          "unknown_effect": 0
+        },
+        "environment": {
+          "requests": 1,
+          "effective": 1,
+          "noops": 0,
+          "rejected_or_failed": 0,
+          "unknown_effect": 0
+        },
+        "valid_finish_requests": 1,
+        "finish_with_current_public_failure": {
+          "accepted": 0,
+          "rejected": 0
+        },
+        "blind_modifying_requests": 1,
+        "diagnostic_effective_current": 0,
+        "diagnostic_effective_historical": 0,
+        "profile_after_help_failure_current": 0,
+        "profile_after_help_failure_historical": 0,
+        "profile_effective_after_help_failure_current": 0,
+        "profile_effective_after_help_failure_historical": 0,
+        "terminal_current_public_failure_operations": [],
+        "primary_availability": "VALID",
+        "final_task_pass": true,
+        "losses": [],
+        "coverage": {
+          "epoch": 1,
+          "state_identity": "49415b3f4709670b5e516c339ee494ec1906a1459d71c63580d769ba7621a204",
+          "epoch_changes": [
+            {
+              "action_index": 1,
+              "cause": "effective_source_or_environment_change",
+              "before": "13a56ecff2f6b57010c87084cb19a330549f11d8dd01f0de7446e8b0338164f8",
+              "after": "49415b3f4709670b5e516c339ee494ec1906a1459d71c63580d769ba7621a204",
+              "epoch_before": 0,
+              "epoch_after": 1
+            }
+          ],
+          "cumulative_operations": [
+            "first_command",
+            "second_command",
+            "no_args",
+            "explicit_help",
+            "first_command_help",
+            "second_command_help"
+          ],
+          "cumulative_coverage_count": 6,
+          "final_state_operations": [
+            "first_command",
+            "second_command",
+            "no_args",
+            "explicit_help",
+            "first_command_help",
+            "second_command_help"
+          ],
+          "final_state_coverage_count": 6,
+          "current_observations": {
+            "first_command": {
+              "action_index": 2,
+              "completed": true,
+              "oracle_pass": true,
+              "feedback_verdict": "PASS",
+              "truncated": false
+            },
+            "second_command": {
+              "action_index": 3,
+              "completed": true,
+              "oracle_pass": true,
+              "feedback_verdict": "PASS",
+              "truncated": false
+            },
+            "no_args": {
+              "action_index": 4,
+              "completed": true,
+              "oracle_pass": true,
+              "feedback_verdict": "PASS",
+              "truncated": false
+            },
+            "explicit_help": {
+              "action_index": 5,
+              "completed": true,
+              "oracle_pass": true,
+              "feedback_verdict": "PASS",
+              "truncated": false
+            },
+            "first_command_help": {
+              "action_index": 6,
+              "completed": true,
+              "oracle_pass": true,
+              "feedback_verdict": "PASS",
+              "truncated": false
+            },
+            "second_command_help": {
+              "action_index": 7,
+              "completed": true,
+              "oracle_pass": true,
+              "feedback_verdict": "PASS",
+              "truncated": false
+            }
+          },
+          "finish_attempts": [
+            {
+              "action_index": 8,
+              "epoch": 1,
+              "state_identity": "49415b3f4709670b5e516c339ee494ec1906a1459d71c63580d769ba7621a204",
+              "coverage_count": 6,
+              "missing_operations": [],
+              "accepted": true,
+              "oracle_failure_operations": [],
+              "feedback_failure_operations": [],
+              "feedback_unknown_operations": [],
+              "unobserved_operations": []
+            }
+          ],
+          "finish_policy_rejections": 0,
+          "coverage_before_finish": 6
+        },
+        "stop_reason": "finish"
+      },
+      "BASE": {
+        "source": {
+          "requests": 0,
+          "effective": 0,
+          "noops": 0,
+          "rejected_or_failed": 0,
+          "unknown_effect": 0
+        },
+        "environment": {
+          "requests": 1,
+          "effective": 1,
+          "noops": 0,
+          "rejected_or_failed": 0,
+          "unknown_effect": 0
+        },
+        "valid_finish_requests": 1,
+        "finish_with_current_public_failure": {
+          "accepted": 0,
+          "rejected": 0
+        },
+        "blind_modifying_requests": 1,
+        "diagnostic_effective_current": 0,
+        "diagnostic_effective_historical": 0,
+        "profile_after_help_failure_current": 0,
+        "profile_after_help_failure_historical": 0,
+        "profile_effective_after_help_failure_current": 0,
+        "profile_effective_after_help_failure_historical": 0,
+        "terminal_current_public_failure_operations": [],
+        "primary_availability": "VALID",
+        "final_task_pass": true,
+        "losses": [],
+        "coverage": {
+          "epoch": 1,
+          "state_identity": "49415b3f4709670b5e516c339ee494ec1906a1459d71c63580d769ba7621a204",
+          "epoch_changes": [
+            {
+              "action_index": 1,
+              "cause": "effective_source_or_environment_change",
+              "before": "13a56ecff2f6b57010c87084cb19a330549f11d8dd01f0de7446e8b0338164f8",
+              "after": "49415b3f4709670b5e516c339ee494ec1906a1459d71c63580d769ba7621a204",
+              "epoch_before": 0,
+              "epoch_after": 1
+            }
+          ],
+          "cumulative_operations": [
+            "first_command",
+            "second_command",
+            "no_args",
+            "explicit_help",
+            "first_command_help",
+            "second_command_help"
+          ],
+          "cumulative_coverage_count": 6,
+          "final_state_operations": [
+            "first_command",
+            "second_command",
+            "no_args",
+            "explicit_help",
+            "first_command_help",
+            "second_command_help"
+          ],
+          "final_state_coverage_count": 6,
+          "current_observations": {
+            "first_command": {
+              "action_index": 2,
+              "completed": true,
+              "oracle_pass": true,
+              "feedback_verdict": "PASS",
+              "truncated": false
+            },
+            "second_command": {
+              "action_index": 3,
+              "completed": true,
+              "oracle_pass": true,
+              "feedback_verdict": "PASS",
+              "truncated": false
+            },
+            "no_args": {
+              "action_index": 4,
+              "completed": true,
+              "oracle_pass": true,
+              "feedback_verdict": "PASS",
+              "truncated": false
+            },
+            "explicit_help": {
+              "action_index": 5,
+              "completed": true,
+              "oracle_pass": true,
+              "feedback_verdict": "PASS",
+              "truncated": false
+            },
+            "first_command_help": {
+              "action_index": 6,
+              "completed": true,
+              "oracle_pass": true,
+              "feedback_verdict": "PASS",
+              "truncated": false
+            },
+            "second_command_help": {
+              "action_index": 7,
+              "completed": true,
+              "oracle_pass": true,
+              "feedback_verdict": "PASS",
+              "truncated": false
+            }
+          },
+          "finish_attempts": [
+            {
+              "action_index": 8,
+              "epoch": 1,
+              "state_identity": "49415b3f4709670b5e516c339ee494ec1906a1459d71c63580d769ba7621a204",
+              "coverage_count": 6,
+              "missing_operations": [],
+              "accepted": true,
+              "oracle_failure_operations": [],
+              "feedback_failure_operations": [],
+              "feedback_unknown_operations": [],
+              "unobserved_operations": []
+            }
+          ],
+          "finish_policy_rejections": 0,
+          "coverage_before_finish": 6
+        },
+        "stop_reason": "finish"
+      },
+      "loops": {
+        "schema": 1,
+        "case_id": "EH-RENDERER",
+        "FC": {
+          "availability": "AVAILABLE",
+          "retained_actions": 8,
+          "argumentally_valid_actions": 8,
+          "invalid_actions": 0,
+          "maximum_identical_action_streak": {
+            "available": true,
+            "value": 1
+          },
+          "run_app_redundancy": {
+            "available": true,
+            "value": 0.0,
+            "numerator": 0,
+            "denominator": 6
+          },
+          "distinct_completed_operations_cumulative": {
+            "available": true,
+            "value": 6,
+            "operations": [
+              "first_command",
+              "second_command",
+              "no_args",
+              "explicit_help",
+              "first_command_help",
+              "second_command_help"
+            ],
+            "denominator": 6
+          },
+          "distinct_completed_operations_terminal_epoch": {
+            "available": true,
+            "value": 6,
+            "operations": [
+              "first_command",
+              "second_command",
+              "no_args",
+              "explicit_help",
+              "first_command_help",
+              "second_command_help"
+            ],
+            "denominator": 6,
+            "epoch": 1
+          },
+          "suffix_without_new_operation_epoch": {
+            "available": true,
+            "value": 0,
+            "accepted_terminal_finish_excluded": 1
+          },
+          "understanding_or_no_progress_inferred": false
+        },
+        "BASE": {
+          "availability": "AVAILABLE",
+          "retained_actions": 8,
+          "argumentally_valid_actions": 8,
+          "invalid_actions": 0,
+          "maximum_identical_action_streak": {
+            "available": true,
+            "value": 1
+          },
+          "run_app_redundancy": {
+            "available": true,
+            "value": 0.0,
+            "numerator": 0,
+            "denominator": 6
+          },
+          "distinct_completed_operations_cumulative": {
+            "available": true,
+            "value": 6,
+            "operations": [
+              "first_command",
+              "second_command",
+              "no_args",
+              "explicit_help",
+              "first_command_help",
+              "second_command_help"
+            ],
+            "denominator": 6
+          },
+          "distinct_completed_operations_terminal_epoch": {
+            "available": true,
+            "value": 6,
+            "operations": [
+              "first_command",
+              "second_command",
+              "no_args",
+              "explicit_help",
+              "first_command_help",
+              "second_command_help"
+            ],
+            "denominator": 6,
+            "epoch": 1
+          },
+          "suffix_without_new_operation_epoch": {
+            "available": true,
+            "value": 0,
+            "accepted_terminal_finish_excluded": 1
+          },
+          "understanding_or_no_progress_inferred": false
+        },
+        "primary_availability_is_separate": true,
+        "retrospective_unless_declared_before_new_lot": true
+      },
+      "gate_exposure": {
+        "policy_rejections": 0,
+        "bifurcated": false,
+        "checkpoint_reached_policy": true
+      },
+      "physical_generation_counted_once": true,
+      "health": {
+        "case_id": "EH-RENDERER",
+        "FC": {
+          "arm": "FC",
+          "terminal": "finish",
+          "primary_availability": "VALID",
+          "replies_received": 8,
+          "actions_dispatched": 8,
+          "action_budget": 20,
+          "complete_retained_trace": true,
+          "responses_without_tool_calls": {
+            "count": 0,
+            "denominator": 8,
+            "rate": 0.0
+          },
+          "empty_replies_without_tool_calls": 0,
+          "invalid_actions": 0,
+          "invalid_rate": 0.0,
+          "invalid_by_type": {},
+          "invalid_share_of_action_budget": {
+            "count": 0,
+            "denominator": 20,
+            "percent": 0.0
+          },
+          "valid_finish_requests": 1,
+          "accepted_finish_requests": 1,
+          "first_FC_rejection_action": null,
+          "actions_after_first_FC_rejection": {},
+          "actions_after_first_FC_rejection_total": 0,
+          "outdated_messages": [],
+          "model_replies_not_dispatched": 0,
+          "denominators": "no-tool/replies retained; invalid/actions dispatched; budget percent/20; finish rejection is valid, not invalid"
+        },
+        "BASE": {
+          "arm": "BASE",
+          "terminal": "finish",
+          "primary_availability": "VALID",
+          "replies_received": 8,
+          "actions_dispatched": 8,
+          "action_budget": 20,
+          "complete_retained_trace": true,
+          "responses_without_tool_calls": {
+            "count": 0,
+            "denominator": 8,
+            "rate": 0.0
+          },
+          "empty_replies_without_tool_calls": 0,
+          "invalid_actions": 0,
+          "invalid_rate": 0.0,
+          "invalid_by_type": {},
+          "invalid_share_of_action_budget": {
+            "count": 0,
+            "denominator": 20,
+            "percent": 0.0
+          },
+          "valid_finish_requests": 1,
+          "accepted_finish_requests": 1,
+          "first_FC_rejection_action": null,
+          "actions_after_first_FC_rejection": {},
+          "actions_after_first_FC_rejection_total": 0,
+          "outdated_messages": [],
+          "model_replies_not_dispatched": 0,
+          "denominators": "no-tool/replies retained; invalid/actions dispatched; budget percent/20; finish rejection is valid, not invalid"
+        }
+      },
+      "context_accounting": "synthetic"
+    },
+    "SC-BALANCE": {
+      "FC": {
+        "source": {
+          "requests": 1,
+          "effective": 1,
+          "noops": 0,
+          "rejected_or_failed": 0,
+          "unknown_effect": 0
+        },
+        "environment": {
+          "requests": 0,
+          "effective": 0,
+          "noops": 0,
+          "rejected_or_failed": 0,
+          "unknown_effect": 0
+        },
+        "valid_finish_requests": 1,
+        "finish_with_current_public_failure": {
+          "accepted": 0,
+          "rejected": 0
+        },
+        "blind_modifying_requests": 1,
+        "diagnostic_effective_current": 0,
+        "diagnostic_effective_historical": 0,
+        "profile_after_help_failure_current": 0,
+        "profile_after_help_failure_historical": 0,
+        "profile_effective_after_help_failure_current": 0,
+        "profile_effective_after_help_failure_historical": 0,
+        "terminal_current_public_failure_operations": [],
+        "primary_availability": "VALID",
+        "final_task_pass": true,
+        "losses": [],
+        "coverage": {
+          "epoch": 1,
+          "state_identity": "d7644f8de7a3257e3f78e1b29dbebcac72d050948f23fa07c7e2c835854fd9a0",
+          "epoch_changes": [
+            {
+              "action_index": 1,
+              "cause": "effective_source_or_environment_change",
+              "before": "90076f5515d0523b2a50117b4d0f28f80c6c63264a972457df7cfbd9fa3abfce",
+              "after": "d7644f8de7a3257e3f78e1b29dbebcac72d050948f23fa07c7e2c835854fd9a0",
+              "epoch_before": 0,
+              "epoch_after": 1
+            }
+          ],
+          "cumulative_operations": [
+            "first_command",
+            "second_command",
+            "no_args",
+            "explicit_help",
+            "first_command_help",
+            "second_command_help"
+          ],
+          "cumulative_coverage_count": 6,
+          "final_state_operations": [
+            "first_command",
+            "second_command",
+            "no_args",
+            "explicit_help",
+            "first_command_help",
+            "second_command_help"
+          ],
+          "final_state_coverage_count": 6,
+          "current_observations": {
+            "first_command": {
+              "action_index": 2,
+              "completed": true,
+              "oracle_pass": true,
+              "feedback_verdict": "PASS",
+              "truncated": false
+            },
+            "second_command": {
+              "action_index": 3,
+              "completed": true,
+              "oracle_pass": true,
+              "feedback_verdict": "PASS",
+              "truncated": false
+            },
+            "no_args": {
+              "action_index": 4,
+              "completed": true,
+              "oracle_pass": true,
+              "feedback_verdict": "PASS",
+              "truncated": false
+            },
+            "explicit_help": {
+              "action_index": 5,
+              "completed": true,
+              "oracle_pass": true,
+              "feedback_verdict": "PASS",
+              "truncated": false
+            },
+            "first_command_help": {
+              "action_index": 6,
+              "completed": true,
+              "oracle_pass": true,
+              "feedback_verdict": "PASS",
+              "truncated": false
+            },
+            "second_command_help": {
+              "action_index": 7,
+              "completed": true,
+              "oracle_pass": true,
+              "feedback_verdict": "PASS",
+              "truncated": false
+            }
+          },
+          "finish_attempts": [
+            {
+              "action_index": 8,
+              "epoch": 1,
+              "state_identity": "d7644f8de7a3257e3f78e1b29dbebcac72d050948f23fa07c7e2c835854fd9a0",
+              "coverage_count": 6,
+              "missing_operations": [],
+              "accepted": true,
+              "oracle_failure_operations": [],
+              "feedback_failure_operations": [],
+              "feedback_unknown_operations": [],
+              "unobserved_operations": []
+            }
+          ],
+          "finish_policy_rejections": 0,
+          "coverage_before_finish": 6
+        },
+        "stop_reason": "finish"
+      },
+      "BASE": {
+        "source": {
+          "requests": 1,
+          "effective": 1,
+          "noops": 0,
+          "rejected_or_failed": 0,
+          "unknown_effect": 0
+        },
+        "environment": {
+          "requests": 0,
+          "effective": 0,
+          "noops": 0,
+          "rejected_or_failed": 0,
+          "unknown_effect": 0
+        },
+        "valid_finish_requests": 1,
+        "finish_with_current_public_failure": {
+          "accepted": 0,
+          "rejected": 0
+        },
+        "blind_modifying_requests": 1,
+        "diagnostic_effective_current": 0,
+        "diagnostic_effective_historical": 0,
+        "profile_after_help_failure_current": 0,
+        "profile_after_help_failure_historical": 0,
+        "profile_effective_after_help_failure_current": 0,
+        "profile_effective_after_help_failure_historical": 0,
+        "terminal_current_public_failure_operations": [],
+        "primary_availability": "VALID",
+        "final_task_pass": true,
+        "losses": [],
+        "coverage": {
+          "epoch": 1,
+          "state_identity": "d7644f8de7a3257e3f78e1b29dbebcac72d050948f23fa07c7e2c835854fd9a0",
+          "epoch_changes": [
+            {
+              "action_index": 1,
+              "cause": "effective_source_or_environment_change",
+              "before": "90076f5515d0523b2a50117b4d0f28f80c6c63264a972457df7cfbd9fa3abfce",
+              "after": "d7644f8de7a3257e3f78e1b29dbebcac72d050948f23fa07c7e2c835854fd9a0",
+              "epoch_before": 0,
+              "epoch_after": 1
+            }
+          ],
+          "cumulative_operations": [
+            "first_command",
+            "second_command",
+            "no_args",
+            "explicit_help",
+            "first_command_help",
+            "second_command_help"
+          ],
+          "cumulative_coverage_count": 6,
+          "final_state_operations": [
+            "first_command",
+            "second_command",
+            "no_args",
+            "explicit_help",
+            "first_command_help",
+            "second_command_help"
+          ],
+          "final_state_coverage_count": 6,
+          "current_observations": {
+            "first_command": {
+              "action_index": 2,
+              "completed": true,
+              "oracle_pass": true,
+              "feedback_verdict": "PASS",
+              "truncated": false
+            },
+            "second_command": {
+              "action_index": 3,
+              "completed": true,
+              "oracle_pass": true,
+              "feedback_verdict": "PASS",
+              "truncated": false
+            },
+            "no_args": {
+              "action_index": 4,
+              "completed": true,
+              "oracle_pass": true,
+              "feedback_verdict": "PASS",
+              "truncated": false
+            },
+            "explicit_help": {
+              "action_index": 5,
+              "completed": true,
+              "oracle_pass": true,
+              "feedback_verdict": "PASS",
+              "truncated": false
+            },
+            "first_command_help": {
+              "action_index": 6,
+              "completed": true,
+              "oracle_pass": true,
+              "feedback_verdict": "PASS",
+              "truncated": false
+            },
+            "second_command_help": {
+              "action_index": 7,
+              "completed": true,
+              "oracle_pass": true,
+              "feedback_verdict": "PASS",
+              "truncated": false
+            }
+          },
+          "finish_attempts": [
+            {
+              "action_index": 8,
+              "epoch": 1,
+              "state_identity": "d7644f8de7a3257e3f78e1b29dbebcac72d050948f23fa07c7e2c835854fd9a0",
+              "coverage_count": 6,
+              "missing_operations": [],
+              "accepted": true,
+              "oracle_failure_operations": [],
+              "feedback_failure_operations": [],
+              "feedback_unknown_operations": [],
+              "unobserved_operations": []
+            }
+          ],
+          "finish_policy_rejections": 0,
+          "coverage_before_finish": 6
+        },
+        "stop_reason": "finish"
+      },
+      "loops": {
+        "schema": 1,
+        "case_id": "SC-BALANCE",
+        "FC": {
+          "availability": "AVAILABLE",
+          "retained_actions": 8,
+          "argumentally_valid_actions": 8,
+          "invalid_actions": 0,
+          "maximum_identical_action_streak": {
+            "available": true,
+            "value": 1
+          },
+          "run_app_redundancy": {
+            "available": true,
+            "value": 0.0,
+            "numerator": 0,
+            "denominator": 6
+          },
+          "distinct_completed_operations_cumulative": {
+            "available": true,
+            "value": 6,
+            "operations": [
+              "first_command",
+              "second_command",
+              "no_args",
+              "explicit_help",
+              "first_command_help",
+              "second_command_help"
+            ],
+            "denominator": 6
+          },
+          "distinct_completed_operations_terminal_epoch": {
+            "available": true,
+            "value": 6,
+            "operations": [
+              "first_command",
+              "second_command",
+              "no_args",
+              "explicit_help",
+              "first_command_help",
+              "second_command_help"
+            ],
+            "denominator": 6,
+            "epoch": 1
+          },
+          "suffix_without_new_operation_epoch": {
+            "available": true,
+            "value": 0,
+            "accepted_terminal_finish_excluded": 1
+          },
+          "understanding_or_no_progress_inferred": false
+        },
+        "BASE": {
+          "availability": "AVAILABLE",
+          "retained_actions": 8,
+          "argumentally_valid_actions": 8,
+          "invalid_actions": 0,
+          "maximum_identical_action_streak": {
+            "available": true,
+            "value": 1
+          },
+          "run_app_redundancy": {
+            "available": true,
+            "value": 0.0,
+            "numerator": 0,
+            "denominator": 6
+          },
+          "distinct_completed_operations_cumulative": {
+            "available": true,
+            "value": 6,
+            "operations": [
+              "first_command",
+              "second_command",
+              "no_args",
+              "explicit_help",
+              "first_command_help",
+              "second_command_help"
+            ],
+            "denominator": 6
+          },
+          "distinct_completed_operations_terminal_epoch": {
+            "available": true,
+            "value": 6,
+            "operations": [
+              "first_command",
+              "second_command",
+              "no_args",
+              "explicit_help",
+              "first_command_help",
+              "second_command_help"
+            ],
+            "denominator": 6,
+            "epoch": 1
+          },
+          "suffix_without_new_operation_epoch": {
+            "available": true,
+            "value": 0,
+            "accepted_terminal_finish_excluded": 1
+          },
+          "understanding_or_no_progress_inferred": false
+        },
+        "primary_availability_is_separate": true,
+        "retrospective_unless_declared_before_new_lot": true
+      },
+      "gate_exposure": {
+        "policy_rejections": 0,
+        "bifurcated": false,
+        "checkpoint_reached_policy": true
+      },
+      "physical_generation_counted_once": true,
+      "health": {
+        "case_id": "SC-BALANCE",
+        "FC": {
+          "arm": "FC",
+          "terminal": "finish",
+          "primary_availability": "VALID",
+          "replies_received": 8,
+          "actions_dispatched": 8,
+          "action_budget": 20,
+          "complete_retained_trace": true,
+          "responses_without_tool_calls": {
+            "count": 0,
+            "denominator": 8,
+            "rate": 0.0
+          },
+          "empty_replies_without_tool_calls": 0,
+          "invalid_actions": 0,
+          "invalid_rate": 0.0,
+          "invalid_by_type": {},
+          "invalid_share_of_action_budget": {
+            "count": 0,
+            "denominator": 20,
+            "percent": 0.0
+          },
+          "valid_finish_requests": 1,
+          "accepted_finish_requests": 1,
+          "first_FC_rejection_action": null,
+          "actions_after_first_FC_rejection": {},
+          "actions_after_first_FC_rejection_total": 0,
+          "outdated_messages": [],
+          "model_replies_not_dispatched": 0,
+          "denominators": "no-tool/replies retained; invalid/actions dispatched; budget percent/20; finish rejection is valid, not invalid"
+        },
+        "BASE": {
+          "arm": "BASE",
+          "terminal": "finish",
+          "primary_availability": "VALID",
+          "replies_received": 8,
+          "actions_dispatched": 8,
+          "action_budget": 20,
+          "complete_retained_trace": true,
+          "responses_without_tool_calls": {
+            "count": 0,
+            "denominator": 8,
+            "rate": 0.0
+          },
+          "empty_replies_without_tool_calls": 0,
+          "invalid_actions": 0,
+          "invalid_rate": 0.0,
+          "invalid_by_type": {},
+          "invalid_share_of_action_budget": {
+            "count": 0,
+            "denominator": 20,
+            "percent": 0.0
+          },
+          "valid_finish_requests": 1,
+          "accepted_finish_requests": 1,
+          "first_FC_rejection_action": null,
+          "actions_after_first_FC_rejection": {},
+          "actions_after_first_FC_rejection_total": 0,
+          "outdated_messages": [],
+          "model_replies_not_dispatched": 0,
+          "denominators": "no-tool/replies retained; invalid/actions dispatched; budget percent/20; finish rejection is valid, not invalid"
+        }
+      },
+      "context_accounting": "synthetic"
+    },
+    "SC-SORT": {
+      "FC": {
+        "source": {
+          "requests": 1,
+          "effective": 1,
+          "noops": 0,
+          "rejected_or_failed": 0,
+          "unknown_effect": 0
+        },
+        "environment": {
+          "requests": 0,
+          "effective": 0,
+          "noops": 0,
+          "rejected_or_failed": 0,
+          "unknown_effect": 0
+        },
+        "valid_finish_requests": 1,
+        "finish_with_current_public_failure": {
+          "accepted": 0,
+          "rejected": 0
+        },
+        "blind_modifying_requests": 1,
+        "diagnostic_effective_current": 0,
+        "diagnostic_effective_historical": 0,
+        "profile_after_help_failure_current": 0,
+        "profile_after_help_failure_historical": 0,
+        "profile_effective_after_help_failure_current": 0,
+        "profile_effective_after_help_failure_historical": 0,
+        "terminal_current_public_failure_operations": [],
+        "primary_availability": "VALID",
+        "final_task_pass": true,
+        "losses": [],
+        "coverage": {
+          "epoch": 1,
+          "state_identity": "dbe9ae91cdaf0db56ab03a4311521482db54f2cc5f138caf063949e195440cbc",
+          "epoch_changes": [
+            {
+              "action_index": 1,
+              "cause": "effective_source_or_environment_change",
+              "before": "407ac923c88b43fad226b8e0b5ea36541930f5e1888354ced2f06e75d6e73d8b",
+              "after": "dbe9ae91cdaf0db56ab03a4311521482db54f2cc5f138caf063949e195440cbc",
+              "epoch_before": 0,
+              "epoch_after": 1
+            }
+          ],
+          "cumulative_operations": [
+            "first_command",
+            "second_command",
+            "no_args",
+            "explicit_help",
+            "first_command_help",
+            "second_command_help"
+          ],
+          "cumulative_coverage_count": 6,
+          "final_state_operations": [
+            "first_command",
+            "second_command",
+            "no_args",
+            "explicit_help",
+            "first_command_help",
+            "second_command_help"
+          ],
+          "final_state_coverage_count": 6,
+          "current_observations": {
+            "first_command": {
+              "action_index": 2,
+              "completed": true,
+              "oracle_pass": true,
+              "feedback_verdict": "PASS",
+              "truncated": false
+            },
+            "second_command": {
+              "action_index": 3,
+              "completed": true,
+              "oracle_pass": true,
+              "feedback_verdict": "PASS",
+              "truncated": false
+            },
+            "no_args": {
+              "action_index": 4,
+              "completed": true,
+              "oracle_pass": true,
+              "feedback_verdict": "PASS",
+              "truncated": false
+            },
+            "explicit_help": {
+              "action_index": 5,
+              "completed": true,
+              "oracle_pass": true,
+              "feedback_verdict": "PASS",
+              "truncated": false
+            },
+            "first_command_help": {
+              "action_index": 6,
+              "completed": true,
+              "oracle_pass": true,
+              "feedback_verdict": "PASS",
+              "truncated": false
+            },
+            "second_command_help": {
+              "action_index": 7,
+              "completed": true,
+              "oracle_pass": true,
+              "feedback_verdict": "PASS",
+              "truncated": false
+            }
+          },
+          "finish_attempts": [
+            {
+              "action_index": 8,
+              "epoch": 1,
+              "state_identity": "dbe9ae91cdaf0db56ab03a4311521482db54f2cc5f138caf063949e195440cbc",
+              "coverage_count": 6,
+              "missing_operations": [],
+              "accepted": true,
+              "oracle_failure_operations": [],
+              "feedback_failure_operations": [],
+              "feedback_unknown_operations": [],
+              "unobserved_operations": []
+            }
+          ],
+          "finish_policy_rejections": 0,
+          "coverage_before_finish": 6
+        },
+        "stop_reason": "finish"
+      },
+      "BASE": {
+        "source": {
+          "requests": 1,
+          "effective": 1,
+          "noops": 0,
+          "rejected_or_failed": 0,
+          "unknown_effect": 0
+        },
+        "environment": {
+          "requests": 0,
+          "effective": 0,
+          "noops": 0,
+          "rejected_or_failed": 0,
+          "unknown_effect": 0
+        },
+        "valid_finish_requests": 1,
+        "finish_with_current_public_failure": {
+          "accepted": 0,
+          "rejected": 0
+        },
+        "blind_modifying_requests": 1,
+        "diagnostic_effective_current": 0,
+        "diagnostic_effective_historical": 0,
+        "profile_after_help_failure_current": 0,
+        "profile_after_help_failure_historical": 0,
+        "profile_effective_after_help_failure_current": 0,
+        "profile_effective_after_help_failure_historical": 0,
+        "terminal_current_public_failure_operations": [],
+        "primary_availability": "VALID",
+        "final_task_pass": true,
+        "losses": [],
+        "coverage": {
+          "epoch": 1,
+          "state_identity": "dbe9ae91cdaf0db56ab03a4311521482db54f2cc5f138caf063949e195440cbc",
+          "epoch_changes": [
+            {
+              "action_index": 1,
+              "cause": "effective_source_or_environment_change",
+              "before": "407ac923c88b43fad226b8e0b5ea36541930f5e1888354ced2f06e75d6e73d8b",
+              "after": "dbe9ae91cdaf0db56ab03a4311521482db54f2cc5f138caf063949e195440cbc",
+              "epoch_before": 0,
+              "epoch_after": 1
+            }
+          ],
+          "cumulative_operations": [
+            "first_command",
+            "second_command",
+            "no_args",
+            "explicit_help",
+            "first_command_help",
+            "second_command_help"
+          ],
+          "cumulative_coverage_count": 6,
+          "final_state_operations": [
+            "first_command",
+            "second_command",
+            "no_args",
+            "explicit_help",
+            "first_command_help",
+            "second_command_help"
+          ],
+          "final_state_coverage_count": 6,
+          "current_observations": {
+            "first_command": {
+              "action_index": 2,
+              "completed": true,
+              "oracle_pass": true,
+              "feedback_verdict": "PASS",
+              "truncated": false
+            },
+            "second_command": {
+              "action_index": 3,
+              "completed": true,
+              "oracle_pass": true,
+              "feedback_verdict": "PASS",
+              "truncated": false
+            },
+            "no_args": {
+              "action_index": 4,
+              "completed": true,
+              "oracle_pass": true,
+              "feedback_verdict": "PASS",
+              "truncated": false
+            },
+            "explicit_help": {
+              "action_index": 5,
+              "completed": true,
+              "oracle_pass": true,
+              "feedback_verdict": "PASS",
+              "truncated": false
+            },
+            "first_command_help": {
+              "action_index": 6,
+              "completed": true,
+              "oracle_pass": true,
+              "feedback_verdict": "PASS",
+              "truncated": false
+            },
+            "second_command_help": {
+              "action_index": 7,
+              "completed": true,
+              "oracle_pass": true,
+              "feedback_verdict": "PASS",
+              "truncated": false
+            }
+          },
+          "finish_attempts": [
+            {
+              "action_index": 8,
+              "epoch": 1,
+              "state_identity": "dbe9ae91cdaf0db56ab03a4311521482db54f2cc5f138caf063949e195440cbc",
+              "coverage_count": 6,
+              "missing_operations": [],
+              "accepted": true,
+              "oracle_failure_operations": [],
+              "feedback_failure_operations": [],
+              "feedback_unknown_operations": [],
+              "unobserved_operations": []
+            }
+          ],
+          "finish_policy_rejections": 0,
+          "coverage_before_finish": 6
+        },
+        "stop_reason": "finish"
+      },
+      "loops": {
+        "schema": 1,
+        "case_id": "SC-SORT",
+        "FC": {
+          "availability": "AVAILABLE",
+          "retained_actions": 8,
+          "argumentally_valid_actions": 8,
+          "invalid_actions": 0,
+          "maximum_identical_action_streak": {
+            "available": true,
+            "value": 1
+          },
+          "run_app_redundancy": {
+            "available": true,
+            "value": 0.0,
+            "numerator": 0,
+            "denominator": 6
+          },
+          "distinct_completed_operations_cumulative": {
+            "available": true,
+            "value": 6,
+            "operations": [
+              "first_command",
+              "second_command",
+              "no_args",
+              "explicit_help",
+              "first_command_help",
+              "second_command_help"
+            ],
+            "denominator": 6
+          },
+          "distinct_completed_operations_terminal_epoch": {
+            "available": true,
+            "value": 6,
+            "operations": [
+              "first_command",
+              "second_command",
+              "no_args",
+              "explicit_help",
+              "first_command_help",
+              "second_command_help"
+            ],
+            "denominator": 6,
+            "epoch": 1
+          },
+          "suffix_without_new_operation_epoch": {
+            "available": true,
+            "value": 0,
+            "accepted_terminal_finish_excluded": 1
+          },
+          "understanding_or_no_progress_inferred": false
+        },
+        "BASE": {
+          "availability": "AVAILABLE",
+          "retained_actions": 8,
+          "argumentally_valid_actions": 8,
+          "invalid_actions": 0,
+          "maximum_identical_action_streak": {
+            "available": true,
+            "value": 1
+          },
+          "run_app_redundancy": {
+            "available": true,
+            "value": 0.0,
+            "numerator": 0,
+            "denominator": 6
+          },
+          "distinct_completed_operations_cumulative": {
+            "available": true,
+            "value": 6,
+            "operations": [
+              "first_command",
+              "second_command",
+              "no_args",
+              "explicit_help",
+              "first_command_help",
+              "second_command_help"
+            ],
+            "denominator": 6
+          },
+          "distinct_completed_operations_terminal_epoch": {
+            "available": true,
+            "value": 6,
+            "operations": [
+              "first_command",
+              "second_command",
+              "no_args",
+              "explicit_help",
+              "first_command_help",
+              "second_command_help"
+            ],
+            "denominator": 6,
+            "epoch": 1
+          },
+          "suffix_without_new_operation_epoch": {
+            "available": true,
+            "value": 0,
+            "accepted_terminal_finish_excluded": 1
+          },
+          "understanding_or_no_progress_inferred": false
+        },
+        "primary_availability_is_separate": true,
+        "retrospective_unless_declared_before_new_lot": true
+      },
+      "gate_exposure": {
+        "policy_rejections": 0,
+        "bifurcated": false,
+        "checkpoint_reached_policy": true
+      },
+      "physical_generation_counted_once": true,
+      "health": {
+        "case_id": "SC-SORT",
+        "FC": {
+          "arm": "FC",
+          "terminal": "finish",
+          "primary_availability": "VALID",
+          "replies_received": 8,
+          "actions_dispatched": 8,
+          "action_budget": 20,
+          "complete_retained_trace": true,
+          "responses_without_tool_calls": {
+            "count": 0,
+            "denominator": 8,
+            "rate": 0.0
+          },
+          "empty_replies_without_tool_calls": 0,
+          "invalid_actions": 0,
+          "invalid_rate": 0.0,
+          "invalid_by_type": {},
+          "invalid_share_of_action_budget": {
+            "count": 0,
+            "denominator": 20,
+            "percent": 0.0
+          },
+          "valid_finish_requests": 1,
+          "accepted_finish_requests": 1,
+          "first_FC_rejection_action": null,
+          "actions_after_first_FC_rejection": {},
+          "actions_after_first_FC_rejection_total": 0,
+          "outdated_messages": [],
+          "model_replies_not_dispatched": 0,
+          "denominators": "no-tool/replies retained; invalid/actions dispatched; budget percent/20; finish rejection is valid, not invalid"
+        },
+        "BASE": {
+          "arm": "BASE",
+          "terminal": "finish",
+          "primary_availability": "VALID",
+          "replies_received": 8,
+          "actions_dispatched": 8,
+          "action_budget": 20,
+          "complete_retained_trace": true,
+          "responses_without_tool_calls": {
+            "count": 0,
+            "denominator": 8,
+            "rate": 0.0
+          },
+          "empty_replies_without_tool_calls": 0,
+          "invalid_actions": 0,
+          "invalid_rate": 0.0,
+          "invalid_by_type": {},
+          "invalid_share_of_action_budget": {
+            "count": 0,
+            "denominator": 20,
+            "percent": 0.0
+          },
+          "valid_finish_requests": 1,
+          "accepted_finish_requests": 1,
+          "first_FC_rejection_action": null,
+          "actions_after_first_FC_rejection": {},
+          "actions_after_first_FC_rejection_total": 0,
+          "outdated_messages": [],
+          "model_replies_not_dispatched": 0,
+          "denominators": "no-tool/replies retained; invalid/actions dispatched; budget percent/20; finish rejection is valid, not invalid"
+        }
+      },
+      "context_accounting": "synthetic"
+    },
+    "SH-FLAG": {
+      "FC": {
+        "source": {
+          "requests": 1,
+          "effective": 1,
+          "noops": 0,
+          "rejected_or_failed": 0,
+          "unknown_effect": 0
+        },
+        "environment": {
+          "requests": 0,
+          "effective": 0,
+          "noops": 0,
+          "rejected_or_failed": 0,
+          "unknown_effect": 0
+        },
+        "valid_finish_requests": 1,
+        "finish_with_current_public_failure": {
+          "accepted": 0,
+          "rejected": 0
+        },
+        "blind_modifying_requests": 1,
+        "diagnostic_effective_current": 0,
+        "diagnostic_effective_historical": 0,
+        "profile_after_help_failure_current": 0,
+        "profile_after_help_failure_historical": 0,
+        "profile_effective_after_help_failure_current": 0,
+        "profile_effective_after_help_failure_historical": 0,
+        "terminal_current_public_failure_operations": [],
+        "primary_availability": "VALID",
+        "final_task_pass": true,
+        "losses": [],
+        "coverage": {
+          "epoch": 1,
+          "state_identity": "d7644f8de7a3257e3f78e1b29dbebcac72d050948f23fa07c7e2c835854fd9a0",
+          "epoch_changes": [
+            {
+              "action_index": 1,
+              "cause": "effective_source_or_environment_change",
+              "before": "a6ffbe3602f9d20f4d7ef731b1fed05595611a9a9de3ff951dc13017e8d1005e",
+              "after": "d7644f8de7a3257e3f78e1b29dbebcac72d050948f23fa07c7e2c835854fd9a0",
+              "epoch_before": 0,
+              "epoch_after": 1
+            }
+          ],
+          "cumulative_operations": [
+            "first_command",
+            "second_command",
+            "no_args",
+            "explicit_help",
+            "first_command_help",
+            "second_command_help"
+          ],
+          "cumulative_coverage_count": 6,
+          "final_state_operations": [
+            "first_command",
+            "second_command",
+            "no_args",
+            "explicit_help",
+            "first_command_help",
+            "second_command_help"
+          ],
+          "final_state_coverage_count": 6,
+          "current_observations": {
+            "first_command": {
+              "action_index": 2,
+              "completed": true,
+              "oracle_pass": true,
+              "feedback_verdict": "PASS",
+              "truncated": false
+            },
+            "second_command": {
+              "action_index": 3,
+              "completed": true,
+              "oracle_pass": true,
+              "feedback_verdict": "PASS",
+              "truncated": false
+            },
+            "no_args": {
+              "action_index": 4,
+              "completed": true,
+              "oracle_pass": true,
+              "feedback_verdict": "PASS",
+              "truncated": false
+            },
+            "explicit_help": {
+              "action_index": 5,
+              "completed": true,
+              "oracle_pass": true,
+              "feedback_verdict": "PASS",
+              "truncated": false
+            },
+            "first_command_help": {
+              "action_index": 6,
+              "completed": true,
+              "oracle_pass": true,
+              "feedback_verdict": "PASS",
+              "truncated": false
+            },
+            "second_command_help": {
+              "action_index": 7,
+              "completed": true,
+              "oracle_pass": true,
+              "feedback_verdict": "PASS",
+              "truncated": false
+            }
+          },
+          "finish_attempts": [
+            {
+              "action_index": 8,
+              "epoch": 1,
+              "state_identity": "d7644f8de7a3257e3f78e1b29dbebcac72d050948f23fa07c7e2c835854fd9a0",
+              "coverage_count": 6,
+              "missing_operations": [],
+              "accepted": true,
+              "oracle_failure_operations": [],
+              "feedback_failure_operations": [],
+              "feedback_unknown_operations": [],
+              "unobserved_operations": []
+            }
+          ],
+          "finish_policy_rejections": 0,
+          "coverage_before_finish": 6
+        },
+        "stop_reason": "finish"
+      },
+      "BASE": {
+        "source": {
+          "requests": 1,
+          "effective": 1,
+          "noops": 0,
+          "rejected_or_failed": 0,
+          "unknown_effect": 0
+        },
+        "environment": {
+          "requests": 0,
+          "effective": 0,
+          "noops": 0,
+          "rejected_or_failed": 0,
+          "unknown_effect": 0
+        },
+        "valid_finish_requests": 1,
+        "finish_with_current_public_failure": {
+          "accepted": 0,
+          "rejected": 0
+        },
+        "blind_modifying_requests": 1,
+        "diagnostic_effective_current": 0,
+        "diagnostic_effective_historical": 0,
+        "profile_after_help_failure_current": 0,
+        "profile_after_help_failure_historical": 0,
+        "profile_effective_after_help_failure_current": 0,
+        "profile_effective_after_help_failure_historical": 0,
+        "terminal_current_public_failure_operations": [],
+        "primary_availability": "VALID",
+        "final_task_pass": true,
+        "losses": [],
+        "coverage": {
+          "epoch": 1,
+          "state_identity": "d7644f8de7a3257e3f78e1b29dbebcac72d050948f23fa07c7e2c835854fd9a0",
+          "epoch_changes": [
+            {
+              "action_index": 1,
+              "cause": "effective_source_or_environment_change",
+              "before": "a6ffbe3602f9d20f4d7ef731b1fed05595611a9a9de3ff951dc13017e8d1005e",
+              "after": "d7644f8de7a3257e3f78e1b29dbebcac72d050948f23fa07c7e2c835854fd9a0",
+              "epoch_before": 0,
+              "epoch_after": 1
+            }
+          ],
+          "cumulative_operations": [
+            "first_command",
+            "second_command",
+            "no_args",
+            "explicit_help",
+            "first_command_help",
+            "second_command_help"
+          ],
+          "cumulative_coverage_count": 6,
+          "final_state_operations": [
+            "first_command",
+            "second_command",
+            "no_args",
+            "explicit_help",
+            "first_command_help",
+            "second_command_help"
+          ],
+          "final_state_coverage_count": 6,
+          "current_observations": {
+            "first_command": {
+              "action_index": 2,
+              "completed": true,
+              "oracle_pass": true,
+              "feedback_verdict": "PASS",
+              "truncated": false
+            },
+            "second_command": {
+              "action_index": 3,
+              "completed": true,
+              "oracle_pass": true,
+              "feedback_verdict": "PASS",
+              "truncated": false
+            },
+            "no_args": {
+              "action_index": 4,
+              "completed": true,
+              "oracle_pass": true,
+              "feedback_verdict": "PASS",
+              "truncated": false
+            },
+            "explicit_help": {
+              "action_index": 5,
+              "completed": true,
+              "oracle_pass": true,
+              "feedback_verdict": "PASS",
+              "truncated": false
+            },
+            "first_command_help": {
+              "action_index": 6,
+              "completed": true,
+              "oracle_pass": true,
+              "feedback_verdict": "PASS",
+              "truncated": false
+            },
+            "second_command_help": {
+              "action_index": 7,
+              "completed": true,
+              "oracle_pass": true,
+              "feedback_verdict": "PASS",
+              "truncated": false
+            }
+          },
+          "finish_attempts": [
+            {
+              "action_index": 8,
+              "epoch": 1,
+              "state_identity": "d7644f8de7a3257e3f78e1b29dbebcac72d050948f23fa07c7e2c835854fd9a0",
+              "coverage_count": 6,
+              "missing_operations": [],
+              "accepted": true,
+              "oracle_failure_operations": [],
+              "feedback_failure_operations": [],
+              "feedback_unknown_operations": [],
+              "unobserved_operations": []
+            }
+          ],
+          "finish_policy_rejections": 0,
+          "coverage_before_finish": 6
+        },
+        "stop_reason": "finish"
+      },
+      "loops": {
+        "schema": 1,
+        "case_id": "SH-FLAG",
+        "FC": {
+          "availability": "AVAILABLE",
+          "retained_actions": 8,
+          "argumentally_valid_actions": 8,
+          "invalid_actions": 0,
+          "maximum_identical_action_streak": {
+            "available": true,
+            "value": 1
+          },
+          "run_app_redundancy": {
+            "available": true,
+            "value": 0.0,
+            "numerator": 0,
+            "denominator": 6
+          },
+          "distinct_completed_operations_cumulative": {
+            "available": true,
+            "value": 6,
+            "operations": [
+              "first_command",
+              "second_command",
+              "no_args",
+              "explicit_help",
+              "first_command_help",
+              "second_command_help"
+            ],
+            "denominator": 6
+          },
+          "distinct_completed_operations_terminal_epoch": {
+            "available": true,
+            "value": 6,
+            "operations": [
+              "first_command",
+              "second_command",
+              "no_args",
+              "explicit_help",
+              "first_command_help",
+              "second_command_help"
+            ],
+            "denominator": 6,
+            "epoch": 1
+          },
+          "suffix_without_new_operation_epoch": {
+            "available": true,
+            "value": 0,
+            "accepted_terminal_finish_excluded": 1
+          },
+          "understanding_or_no_progress_inferred": false
+        },
+        "BASE": {
+          "availability": "AVAILABLE",
+          "retained_actions": 8,
+          "argumentally_valid_actions": 8,
+          "invalid_actions": 0,
+          "maximum_identical_action_streak": {
+            "available": true,
+            "value": 1
+          },
+          "run_app_redundancy": {
+            "available": true,
+            "value": 0.0,
+            "numerator": 0,
+            "denominator": 6
+          },
+          "distinct_completed_operations_cumulative": {
+            "available": true,
+            "value": 6,
+            "operations": [
+              "first_command",
+              "second_command",
+              "no_args",
+              "explicit_help",
+              "first_command_help",
+              "second_command_help"
+            ],
+            "denominator": 6
+          },
+          "distinct_completed_operations_terminal_epoch": {
+            "available": true,
+            "value": 6,
+            "operations": [
+              "first_command",
+              "second_command",
+              "no_args",
+              "explicit_help",
+              "first_command_help",
+              "second_command_help"
+            ],
+            "denominator": 6,
+            "epoch": 1
+          },
+          "suffix_without_new_operation_epoch": {
+            "available": true,
+            "value": 0,
+            "accepted_terminal_finish_excluded": 1
+          },
+          "understanding_or_no_progress_inferred": false
+        },
+        "primary_availability_is_separate": true,
+        "retrospective_unless_declared_before_new_lot": true
+      },
+      "gate_exposure": {
+        "policy_rejections": 0,
+        "bifurcated": false,
+        "checkpoint_reached_policy": true
+      },
+      "physical_generation_counted_once": true,
+      "health": {
+        "case_id": "SH-FLAG",
+        "FC": {
+          "arm": "FC",
+          "terminal": "finish",
+          "primary_availability": "VALID",
+          "replies_received": 8,
+          "actions_dispatched": 8,
+          "action_budget": 20,
+          "complete_retained_trace": true,
+          "responses_without_tool_calls": {
+            "count": 0,
+            "denominator": 8,
+            "rate": 0.0
+          },
+          "empty_replies_without_tool_calls": 0,
+          "invalid_actions": 0,
+          "invalid_rate": 0.0,
+          "invalid_by_type": {},
+          "invalid_share_of_action_budget": {
+            "count": 0,
+            "denominator": 20,
+            "percent": 0.0
+          },
+          "valid_finish_requests": 1,
+          "accepted_finish_requests": 1,
+          "first_FC_rejection_action": null,
+          "actions_after_first_FC_rejection": {},
+          "actions_after_first_FC_rejection_total": 0,
+          "outdated_messages": [],
+          "model_replies_not_dispatched": 0,
+          "denominators": "no-tool/replies retained; invalid/actions dispatched; budget percent/20; finish rejection is valid, not invalid"
+        },
+        "BASE": {
+          "arm": "BASE",
+          "terminal": "finish",
+          "primary_availability": "VALID",
+          "replies_received": 8,
+          "actions_dispatched": 8,
+          "action_budget": 20,
+          "complete_retained_trace": true,
+          "responses_without_tool_calls": {
+            "count": 0,
+            "denominator": 8,
+            "rate": 0.0
+          },
+          "empty_replies_without_tool_calls": 0,
+          "invalid_actions": 0,
+          "invalid_rate": 0.0,
+          "invalid_by_type": {},
+          "invalid_share_of_action_budget": {
+            "count": 0,
+            "denominator": 20,
+            "percent": 0.0
+          },
+          "valid_finish_requests": 1,
+          "accepted_finish_requests": 1,
+          "first_FC_rejection_action": null,
+          "actions_after_first_FC_rejection": {},
+          "actions_after_first_FC_rejection_total": 0,
+          "outdated_messages": [],
+          "model_replies_not_dispatched": 0,
+          "denominators": "no-tool/replies retained; invalid/actions dispatched; budget percent/20; finish rejection is valid, not invalid"
+        }
+      },
+      "context_accounting": "synthetic"
+    },
+    "SH-FORMAT": {
+      "FC": {
+        "source": {
+          "requests": 1,
+          "effective": 1,
+          "noops": 0,
+          "rejected_or_failed": 0,
+          "unknown_effect": 0
+        },
+        "environment": {
+          "requests": 0,
+          "effective": 0,
+          "noops": 0,
+          "rejected_or_failed": 0,
+          "unknown_effect": 0
+        },
+        "valid_finish_requests": 1,
+        "finish_with_current_public_failure": {
+          "accepted": 0,
+          "rejected": 0
+        },
+        "blind_modifying_requests": 1,
+        "diagnostic_effective_current": 0,
+        "diagnostic_effective_historical": 0,
+        "profile_after_help_failure_current": 0,
+        "profile_after_help_failure_historical": 0,
+        "profile_effective_after_help_failure_current": 0,
+        "profile_effective_after_help_failure_historical": 0,
+        "terminal_current_public_failure_operations": [],
+        "primary_availability": "VALID",
+        "final_task_pass": true,
+        "losses": [],
+        "coverage": {
+          "epoch": 1,
+          "state_identity": "d7644f8de7a3257e3f78e1b29dbebcac72d050948f23fa07c7e2c835854fd9a0",
+          "epoch_changes": [
+            {
+              "action_index": 1,
+              "cause": "effective_source_or_environment_change",
+              "before": "cece2d56d5fbd1ac72844f80e5e7ed48ff36eb1c0137828e27a8dc6c94de7e77",
+              "after": "d7644f8de7a3257e3f78e1b29dbebcac72d050948f23fa07c7e2c835854fd9a0",
+              "epoch_before": 0,
+              "epoch_after": 1
+            }
+          ],
+          "cumulative_operations": [
+            "first_command",
+            "second_command",
+            "no_args",
+            "explicit_help",
+            "first_command_help",
+            "second_command_help"
+          ],
+          "cumulative_coverage_count": 6,
+          "final_state_operations": [
+            "first_command",
+            "second_command",
+            "no_args",
+            "explicit_help",
+            "first_command_help",
+            "second_command_help"
+          ],
+          "final_state_coverage_count": 6,
+          "current_observations": {
+            "first_command": {
+              "action_index": 2,
+              "completed": true,
+              "oracle_pass": true,
+              "feedback_verdict": "PASS",
+              "truncated": false
+            },
+            "second_command": {
+              "action_index": 3,
+              "completed": true,
+              "oracle_pass": true,
+              "feedback_verdict": "PASS",
+              "truncated": false
+            },
+            "no_args": {
+              "action_index": 4,
+              "completed": true,
+              "oracle_pass": true,
+              "feedback_verdict": "PASS",
+              "truncated": false
+            },
+            "explicit_help": {
+              "action_index": 5,
+              "completed": true,
+              "oracle_pass": true,
+              "feedback_verdict": "PASS",
+              "truncated": false
+            },
+            "first_command_help": {
+              "action_index": 6,
+              "completed": true,
+              "oracle_pass": true,
+              "feedback_verdict": "PASS",
+              "truncated": false
+            },
+            "second_command_help": {
+              "action_index": 7,
+              "completed": true,
+              "oracle_pass": true,
+              "feedback_verdict": "PASS",
+              "truncated": false
+            }
+          },
+          "finish_attempts": [
+            {
+              "action_index": 8,
+              "epoch": 1,
+              "state_identity": "d7644f8de7a3257e3f78e1b29dbebcac72d050948f23fa07c7e2c835854fd9a0",
+              "coverage_count": 6,
+              "missing_operations": [],
+              "accepted": true,
+              "oracle_failure_operations": [],
+              "feedback_failure_operations": [],
+              "feedback_unknown_operations": [],
+              "unobserved_operations": []
+            }
+          ],
+          "finish_policy_rejections": 0,
+          "coverage_before_finish": 6
+        },
+        "stop_reason": "finish"
+      },
+      "BASE": {
+        "source": {
+          "requests": 1,
+          "effective": 1,
+          "noops": 0,
+          "rejected_or_failed": 0,
+          "unknown_effect": 0
+        },
+        "environment": {
+          "requests": 0,
+          "effective": 0,
+          "noops": 0,
+          "rejected_or_failed": 0,
+          "unknown_effect": 0
+        },
+        "valid_finish_requests": 1,
+        "finish_with_current_public_failure": {
+          "accepted": 0,
+          "rejected": 0
+        },
+        "blind_modifying_requests": 1,
+        "diagnostic_effective_current": 0,
+        "diagnostic_effective_historical": 0,
+        "profile_after_help_failure_current": 0,
+        "profile_after_help_failure_historical": 0,
+        "profile_effective_after_help_failure_current": 0,
+        "profile_effective_after_help_failure_historical": 0,
+        "terminal_current_public_failure_operations": [],
+        "primary_availability": "VALID",
+        "final_task_pass": true,
+        "losses": [],
+        "coverage": {
+          "epoch": 1,
+          "state_identity": "d7644f8de7a3257e3f78e1b29dbebcac72d050948f23fa07c7e2c835854fd9a0",
+          "epoch_changes": [
+            {
+              "action_index": 1,
+              "cause": "effective_source_or_environment_change",
+              "before": "cece2d56d5fbd1ac72844f80e5e7ed48ff36eb1c0137828e27a8dc6c94de7e77",
+              "after": "d7644f8de7a3257e3f78e1b29dbebcac72d050948f23fa07c7e2c835854fd9a0",
+              "epoch_before": 0,
+              "epoch_after": 1
+            }
+          ],
+          "cumulative_operations": [
+            "first_command",
+            "second_command",
+            "no_args",
+            "explicit_help",
+            "first_command_help",
+            "second_command_help"
+          ],
+          "cumulative_coverage_count": 6,
+          "final_state_operations": [
+            "first_command",
+            "second_command",
+            "no_args",
+            "explicit_help",
+            "first_command_help",
+            "second_command_help"
+          ],
+          "final_state_coverage_count": 6,
+          "current_observations": {
+            "first_command": {
+              "action_index": 2,
+              "completed": true,
+              "oracle_pass": true,
+              "feedback_verdict": "PASS",
+              "truncated": false
+            },
+            "second_command": {
+              "action_index": 3,
+              "completed": true,
+              "oracle_pass": true,
+              "feedback_verdict": "PASS",
+              "truncated": false
+            },
+            "no_args": {
+              "action_index": 4,
+              "completed": true,
+              "oracle_pass": true,
+              "feedback_verdict": "PASS",
+              "truncated": false
+            },
+            "explicit_help": {
+              "action_index": 5,
+              "completed": true,
+              "oracle_pass": true,
+              "feedback_verdict": "PASS",
+              "truncated": false
+            },
+            "first_command_help": {
+              "action_index": 6,
+              "completed": true,
+              "oracle_pass": true,
+              "feedback_verdict": "PASS",
+              "truncated": false
+            },
+            "second_command_help": {
+              "action_index": 7,
+              "completed": true,
+              "oracle_pass": true,
+              "feedback_verdict": "PASS",
+              "truncated": false
+            }
+          },
+          "finish_attempts": [
+            {
+              "action_index": 8,
+              "epoch": 1,
+              "state_identity": "d7644f8de7a3257e3f78e1b29dbebcac72d050948f23fa07c7e2c835854fd9a0",
+              "coverage_count": 6,
+              "missing_operations": [],
+              "accepted": true,
+              "oracle_failure_operations": [],
+              "feedback_failure_operations": [],
+              "feedback_unknown_operations": [],
+              "unobserved_operations": []
+            }
+          ],
+          "finish_policy_rejections": 0,
+          "coverage_before_finish": 6
+        },
+        "stop_reason": "finish"
+      },
+      "loops": {
+        "schema": 1,
+        "case_id": "SH-FORMAT",
+        "FC": {
+          "availability": "AVAILABLE",
+          "retained_actions": 8,
+          "argumentally_valid_actions": 8,
+          "invalid_actions": 0,
+          "maximum_identical_action_streak": {
+            "available": true,
+            "value": 1
+          },
+          "run_app_redundancy": {
+            "available": true,
+            "value": 0.0,
+            "numerator": 0,
+            "denominator": 6
+          },
+          "distinct_completed_operations_cumulative": {
+            "available": true,
+            "value": 6,
+            "operations": [
+              "first_command",
+              "second_command",
+              "no_args",
+              "explicit_help",
+              "first_command_help",
+              "second_command_help"
+            ],
+            "denominator": 6
+          },
+          "distinct_completed_operations_terminal_epoch": {
+            "available": true,
+            "value": 6,
+            "operations": [
+              "first_command",
+              "second_command",
+              "no_args",
+              "explicit_help",
+              "first_command_help",
+              "second_command_help"
+            ],
+            "denominator": 6,
+            "epoch": 1
+          },
+          "suffix_without_new_operation_epoch": {
+            "available": true,
+            "value": 0,
+            "accepted_terminal_finish_excluded": 1
+          },
+          "understanding_or_no_progress_inferred": false
+        },
+        "BASE": {
+          "availability": "AVAILABLE",
+          "retained_actions": 8,
+          "argumentally_valid_actions": 8,
+          "invalid_actions": 0,
+          "maximum_identical_action_streak": {
+            "available": true,
+            "value": 1
+          },
+          "run_app_redundancy": {
+            "available": true,
+            "value": 0.0,
+            "numerator": 0,
+            "denominator": 6
+          },
+          "distinct_completed_operations_cumulative": {
+            "available": true,
+            "value": 6,
+            "operations": [
+              "first_command",
+              "second_command",
+              "no_args",
+              "explicit_help",
+              "first_command_help",
+              "second_command_help"
+            ],
+            "denominator": 6
+          },
+          "distinct_completed_operations_terminal_epoch": {
+            "available": true,
+            "value": 6,
+            "operations": [
+              "first_command",
+              "second_command",
+              "no_args",
+              "explicit_help",
+              "first_command_help",
+              "second_command_help"
+            ],
+            "denominator": 6,
+            "epoch": 1
+          },
+          "suffix_without_new_operation_epoch": {
+            "available": true,
+            "value": 0,
+            "accepted_terminal_finish_excluded": 1
+          },
+          "understanding_or_no_progress_inferred": false
+        },
+        "primary_availability_is_separate": true,
+        "retrospective_unless_declared_before_new_lot": true
+      },
+      "gate_exposure": {
+        "policy_rejections": 0,
+        "bifurcated": false,
+        "checkpoint_reached_policy": true
+      },
+      "physical_generation_counted_once": true,
+      "health": {
+        "case_id": "SH-FORMAT",
+        "FC": {
+          "arm": "FC",
+          "terminal": "finish",
+          "primary_availability": "VALID",
+          "replies_received": 8,
+          "actions_dispatched": 8,
+          "action_budget": 20,
+          "complete_retained_trace": true,
+          "responses_without_tool_calls": {
+            "count": 0,
+            "denominator": 8,
+            "rate": 0.0
+          },
+          "empty_replies_without_tool_calls": 0,
+          "invalid_actions": 0,
+          "invalid_rate": 0.0,
+          "invalid_by_type": {},
+          "invalid_share_of_action_budget": {
+            "count": 0,
+            "denominator": 20,
+            "percent": 0.0
+          },
+          "valid_finish_requests": 1,
+          "accepted_finish_requests": 1,
+          "first_FC_rejection_action": null,
+          "actions_after_first_FC_rejection": {},
+          "actions_after_first_FC_rejection_total": 0,
+          "outdated_messages": [],
+          "model_replies_not_dispatched": 0,
+          "denominators": "no-tool/replies retained; invalid/actions dispatched; budget percent/20; finish rejection is valid, not invalid"
+        },
+        "BASE": {
+          "arm": "BASE",
+          "terminal": "finish",
+          "primary_availability": "VALID",
+          "replies_received": 8,
+          "actions_dispatched": 8,
+          "action_budget": 20,
+          "complete_retained_trace": true,
+          "responses_without_tool_calls": {
+            "count": 0,
+            "denominator": 8,
+            "rate": 0.0
+          },
+          "empty_replies_without_tool_calls": 0,
+          "invalid_actions": 0,
+          "invalid_rate": 0.0,
+          "invalid_by_type": {},
+          "invalid_share_of_action_budget": {
+            "count": 0,
+            "denominator": 20,
+            "percent": 0.0
+          },
+          "valid_finish_requests": 1,
+          "accepted_finish_requests": 1,
+          "first_FC_rejection_action": null,
+          "actions_after_first_FC_rejection": {},
+          "actions_after_first_FC_rejection_total": 0,
+          "outdated_messages": [],
+          "model_replies_not_dispatched": 0,
+          "denominators": "no-tool/replies retained; invalid/actions dispatched; budget percent/20; finish rejection is valid, not invalid"
+        }
+      },
+      "context_accounting": "synthetic"
+    }
+  },
+  "summary": {
+    "planned_cases": 10,
+    "unattempted": [
+      "H-RC0",
+      "H-RC2"
+    ],
+    "arms": {
+      "FC": {
+        "available": [
+          "EC-MISSING",
+          "EC-SYMBOL",
+          "EH-API",
+          "EH-RENDERER",
+          "SC-BALANCE",
+          "SC-SORT",
+          "SH-FLAG",
+          "SH-FORMAT"
+        ],
+        "repair_numerator": 8,
+        "repair_denominator": 8,
+        "healthy_preservation_numerator": 0,
+        "healthy_preservation_denominator": 0,
+        "planned_damaged_denominator": 8,
+        "planned_healthy_denominator": 2
+      },
+      "BASE": {
+        "available": [
+          "EC-MISSING",
+          "EC-SYMBOL",
+          "EH-API",
+          "EH-RENDERER",
+          "SC-BALANCE",
+          "SC-SORT",
+          "SH-FLAG",
+          "SH-FORMAT"
+        ],
+        "repair_numerator": 8,
+        "repair_denominator": 8,
+        "healthy_preservation_numerator": 0,
+        "healthy_preservation_denominator": 0,
+        "planned_damaged_denominator": 8,
+        "planned_healthy_denominator": 2
+      }
+    },
+    "complete_damaged_pairs": [
+      "EC-MISSING",
+      "EC-SYMBOL",
+      "EH-API",
+      "EH-RENDERER",
+      "SC-BALANCE",
+      "SC-SORT",
+      "SH-FLAG",
+      "SH-FORMAT"
+    ],
+    "incomplete_pairs": [],
+    "bifurcated_complete_damaged_pairs": [],
+    "descriptive_pair_comparison_interpretable": true,
+    "few_bifurcations_limit": "0: no observed policy divergence; 1-2: case descriptions only; >=3: still descriptive and conditional subset, not significance/power"
+  },
+  "context_accounting": {
+    "synthetic": 8
+  },
+  "costs": {
+    "model_calls": 0,
+    "generated_tokens": 0,
+    "applications": 144,
+    "probes": 16,
+    "workers": 124,
+    "offline_installs": 12,
+    "fresh_states": 8,
+    "machine_seconds": 106.15613741800001,
+    "checkpoint_copies": 0,
+    "limits": {
+      "model_calls": 0,
+      "generated_tokens": 0,
+      "applications": 144,
+      "probes": 16,
+      "workers": 416,
+      "offline_installs": 32,
+      "fresh_states": 8,
+      "machine_seconds": 43200,
+      "checkpoint_copies": 8
+    },
+    "started_monotonic": 387.194384006,
+    "context_accounting": "synthetic",
+    "completion_attempts": [],
+    "scripted_replies": 64,
+    "tokenizer_requests": 0,
+    "tokenizer_commands": 0,
+    "model_processes_started": 0,
+    "retries": 0,
+    "replacements": 0,
+    "cleanup_performed": false,
+    "status": "COMPLETED",
+    "completed": [
+      "EH-API",
+      "SC-BALANCE",
+      "EC-MISSING",
+      "SH-FLAG",
+      "EH-RENDERER",
+      "SC-SORT",
+      "EC-SYMBOL",
+      "SH-FORMAT"
+    ],
+    "unattempted": [],
+    "generated_tokens_lower_bound": 0,
+    "generated_tokens_upper_bound": 0,
+    "reasoning_tokens_lower_bound": 0,
+    "reasoning_tokens_upper_bound": 0
+  },
+  "run_context_accounting": "synthetic"
+}

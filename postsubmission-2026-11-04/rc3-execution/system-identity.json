@@ -1,0 +1,11 @@
+{
+  "uid": 1000,
+  "python": "3.13.5 (main, Aug 10 2026, 12:06:59) [GCC 14.2.0]",
+  "kernel": "6.12.107+deb13-amd64",
+  "debian_version": "13.7",
+  "origin_marker": "fresh Debian installation from retained official ISO; no historical environments or experiment states copied\n",
+  "bwrap_sha256": "573236e5328ac2ebb08f59ae3a9805b4f8d12bdef14be8af4450d5463294985f",
+  "python_sha256": "889c603f0d17cb54060951bcf4c4f9b8c9ebd9e52b392c70209bbb9755d797d9",
+  "new_installation": false,
+  "note": "qcow2 overlay of the 2026-10-13 fresh-install disk (used for the rc2 clean check)"
+}

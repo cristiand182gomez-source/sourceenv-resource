@@ -4,6 +4,11 @@
 
 The current manuscript was **submitted to the Kaggle Paper Track on 2026-10-14**: [Kaggle Writeup](https://www.kaggle.com/competitions/gemma-4-developer-agent-paper/writeups/sourceenv-separating-source-and-environment-fault). Kaggle confirmed “Submitted!” after the author accepted the Writeup's CC BY 4.0 license and its public availability when the hackathon closes. Access before the close may be restricted. The submitted manuscript includes verified public destinations and the audited presentation corrections.
 
+**Post-submission addendum (2026-11-04).** [postsubmission-2026-11-04/](postsubmission-2026-11-04/README.md) adds model-free checks without changing the release, `SourceEnv/`, `paper/` or the submitted writeup:
+- the public rc3 ZIP was executed once on Debian/Bubblewrap; its 16 scripted episodes matched the rc2 evidence field for field;
+- an executable claims ledger recomputes the manuscript's registered numbers from `paper/evidence/` (22/22);
+- a post-hoc counterfactual-environment check shows that one R3 source repair passes under both profiles while deleting original output.
+
 **Historical snapshots:** `paper/DRAFT.md`, `paper/SUPPLEMENT.md`, the texts inside `SourceEnv/`, and the release bundles preserve the audited bytes prepared before publication. Their statements such as “not published” and `PENDING_PUBLICATION` describe that preparation stage, not the current availability of this repository. The paper snapshot is not the latest submission manuscript. Public release does not make the private historical predeclaration receipt publicly time-verifiable.
 
 Project-authored material is offered under **MIT OR Apache-2.0**; third-party terms and attributions remain applicable. See the licensing links below.

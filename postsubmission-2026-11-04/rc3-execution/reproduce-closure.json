@@ -1,0 +1,10 @@
+{
+  "status": "COMPLETED",
+  "model_calls": 0,
+  "cleanup_performed": false,
+  "scripted_episodes": 16,
+  "package_manifest_sha256": "a6e4d165738b27cb05ec102ca5c1f695a226c044f14b91fc9431a0e28fa7230d",
+  "python_version": "3.13.5",
+  "bubblewrap_sha256": "573236e5328ac2ebb08f59ae3a9805b4f8d12bdef14be8af4450d5463294985f",
+  "scored_before_cleanup": true
+}

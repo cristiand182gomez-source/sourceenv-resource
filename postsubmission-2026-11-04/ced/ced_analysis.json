@@ -1,0 +1,665 @@
+{
+  "protocol": "PROTOCOLO_CED_POSTHOC.md",
+  "missing_rows": [],
+  "fixtures": {
+    "EH-API": {
+      "spec": "EH-API/reference@typer0160_click820",
+      "spec_status": "PASS",
+      "spec_repeat_status": "PASS",
+      "determinism_floor": []
+    },
+    "EH-RENDERER": {
+      "spec": "EH-RENDERER/reference@typer0160_click820",
+      "spec_status": "PASS",
+      "spec_repeat_status": "PASS",
+      "determinism_floor": []
+    },
+    "EC-MISSING": {
+      "spec": "EC-MISSING/reference@typer0160_click820",
+      "spec_status": "PASS",
+      "spec_repeat_status": "PASS",
+      "determinism_floor": []
+    },
+    "EC-SYMBOL": {
+      "spec": "EC-SYMBOL/reference@typer0160_click820",
+      "spec_status": "PASS",
+      "spec_repeat_status": "PASS",
+      "determinism_floor": []
+    },
+    "SC-BALANCE": {
+      "spec": "SC-BALANCE/reference@typer0160_click820",
+      "spec_status": "PASS",
+      "spec_repeat_status": "PASS",
+      "determinism_floor": []
+    },
+    "SC-SORT": {
+      "spec": "SC-SORT/reference@typer0160_click820",
+      "spec_status": "PASS",
+      "spec_repeat_status": "PASS",
+      "determinism_floor": []
+    },
+    "SH-FLAG": {
+      "spec": "SH-FLAG/reference@typer0160_click820",
+      "spec_status": "PASS",
+      "spec_repeat_status": "PASS",
+      "determinism_floor": []
+    },
+    "SH-FORMAT": {
+      "spec": "SH-FORMAT/reference@typer0160_click820",
+      "spec_status": "PASS",
+      "spec_repeat_status": "PASS",
+      "determinism_floor": []
+    },
+    "H-RC0": {
+      "spec": "H-RC0/reference@typer0153_click818",
+      "spec_status": "PASS",
+      "spec_repeat_status": "PASS",
+      "determinism_floor": []
+    },
+    "H-RC2": {
+      "spec": "H-RC2/reference@typer0160_click820",
+      "spec_status": "PASS",
+      "spec_repeat_status": "PASS",
+      "determinism_floor": []
+    }
+  },
+  "candidates": [
+    {
+      "case_id": "EC-MISSING",
+      "label": "R3-C1-FC",
+      "sha256": "d5245b661afd9b5b4af51a686cdb4644d11dbf11d877884f1e486ba9b8532f0d",
+      "kind": "r3_endpoint",
+      "origin": "R3_MODEL_ENDPOINT",
+      "axis": "environment",
+      "omega_damaged": "FAIL",
+      "damaged_checks_passed": 0,
+      "omega_restored": "PASS",
+      "delta_restored_vs_spec": [],
+      "delta_kinds": {},
+      "ced_class": "DOES_NOT_CLOSE"
+    },
+    {
+      "case_id": "EC-MISSING",
+      "label": "R3-C3-FC",
+      "sha256": "88740f1f2db3882bca68a6d8b7ae6e05d4e7f87dac44f25e3d9a0f8f9225ff34",
+      "kind": "r3_endpoint",
+      "origin": "R3_MODEL_ENDPOINT",
+      "axis": "environment",
+      "omega_damaged": "FAIL",
+      "damaged_checks_passed": 0,
+      "omega_restored": "PASS",
+      "delta_restored_vs_spec": [
+        "no_args",
+        "explicit_help",
+        "first_command_help",
+        "second_command_help"
+      ],
+      "delta_kinds": {
+        "no_args": [
+          "stdout"
+        ],
+        "explicit_help": [
+          "stdout"
+        ],
+        "first_command_help": [
+          "stdout"
+        ],
+        "second_command_help": [
+          "stdout"
+        ]
+      },
+      "ced_class": "DOES_NOT_CLOSE"
+    },
+    {
+      "case_id": "EC-MISSING",
+      "label": "alternative",
+      "sha256": "df75e2cf058f8319158dc12c2e8fc4cfcf8ed36508261d1598f4b25ec71a3e95",
+      "kind": "author_alternative",
+      "origin": "AUTHOR_FIXTURE",
+      "axis": "environment",
+      "omega_damaged": "FAIL",
+      "damaged_checks_passed": 0,
+      "omega_restored": "PASS",
+      "delta_restored_vs_spec": [],
+      "delta_kinds": {},
+      "ced_class": "DOES_NOT_CLOSE"
+    },
+    {
+      "case_id": "EC-MISSING",
+      "label": "initial",
+      "sha256": "df75e2cf058f8319158dc12c2e8fc4cfcf8ed36508261d1598f4b25ec71a3e95",
+      "kind": "baseline_damaged",
+      "origin": "AUTHOR_FIXTURE",
+      "axis": "environment",
+      "omega_damaged": "FAIL",
+      "damaged_checks_passed": 0,
+      "ced_class": "DOES_NOT_CLOSE"
+    },
+    {
+      "case_id": "EC-SYMBOL",
+      "label": "R3-C1-FC",
+      "sha256": "6cf45a6569e2cf025ea31c0dd2af0446294df38f074e245ab04702489199e833",
+      "kind": "r3_endpoint",
+      "origin": "R3_MODEL_ENDPOINT",
+      "axis": "environment",
+      "omega_damaged": "PASS",
+      "damaged_checks_passed": 6,
+      "omega_restored": "PASS",
+      "delta_restored_vs_spec": [],
+      "delta_kinds": {},
+      "ced_class": "OBSERVATIONALLY_EQUIVALENT"
+    },
+    {
+      "case_id": "EC-SYMBOL",
+      "label": "R3-C3-FC",
+      "sha256": "fc245759d20cc482f7675c6da410cfd386e04e2a5c0cc377b07c943f3faab2a3",
+      "kind": "r3_endpoint",
+      "origin": "R3_MODEL_ENDPOINT",
+      "axis": "environment",
+      "omega_damaged": "PASS",
+      "damaged_checks_passed": 6,
+      "omega_restored": "PASS",
+      "delta_restored_vs_spec": [],
+      "delta_kinds": {},
+      "ced_class": "OBSERVATIONALLY_EQUIVALENT"
+    },
+    {
+      "case_id": "EC-SYMBOL",
+      "label": "alternative",
+      "sha256": "593069471705d6f087227d1e72141077aec2b85c47f7849527e5e41d11051d7e",
+      "kind": "author_alternative",
+      "origin": "AUTHOR_FIXTURE",
+      "axis": "environment",
+      "omega_damaged": "PASS",
+      "damaged_checks_passed": 6,
+      "omega_restored": "PASS",
+      "delta_restored_vs_spec": [],
+      "delta_kinds": {},
+      "ced_class": "OBSERVATIONALLY_EQUIVALENT"
+    },
+    {
+      "case_id": "EC-SYMBOL",
+      "label": "initial",
+      "sha256": "fbafcdafcc598ce441eb6d1632b01e3274d9453ec9d046335621a03d9569c44f",
+      "kind": "baseline_damaged",
+      "origin": "AUTHOR_FIXTURE",
+      "axis": "environment",
+      "omega_damaged": "FAIL",
+      "damaged_checks_passed": 4,
+      "ced_class": "DOES_NOT_CLOSE"
+    },
+    {
+      "case_id": "EH-API",
+      "label": "alternative",
+      "sha256": "6d2bf080f36e5ebdbcc8f30235c5189a7bfdbd5e7df66dacc4aba6d7bede7309",
+      "kind": "author_alternative",
+      "origin": "AUTHOR_FIXTURE",
+      "axis": "environment",
+      "omega_damaged": "FAIL",
+      "damaged_checks_passed": 2,
+      "omega_restored": "PASS",
+      "delta_restored_vs_spec": [],
+      "delta_kinds": {},
+      "ced_class": "DOES_NOT_CLOSE"
+    },
+    {
+      "case_id": "EH-API",
+      "label": "initial",
+      "sha256": "6d2bf080f36e5ebdbcc8f30235c5189a7bfdbd5e7df66dacc4aba6d7bede7309",
+      "kind": "baseline_damaged",
+      "origin": "AUTHOR_FIXTURE",
+      "axis": "environment",
+      "omega_damaged": "FAIL",
+      "damaged_checks_passed": 2,
+      "ced_class": "DOES_NOT_CLOSE"
+    },
+    {
+      "case_id": "EH-RENDERER",
+      "label": "R3-C1-FC",
+      "sha256": "5777a4710782154c930bfdea809d64ea0001cebc6609149d3c981a6f59e75bb8",
+      "kind": "r3_endpoint",
+      "origin": "R3_MODEL_ENDPOINT",
+      "axis": "environment",
+      "omega_damaged": "FAIL",
+      "damaged_checks_passed": 2,
+      "omega_restored": "PASS",
+      "delta_restored_vs_spec": [],
+      "delta_kinds": {},
+      "ced_class": "DOES_NOT_CLOSE"
+    },
+    {
+      "case_id": "EH-RENDERER",
+      "label": "R3-C3-FC",
+      "sha256": "fc245759d20cc482f7675c6da410cfd386e04e2a5c0cc377b07c943f3faab2a3",
+      "kind": "r3_endpoint",
+      "origin": "R3_MODEL_ENDPOINT",
+      "axis": "environment",
+      "omega_damaged": "PASS",
+      "damaged_checks_passed": 6,
+      "omega_restored": "PASS",
+      "delta_restored_vs_spec": [
+        "no_args",
+        "explicit_help",
+        "first_command_help",
+        "second_command_help"
+      ],
+      "delta_kinds": {
+        "no_args": [
+          "stdout"
+        ],
+        "explicit_help": [
+          "stdout"
+        ],
+        "first_command_help": [
+          "stdout"
+        ],
+        "second_command_help": [
+          "stdout"
+        ]
+      },
+      "ced_class": "DIVERGENT_UNDER_RESTORATION"
+    },
+    {
+      "case_id": "EH-RENDERER",
+      "label": "SYN-ENV-COUPLED",
+      "sha256": "25be37d87a0c025b04ea56997ac81f10bb22dbdb34de9285bd9deced47c8fcbb",
+      "kind": "synthetic_control",
+      "origin": "SYNTHETIC_CONTROL_NOT_MODEL",
+      "axis": "environment",
+      "omega_damaged": "PASS",
+      "damaged_checks_passed": 6,
+      "omega_restored": "FAIL",
+      "delta_restored_vs_spec": [
+        "no_args",
+        "explicit_help",
+        "first_command_help",
+        "second_command_help"
+      ],
+      "delta_kinds": {
+        "no_args": [
+          "exit_code",
+          "stdout",
+          "stderr"
+        ],
+        "explicit_help": [
+          "exit_code",
+          "stdout"
+        ],
+        "first_command_help": [
+          "exit_code",
+          "stdout"
+        ],
+        "second_command_help": [
+          "exit_code",
+          "stdout"
+        ]
+      },
+      "ced_class": "ENV_COUPLED"
+    },
+    {
+      "case_id": "EH-RENDERER",
+      "label": "SYN-EOL-ONLY",
+      "sha256": "0342f8a0d17e93c7604a46f349bd802ffa7c98b57b35453a4370ce2b786c0a7f",
+      "kind": "synthetic_control",
+      "origin": "SYNTHETIC_CONTROL_NOT_MODEL",
+      "axis": "environment",
+      "omega_damaged": "FAIL",
+      "damaged_checks_passed": 2,
+      "omega_restored": "PASS",
+      "delta_restored_vs_spec": [],
+      "delta_kinds": {},
+      "ced_class": "DOES_NOT_CLOSE"
+    },
+    {
+      "case_id": "EH-RENDERER",
+      "label": "SYN-HARDCODED-HELP",
+      "sha256": "332ad50863c29fcdcc11a3ecd81f144f97b520508b7839d533ba9a0ae88bed0c",
+      "kind": "synthetic_control",
+      "origin": "SYNTHETIC_CONTROL_NOT_MODEL",
+      "axis": "environment",
+      "omega_damaged": "PASS",
+      "damaged_checks_passed": 6,
+      "omega_restored": "PASS",
+      "delta_restored_vs_spec": [
+        "no_args",
+        "explicit_help",
+        "first_command_help",
+        "second_command_help"
+      ],
+      "delta_kinds": {
+        "no_args": [
+          "exit_code",
+          "stdout",
+          "stderr"
+        ],
+        "explicit_help": [
+          "stdout"
+        ],
+        "first_command_help": [
+          "stdout"
+        ],
+        "second_command_help": [
+          "stdout"
+        ]
+      },
+      "ced_class": "DIVERGENT_UNDER_RESTORATION"
+    },
+    {
+      "case_id": "EH-RENDERER",
+      "label": "alternative",
+      "sha256": "be9c5c105e64509b4112f58cbc81dcc4159068f1daa2f044fd36d8dea8300919",
+      "kind": "author_alternative",
+      "origin": "AUTHOR_FIXTURE",
+      "axis": "environment",
+      "omega_damaged": "PASS",
+      "damaged_checks_passed": 6,
+      "omega_restored": "PASS",
+      "delta_restored_vs_spec": [],
+      "delta_kinds": {},
+      "ced_class": "OBSERVATIONALLY_EQUIVALENT"
+    },
+    {
+      "case_id": "EH-RENDERER",
+      "label": "initial",
+      "sha256": "f71fc58ba767962a189b27d4bd4c7028f5449f6a76be602137d96fd65b7757e0",
+      "kind": "baseline_damaged",
+      "origin": "AUTHOR_FIXTURE",
+      "axis": "environment",
+      "omega_damaged": "FAIL",
+      "damaged_checks_passed": 2,
+      "ced_class": "DOES_NOT_CLOSE"
+    },
+    {
+      "case_id": "H-RC0",
+      "label": "R3-C3-FC",
+      "sha256": "a03bbcc8136906f35be9007e6a1bfe96c621f235999cd3c86236326b7c6e2894",
+      "kind": "r3_endpoint",
+      "origin": "R3_MODEL_ENDPOINT",
+      "axis": "healthy",
+      "omega_restored": "PASS",
+      "delta_restored_vs_spec": [
+        "no_args",
+        "explicit_help",
+        "first_command_help",
+        "second_command_help"
+      ],
+      "delta_kinds": {
+        "no_args": [
+          "stdout"
+        ],
+        "explicit_help": [
+          "stdout"
+        ],
+        "first_command_help": [
+          "stdout"
+        ],
+        "second_command_help": [
+          "stdout"
+        ]
+      },
+      "ced_class": null
+    },
+    {
+      "case_id": "H-RC2",
+      "label": "R3-C1-FC",
+      "sha256": "fc245759d20cc482f7675c6da410cfd386e04e2a5c0cc377b07c943f3faab2a3",
+      "kind": "r3_endpoint",
+      "origin": "R3_MODEL_ENDPOINT",
+      "axis": "healthy",
+      "omega_restored": "PASS",
+      "delta_restored_vs_spec": [],
+      "delta_kinds": {},
+      "ced_class": null
+    },
+    {
+      "case_id": "H-RC2",
+      "label": "R3-C3-FC",
+      "sha256": "1f51c73f3af1ef20e8e054bef3bdeb32a2e214cf6bc5997032577b6508011f8f",
+      "kind": "r3_endpoint",
+      "origin": "R3_MODEL_ENDPOINT",
+      "axis": "healthy",
+      "omega_restored": "PASS",
+      "delta_restored_vs_spec": [
+        "no_args",
+        "explicit_help",
+        "first_command_help",
+        "second_command_help"
+      ],
+      "delta_kinds": {
+        "no_args": [
+          "stdout"
+        ],
+        "explicit_help": [
+          "stdout"
+        ],
+        "first_command_help": [
+          "stdout"
+        ],
+        "second_command_help": [
+          "stdout"
+        ]
+      },
+      "ced_class": null
+    },
+    {
+      "case_id": "SC-BALANCE",
+      "label": "R3-C1-BASE",
+      "sha256": "f776dd58cf30004370746355b55ebc64ed950163702d77311c6faec6ca599f44",
+      "kind": "r3_endpoint",
+      "origin": "R3_MODEL_ENDPOINT",
+      "axis": "source",
+      "omega_restored": "FAIL",
+      "delta_restored_vs_spec": [
+        "first_command",
+        "second_command",
+        "no_args",
+        "explicit_help",
+        "first_command_help",
+        "second_command_help"
+      ],
+      "delta_kinds": {
+        "first_command": [
+          "exit_code",
+          "stdout",
+          "stderr"
+        ],
+        "second_command": [
+          "exit_code",
+          "stdout",
+          "stderr"
+        ],
+        "no_args": [
+          "exit_code",
+          "stdout",
+          "stderr"
+        ],
+        "explicit_help": [
+          "exit_code",
+          "stdout",
+          "stderr"
+        ],
+        "first_command_help": [
+          "exit_code",
+          "stdout",
+          "stderr"
+        ],
+        "second_command_help": [
+          "exit_code",
+          "stdout",
+          "stderr"
+        ]
+      },
+      "ced_class": null
+    },
+    {
+      "case_id": "SC-BALANCE",
+      "label": "R3-C1-FC",
+      "sha256": "cf8c977727c8c7da13ce65909710cb78b6e30f828b83717d97c148c485b7e720",
+      "kind": "r3_endpoint",
+      "origin": "R3_MODEL_ENDPOINT",
+      "axis": "source",
+      "omega_restored": "FAIL",
+      "delta_restored_vs_spec": [
+        "first_command"
+      ],
+      "delta_kinds": {
+        "first_command": [
+          "stdout"
+        ]
+      },
+      "ced_class": null
+    },
+    {
+      "case_id": "SC-SORT",
+      "label": "R3-C1-FC",
+      "sha256": "7cf1aa222029111dc7dc4113a115587784a65f9bf53a041a98fa3d01c706a71d",
+      "kind": "r3_endpoint",
+      "origin": "R3_MODEL_ENDPOINT",
+      "axis": "source",
+      "omega_restored": "PASS",
+      "delta_restored_vs_spec": [],
+      "delta_kinds": {},
+      "ced_class": null
+    },
+    {
+      "case_id": "SC-SORT",
+      "label": "R3-C3-FC",
+      "sha256": "cce6744cf0ceb1b2034c16ba7755563c225eddcd3d30c073c7a60a65cae29101",
+      "kind": "r3_endpoint",
+      "origin": "R3_MODEL_ENDPOINT",
+      "axis": "source",
+      "omega_restored": "PASS",
+      "delta_restored_vs_spec": [],
+      "delta_kinds": {},
+      "ced_class": null
+    },
+    {
+      "case_id": "SH-FLAG",
+      "label": "R3-C1-FC",
+      "sha256": "fd7549cfb5a8546f735f9731c064185135bfc3a43f2cd6bc4f25790465998256",
+      "kind": "r3_endpoint",
+      "origin": "R3_MODEL_ENDPOINT",
+      "axis": "source",
+      "omega_restored": "FAIL",
+      "delta_restored_vs_spec": [
+        "no_args",
+        "explicit_help",
+        "first_command_help",
+        "second_command_help"
+      ],
+      "delta_kinds": {
+        "no_args": [
+          "stdout",
+          "stderr"
+        ],
+        "explicit_help": [
+          "exit_code",
+          "stdout",
+          "stderr"
+        ],
+        "first_command_help": [
+          "exit_code",
+          "stdout",
+          "stderr"
+        ],
+        "second_command_help": [
+          "exit_code",
+          "stdout",
+          "stderr"
+        ]
+      },
+      "ced_class": null
+    },
+    {
+      "case_id": "SH-FLAG",
+      "label": "R3-C3-FC",
+      "sha256": "983509036f39dd04639e306da7b6fc372d6e65b8a754fd8f5557897586810da0",
+      "kind": "r3_endpoint",
+      "origin": "R3_MODEL_ENDPOINT",
+      "axis": "source",
+      "omega_restored": "FAIL",
+      "delta_restored_vs_spec": [
+        "no_args",
+        "explicit_help",
+        "first_command_help",
+        "second_command_help"
+      ],
+      "delta_kinds": {
+        "no_args": [
+          "stdout",
+          "stderr"
+        ],
+        "explicit_help": [
+          "exit_code",
+          "stdout",
+          "stderr"
+        ],
+        "first_command_help": [
+          "exit_code",
+          "stdout",
+          "stderr"
+        ],
+        "second_command_help": [
+          "exit_code",
+          "stdout",
+          "stderr"
+        ]
+      },
+      "ced_class": null
+    },
+    {
+      "case_id": "SH-FORMAT",
+      "label": "R3-C1-FC",
+      "sha256": "e6cbc324b10edab2a581566bbe9bb3dd3d5e392bcbccace687c357cf2e0f073b",
+      "kind": "r3_endpoint",
+      "origin": "R3_MODEL_ENDPOINT",
+      "axis": "source",
+      "omega_restored": "FAIL",
+      "delta_restored_vs_spec": [
+        "no_args",
+        "explicit_help"
+      ],
+      "delta_kinds": {
+        "no_args": [
+          "stdout",
+          "stderr"
+        ],
+        "explicit_help": [
+          "stdout"
+        ]
+      },
+      "ced_class": null
+    },
+    {
+      "case_id": "SH-FORMAT",
+      "label": "R3-C3-FC",
+      "sha256": "8984adb2ceeab140f5a7216e2e79f38f171cee71989d32dc705bd0dabfe1e7c2",
+      "kind": "r3_endpoint",
+      "origin": "R3_MODEL_ENDPOINT",
+      "axis": "source",
+      "omega_restored": "FAIL",
+      "delta_restored_vs_spec": [
+        "no_args",
+        "explicit_help",
+        "first_command_help",
+        "second_command_help"
+      ],
+      "delta_kinds": {
+        "no_args": [
+          "stdout",
+          "stderr"
+        ],
+        "explicit_help": [
+          "stdout"
+        ],
+        "first_command_help": [
+          "stdout"
+        ],
+        "second_command_help": [
+          "stdout"
+        ]
+      },
+      "ced_class": null
+    }
+  ]
+}
